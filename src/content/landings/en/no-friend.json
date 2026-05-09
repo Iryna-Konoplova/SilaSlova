@@ -1,0 +1,91 @@
+{
+    "slug": "no-friend",
+    "audience": "parent",
+    "locale": "en",
+    "meta": {
+        "title": "Why does a child trust strangers online? | Power of Words",
+        "description": "Teach your child to recognize manipulation and protect themselves from toxic influence online. A game-based format for kids aged 8–12.",
+        "og_image": "/og/no-friend-ru.jpg"
+    },
+    "hero": {
+        "headline": "Your child has “friends” you don’t know",
+        "subheadline": "Every day they communicate with people who shape their thoughts and decisions. It’s time to teach them to tell real friends from fake ones.",
+        "cta_primary": {
+            "text": "Try demo for free",
+            "target": "/demo"
+        },
+        "cta_secondary": {
+            "text": "For parents",
+            "target": "/parents"
+        },
+        "media": {
+            "type": "image",
+            "src": "/images/hero-city.jpg",
+            "poster": "/images/hero-city.jpg"
+        }
+    },
+    "pain": {
+        "title": "Manipulation starts long before the teenage years",
+        "body": "Your child sees hundreds of messages, videos, and posts every day — and has no tools to distinguish truth from lies.\n\nOnline “friends”, gaming chats, ads — all of them have learned to speak to children in their language. Critical thinking has not.\n\nChildren who cannot recognize manipulation grow up more vulnerable: they easily give in to peer pressure, fall into toxic relationships, and struggle to say “no”."
+    },
+    "solution": {
+        "title": "“Power of Words” — a detective drama that teaches thinking",
+        "body": "40 episodes, 13 critical thinking lessons. The child plays — but actually learns to protect themselves.",
+        "bullets": [
+            "🔍 Recognizes manipulation in texts, videos, and conversations",
+            "🧠 Learns to ask questions instead of just believing",
+            "🤝 Understands who is a real friend and who is not",
+            "💬 Learns to say “no” without fear or guilt"
+        ]
+    },
+    "social_proof": {
+        "quote": "For the first time in years, my son started asking himself: “Mom, why are they saying that?” — it changed everything.",
+        "author": "Oksana, mother of 10-year-old Maksym",
+        "stats": [
+            {
+                "label": "Children completed the course",
+                "value": "2,400+"
+            },
+            {
+                "label": "Satisfied parents",
+                "value": "94%"
+            },
+            {
+                "label": "Optimal age",
+                "value": "8–12 yrs"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "q": "Is it a game or a learning course?",
+            "a": "Both at the same time. “Power of Words” looks like a detective series, but each episode contains a hidden lesson in critical thinking."
+        },
+        {
+            "q": "What age is it suitable for?",
+            "a": "Ideally 8–12 years old. At this age, children are most receptive to new thinking patterns and have not yet formed strong biases."
+        },
+        {
+            "q": "How much time is needed daily?",
+            "a": "15–20 minutes per episode. Flexible schedule — the child can return at any convenient time."
+        },
+        {
+            "q": "Is registration required for the demo?",
+            "a": "No. The demo episode is fully open — no registration, no subscription, no data entry."
+        },
+        {
+            "q": "What platforms is the game available on?",
+            "a": "iOS, Android, as well as via messengers like WhatsApp and Telegram — no app download required."
+        }
+    ],
+    "final_cta": {
+        "headline": "Give your child the superpower of critical thinking",
+        "subheadline": "The first episode is free. No registration or cards required.",
+        "cta_text": "Play the demo now"
+    },
+    "tracking": {
+        "fb_pixel_event": "ViewContent",
+        "tt_pixel_event": "ViewContent",
+        "ga_event": "landing_view"
+    }
+}

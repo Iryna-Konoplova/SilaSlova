@@ -1,0 +1,163 @@
+"use client";
+
+import { Controller, useForm } from "react-hook-form";
+import { zodResolver } from "@hookform/resolvers/zod";
+import { z } from "zod";
+import { useTranslations } from "next-intl";
+import { useState } from "react";
+import { InputMask } from "@react-input/mask";
+
+const UA_MASK = "+380 (__) ___ __ __";
+const INT_MASK = "+_ ___ ___ __ __";
+
+const schema = z.object({
+  parentName: z.string().min(1),
+  phone: z.string().refine((v) => (v ?? "").replace(/\D/g, "").length >= 7),
+  childAge: z.string().min(1),
+  city: z.string().min(1),
+  comment: z.string().optional(),
+});
+
+type FormData = z.infer<typeof schema>;
+
+type Props = {
+  onSuccess?: () => void;
+  className?: string;
+};
+
+const inputClass =
+  "w-full rounded-xl border border-line bg-surface px-4 py-3 text-sm text-content placeholder-zinc-400 outline-none transition focus:border-accent-500 focus:ring-2 focus:ring-accent-500/20 dark:placeholder-zinc-500";
+
+export function EnrollForm({ onSuccess, className }: Props) {
+  const t = useTranslations("enroll_form");
+  const [submitted, setSubmitted] = useState(false);
+  const [abroad, setAbroad] = useState(false);
+
+  const {
+    register,
+    handleSubmit,
+    control,
+    setValue,
+    formState: { isSubmitting },
+  } = useForm<FormData>({ resolver: zodResolver(schema) });
+
+  function toggleAbroad(checked: boolean) {
+    setAbroad(checked);
+    setValue("phone", "", { shouldValidate: false });
+  }
+
+  async function onSubmit(data: FormData) {
+    // TODO: CRM webhook (Sprint 3)
+    console.log("Enroll:", data);
+    await new Promise((r) => setTimeout(r, 600));
+    setSubmitted(true);
+    onSuccess?.();
+  }
+
+  if (submitted) {
+    return (
+      <div className="py-8 text-center">
+        <div className="mb-3 text-5xl">🎉</div>
+        <h3 className="mb-2 text-xl font-bold text-content">
+          {t("success_title")}
+        </h3>
+        <p className="text-sm text-content-muted">{t("success_body")}</p>
+      </div>
+    );
+  }
+
+  return (
+    <form onSubmit={handleSubmit(onSubmit)} className={className}>
+      <div className="space-y-3">
+        {/* Parent name */}
+        <div>
+          <label className="sr-only">{t("parent_name_label")}</label>
+          <input
+            type="text"
+            placeholder={t("parent_name_placeholder")}
+            {...register("parentName")}
+            required
+            className={inputClass}
+          />
+        </div>
+
+        {/* Phone */}
+        <div>
+          <label className="mb-1.5 flex cursor-pointer items-center justify-end gap-1.5 text-xs text-content-muted">
+            <input
+              type="checkbox"
+              checked={abroad}
+              onChange={(e) => toggleAbroad(e.target.checked)}
+              className="h-3.5 w-3.5 rounded accent-accent-500"
+            />
+            {t("phone_abroad_label")}
+          </label>
+          <Controller
+            name="phone"
+            control={control}
+            defaultValue=""
+            render={({ field }) => (
+              <InputMask
+                {...field}
+                mask={abroad ? INT_MASK : UA_MASK}
+                replacement={{ _: /\d/ }}
+                placeholder={abroad ? INT_MASK : UA_MASK}
+                required
+                aria-label={t("phone_label")}
+                className={inputClass}
+              />
+            )}
+          />
+        </div>
+
+        {/* Child age + City */}
+        <div className="grid grid-cols-2 gap-3">
+          <div>
+            <label className="sr-only">{t("child_age_label")}</label>
+            <input
+              type="text"
+              placeholder={t("child_age_placeholder")}
+              {...register("childAge")}
+              required
+              className={inputClass}
+            />
+          </div>
+          <div>
+            <label className="sr-only">{t("city_label")}</label>
+            <input
+              type="text"
+              placeholder={t("city_placeholder")}
+              {...register("city")}
+              required
+              className={inputClass}
+            />
+          </div>
+        </div>
+
+        {/* Comment */}
+        <div>
+          <label className="sr-only">{t("comment_label")}</label>
+          <textarea
+            rows={2}
+            placeholder={t("comment_placeholder")}
+            {...register("comment")}
+            className={`${inputClass} resize-none`}
+          />
+        </div>
+
+        {/* Submit */}
+        <button
+          type="submit"
+          disabled={isSubmitting}
+          className="w-full rounded-xl bg-gradient-to-r from-accent-500 to-accent-600 py-3.5 text-sm font-semibold text-white shadow-lg shadow-orange-500/25 transition-all hover:from-accent-400 hover:to-accent-500 hover:shadow-orange-500/40 disabled:opacity-60 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-500"
+        >
+          {isSubmitting ? "..." : t("submit")}
+        </button>
+
+        <p className="text-center text-xs leading-relaxed text-content-subtle">
+          {t("privacy")}
+        </p>
+      </div>
+    </form>
+  );
+}
