@@ -171,7 +171,7 @@ export default async function AboutPage({
           <div className="grid gap-6 sm:grid-cols-3">
             {methods.map(({ title, body }, i) => (
               <FadeIn key={title} delay={i * 0.1}>
-                <div className="rounded-2xl border border-line bg-surface-raised p-7">
+                <div className="card-interactive rounded-2xl border border-line bg-surface-raised p-7">
                   <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-xl bg-accent-100 dark:bg-accent-500/15">
                     <span className="text-lg font-extrabold text-accent-500 dark:text-accent-400">0{i + 1}</span>
                   </div>
@@ -217,6 +217,21 @@ export default async function AboutPage({
                   <span className="text-sm text-content-muted">{label}</span>
                 </div>
               ))}
+            </div>
+
+            {/* Link to Soroban */}
+            <div className="mt-8">
+              <a
+                href="https://soroban.ua"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-accent text-base"
+              >
+                {t("soroban_link")}
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+                  <path d="M2 12L12 2M12 2H6M12 2v6" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </a>
             </div>
           </FadeIn>
         </div>

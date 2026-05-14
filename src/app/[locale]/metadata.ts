@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://sylaslova.com";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://sila-slova.vercel.app";
 
 export type PageMetaOptions = {
   locale: string;
@@ -50,6 +50,7 @@ export async function buildMetadata({
         en: `${siteUrl}/en${path}`,
         ru: `${siteUrl}/ru${path}`,
         uk: `${siteUrl}/uk${path}`,
+        ro: `${siteUrl}/ro${path}`,
         "x-default": `${siteUrl}/en${path}`,
       },
     },

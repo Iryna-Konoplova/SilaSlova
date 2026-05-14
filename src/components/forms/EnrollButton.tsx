@@ -24,7 +24,7 @@ export function EnrollButton({ label, size = "md", className }: Props) {
         "inline-flex items-center justify-center rounded-full font-semibold text-white",
         "bg-gradient-to-r from-accent-500 to-accent-600",
         "shadow-lg shadow-orange-500/20 transition-all",
-        "hover:from-accent-400 hover:to-accent-500 hover:shadow-orange-500/35",
+        "hover:from-accent-400 hover:to-accent-500 hover:shadow-orange-500/35 active:scale-95",
         "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-500 focus-visible:ring-offset-2",
         sizeClasses[size],
         className ?? "",

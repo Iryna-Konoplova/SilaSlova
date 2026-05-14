@@ -24,8 +24,10 @@ export function LandingPain({ pain }: Props) {
         <div className="space-y-4">
           {paragraphs.map((text, i) => (
             <FadeIn key={i} delay={i * 0.09}>
-              <div className="rounded-2xl border border-line bg-surface p-6">
-                <p className="text-base leading-relaxed text-content-muted">
+              <div className="card card-interactive group relative overflow-hidden p-6 pl-8">
+                {/* левая акцентная полоска, проявляется при hover */}
+                <div className="absolute inset-y-0 left-0 w-1 rounded-l-[var(--radius-card)] bg-brand-600 opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
+                <p className="text-base leading-relaxed text-content-muted transition-colors duration-300 group-hover:text-content">
                   {text}
                 </p>
               </div>

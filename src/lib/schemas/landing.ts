@@ -5,7 +5,7 @@ const CtaTarget = z.enum(["/demo", "/quiz", "/sign-up"]);
 export const LandingSchema = z.object({
   slug: z.string().min(1),
   audience: z.enum(["parent", "kid", "mixed"]),
-  locale: z.enum(["en", "ru", "uk"]),
+  locale: z.enum(["en", "ru", "uk", "ro"]),
   meta: z.object({
     title: z.string().min(1),
     description: z.string().min(1),
@@ -21,6 +21,7 @@ export const LandingSchema = z.object({
     media: z.object({
       type: z.enum(["video", "image", "lottie"]),
       src: z.string().min(1),
+      alt: z.string().optional(),
       poster: z.string().optional(),
     }),
   }),

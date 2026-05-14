@@ -32,7 +32,7 @@ export function EnrollModal() {
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 0.18 }}
-          className="fixed inset-0 z-[200] flex items-center justify-center p-4"
+          className="fixed inset-0 z-[200] flex items-center justify-center p-3 sm:p-4"
           role="dialog"
           aria-modal="true"
           aria-labelledby="enroll-modal-title"
@@ -55,7 +55,7 @@ export function EnrollModal() {
             {/* Orange top accent bar */}
             <div className="h-1 w-full bg-gradient-to-r from-brand-600 to-accent-500" />
 
-            <div className="p-6">
+            <div className="p-4 sm:p-6">
               {/* Close */}
               <button
                 onClick={close}

@@ -41,10 +41,10 @@ export async function HowItWorks({ locale }: Props) {
         <div className="mb-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-4 lg:gap-6">
           {steps.map(({ num, icon, title, body }, i) => (
             <FadeIn key={num} delay={i * 0.1}>
-              <div className="flex flex-col items-center text-center">
+              <div className="card-interactive group flex flex-col items-center rounded-2xl p-5 text-center">
                 {/* Circle with icon */}
                 <div className="relative mb-6">
-                  <div className="flex h-20 w-20 items-center justify-center rounded-2xl bg-accent-50 text-4xl ring-2 ring-accent-100 dark:bg-accent-950/30 dark:ring-accent-800/30">
+                  <div className="flex h-20 w-20 items-center justify-center rounded-2xl bg-accent-50 text-4xl ring-2 ring-accent-100 transition-transform duration-300 group-hover:scale-110 dark:bg-accent-950/30 dark:ring-accent-800/30">
                     {t(icon)}
                   </div>
                   <span className="absolute -right-2 -top-2 flex h-7 w-7 items-center justify-center rounded-full bg-accent-500 text-xs font-bold text-white shadow-sm shadow-orange-500/40">

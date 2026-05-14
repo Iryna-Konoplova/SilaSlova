@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { setRequestLocale } from "next-intl/server";
+import { getTranslations } from "next-intl/server";
 import { buildMetadata } from "../metadata";
 import { ParentsFAQ } from "@/components/parents/ParentsFAQ";
 
@@ -9,7 +10,8 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  return buildMetadata({ locale, path: "/faq", title: "FAQ" });
+  const t = await getTranslations({ locale, namespace: "nav" });
+  return buildMetadata({ locale, path: "/faq", title: t("faq") });
 }
 
 export default async function FaqPage({

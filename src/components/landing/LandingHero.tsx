@@ -1,47 +1,96 @@
-import Link from "next/link";
+import Image from "next/image";
 import { FadeIn } from "@/components/ui/FadeIn";
+import { EnrollButton } from "@/components/forms/EnrollButton";
+import { DemoButton } from "@/components/ui/DemoButton";
 import type { Landing } from "@/lib/schemas/landing";
 
 type Props = { hero: Landing["hero"]; locale: string };
 
-export function LandingHero({ hero, locale }: Props) {
-  const primaryHref = `/${locale}${hero.cta_primary.target}`;
+function HeroMedia({ media, headlineFallback }: { media: Landing["hero"]["media"]; headlineFallback: string }) {
+  if (media.type === "video") {
+    return (
+      <video
+        className="h-full w-full object-cover"
+        autoPlay
+        muted
+        loop
+        playsInline
+        poster={media.poster}
+        aria-label={media.alt ?? headlineFallback}
+      >
+        <source src={media.src} type="video/webm" />
+      </video>
+    );
+  }
 
+  if (media.type === "image") {
+    return (
+      <Image
+        src={media.src}
+        alt={media.alt ?? headlineFallback}
+        fill
+        className="object-cover"
+        priority
+        sizes="(max-width: 768px) 100vw, 50vw"
+      />
+    );
+  }
+
+  // lottie — placeholder until lottie library is added
+  return (
+    <div
+      role="img"
+      aria-label={media.alt ?? headlineFallback}
+      className="flex h-full w-full items-center justify-center text-brand-400 text-sm"
+    >
+      [lottie: {media.src}]
+    </div>
+  );
+}
+
+export function LandingHero({ hero, locale }: Props) {
   return (
     <section
       aria-labelledby="landing-hero-heading"
-      className="section-hero relative flex min-h-[70vh] flex-col items-center justify-center overflow-hidden bg-surface"
+      className="relative flex min-h-[80vh] flex-col overflow-hidden bg-brand-950 md:flex-row"
     >
-      {/* Gradient blobs */}
-      <div aria-hidden="true" className="pointer-events-none absolute inset-0">
-        <div className="absolute -top-32 left-1/2 h-[500px] w-[800px] -translate-x-1/2 rounded-full bg-brand-200/40 blur-3xl dark:bg-brand-900/20" />
-        <div className="absolute -right-32 top-1/3 h-64 w-64 rounded-full bg-accent-200/40 blur-3xl dark:bg-accent-900/15" />
-        <div className="absolute -left-32 bottom-1/4 h-64 w-64 rounded-full bg-brand-200/30 blur-3xl dark:bg-brand-900/15" />
-      </div>
+      {/* LEFT — text */}
+      <div className="relative z-10 flex flex-1 flex-col justify-center px-8 pb-16 pt-24 md:px-12 md:py-20 lg:px-16">
+        {/* subtle gradient blob behind text */}
+        <div aria-hidden="true" className="pointer-events-none absolute -left-24 -top-24 h-96 w-96 rounded-full bg-brand-700/30 blur-3xl" />
 
-      <div className="relative z-10 mx-auto w-full max-w-4xl text-center">
         <FadeIn>
           <h1
             id="landing-hero-heading"
-            className="mb-6 text-4xl font-extrabold leading-tight tracking-tight text-content sm:text-5xl md:text-6xl"
+            className="relative mb-6 mt-8 text-4xl font-extrabold leading-tight tracking-tight text-white text-center sm:text-5xl lg:text-6xl"
           >
             {hero.headline}
           </h1>
-          <p className="mx-auto mb-10 max-w-2xl text-lg leading-relaxed text-content-muted sm:text-xl">
+          <p className="relative mb-10 max-w-lg text-lg leading-relaxed text-white/75 sm:text-xl">
             {hero.subheadline}
           </p>
         </FadeIn>
 
         <FadeIn delay={0.12}>
-          <div className="flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
-            <Link
-              href={primaryHref}
-              className="inline-flex h-14 w-full items-center justify-center rounded-full bg-brand-600 px-8 text-lg font-semibold text-white shadow-lg shadow-violet-500/25 transition-all hover:bg-brand-500 hover:shadow-violet-500/40 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:ring-offset-2 sm:w-auto"
-            >
-              ▶ {hero.cta_primary.text}
-            </Link>
+          <div className="relative flex flex-col items-center gap-4 sm:flex-row sm:justify-center sm:gap-6">
+            <EnrollButton
+              label={hero.cta_primary.text}
+              size="lg"
+            />
+            {hero.cta_secondary && (
+              <DemoButton locale={locale} label={hero.cta_secondary.text} size="lg" />
+            )}
           </div>
         </FadeIn>
+      </div>
+
+      {/* RIGHT — media */}
+      <div className="relative min-h-[300px] flex-1 bg-brand-900 md:min-h-0">
+        <HeroMedia media={hero.media} headlineFallback={hero.headline} />
+        {/* mobile: gradient top fade */}
+        <div aria-hidden="true" className="absolute inset-x-0 top-0 h-20 bg-gradient-to-b from-brand-950 to-transparent md:hidden" />
+        {/* desktop: gradient left fade */}
+        <div aria-hidden="true" className="absolute inset-y-0 left-0 hidden w-16 bg-gradient-to-r from-brand-950 to-transparent md:block" />
       </div>
     </section>
   );

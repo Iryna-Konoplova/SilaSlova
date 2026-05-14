@@ -2,16 +2,20 @@
 
 import { motion } from "framer-motion";
 
+type Tag = "div" | "li" | "article" | "section" | "span";
+
 type Props = {
   children: React.ReactNode;
   delay?: number;
   className?: string;
   direction?: "up" | "left" | "right" | "none";
+  as?: Tag;
 };
 
-export function FadeIn({ children, delay = 0, className, direction = "up" }: Props) {
+export function FadeIn({ children, delay = 0, className, direction = "up", as = "div" }: Props) {
+  const MotionTag = motion[as] as typeof motion.div;
   return (
-    <motion.div
+    <MotionTag
       initial={{
         opacity: 0,
         y: direction === "up" ? 28 : 0,
@@ -23,6 +27,6 @@ export function FadeIn({ children, delay = 0, className, direction = "up" }: Pro
       className={className}
     >
       {children}
-    </motion.div>
+    </MotionTag>
   );
 }

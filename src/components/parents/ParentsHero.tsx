@@ -1,12 +1,14 @@
 ﻿import { getTranslations } from "next-intl/server";
 import { FadeIn } from "@/components/ui/FadeIn";
 import { EnrollButton } from "@/components/forms/EnrollButton";
+import { DemoButton } from "@/components/ui/DemoButton";
 
 type Props = { locale: string };
 
 export async function ParentsHero({ locale }: Props) {
   const t = await getTranslations({ locale, namespace: "parents" });
   const tForm = await getTranslations({ locale, namespace: "enroll_form" });
+  const tBar = await getTranslations({ locale, namespace: "sticky_bar" });
 
   return (
     <section className="section-hero relative overflow-hidden bg-surface">
@@ -38,11 +40,7 @@ export async function ParentsHero({ locale }: Props) {
               size="lg"
               className="w-full sm:w-auto"
             />
-            <div className="flex items-center gap-6 text-sm text-content-subtle">
-              <span className="flex items-center gap-1.5">
-                <span className="text-accent-500">✓</span> {tForm("modal_subtitle").split(".")[0]}
-              </span>
-            </div>
+            <DemoButton locale={locale} label={tBar("cta")} size="lg" />
           </div>
         </FadeIn>
       </div>

@@ -44,10 +44,23 @@ export default async function DemoPage({ params }: Props) {
           type="button"
           aria-label={t("coming_soon")}
           title={t("coming_soon")}
-          className="group relative flex h-20 w-20 items-center justify-center rounded-full bg-brand-600 text-white shadow-brand transition-all duration-300 hover:scale-105 hover:bg-brand-700 hover:shadow-[0_0_32px_rgba(124,58,237,0.5)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+          className="play-btn h-[86px] w-[86px]"
         >
-          <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-            <path d="M8 5v14l11-7z" />
+          <svg
+            width="26"
+            height="30"
+            viewBox="0 0 26 30"
+            fill="none"
+            aria-hidden="true"
+            style={{ marginLeft: "4px" }}
+          >
+            <path
+              d="M1.5 1.5l23 13-23 13V1.5z"
+              fill="white"
+              stroke="white"
+              strokeWidth="1.5"
+              strokeLinejoin="round"
+            />
           </svg>
         </button>
 

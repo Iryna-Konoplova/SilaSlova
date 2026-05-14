@@ -49,9 +49,15 @@ function CourseJsonLd({ locale }: { locale: string }) {
       "Manipulation recognition",
       "Independent decision making",
     ],
+    "@id": `${siteUrl}/#course`,
+    image: `${siteUrl}/og-default.jpg`,
     inLanguage: ["en", "ru", "uk"],
     isAccessibleForFree: true,
-    availableLanguage: ["English", "Russian", "Ukrainian"],
+    availableLanguage: [
+      { "@type": "Language", name: "English", alternateName: "en" },
+      { "@type": "Language", name: "Russian", alternateName: "ru" },
+      { "@type": "Language", name: "Ukrainian", alternateName: "uk" },
+    ],
   };
 
   return (

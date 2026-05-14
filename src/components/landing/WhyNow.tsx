@@ -43,7 +43,7 @@ export async function WhyNow({ locale }: Props) {
         <div className="grid gap-5 sm:grid-cols-2 sm:[grid-auto-rows:minmax(8rem,auto)]">
           {cards.map(({ icon, title, body }, i) => (
             <FadeIn key={title} delay={i * 0.08} className="sm:h-full">
-              <div className="group flex h-full flex-col rounded-2xl border border-line bg-surface-raised p-6 transition-colors hover:border-accent-300 dark:hover:border-accent-500/40">
+              <div className="card card-interactive group flex h-full flex-col p-6">
                 <div className="mb-4 flex items-center gap-4">
                   <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-accent-50 text-2xl dark:bg-accent-500/10">
                     <span aria-hidden="true">{t(icon)}</span>

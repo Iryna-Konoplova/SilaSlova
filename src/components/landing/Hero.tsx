@@ -1,12 +1,13 @@
-﻿import Link from "next/link";
-import { getTranslations } from "next-intl/server";
+﻿import { getTranslations } from "next-intl/server";
 import { EnrollButton } from "@/components/forms/EnrollButton";
+import { DemoButton } from "@/components/ui/DemoButton";
 
 type Props = { locale: string };
 
 export async function Hero({ locale }: Props) {
   const t = await getTranslations({ locale, namespace: "hero" });
   const tForm = await getTranslations({ locale, namespace: "enroll_form" });
+  const tBar = await getTranslations({ locale, namespace: "sticky_bar" });
 
   return (
     <section
@@ -37,13 +38,7 @@ export async function Hero({ locale }: Props) {
 
         {/* CTAs */}
         <div className="mx-auto grid w-full max-w-2xl grid-cols-1 gap-5 px-10 sm:grid-cols-2 sm:px-16">
-          <Link
-            href={`/${locale}/demo`}
-            aria-label={t("cta_primary_label")}
-            className="inline-flex h-11 w-full items-center justify-center rounded-full bg-brand-600 px-6 text-sm font-semibold text-white shadow-brand transition-all hover:bg-brand-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
-          >
-            ▶ {t("cta_primary")}
-          </Link>
+          <DemoButton locale={locale} label={tBar("cta")} className="w-full" />
           <EnrollButton label={tForm("enroll_cta")} size="md" className="w-full justify-center" />
         </div>
 

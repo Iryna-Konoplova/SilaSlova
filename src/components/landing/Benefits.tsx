@@ -42,7 +42,7 @@ export async function Benefits({ locale }: Props) {
         <div className="mb-10 grid gap-6 sm:grid-cols-3">
           {items.map(({ icon, title, body, accent }, i) => (
             <FadeIn key={title} delay={i * 0.12}>
-              <article className="group relative overflow-hidden rounded-2xl bg-surface-raised p-6 shadow-sm ring-1 ring-line transition-all hover:-translate-y-0.5 hover:shadow-md">
+              <article className="card card-interactive group relative overflow-hidden p-6">
                 {/* Top gradient line */}
                 <div className={`absolute left-0 top-0 h-0.5 w-full bg-gradient-to-r ${accentClasses[accent]}`} />
                 <div

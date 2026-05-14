@@ -79,7 +79,7 @@ Ask before proceeding if:
 - No blog
 - No referral program
 - No admin panel for leads (CRM = admin panel)
-- Do not add languages beyond EN/RU/UK in Stage 1
+- Supported languages in Stage 1: EN, RU, UK, RO (Romanian added per explicit user decision)
 
 ## Analytics & Cookie Rules
 

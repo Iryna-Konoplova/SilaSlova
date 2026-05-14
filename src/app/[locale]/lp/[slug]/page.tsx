@@ -11,6 +11,7 @@ import { LandingSolution } from "@/components/landing/LandingSolution";
 import { LandingSocialProof } from "@/components/landing/LandingSocialProof";
 import { LandingFAQ } from "@/components/landing/LandingFAQ";
 import { LandingFinalCta } from "@/components/landing/LandingFinalCta";
+import { EnrollModal } from "@/components/forms/EnrollModal";
 
 async function loadLanding(locale: string, slug: string): Promise<Landing | null> {
   const filePath = path.join(
@@ -28,7 +29,7 @@ async function loadLanding(locale: string, slug: string): Promise<Landing | null
 }
 
 export async function generateStaticParams() {
-  const localeList = ["en", "ru", "uk"];
+  const localeList = ["en", "ru", "uk", "ro"];
   const params: { locale: string; slug: string }[] = [];
 
   for (const locale of localeList) {
@@ -61,13 +62,50 @@ export async function generateMetadata({
     ? landing.meta.og_image
     : `${siteUrl}${landing.meta.og_image}`;
 
-  return buildMetadata({
-    locale,
-    path: `/lp/${slug}`,
-    title: landing.meta.title,
+  const canonical = `${siteUrl}/${locale}/lp/${slug}`;
+
+  return {
+    ...buildMetadata({
+      locale,
+      path: `/lp/${slug}`,
+      title: landing.meta.title,
+      description: landing.meta.description,
+      imageUrl,
+    }),
+    alternates: {
+      canonical,
+      languages: {
+        en: `${siteUrl}/en/lp/${slug}`,
+        ru: `${siteUrl}/ru/lp/${slug}`,
+        uk: `${siteUrl}/uk/lp/${slug}`,
+      },
+    },
+  };
+}
+
+function buildJsonLd(landing: Landing, locale: string, slug: string) {
+  const pageUrl = `${siteUrl}/${locale}/lp/${slug}`;
+
+  const webPage = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: landing.meta.title,
     description: landing.meta.description,
-    imageUrl,
-  });
+    url: pageUrl,
+    inLanguage: locale,
+  };
+
+  const faqPage = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: landing.faq.map(({ q, a }) => ({
+      "@type": "Question",
+      name: q,
+      acceptedAnswer: { "@type": "Answer", text: a },
+    })),
+  };
+
+  return [webPage, faqPage];
 }
 
 export default async function LandingPage({
@@ -81,23 +119,32 @@ export default async function LandingPage({
   const landing = await loadLanding(locale, slug);
   if (!landing) notFound();
 
+  const jsonLd = buildJsonLd(landing, locale, slug);
+
   return (
     <main id="main-content">
+      <EnrollModal />
+      {jsonLd.map((schema, i) => (
+        <script
+          key={i}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+      ))}
       <LandingHero hero={landing.hero} locale={locale} />
       <LandingPain pain={landing.pain} />
       <LandingSolution solution={landing.solution} />
+      <LandingFinalCta
+        finalCta={landing.final_cta}
+        ctaTarget={landing.hero.cta_primary.target}
+        locale={locale}
+      />
       {landing.social_proof && (
         <LandingSocialProof proof={landing.social_proof} />
       )}
       <LandingFAQ
         faq={landing.faq}
-        label={landing.faq_label}
         title={landing.faq_title}
-      />
-      <LandingFinalCta
-        finalCta={landing.final_cta}
-        ctaTarget={landing.hero.cta_primary.target}
-        locale={locale}
       />
     </main>
   );

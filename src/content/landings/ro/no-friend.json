@@ -1,0 +1,70 @@
+{
+  "slug": "no-friend",
+  "audience": "parent",
+  "locale": "ro",
+  "meta": {
+    "title": "De ce copilul tău are încredere în străini online? | Forța Cuvântului",
+    "description": "Învățați copilul să recunoască manipularea și să se protejeze de influențele toxice de pe internet. Format de joc pentru copii de 8–12 ani.",
+    "og_image": "/og/no-friend-ro.jpg"
+  },
+  "hero": {
+    "headline": "Copilul tău are «prieteni» pe care nu îi cunoști!",
+    "subheadline": "În fiecare zi comunică cu oameni care îi formează gândurile și deciziile. E timpul să îl înveți să distingă prietenii adevărați de cei falși.",
+    "cta_primary": { "text": "Înscrie-te la curs", "target": "/sign-up" },
+    "cta_secondary": { "text": "Joacă demo", "target": "/demo" },
+    "media": { "type": "image", "src": "/images/child_manipulation.jpg", "alt": "Copil care se uită în ecranul telefonului, fără să observe lumea din jur" }
+  },
+  "pain": {
+    "title": "Manipularea începe cu mult înainte de adolescență",
+    "body": "Copilul tău vede zilnic sute de mesaje, videoclipuri și postări — și nu are instrumentele pentru a distinge adevărul de minciună.\n\n«Prietenii» online, chat-urile din jocuri, publicitatea — toți au învățat să vorbească cu copiii pe limba lor. Gândirea critică — nu.\n\nCopiii care nu știu să recunoască manipularea cresc mai vulnerabili: cedează ușor la presiunea colegilor, intră în relații toxice și nu pot spune «nu»."
+  },
+  "solution": {
+    "title": "«Forța Cuvântului» — o dramă detectivistică care învață să gândești",
+    "body": "40 de episoade, 13 lecții de gândire critică. Copilul se joacă — dar de fapt învață să se protejeze.",
+    "bullets": [
+      "🔍 Recunoaște manipularea în texte, videoclipuri și conversații",
+      "🧠 Învață să pună întrebări, nu să creadă orbește",
+      "🤝 Înțelege cine este cu adevărat prieten și cine nu",
+      "🛡️ Știe să spună «nu» fără frică și fără sentimentul de vinovăție"
+    ]
+  },
+  "social_proof": {
+    "quote": "Pentru prima dată în ani de zile, fiul meu a început să întrebe singur: «Mamă, de ce spun ei asta?» — asta a schimbat totul.",
+    "author": "Oxana, mama lui Maxim de 10 ani",
+    "stats": [
+      { "label": "Copii au urmat cursul", "value": "2.400+" },
+      { "label": "Părinți mulțumiți", "value": "94%" },
+      { "label": "Vârsta optimă", "value": "8–12 ani" }
+    ]
+  },
+  "faq_label": "ÎNTREBĂRI FRECVENTE",
+  "faq_title": "Întrebări despre curs",
+  "faq": [
+    {
+      "q": "Este un joc sau un curs educațional?",
+      "a": "Ambele formule în același timp. «Forța Cuvântului» arată ca un serial detectivistic, dar în fiecare episod este ascunsă o lecție de gândire critică."
+    },
+    {
+      "q": "De la ce vârstă se poate începe?",
+      "a": "Optim — 8–12 ani. La această vârstă, copiii sunt cei mai receptivi la noi tipare de gândire și nu și-au format încă prejudecăți stabile."
+    },
+    {
+      "q": "Cât timp este necesar zilnic?",
+      "a": "15–20 de minute pe episod. Program flexibil — copilul poate reveni oricând îi convine."
+    },
+    {
+      "q": "Este necesară înregistrarea pentru demo?",
+      "a": "Nu. Episodul demo este complet deschis — fără înregistrare, fără abonament, fără introducerea datelor."
+    }
+  ],
+  "final_cta": {
+    "headline": "Oferă-i copilului tău superputerea gândirii critice",
+    "subheadline": "Episodul 1 · Dimineața fără soră\nMama spune că sora nu a existat niciodată. La școală nu o cunosc pe Sofia. Dar Marco își amintește râsul ei — și jurnalul din mâinile lui este real…",
+    "cta_text": "Joacă demo acum"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

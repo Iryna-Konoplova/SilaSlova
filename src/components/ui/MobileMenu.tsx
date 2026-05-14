@@ -7,7 +7,7 @@ import { usePathname, Link } from "@/lib/navigation";
 type NavItem = { href: string; label: string; isAccent?: boolean };
 type Props = { locale: string; items: NavItem[] };
 
-export function MobileMenu({ locale, items }: Props) {
+export function MobileMenu({ items }: Props) {
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
 
@@ -50,26 +50,32 @@ export function MobileMenu({ locale, items }: Props) {
             className="absolute left-0 right-0 top-full border-b border-line bg-surface/98 backdrop-blur-md"
           >
             <ul className="mx-auto max-w-6xl divide-y divide-zinc-100 px-4 dark:divide-zinc-800/70 sm:px-6">
-              {items.map(({ href, label, isAccent }) => (
-                <li key={href}>
-                  <Link
-                    href={href}
-                    onClick={() => setOpen(false)}
-                    className={
-                      isAccent
-                        ? "flex items-center gap-2 py-4 text-base font-semibold text-accent-500 transition-colors hover:text-accent-600"
-                        : "flex items-center py-4 text-base font-medium text-content transition-colors hover:text-content"
-                    }
-                  >
-                    {isAccent && (
-                      <svg width="9" height="11" viewBox="0 0 10 12" fill="currentColor" aria-hidden="true">
-                        <path d="M0 0l10 6-10 6V0z" />
-                      </svg>
-                    )}
-                    {label}
-                  </Link>
-                </li>
-              ))}
+              {items.map(({ href, label, isAccent }) => {
+                const isActive = href !== "/" && pathname.startsWith(href);
+                return (
+                  <li key={href}>
+                    <Link
+                      href={href}
+                      onClick={() => setOpen(false)}
+                      aria-current={isActive ? "page" : undefined}
+                      className={
+                        isAccent
+                          ? `flex items-center gap-2 py-4 text-base font-semibold text-accent-500 transition-colors hover:text-accent-600${isActive ? " underline decoration-accent-500 underline-offset-4" : ""}`
+                          : isActive
+                            ? "flex items-center py-4 text-base font-semibold text-accent-500 underline decoration-accent-500 underline-offset-4"
+                            : "flex items-center py-4 text-base font-medium text-content transition-colors hover:text-content"
+                      }
+                    >
+                      {isAccent && (
+                        <svg width="9" height="11" viewBox="0 0 10 12" fill="currentColor" aria-hidden="true">
+                          <path d="M0 0l10 6-10 6V0z" />
+                        </svg>
+                      )}
+                      {label}
+                    </Link>
+                  </li>
+                );
+              })}
             </ul>
           </motion.div>
         )}

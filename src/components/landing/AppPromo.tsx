@@ -2,6 +2,7 @@ import Link from "next/link";
 import { getTranslations } from "next-intl/server";
 import { FadeIn } from "@/components/ui/FadeIn";
 import { EnrollButton } from "@/components/forms/EnrollButton";
+import { DemoButton } from "@/components/ui/DemoButton";
 
 type Props = { locale: string };
 
@@ -11,7 +12,7 @@ const screenshots = ["screenshot_1_alt", "screenshot_2_alt", "screenshot_3_alt"]
 export async function AppPromo({ locale }: Props) {
   const t = await getTranslations({ locale, namespace: "app_promo" });
   const tForm = await getTranslations({ locale, namespace: "enroll_form" });
-  const tHero = await getTranslations({ locale, namespace: "hero" });
+  const tBar = await getTranslations({ locale, namespace: "sticky_bar" });
 
   return (
     <section
@@ -44,12 +45,13 @@ export async function AppPromo({ locale }: Props) {
               ))}
             </ul>
 
-            {/* Store buttons */}
+            {/* Store buttons — link to /app page (app not yet live) */}
             <div className="mb-8 flex flex-wrap gap-3">
               {/* App Store */}
-              <div
+              <Link
+                href={`/${locale}/app`}
                 aria-label={t("badge_appstore_label")}
-                className="cursor-default overflow-hidden rounded-xl bg-gradient-to-br from-brand-600 to-accent-500 p-px"
+                className="gradient-border rounded-xl transition-opacity hover:opacity-80 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
               >
                 <div className="flex h-11 items-center gap-2.5 rounded-[11px] bg-surface-raised px-4">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" className="shrink-0 fill-content">
@@ -57,12 +59,13 @@ export async function AppPromo({ locale }: Props) {
                   </svg>
                   <span className="text-sm font-semibold text-content">App Store</span>
                 </div>
-              </div>
+              </Link>
 
               {/* Google Play */}
-              <div
+              <Link
+                href={`/${locale}/app`}
                 aria-label={t("badge_google_label")}
-                className="cursor-default overflow-hidden rounded-xl bg-gradient-to-br from-brand-600 to-accent-500 p-px"
+                className="gradient-border rounded-xl transition-opacity hover:opacity-80 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
               >
                 <div className="flex h-11 items-center gap-2.5 rounded-[11px] bg-surface-raised px-4">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" className="shrink-0 fill-content">
@@ -70,17 +73,12 @@ export async function AppPromo({ locale }: Props) {
                   </svg>
                   <span className="text-sm font-semibold text-content">Google Play</span>
                 </div>
-              </div>
+              </Link>
             </div>
 
             {/* CTA buttons */}
             <div className="flex flex-wrap items-center gap-3">
-              <Link
-                href={`/${locale}/demo`}
-                className="inline-flex h-11 items-center gap-2 rounded-full bg-brand-600 px-6 text-sm font-semibold text-white shadow-brand transition-all hover:bg-brand-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
-              >
-                ▶ {tHero("cta_primary")}
-              </Link>
+              <DemoButton locale={locale} label={tBar("cta")} />
               <EnrollButton label={tForm("enroll_cta")} size="md" />
             </div>
           </FadeIn>

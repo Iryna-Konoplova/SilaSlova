@@ -5,23 +5,23 @@
     "meta": {
         "title": "Why does a child trust strangers online? | Power of Words",
         "description": "Teach your child to recognize manipulation and protect themselves from toxic influence online. A game-based format for kids aged 8–12.",
-        "og_image": "/og/no-friend-ru.jpg"
+        "og_image": "/og/no-friend-en.jpg"
     },
     "hero": {
-        "headline": "Your child has “friends” you don’t know",
+        “headline”: “Your child has “friends” you don’t know!”,
         "subheadline": "Every day they communicate with people who shape their thoughts and decisions. It’s time to teach them to tell real friends from fake ones.",
         "cta_primary": {
-            "text": "Try demo for free",
-            "target": "/demo"
+            "text": "Sign up for the course",
+            "target": "/sign-up"
         },
         "cta_secondary": {
-            "text": "For parents",
-            "target": "/parents"
+            "text": "Play demo",
+            "target": "/demo"
         },
         "media": {
             "type": "image",
-            "src": "/images/hero-city.jpg",
-            "poster": "/images/hero-city.jpg"
+            "src": "/images/child_manipulation.jpg",
+            "alt": "Child staring at phone screen alone while parent sits nearby unaware"
         }
     },
     "pain": {
@@ -35,7 +35,7 @@
             "🔍 Recognizes manipulation in texts, videos, and conversations",
             "🧠 Learns to ask questions instead of just believing",
             "🤝 Understands who is a real friend and who is not",
-            "💬 Learns to say “no” without fear or guilt"
+            “🛡️ Learns to say “no” without fear or guilt”
         ]
     },
     "social_proof": {
@@ -56,6 +56,8 @@
             }
         ]
     },
+    "faq_label": "FAQ",
+    "faq_title": "Questions about the course",
     "faq": [
         {
             "q": "Is it a game or a learning course?",
@@ -72,10 +74,6 @@
         {
             "q": "Is registration required for the demo?",
             "a": "No. The demo episode is fully open — no registration, no subscription, no data entry."
-        },
-        {
-            "q": "What platforms is the game available on?",
-            "a": "iOS, Android, as well as via messengers like WhatsApp and Telegram — no app download required."
         }
     ],
     "final_cta": {

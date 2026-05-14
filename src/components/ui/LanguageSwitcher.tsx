@@ -9,6 +9,7 @@ const localeMeta: Record<string, { label: string; native: string }> = {
   en: { label: "EN", native: "English" },
   ru: { label: "RU", native: "Русский" },
   uk: { label: "UK", native: "Українська" },
+  ro: { label: "RO", native: "Română" },
 };
 
 type Props = { currentLocale: string };

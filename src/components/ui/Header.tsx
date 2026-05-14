@@ -74,7 +74,7 @@ export async function Header({ locale }: Props) {
           <ThemeSwitcher />
           <MobileMenu
             locale={locale}
-            items={[{ href: "/demo", label: demoLabel, isAccent: true }, ...navItems]}
+            items={[...navItems, { href: "/demo", label: demoLabel, isAccent: true }]}
           />
         </div>
       </nav>
