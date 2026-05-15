@@ -34,12 +34,8 @@ export async function ParentsHero({ locale }: Props) {
             {t("hero_subtitle")}
           </p>
 
-          <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
-            <EnrollButton
-              label={tForm("enroll_cta")}
-              size="lg"
-              className="w-full sm:w-auto"
-            />
+          <div className="relative flex flex-col items-center gap-4 sm:flex-row sm:justify-center sm:gap-6">
+            <EnrollButton label={tForm("enroll_cta")} size="lg" />
             <DemoButton locale={locale} label={tBar("cta")} size="lg" />
           </div>
         </FadeIn>

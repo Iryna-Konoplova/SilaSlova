@@ -1,0 +1,70 @@
+{
+  "slug": "peer-pressure",
+  "audience": "parent",
+  "locale": "en",
+  "meta": {
+    "title": "\"Everyone does it\" — Why can't your child say no? | Sila Slova",
+    "description": "Teach your child to recognise peer pressure and make their own choices — without fear of being left out. Game-based learning for kids 8–12.",
+    "og_image": "/og/peer-pressure-en.jpg"
+  },
+  "hero": {
+    "headline": "\"Everyone does it!\" — does your child too?",
+    "subheadline": "They don't agree because they want to. They agree because they're afraid to stand out. It's time to teach them to make their own choice.",
+    "cta_primary": { "text": "Sign up for the course", "target": "/sign-up" },
+    "cta_secondary": { "text": "Play demo", "target": "/demo" },
+    "media": { "type": "image", "src": "/images/peer-pressure.jpg", "alt": "A child surrounded by peers, trying not to stand out" }
+  },
+  "pain": {
+    "title": "Peer pressure works automatically — and kids don't even notice",
+    "body": "In the classroom, in group chats, on the playground — someone says \"everyone does it\" and your child starts to doubt themselves. Even when something inside tells them: \"this doesn't feel right.\"\n\nThis isn't bad behaviour or weakness. It's social pressure manipulation — it works by exploiting the fear of being rejected. Children don't see it because no one ever explained how it works.\n\nKids who can't recognise group pressure conform — even at their own expense. They stay silent when they should say no, and do things they don't want to do just to stay in the group."
+  },
+  "solution": {
+    "title": "\"Sila Slova\" — a detective drama that teaches critical thinking",
+    "body": "40 episodes, 13 critical thinking lessons. Your child plays — but is actually learning to protect themselves.",
+    "bullets": [
+      "🔍 Recognises \"everyone does it\" as a manipulation tactic",
+      "🧠 Learns to think independently, not just follow the crowd",
+      "💬 Can calmly say no — without conflict or guilt",
+      "🛡️ Knows their own values and won't break under group pressure"
+    ]
+  },
+  "social_proof": {
+    "quote": "\"Everyone does it\" doesn't work on my daughter anymore. For her, that's no longer enough reason to say yes.",
+    "author": "Natalia, mum of 9-year-old Alina",
+    "stats": [
+      { "label": "Children completed the course", "value": "2,400+" },
+      { "label": "Satisfied parents", "value": "94%" },
+      { "label": "Optimal age", "value": "8–12 yrs" }
+    ]
+  },
+  "faq_label": "FAQ",
+  "faq_title": "Questions about the course",
+  "faq": [
+    {
+      "q": "Is this a game or a learning course?",
+      "a": "Both at once. \"Sila Slova\" looks like a detective series, but every episode contains a hidden critical thinking lesson."
+    },
+    {
+      "q": "What age is it suitable for?",
+      "a": "Ideal for 8–12 year olds. At this age, children are most receptive to new thinking patterns and haven't yet formed rigid biases."
+    },
+    {
+      "q": "How much time is needed each day?",
+      "a": "15–20 minutes per episode. Flexible schedule — your child can come back at any convenient time."
+    },
+    {
+      "q": "Is registration required for the demo?",
+      "a": "No. The demo episode is fully open — no registration, no subscription, no personal data required."
+    }
+  ],
+  "final_cta": {
+    "headline": "Give your child the superpower of critical thinking",
+    "subheadline": "Episode 1 · Morning Without a Sister\nMum says there was never a sister. The school doesn't remember Sofia. But Marco remembers her laugh — and the diary in his hands is real…",
+    "cta_text": "Play demo now"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

@@ -5,6 +5,7 @@ type Props = {
   label: string;
   size?: "md" | "lg";
   variant?: "brand" | "white";
+  fullWidth?: boolean;
   className?: string;
 };
 
@@ -25,6 +26,7 @@ export function DemoButton({
   label,
   size = "md",
   variant = "brand",
+  fullWidth = false,
   className = "",
 }: Props) {
   return (
@@ -32,6 +34,7 @@ export function DemoButton({
       href={`/${locale}/demo`}
       className={[
         "inline-flex items-center justify-center gap-2.5 rounded-full font-semibold",
+        fullWidth ? "w-full" : "w-fit",
         "transition-all active:scale-95",
         "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2",
         sizeClasses[size],

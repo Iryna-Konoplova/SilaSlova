@@ -1,0 +1,70 @@
+{
+  "slug": "are-you-normal",
+  "audience": "parent",
+  "locale": "en",
+  "meta": {
+    "title": "\"You're normal, right?\" — why your child feels they have to prove it | Sila Slova",
+    "description": "Teach your child to recognise pressure through belonging and stay true to themselves. Game-based critical thinking for kids 8–12.",
+    "og_image": "/og/are-you-normal-en.jpg"
+  },
+  "hero": {
+    "headline": "\"You're normal, right?\" — and your child already agrees",
+    "subheadline": "One phrase — and they're already proving their \"normality\" through action. This isn't about character — it's manipulation they don't even notice.",
+    "cta_primary": { "text": "Sign up for the course", "target": "/sign-up" },
+    "cta_secondary": { "text": "Play demo", "target": "/demo" },
+    "media": { "type": "image", "src": "/images/are-you-normal.jpg", "alt": "A child trying to fit into a group and not look strange" }
+  },
+  "pain": {
+    "title": "\"Normal / not normal\" is a label, not a question",
+    "body": "In class, in a group, in a chat — someone throws out \"you're normal, right?\" and your child already doubts themselves. They're not sure, but they choose to agree — to avoid looking weird, to avoid falling out of the group.\n\nThis isn't about friendship or \"normality\". It's manipulation through fear of rejection. The child is handed a label and pressured to prove their \"normality\" through action. Without the skill to recognise this, they agree automatically.\n\nThe result — decisions are made not for themselves, but to avoid discomfort. The child gradually loses their sense of self and lives in a constant state of adjusting to others."
+  },
+  "solution": {
+    "title": "\"Sila Slova\" — a detective drama that teaches critical thinking",
+    "body": "40 episodes, 13 critical thinking lessons. Your child plays — but is actually learning to protect themselves.",
+    "bullets": [
+      "🔍 Recognises the \"normal/not normal\" label as a manipulation tactic",
+      "🧠 Understands that \"normality\" is not a reason to agree",
+      "💬 Can respond calmly without proving anything to anyone",
+      "🛡️ Stays true to themselves when others try to fit them into a mould"
+    ]
+  },
+  "social_proof": {
+    "quote": "My daughter now hears \"you're normal, right?\" and replies: \"yes, that's why I don't do things I don't want to do\". I'm so proud of her.",
+    "author": "Elena, mum of 10-year-old Sonya",
+    "stats": [
+      { "label": "Children completed the course", "value": "2,400+" },
+      { "label": "Satisfied parents", "value": "94%" },
+      { "label": "Optimal age", "value": "8–12 yrs" }
+    ]
+  },
+  "faq_label": "FAQ",
+  "faq_title": "Questions about the course",
+  "faq": [
+    {
+      "q": "Is this a game or a learning course?",
+      "a": "Both at once. \"Sila Slova\" looks like a detective series, but every episode contains a hidden critical thinking lesson."
+    },
+    {
+      "q": "What age is it suitable for?",
+      "a": "Ideal for 8–12 year olds. At this age, children are most receptive to new thinking patterns and haven't yet formed rigid biases."
+    },
+    {
+      "q": "How much time is needed each day?",
+      "a": "15–20 minutes per episode. Flexible schedule — your child can come back at any convenient time."
+    },
+    {
+      "q": "Is registration required for the demo?",
+      "a": "No. The demo episode is fully open — no registration, no subscription, no personal data required."
+    }
+  ],
+  "final_cta": {
+    "headline": "Give your child the superpower of critical thinking",
+    "subheadline": "Episode 1 · Morning Without a Sister\nMum says there was never a sister. The school doesn't remember Sofia. But Marco remembers her laugh — and the diary in his hands is real…",
+    "cta_text": "Play demo now"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

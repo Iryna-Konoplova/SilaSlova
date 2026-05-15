@@ -1,0 +1,70 @@
+{
+  "slug": "cant-say-no",
+  "audience": "parent",
+  "locale": "en",
+  "meta": {
+    "title": "Can't your child say no? Here's why — and what to do | Sila Slova",
+    "description": "Teach your child to say no without fear, guilt or conflict. A game-based critical thinking course for kids aged 8–12.",
+    "og_image": "/og/cant-say-no-en.jpg"
+  },
+  "hero": {
+    "headline": "Your child says yes — even when they want to say no?",
+    "subheadline": "They let others copy, go places they don't want to go, stay silent when their boundaries are crossed. This isn't weakness — it's a skill no one ever taught them.",
+    "cta_primary": { "text": "Sign up for the course", "target": "/sign-up" },
+    "cta_secondary": { "text": "Play demo", "target": "/demo" },
+    "media": { "type": "image", "src": "/images/cant-say-no.jpg", "alt": "A child who can't refuse and agrees to things they don't want" }
+  },
+  "pain": {
+    "title": "Not being able to say no isn't politeness — it's a missing skill",
+    "body": "At school, in group chats, at the playground — someone asks, pressures, or acts hurt, and your child already says \"okay\". Not because they want to. Because they're afraid of looking bad, hurting someone's feelings, or losing acceptance.\n\nThis isn't about character. It's about manipulation your child can't recognise: pressure, guilt-tripping, \"if you were a real friend, you'd help me\". When there are no ready phrases and no inner foundation, agreeing is simply the easiest option.\n\nThe result: their boundaries gradually disappear, and others get used to taking advantage. The child builds up resentment but doesn't know how to change things without causing conflict."
+  },
+  "solution": {
+    "title": "\"Sila Slova\" — a detective drama that teaches critical thinking",
+    "body": "40 episodes, 13 critical thinking lessons. Your child plays — but is actually learning to protect themselves.",
+    "bullets": [
+      "🔍 Recognises manipulation: pressure, guilt-tripping, \"a real friend would help\"",
+      "🧠 Understands why they say yes automatically — and how to stop it",
+      "💬 Has ready phrases to say no without conflict or guilt",
+      "🛡️ Can say no — and still feel okay about themselves and others"
+    ]
+  },
+  "social_proof": {
+    "quote": "My son finally stopped letting the whole class copy from him. He just said no — and nothing terrible happened. It was a revelation for him.",
+    "author": "Marina, mum of 11-year-old Denis",
+    "stats": [
+      { "label": "Children completed the course", "value": "2,400+" },
+      { "label": "Satisfied parents", "value": "94%" },
+      { "label": "Optimal age", "value": "8–12 yrs" }
+    ]
+  },
+  "faq_label": "FAQ",
+  "faq_title": "Questions about the course",
+  "faq": [
+    {
+      "q": "Is this a game or a learning course?",
+      "a": "Both at once. \"Sila Slova\" looks like a detective series, but every episode contains a hidden critical thinking lesson."
+    },
+    {
+      "q": "What age is it suitable for?",
+      "a": "Ideal for 8–12 year olds. At this age, children are most receptive to new thinking patterns and haven't yet formed rigid biases."
+    },
+    {
+      "q": "How much time is needed each day?",
+      "a": "15–20 minutes per episode. Flexible schedule — your child can come back at any convenient time."
+    },
+    {
+      "q": "Is registration required for the demo?",
+      "a": "No. The demo episode is fully open — no registration, no subscription, no personal data required."
+    }
+  ],
+  "final_cta": {
+    "headline": "Give your child the superpower of critical thinking",
+    "subheadline": "Episode 1 · Morning Without a Sister\nMum says there was never a sister. The school doesn't remember Sofia. But Marco remembers her laugh — and the diary in his hands is real…",
+    "cta_text": "Play demo now"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

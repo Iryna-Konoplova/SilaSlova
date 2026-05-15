@@ -12,7 +12,7 @@
     "subheadline": "În fiecare zi comunică cu oameni care îi formează gândurile și deciziile. E timpul să îl înveți să distingă prietenii adevărați de cei falși.",
     "cta_primary": { "text": "Înscrie-te la curs", "target": "/sign-up" },
     "cta_secondary": { "text": "Joacă demo", "target": "/demo" },
-    "media": { "type": "image", "src": "/images/child_manipulation.jpg", "alt": "Copil care se uită în ecranul telefonului, fără să observe lumea din jur" }
+    "media": { "type": "image", "src": "/images/no-friend.jpg", "alt": "Copil care se uită în ecranul telefonului, fără să observe lumea din jur" }
   },
   "pain": {
     "title": "Manipularea începe cu mult înainte de adolescență",

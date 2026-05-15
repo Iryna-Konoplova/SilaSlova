@@ -1,0 +1,70 @@
+{
+  "slug": "cant-say-no",
+  "audience": "parent",
+  "locale": "ro",
+  "meta": {
+    "title": "Copilul tău nu știe să spună nu? Iată de ce — și ce să faci | Forța Cuvântului",
+    "description": "Învățați copilul să refuze fără frică, vinovăție sau conflict. Curs de gândire critică în format de joc pentru copii de 8–12 ani.",
+    "og_image": "/og/cant-say-no-ro.jpg"
+  },
+  "hero": {
+    "headline": "Copilul tău spune «da» — chiar și când vrea să spună «nu»?",
+    "subheadline": "Lasă pe alții să copieze, merge unde nu vrea, tace când îi sunt încălcate limitele. Nu e slăbiciune — e o abilitate pe care nimeni nu a învățat-o.",
+    "cta_primary": { "text": "Înscrie-te la curs", "target": "/sign-up" },
+    "cta_secondary": { "text": "Joacă demo", "target": "/demo" },
+    "media": { "type": "image", "src": "/images/cant-say-no.jpg", "alt": "Un copil care nu poate refuza și acceptă lucruri pe care nu le vrea" }
+  },
+  "pain": {
+    "title": "A nu ști să spui nu nu înseamnă politețe — înseamnă că lipsește o abilitate",
+    "body": "La școală, în chat, pe terenul de joacă — cineva cere, presează sau se supără, și copilul tău spune deja «bine». Nu pentru că vrea. Ci pentru că îi e frică să pară rău, să rănească pe cineva sau să piardă acceptarea.\n\nNu e vorba de caracter. E vorba de manipulări pe care copilul nu le recunoaște: presiune, sentiment de vinovăție, «dacă ești prieten adevărat — mă ajuți». Când nu există fraze pregătite și o bază interioară, cel mai simplu e să fii de acord.\n\nConsecinșa: limitele lui se șterg treptat, iar ceilalți se obișnuiesc să profite de asta. Copilul acumulează resentimente, dar nu știe cum să schimbe situația fără conflict."
+  },
+  "solution": {
+    "title": "«Forța Cuvântului» — o dramă detectivistică ce învață să gândești",
+    "body": "40 de episoade, 13 lecții de gândire critică. Copilul se joacă — dar de fapt învață să se protejeze.",
+    "bullets": [
+      "🔍 Recunoaște manipularea: presiunea, vinovăția, «un prieten adevărat ar ajuta»",
+      "🧠 Înțelege de ce spune «da» automat — și cum să oprească asta",
+      "💬 Are fraze pregătite pentru a refuza fără conflict și fără sentimentul de vinovăție",
+      "🛡️ Poate spune «nu» — și să rămână ok cu sine și cu ceilalți"
+    ]
+  },
+  "social_proof": {
+    "quote": "Fiul meu a încetat în sfârșit să lase toată clasa să copieze de la el. A spus pur și simplu «nu» — și nu s-a întâmplat nimic îngrozitor. Pentru el a fost o revelație.",
+    "author": "Marina, mama lui Denis de 11 ani",
+    "stats": [
+      { "label": "Copii au finalizat cursul", "value": "2.400+" },
+      { "label": "Părinți mulțumiți", "value": "94%" },
+      { "label": "Vârsta optimă", "value": "8–12 ani" }
+    ]
+  },
+  "faq_label": "ÎNTREBĂRI FRECVENTE",
+  "faq_title": "Întrebări despre curs",
+  "faq": [
+    {
+      "q": "Este un joc sau un curs educațional?",
+      "a": "Ambele formule în același timp. «Forța Cuvântului» arată ca un serial detectivistic, dar în fiecare episod este ascunsă o lecție de gândire critică."
+    },
+    {
+      "q": "De la ce vârstă se poate începe?",
+      "a": "Optim — 8–12 ani. La această vârstă, copiii sunt cei mai receptivi la noi tipare de gândire și nu și-au format încă prejudecăți stabile."
+    },
+    {
+      "q": "Cât timp este necesar zilnic?",
+      "a": "15–20 de minute pe episod. Program flexibil — copilul poate reveni oricând îi convine."
+    },
+    {
+      "q": "Este necesară înregistrarea pentru demo?",
+      "a": "Nu. Episodul demo este complet deschis — fără înregistrare, fără abonament, fără introducerea datelor."
+    }
+  ],
+  "final_cta": {
+    "headline": "Oferă-i copilului tău superputerea gândirii critice",
+    "subheadline": "Episodul 1 · Dimineața fără soră\nMama spune că sora nu a existat niciodată. La școală nu o cunosc pe Sofia. Dar Marco își amintește râsul ei — și jurnalul din mâinile lui este real…",
+    "cta_text": "Joacă demo acum"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

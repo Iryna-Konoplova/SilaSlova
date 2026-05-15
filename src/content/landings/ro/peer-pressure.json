@@ -1,0 +1,70 @@
+{
+  "slug": "peer-pressure",
+  "audience": "parent",
+  "locale": "ro",
+  "meta": {
+    "title": "«Toți fac asta» — De ce copilul tău nu poate spune nu? | Forța Cuvântului",
+    "description": "Învățați copilul să recunoască presiunea grupului și să facă propriile alegeri — fără teama de a fi respins. Format de joc pentru copii de 8–12 ani.",
+    "og_image": "/og/peer-pressure-ro.jpg"
+  },
+  "hero": {
+    "headline": "«Toți fac asta!» — și copilul tău la fel?",
+    "subheadline": "Nu e de acord pentru că vrea. Ci pentru că îi e frică să fie diferit. E timpul să îl înveți să facă propria alegere.",
+    "cta_primary": { "text": "Înscrie-te la curs", "target": "/sign-up" },
+    "cta_secondary": { "text": "Joacă demo", "target": "/demo" },
+    "media": { "type": "image", "src": "/images/peer-pressure.jpg", "alt": "Un copil înconjurat de colegi, încercând să nu iasă în evidență" }
+  },
+  "pain": {
+    "title": "Presiunea grupului acționează automat — și copilul nu își dă seama",
+    "body": "În clasă, în chat, pe terenul de joacă — cineva spune «toți fac asta» și copilul tău începe să se îndoiască de sine. Chiar dacă ceva dinăuntru îi spune: «asta nu e bine».\n\nNu e vorba de comportament rău sau slăbiciune. E manipulare prin presiune socială — funcționează exploatând frica de a fi respins. Copiii nu o văd pentru că nimeni nu le-a explicat vreodată cum funcționează.\n\nCopiii care nu știu să recunoască presiunea grupului se conformează — chiar în detrimentul lor. Tac când ar trebui să spună nu și fac lucruri pe care nu le vor, doar ca să rămână «ai lor»."
+  },
+  "solution": {
+    "title": "«Forța Cuvântului» — o dramă detectivistică ce învață să gândești",
+    "body": "40 de episoade, 13 lecții de gândire critică. Copilul se joacă — dar de fapt învață să se protejeze.",
+    "bullets": [
+      "🔍 Recunoaște fraza «toți fac asta» ca modalitate de a manipula",
+      "🧠 Învață să gândească independent, nu să urmeze mulțimea",
+      "💬 Poate refuza calm — fără conflict și fără sentimentul de vinovăție",
+      "🛡️ Știe ce valori are și nu cedează sub presiunea grupului"
+    ]
+  },
+  "social_proof": {
+    "quote": "«Toți fac asta» nu mai funcționează cu fiica mea. Acum, asta nu îi mai este suficient pentru a spune «da».",
+    "author": "Natalia, mama Alinei de 9 ani",
+    "stats": [
+      { "label": "Copii au finalizat cursul", "value": "2.400+" },
+      { "label": "Părinți mulțumiți", "value": "94%" },
+      { "label": "Vârsta optimă", "value": "8–12 ani" }
+    ]
+  },
+  "faq_label": "ÎNTREBĂRI FRECVENTE",
+  "faq_title": "Întrebări despre curs",
+  "faq": [
+    {
+      "q": "Este un joc sau un curs educațional?",
+      "a": "Ambele formule în același timp. «Forța Cuvântului» arată ca un serial detectivistic, dar în fiecare episod este ascunsă o lecție de gândire critică."
+    },
+    {
+      "q": "De la ce vârstă se poate începe?",
+      "a": "Optim — 8–12 ani. La această vârstă, copiii sunt cei mai receptivi la noi tipare de gândire și nu și-au format încă prejudecăți stabile."
+    },
+    {
+      "q": "Cât timp este necesar zilnic?",
+      "a": "15–20 de minute pe episod. Program flexibil — copilul poate reveni oricând îi convine."
+    },
+    {
+      "q": "Este necesară înregistrarea pentru demo?",
+      "a": "Nu. Episodul demo este complet deschis — fără înregistrare, fără abonament, fără introducerea datelor."
+    }
+  ],
+  "final_cta": {
+    "headline": "Oferă-i copilului tău superputerea gândirii critice",
+    "subheadline": "Episodul 1 · Dimineața fără soră\nMama spune că sora nu a existat niciodată. La școală nu o cunosc pe Sofia. Dar Marco își amintește râsul ei — și jurnalul din mâinile lui este real…",
+    "cta_text": "Joacă demo acum"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

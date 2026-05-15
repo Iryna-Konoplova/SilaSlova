@@ -37,9 +37,9 @@ export async function Hero({ locale }: Props) {
         </p>
 
         {/* CTAs */}
-        <div className="mx-auto grid w-full max-w-2xl grid-cols-1 gap-5 px-10 sm:grid-cols-2 sm:px-16">
-          <DemoButton locale={locale} label={tBar("cta")} className="w-full" />
-          <EnrollButton label={tForm("enroll_cta")} size="md" className="w-full justify-center" />
+        <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center sm:gap-6">
+          <EnrollButton label={tForm("enroll_cta")} size="lg" />
+          <DemoButton locale={locale} label={tBar("cta")} size="lg" />
         </div>
 
         {/* Inline stats */}
