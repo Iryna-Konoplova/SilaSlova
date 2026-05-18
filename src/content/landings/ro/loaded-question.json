@@ -1,0 +1,70 @@
+{
+  "slug": "loaded-question",
+  "audience": "parent",
+  "locale": "ro",
+  "meta": {
+    "title": "«Ai încetat deja să copiezi?» — de ce copilul tău pare vinovat fără să fi făcut nimic | Forța Cuvântului",
+    "description": "Învățați copilul să recunoască întrebările-capcană cu acuzații ascunse și să nu se justifice automat. Curs în format de joc pentru copii de 8–12 ani.",
+    "og_image": "/og/loaded-question-ro.jpg"
+  },
+  "hero": {
+    "headline": "«Ai încetat deja să copiezi?» — și copilul tău se justifică imediat?",
+    "subheadline": "Acuzația este deja inclusă în întrebare. Orice răspuns sună ca o recunoaștere a vinovăției. Nu e o întrebare — e o capcană.",
+    "cta_primary": { "text": "Înscrie-te la curs", "target": "/sign-up" },
+    "cta_secondary": { "text": "Joacă demo", "target": "/demo" },
+    "media": { "type": "image", "src": "/images/loaded-question.jpg", "alt": "Un copil confuz și pus în dificultate de o întrebare-capcană" }
+  },
+  "pain": {
+    "title": "Întrebarea-capcană: când orice răspuns este o înfrângere",
+    "body": "«Ai încetat deja să copiezi?», «ai făcut-o din nou?» — în clasă, în fața tuturor, în conversații cu adulții. Copilul e blocat: să spună «da» înseamnă să admită vina; să spună «nu» sună la fel de rău. Începe să se justifice sau tace.\n\nNu e o întrebare, e manipulare: un «fapt» este deja inclus în întrebare înainte ca copilul să aibă șansa să verifice dacă e adevărat. Ca să răspundă, trebuie să accepte presupunerea. Fără abilitatea de a recunoaște capcana, se apără în loc să oprească chiar întrebarea.\n\nConsecinșa — copilul pare vinovat chiar și când nu a făcut nimic. Ceilalți văd justificările și trag concluzii. Iar copilul nu înțelege cum s-a întâmplat asta."
+  },
+  "solution": {
+    "title": "«Forța Cuvântului» — o dramă detectivistică ce învață să gândești",
+    "body": "40 de episoade, 13 lecții de gândire critică. Copilul se joacă — dar de fapt învață să se protejeze.",
+    "bullets": [
+      "🔍 Identifică acuzația ascunsă într-o întrebare înainte de a răspunde",
+      "🧠 Înțelege că a te justifica înseamnă să accepți «faptul» altuia",
+      "💬 Poate opri capcana și readuce conversația la faptele reale",
+      "🛡️ Nu pare vinovat chiar și când întrebarea sună ca o acuzație"
+    ]
+  },
+  "social_proof": {
+    "quote": "Întrebările incomode cu vina ascunsă nu îl mai fac să se justifice. Învață să nu le accepte ca adevăr.",
+    "author": "Larysa, mama lui Bohdan de 11 ani",
+    "stats": [
+      { "label": "Copii au finalizat cursul", "value": "2.400+" },
+      { "label": "Părinți mulțumiți", "value": "94%" },
+      { "label": "Vârsta optimă", "value": "8–12 ani" }
+    ]
+  },
+  "faq_label": "ÎNTREBĂRI FRECVENTE",
+  "faq_title": "Întrebări despre curs",
+  "faq": [
+    {
+      "q": "Este un joc sau un curs educațional?",
+      "a": "Ambele formule în același timp. «Forța Cuvântului» arată ca un serial detectivistic, dar în fiecare episod este ascunsă o lecție de gândire critică."
+    },
+    {
+      "q": "De la ce vârstă se poate începe?",
+      "a": "Optim — 8–12 ani. La această vârstă, copiii sunt cei mai receptivi la noi tipare de gândire și nu și-au format încă prejudecăți stabile."
+    },
+    {
+      "q": "Cât timp este necesar zilnic?",
+      "a": "15–20 de minute pe episod. Program flexibil — copilul poate reveni oricând îi convine."
+    },
+    {
+      "q": "Este necesară înregistrarea pentru demo?",
+      "a": "Nu. Episodul demo este complet deschis — fără înregistrare, fără abonament, fără introducerea datelor."
+    }
+  ],
+  "final_cta": {
+    "headline": "Oferă-i copilului tău superputerea gândirii critice",
+    "subheadline": "Episodul 1 · Dimineața fără soră\nMama spune că sora nu a existat niciodată. La școală nu o cunosc pe Sofia. Dar Marco își amintește râsul ei — și jurnalul din mâinile lui este real…",
+    "cta_text": "Joacă demo acum"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

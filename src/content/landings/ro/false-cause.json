@@ -1,0 +1,70 @@
+{
+  "slug": "false-cause",
+  "audience": "parent",
+  "locale": "ro",
+  "meta": {
+    "title": "«Am făcut — și s-a întâmplat» — de ce copilul trage concluzii false despre cauze | Forța Cuvântului",
+    "description": "Învățați copilul să deosebească cauza de coincidență și să nu tragă concluzii dintr-un singur caz. Curs în format de joc pentru copii de 8–12 ani.",
+    "og_image": "/og/false-cause-ro.jpg"
+  },
+  "hero": {
+    "headline": "«Am făcut — și s-a întâmplat!» — și copilul tău crede deja în tipare întâmplătoare?",
+    "subheadline": "«După» nu înseamnă «din cauza». Dar creierul adoră concluziile rapide. Și asta poate duce la decizii fără nicio bază reală.",
+    "cta_primary": { "text": "Înscrie-te la curs", "target": "/sign-up" },
+    "cta_secondary": { "text": "Joacă demo", "target": "/demo" },
+    "media": { "type": "image", "src": "/images/false-cause.jpg", "alt": "Un copil care leagă două evenimente și trage o concluzie falsă despre cauză" }
+  },
+  "pain": {
+    "title": "«După» nu înseamnă «din cauza». Dar exact așa pare",
+    "body": "«Am pus adidașii ăștia — și am câștigat», «n-am învățat — și am luat notă mică, deci din cauza asta», «am făcut asta — și totul a mers prost». La școală, în sport, în lucruri mărunte de zi cu zi. Copilul încearcă să găsească o explicație — și o găsește, dar nu întotdeauna pe cea corectă.\n\nNu e gândire ilogică — e modul natural în care lucrează creierul: caută conexiuni între evenimente ca să înțeleagă lumea. Dar ce s-a întâmplat «după» nu s-a întâmplat neapărat «din cauza». O coincidență nu e o cauză. Fără abilitatea de a verifica, copilul începe să creadă în tipare întâmplătoare.\n\nConsecinșa — decizii greșite și frici fără bază reală. Adidași «norocoși», evitarea anumitor acțiuni, frica de a repeta o «greșeală» — toate cresc dintr-o conexiune neconfirmată."
+  },
+  "solution": {
+    "title": "«Forța Cuvântului» — o dramă detectivistică ce învață să gândești",
+    "body": "40 de episoade, 13 lecții de gândire critică. Copilul se joacă — dar de fapt învață să se protejeze.",
+    "bullets": [
+      "🔍 Distinge cauza de coincidență — «după» ≠ «din cauza»",
+      "🧠 Verifică dacă evenimentele sunt cu adevărat legate înainte de a trage concluzii",
+      "💬 Nu crede în «reguli» întâmplătoare fără dovezi reale",
+      "🛡️ Ia decizii bazate pe realitate, nu pe tipare false"
+    ]
+  },
+  "social_proof": {
+    "quote": "Fiul meu a încetat să poarte tricoul «norocos» la fiecare test. Mi-a spus el însuși: «E doar o coincidență, mamă». A fost un moment adevărat pentru mine.",
+    "author": "Hanna, mama lui Tymur de 10 ani",
+    "stats": [
+      { "label": "Copii au finalizat cursul", "value": "2.400+" },
+      { "label": "Părinți mulțumiți", "value": "94%" },
+      { "label": "Vârsta optimă", "value": "8–12 ani" }
+    ]
+  },
+  "faq_label": "ÎNTREBĂRI FRECVENTE",
+  "faq_title": "Întrebări despre curs",
+  "faq": [
+    {
+      "q": "Este un joc sau un curs educațional?",
+      "a": "Ambele formule în același timp. «Forța Cuvântului» arată ca un serial detectivistic, dar în fiecare episod este ascunsă o lecție de gândire critică."
+    },
+    {
+      "q": "De la ce vârstă se poate începe?",
+      "a": "Optim — 8–12 ani. La această vârstă, copiii sunt cei mai receptivi la noi tipare de gândire și nu și-au format încă prejudecăți stabile."
+    },
+    {
+      "q": "Cât timp este necesar zilnic?",
+      "a": "15–20 de minute pe episod. Program flexibil — copilul poate reveni oricând îi convine."
+    },
+    {
+      "q": "Este necesară înregistrarea pentru demo?",
+      "a": "Nu. Episodul demo este complet deschis — fără înregistrare, fără abonament, fără introducerea datelor."
+    }
+  ],
+  "final_cta": {
+    "headline": "Oferă-i copilului tău superputerea gândirii critice",
+    "subheadline": "Episodul 1 · Dimineața fără soră\nMama spune că sora nu a existat niciodată. La școală nu o cunosc pe Sofia. Dar Marco își amintește râsul ei — și jurnalul din mâinile lui este real…",
+    "cta_text": "Joacă demo acum"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

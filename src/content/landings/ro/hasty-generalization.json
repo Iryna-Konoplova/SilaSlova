@@ -1,0 +1,70 @@
+{
+  "slug": "hasty-generalization",
+  "audience": "parent",
+  "locale": "ro",
+  "meta": {
+    "title": "«O dată nu a mers — înseamnă că nu va merge niciodată» — de ce copilul se limitează singur | Forța Cuvântului",
+    "description": "Învățați copilul să nu tragă concluzii despre sine dintr-o singură încercare și să se mai dea o șansă. Curs în format de joc pentru copii de 8–12 ani.",
+    "og_image": "/og/hasty-generalization-ro.jpg"
+  },
+  "hero": {
+    "headline": "«O dată nu a mers — înseamnă că nu va merge niciodată!» — și copilul tău s-a abandonat deja?",
+    "subheadline": "Un episod nu este o regulă. Dar creierul se grăbește să închidă subiectul. Și copilul se limitează înainte să fi încercat cu adevărat.",
+    "cta_primary": { "text": "Înscrie-te la curs", "target": "/sign-up" },
+    "cta_secondary": { "text": "Joacă demo", "target": "/demo" },
+    "media": { "type": "image", "src": "/images/hasty-generalization.jpg", "alt": "Un copil care după primul eșec decide că ceva nu este pentru el" }
+  },
+  "pain": {
+    "title": "«Nu a mers» este un singur rezultat — nu un verdict",
+    "body": "N-a răspuns la ore — «nu știu să fac asta». A pierdut — «sunt slab». N-a ieșit — «nu e pentru mine». La școală, în sport, în relații sociale. Un episod devine «adevărul despre mine» — și copilul nu mai încearcă.\n\nNu e vorba de a renunța repede sau de slăbiciune. E modul natural în care lucrează creierul: încearcă să tragă rapid o concluzie și să treacă mai departe. Dar o singură dată nu înseamnă o regulă. O concluzie reală necesită repetiție, verificare, experiență.\n\nConsecinșa — copilul se limitează înainte să fi încercat cu adevărat. «Nu e pentru mine», «nu pot», «nu va merge» — etichete pe care și le pune singur și care rămân mult timp."
+  },
+  "solution": {
+    "title": "«Forța Cuvântului» — o dramă detectivistică ce învață să gândești",
+    "body": "40 de episoade, 13 lecții de gândire critică. Copilul se joacă — dar de fapt învață să se protejeze.",
+    "bullets": [
+      "🔍 Prinde concluziile «întotdeauna/niciodată» trase dintr-un singur eveniment",
+      "🧠 Distinge un singur rezultat de un adevăr despre sine",
+      "💬 Pune la îndoială «nu e pentru mine» și se mai dă o șansă",
+      "🛡️ Nu își pune o etichetă după primul eșec"
+    ]
+  },
+  "social_proof": {
+    "quote": "Fiica mea a pierdut un turneu și a spus «nu voi câștiga niciodată». La o lună după curs a spus: «A fost doar o dată. Voi mai încerca». Nu îmi venea să cred ce aud.",
+    "author": "Liudmyla, mama Nastiei de 9 ani",
+    "stats": [
+      { "label": "Copii au finalizat cursul", "value": "2.400+" },
+      { "label": "Părinți mulțumiți", "value": "94%" },
+      { "label": "Vârsta optimă", "value": "8–12 ani" }
+    ]
+  },
+  "faq_label": "ÎNTREBĂRI FRECVENTE",
+  "faq_title": "Întrebări despre curs",
+  "faq": [
+    {
+      "q": "Este un joc sau un curs educațional?",
+      "a": "Ambele formule în același timp. «Forța Cuvântului» arată ca un serial detectivistic, dar în fiecare episod este ascunsă o lecție de gândire critică."
+    },
+    {
+      "q": "De la ce vârstă se poate începe?",
+      "a": "Optim — 8–12 ani. La această vârstă, copiii sunt cei mai receptivi la noi tipare de gândire și nu și-au format încă prejudecăți stabile."
+    },
+    {
+      "q": "Cât timp este necesar zilnic?",
+      "a": "15–20 de minute pe episod. Program flexibil — copilul poate reveni oricând îi convine."
+    },
+    {
+      "q": "Este necesară înregistrarea pentru demo?",
+      "a": "Nu. Episodul demo este complet deschis — fără înregistrare, fără abonament, fără introducerea datelor."
+    }
+  ],
+  "final_cta": {
+    "headline": "Oferă-i copilului tău superputerea gândirii critice",
+    "subheadline": "Episodul 1 · Dimineața fără soră\nMama spune că sora nu a existat niciodată. La școală nu o cunosc pe Sofia. Dar Marco își amintește râsul ei — și jurnalul din mâinile lui este real…",
+    "cta_text": "Joacă demo acum"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

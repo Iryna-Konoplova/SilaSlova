@@ -1,0 +1,70 @@
+{
+  "slug": "isolation-threat",
+  "audience": "parent",
+  "locale": "en",
+  "meta": {
+    "title": "\"No one will be your friend\" — why your child fears being left alone | Sila Slova",
+    "description": "Teach your child to resist the fear of isolation and hold their ground, even when threatened with loneliness. Game-based course for children aged 8–12.",
+    "og_image": "/og/isolation-threat-en.jpg"
+  },
+  "hero": {
+    "headline": "\"No one will be your friend!\" — and your child is already afraid of being left alone?",
+    "subheadline": "Fear of rejection is one of the most powerful forces. When it's used as a threat — children give in. Even when they don't want to.",
+    "cta_primary": { "text": "Sign up for the course", "target": "/sign-up" },
+    "cta_secondary": { "text": "Play demo", "target": "/demo" },
+    "media": { "type": "image", "src": "/images/isolation-threat.jpg", "alt": "A child being threatened with loneliness to make them agree" }
+  },
+  "pain": {
+    "title": "\"Everyone will turn away\" — that's not a forecast, it's pressure",
+    "body": "\"No one will be your friend\", \"everyone will turn away\", \"you'll be left alone\". In class, in a group, in a chat. The child might have doubts — but the fear of isolation is stronger. And they give in. Even when they didn't want to.\n\nThis isn't being dependent on others or weakness. It's a natural response to a basic fear — being rejected. When someone throws out the worst-case scenario of losing connection, the brain takes it seriously. No one checks if it's true — they just quickly agree to avoid the threat.\n\nThe result — the child abandons their own decisions to maintain acceptance. \"Not my idea\", \"I'll agree because otherwise I'll be alone\" — and this repeats every time they're pressured with the fear of loneliness."
+  },
+  "solution": {
+    "title": "\"Sila Slova\" — a detective drama that teaches critical thinking",
+    "body": "40 episodes, 13 critical thinking lessons. Your child plays — but is actually learning to protect themselves.",
+    "bullets": [
+      "🔍 Recognises the threat of isolation as a pressure tool",
+      "🧠 Doesn't take \"everyone will turn away\" as a real forecast",
+      "💬 Holds their ground even when threatened with loneliness",
+      "🛡️ Doesn't agree just to avoid being rejected"
+    ]
+  },
+  "social_proof": {
+    "quote": "\"No one will be your friend\" no longer makes him give in. He's learned to tell the difference between a threat and a real prediction.",
+    "author": "Olena, mum of 10-year-old Mykola",
+    "stats": [
+      { "label": "Children completed the course", "value": "2,400+" },
+      { "label": "Satisfied parents", "value": "94%" },
+      { "label": "Optimal age", "value": "8–12 yrs" }
+    ]
+  },
+  "faq_label": "FAQ",
+  "faq_title": "Questions about the course",
+  "faq": [
+    {
+      "q": "Is it a game or a learning course?",
+      "a": "Both at the same time. \"Sila Slova\" looks like a detective series, but every episode contains a hidden critical thinking lesson."
+    },
+    {
+      "q": "What age is it suitable for?",
+      "a": "Ideal for 8–12 year olds. At this age, children are most receptive to new thinking patterns and haven't yet formed rigid biases."
+    },
+    {
+      "q": "How much time is needed each day?",
+      "a": "15–20 minutes per episode. Flexible schedule — your child can come back at any convenient time."
+    },
+    {
+      "q": "Is registration required for the demo?",
+      "a": "No. The demo episode is fully open — no registration, no subscription, no personal data required."
+    }
+  ],
+  "final_cta": {
+    "headline": "Give your child the superpower of critical thinking",
+    "subheadline": "Episode 1 · Morning Without a Sister\nMum says there was never a sister. The school doesn't remember Sofia. But Marco remembers her laugh — and the diary in his hands is real…",
+    "cta_text": "Play demo now"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

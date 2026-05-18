@@ -1,0 +1,70 @@
+{
+  "slug": "regret-threat",
+  "audience": "parent",
+  "locale": "en",
+  "meta": {
+    "title": "\"You'll regret it if you don't\" — why your child decides under fear | Sila Slova",
+    "description": "Teach your child to tell real warnings from scare tactics and stop making decisions under fear. Game-based course for children aged 8–12.",
+    "og_image": "/og/regret-threat-en.jpg"
+  },
+  "hero": {
+    "headline": "\"You'll regret it if you don't!\" — and your child is already saying yes?",
+    "subheadline": "They're being scared into acting before they think. This isn't about real consequences. It's fear manipulation.",
+    "cta_primary": { "text": "Sign up for the course", "target": "/sign-up" },
+    "cta_secondary": { "text": "Play demo", "target": "/demo" },
+    "media": { "type": "image", "src": "/images/regret-threat.jpg", "alt": "A child making a decision under pressure of fear about the future" }
+  },
+  "pain": {
+    "title": "The fear of \"what if it's true\" makes children agree without thinking",
+    "body": "\"You'll regret it if you don't go\", \"you'll miss your chance\", \"it won't be there later\". At school, among friends, even in ads. The child isn't sure — but the fear of \"what if things really do get worse\" pushes them to say yes.\n\nThis isn't about real consequences. It's fear manipulation: someone deliberately uses the future to scare the child into acting immediately rather than thinking. When scared, the brain doesn't check facts — it just wants to remove the discomfort fast.\n\nThe result — the child agrees to things that aren't right for them, just to avoid \"something worse\". They don't realise they were deliberately scared — or that in most cases, there would have been nothing to regret at all."
+  },
+  "solution": {
+    "title": "\"Sila Slova\" — a detective drama that teaches critical thinking",
+    "body": "40 episodes, 13 critical thinking lessons. Your child plays — but is actually learning to protect themselves.",
+    "bullets": [
+      "🔍 Recognises using future fear as a manipulation tactic",
+      "🧠 Tells the difference between a real warning and an artificial scare",
+      "💬 Can pause and think — even when time pressure is applied",
+      "🛡️ Doesn't make decisions under the pressure of fear"
+    ]
+  },
+  "social_proof": {
+    "quote": "\"You'll regret it\" no longer makes her act straight away. She's learned to stop and think.",
+    "author": "Olena, mum of 10-year-old Sonia",
+    "stats": [
+      { "label": "Children completed the course", "value": "2,400+" },
+      { "label": "Satisfied parents", "value": "94%" },
+      { "label": "Optimal age", "value": "8–12 yrs" }
+    ]
+  },
+  "faq_label": "FAQ",
+  "faq_title": "Questions about the course",
+  "faq": [
+    {
+      "q": "Is it a game or a learning course?",
+      "a": "Both at the same time. \"Sila Slova\" looks like a detective series, but every episode contains a hidden critical thinking lesson."
+    },
+    {
+      "q": "What age is it suitable for?",
+      "a": "Ideal for 8–12 year olds. At this age, children are most receptive to new thinking patterns and haven't yet formed rigid biases."
+    },
+    {
+      "q": "How much time is needed each day?",
+      "a": "15–20 minutes per episode. Flexible schedule — your child can come back at any convenient time."
+    },
+    {
+      "q": "Is registration required for the demo?",
+      "a": "No. The demo episode is fully open — no registration, no subscription, no personal data required."
+    }
+  ],
+  "final_cta": {
+    "headline": "Give your child the superpower of critical thinking",
+    "subheadline": "Episode 1 · Morning Without a Sister\nMum says there was never a sister. The school doesn't remember Sofia. But Marco remembers her laugh — and the diary in his hands is real…",
+    "cta_text": "Play demo now"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

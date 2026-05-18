@@ -1,0 +1,70 @@
+{
+  "slug": "false-authority",
+  "audience": "parent",
+  "locale": "en",
+  "meta": {
+    "title": "\"I'm older, so I'm right\" — why your child agrees without understanding why | Sila Slova",
+    "description": "Teach your child to tell real expertise from authority manipulation. Game-based course for children aged 8–12.",
+    "og_image": "/og/false-authority-en.jpg"
+  },
+  "hero": {
+    "headline": "\"I'm older, so I'm right!\" — and your child agrees without understanding why?",
+    "subheadline": "Instead of arguments — status. \"I'm older\" is not a reason. It's authority manipulation.",
+    "cta_primary": { "text": "Sign up for the course", "target": "/sign-up" },
+    "cta_secondary": { "text": "Play demo", "target": "/demo" },
+    "media": { "type": "image", "src": "/images/false-authority.jpg", "alt": "A child under authority pressure, being told what to do without explanation" }
+  },
+  "pain": {
+    "title": "Age and role are not proof of being right",
+    "body": "\"I'm older — I know better\", \"listen to the adults\", \"you're too young to decide that\". At school, at home, among older children. The child might have doubts — but agrees, because authority carries its own weight. Not through arguments, but through status.\n\nThis isn't real expertise — it's authority manipulation: instead of evidence, a role is used — \"I'm older, so I'm right\". But age or position don't guarantee correctness. Without the skill to recognise this, the child stops checking and simply agrees.\n\nThe result — decisions are made not because they understood, but because \"that's what they were told\". Gradually they get used to not asking questions where it's \"expected\" to just trust."
+  },
+  "solution": {
+    "title": "\"Sila Slova\" — a detective drama that teaches critical thinking",
+    "body": "40 episodes, 13 critical thinking lessons. Your child plays — but is actually learning to protect themselves.",
+    "bullets": [
+      "🔍 Tells real expertise apart from empty \"I know better\"",
+      "🧠 Asks \"why do you think that?\" instead of just going along with it",
+      "💬 Looks for evidence rather than relying on status alone",
+      "🛡️ Thinks independently even when pressure comes from those they're \"supposed to trust\""
+    ]
+  },
+  "social_proof": {
+    "quote": "My son no longer just agrees with older people. He asks: \"But why?\" — and waits for a real answer. At first it surprised people. Now I'm proud of it.",
+    "author": "Oksana, mum of 10-year-old Mykhailo",
+    "stats": [
+      { "label": "Children completed the course", "value": "2,400+" },
+      { "label": "Satisfied parents", "value": "94%" },
+      { "label": "Optimal age", "value": "8–12 yrs" }
+    ]
+  },
+  "faq_label": "FAQ",
+  "faq_title": "Questions about the course",
+  "faq": [
+    {
+      "q": "Is it a game or a learning course?",
+      "a": "Both at the same time. \"Sila Slova\" looks like a detective series, but every episode contains a hidden critical thinking lesson."
+    },
+    {
+      "q": "What age is it suitable for?",
+      "a": "Ideal for 8–12 year olds. At this age, children are most receptive to new thinking patterns and haven't yet formed rigid biases."
+    },
+    {
+      "q": "How much time is needed each day?",
+      "a": "15–20 minutes per episode. Flexible schedule — your child can come back at any convenient time."
+    },
+    {
+      "q": "Is registration required for the demo?",
+      "a": "No. The demo episode is fully open — no registration, no subscription, no personal data required."
+    }
+  ],
+  "final_cta": {
+    "headline": "Give your child the superpower of critical thinking",
+    "subheadline": "Episode 1 · Morning Without a Sister\nMum says there was never a sister. The school doesn't remember Sofia. But Marco remembers her laugh — and the diary in his hands is real…",
+    "cta_text": "Play demo now"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

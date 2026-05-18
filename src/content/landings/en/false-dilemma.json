@@ -1,0 +1,70 @@
+{
+  "slug": "false-dilemma",
+  "audience": "parent",
+  "locale": "en",
+  "meta": {
+    "title": "\"Either you're with us or against us\" — why your child chooses from options they don't want | Sila Slova",
+    "description": "Teach your child to see a false choice as a trap and find a third option. Game-based course for children aged 8–12.",
+    "og_image": "/og/false-dilemma-en.jpg"
+  },
+  "hero": {
+    "headline": "\"Either you're with us or against us!\" — and your child is choosing from options they don't want?",
+    "subheadline": "They don't want either option. But the third one has simply disappeared. This isn't a choice — it's a trap.",
+    "cta_primary": { "text": "Sign up for the course", "target": "/sign-up" },
+    "cta_secondary": { "text": "Play demo", "target": "/demo" },
+    "media": { "type": "image", "src": "/images/false-dilemma.jpg", "alt": "A child facing an artificial choice between two options with no third path" }
+  },
+  "pain": {
+    "title": "\"Either-or\" isn't a choice — it's a narrowed frame",
+    "body": "\"Either you're with us or against us\", \"either you do it or you're not a real friend\". In a group, at school, in a chat. The child doesn't want either option — but the choice has already been imposed. They go along because they can't see a third way out.\n\nThis isn't a real choice — it's manipulation: options are deliberately narrowed to two so the child picks the \"right\" one. All other possibilities simply disappear. Without the skill to notice this, the child accepts the rules of someone else's game and chooses from what they've been given.\n\nThe result — decisions are made under pressure, even though there was always another way. The child feels cornered, when in reality there were more options all along."
+  },
+  "solution": {
+    "title": "\"Sila Slova\" — a detective drama that teaches critical thinking",
+    "body": "40 episodes, 13 critical thinking lessons. Your child plays — but is actually learning to protect themselves.",
+    "bullets": [
+      "🔍 Sees \"either-or\" as manipulation, not a real choice",
+      "🧠 Knows: when options are imposed, you can look for a third",
+      "💬 Can step outside the frame and suggest their own option",
+      "🛡️ Makes decisions independently, not from what someone else handed them"
+    ]
+  },
+  "social_proof": {
+    "quote": "\"Either-or\" no longer forces her to choose. She always sees that there's another option.",
+    "author": "Svitlana, mum of 10-year-old Daryna",
+    "stats": [
+      { "label": "Children completed the course", "value": "2,400+" },
+      { "label": "Satisfied parents", "value": "94%" },
+      { "label": "Optimal age", "value": "8–12 yrs" }
+    ]
+  },
+  "faq_label": "FAQ",
+  "faq_title": "Questions about the course",
+  "faq": [
+    {
+      "q": "Is it a game or a learning course?",
+      "a": "Both at the same time. \"Sila Slova\" looks like a detective series, but every episode contains a hidden critical thinking lesson."
+    },
+    {
+      "q": "What age is it suitable for?",
+      "a": "Ideal for 8–12 year olds. At this age, children are most receptive to new thinking patterns and haven't yet formed rigid biases."
+    },
+    {
+      "q": "How much time is needed each day?",
+      "a": "15–20 minutes per episode. Flexible schedule — your child can come back at any convenient time."
+    },
+    {
+      "q": "Is registration required for the demo?",
+      "a": "No. The demo episode is fully open — no registration, no subscription, no personal data required."
+    }
+  ],
+  "final_cta": {
+    "headline": "Give your child the superpower of critical thinking",
+    "subheadline": "Episode 1 · Morning Without a Sister\nMum says there was never a sister. The school doesn't remember Sofia. But Marco remembers her laugh — and the diary in his hands is real…",
+    "cta_text": "Play demo now"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "slug": "false-authority",
+  "audience": "parent",
+  "locale": "ro",
+  "meta": {
+    "title": "«Sunt mai mare — deci am dreptate» — de ce copilul acceptă fără să înțeleagă de ce | Forța Cuvântului",
+    "description": "Învățați copilul să deosebească expertiza reală de manipularea prin autoritate. Curs în format de joc pentru copii de 8–12 ani.",
+    "og_image": "/og/false-authority-ro.jpg"
+  },
+  "hero": {
+    "headline": "«Sunt mai mare — deci am dreptate!» — și copilul tău acceptă fără să înțeleagă de ce?",
+    "subheadline": "În loc de argumente — statut. «Sunt mai mare» nu este un motiv. E manipulare prin autoritate.",
+    "cta_primary": { "text": "Înscrie-te la curs", "target": "/sign-up" },
+    "cta_secondary": { "text": "Joacă demo", "target": "/demo" },
+    "media": { "type": "image", "src": "/images/false-authority.jpg", "alt": "Un copil sub presiunea autorității, căruia i se spune ce să facă fără explicații" }
+  },
+  "pain": {
+    "title": "Vârsta și rolul nu sunt dovezi că ai dreptate",
+    "body": "«Sunt mai mare — știu mai bine», «ascultă adulții», «ești prea mic să decizi asta». La școală, acasă, printre copiii mai mari. Copilul poate avea îndoieli — dar acceptă, pentru că autoritatea apasă prin ea însăși. Nu prin argumente, ci prin statut.\n\nNu e expertiză reală, ci manipulare prin autoritate: în loc de dovezi se folosește rolul — «sunt mai mare, deci am dreptate». Dar vârsta sau funcția nu garantează că ai dreptate. Fără abilitatea de a recunoaște asta, copilul încetează să verifice și pur și simplu acceptă.\n\nConsecinșa — deciziile sunt luate nu pentru că a înțeles, ci pentru că «așa i s-a spus». Treptat se obișnuiește să nu pună întrebări acolo unde «se cuvine» să ai încredere."
+  },
+  "solution": {
+    "title": "«Forța Cuvântului» — o dramă detectivistică ce învață să gândești",
+    "body": "40 de episoade, 13 lecții de gândire critică. Copilul se joacă — dar de fapt învață să se protejeze.",
+    "bullets": [
+      "🔍 Deosebește expertiza reală de simplul «eu știu mai bine»",
+      "🧠 Întreabă «de ce crezi asta?» în loc să fie pur și simplu de acord",
+      "💬 Caută dovezi în loc să se bazeze doar pe statut",
+      "🛡️ Gândește independent chiar și când presiunea vine de la cei în care «trebuie să ai încredere»"
+    ]
+  },
+  "social_proof": {
+    "quote": "Fiul meu nu mai este pur și simplu de acord cu cei mai mari. Întreabă: «Dar de ce?» — și așteaptă un răspuns real. La început asta surprindea pe toată lumea. Acum sunt mândră.",
+    "author": "Oxana, mama lui Mykhailo de 10 ani",
+    "stats": [
+      { "label": "Copii au finalizat cursul", "value": "2.400+" },
+      { "label": "Părinți mulțumiți", "value": "94%" },
+      { "label": "Vârsta optimă", "value": "8–12 ani" }
+    ]
+  },
+  "faq_label": "ÎNTREBĂRI FRECVENTE",
+  "faq_title": "Întrebări despre curs",
+  "faq": [
+    {
+      "q": "Este un joc sau un curs educațional?",
+      "a": "Ambele formule în același timp. «Forța Cuvântului» arată ca un serial detectivistic, dar în fiecare episod este ascunsă o lecție de gândire critică."
+    },
+    {
+      "q": "De la ce vârstă se poate începe?",
+      "a": "Optim — 8–12 ani. La această vârstă, copiii sunt cei mai receptivi la noi tipare de gândire și nu și-au format încă prejudecăți stabile."
+    },
+    {
+      "q": "Cât timp este necesar zilnic?",
+      "a": "15–20 de minute pe episod. Program flexibil — copilul poate reveni oricând îi convine."
+    },
+    {
+      "q": "Este necesară înregistrarea pentru demo?",
+      "a": "Nu. Episodul demo este complet deschis — fără înregistrare, fără abonament, fără introducerea datelor."
+    }
+  ],
+  "final_cta": {
+    "headline": "Oferă-i copilului tău superputerea gândirii critice",
+    "subheadline": "Episodul 1 · Dimineața fără soră\nMama spune că sora nu a existat niciodată. La școală nu o cunosc pe Sofia. Dar Marco își amintește râsul ei — și jurnalul din mâinile lui este real…",
+    "cta_text": "Joacă demo acum"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

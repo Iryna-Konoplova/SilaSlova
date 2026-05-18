@@ -1,0 +1,70 @@
+{
+  "slug": "isolation-threat",
+  "audience": "parent",
+  "locale": "ro",
+  "meta": {
+    "title": "«Nimeni nu va fi prietenul tău» — de ce copilul se teme să rămână singur | Forța Cuvântului",
+    "description": "Învățați copilul să nu cedeze fricii de izolare și să rămână pe poziție, chiar când este amenințat cu singurătatea. Curs în format de joc pentru copii de 8–12 ani.",
+    "og_image": "/og/isolation-threat-ro.jpg"
+  },
+  "hero": {
+    "headline": "«Nimeni nu va fi prietenul tău!» — și copilul tău se teme deja să rămână singur?",
+    "subheadline": "Frica de respingere este una dintre cele mai puternice. Când este folosită ca amenințare — copilul cedează. Chiar și când nu vrea.",
+    "cta_primary": { "text": "Înscrie-te la curs", "target": "/sign-up" },
+    "cta_secondary": { "text": "Joacă demo", "target": "/demo" },
+    "media": { "type": "image", "src": "/images/isolation-threat.jpg", "alt": "Un copil amenințat cu singurătatea pentru a fi forțat să fie de acord" }
+  },
+  "pain": {
+    "title": "«Toți se vor întoarce» — nu e un prognoze, e presiune",
+    "body": "«Nimeni nu va fi prietenul tău», «toți se vor întoarce», «vei rămâne singur». În clasă, în grup, în chat. Copilul poate să se îndoiască — dar frica de izolare este mai puternică. Și cedează. Chiar și când nu voia.\n\nNu e «dependență de alții» și nu e slăbiciune. E o reacție naturală la o frică de bază — de a fi respins. Când cineva aruncă scenariul cel mai rău al pierderii legăturii, creierul îl ia în serios. Nimeni nu verifică dacă e adevărat — pur și simplu cedează rapid pentru a evita amenințarea.\n\nConsecinșa — copilul renunță la propriile decizii pentru a păstra acceptarea. «Nu e ideea mea», «voi fi de acord pentru că altfel voi rămâne singur» — și asta se repetă de fiecare dată când este presat cu frica de singurătate."
+  },
+  "solution": {
+    "title": "«Forța Cuvântului» — o dramă detectivistică ce învață să gândești",
+    "body": "40 de episoade, 13 lecții de gândire critică. Copilul se joacă — dar de fapt învață să se protejeze.",
+    "bullets": [
+      "🔍 Recunoaște amenințarea cu izolarea ca instrument de presiune",
+      "🧠 Nu acceptă «toți se vor întoarce» drept un prognoze real",
+      "💬 Rămâne pe poziție chiar și când este amenințat cu singurătatea",
+      "🛡️ Nu cedează doar pentru a evita respingerea"
+    ]
+  },
+  "social_proof": {
+    "quote": "«Nimeni nu va fi prietenul tău» nu îl mai face să cedeze. A învățat să deosebească amenințarea de un prognoze real.",
+    "author": "Olena, mama lui Mykola de 10 ani",
+    "stats": [
+      { "label": "Copii au finalizat cursul", "value": "2.400+" },
+      { "label": "Părinți mulțumiți", "value": "94%" },
+      { "label": "Vârsta optimă", "value": "8–12 ani" }
+    ]
+  },
+  "faq_label": "ÎNTREBĂRI FRECVENTE",
+  "faq_title": "Întrebări despre curs",
+  "faq": [
+    {
+      "q": "Este un joc sau un curs educațional?",
+      "a": "Ambele formule în același timp. «Forța Cuvântului» arată ca un serial detectivistic, dar în fiecare episod este ascunsă o lecție de gândire critică."
+    },
+    {
+      "q": "De la ce vârstă se poate începe?",
+      "a": "Optim — 8–12 ani. La această vârstă, copiii sunt cei mai receptivi la noi tipare de gândire și nu și-au format încă prejudecăți stabile."
+    },
+    {
+      "q": "Cât timp este necesar zilnic?",
+      "a": "15–20 de minute pe episod. Program flexibil — copilul poate reveni oricând îi convine."
+    },
+    {
+      "q": "Este necesară înregistrarea pentru demo?",
+      "a": "Nu. Episodul demo este complet deschis — fără înregistrare, fără abonament, fără introducerea datelor."
+    }
+  ],
+  "final_cta": {
+    "headline": "Oferă-i copilului tău superputerea gândirii critice",
+    "subheadline": "Episodul 1 · Dimineața fără soră\nMama spune că sora nu a existat niciodată. La școală nu o cunosc pe Sofia. Dar Marco își amintește râsul ei — și jurnalul din mâinile lui este real…",
+    "cta_text": "Joacă demo acum"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "slug": "fact-vs-opinion",
+  "audience": "parent",
+  "locale": "en",
+  "meta": {
+    "title": "\"I feel it, so it must be true\" — why your child gets confused when opinions are passed off as facts | Sila Slova",
+    "description": "Teach your child to tell facts from opinions and stop taking other people's feelings as proof. Game-based course for children aged 8–12.",
+    "og_image": "/og/fact-vs-opinion-en.jpg"
+  },
+  "hero": {
+    "headline": "\"I feel it, so it must be true!\" — and your child is already doubting themselves?",
+    "subheadline": "An opinion is being presented as a fact. It sounds convincing — but there's nothing to check. This isn't proof. It's a substitution.",
+    "cta_primary": { "text": "Sign up for the course", "target": "/sign-up" },
+    "cta_secondary": { "text": "Play demo", "target": "/demo" },
+    "media": { "type": "image", "src": "/images/fact-vs-opinion.jpg", "alt": "A child confused between a fact and an opinion presented as truth" }
+  },
+  "pain": {
+    "title": "A feeling isn't a fact. But that's exactly how it gets presented",
+    "body": "\"I feel like that's wrong\", \"it seems to me like it's your fault\", \"it's definitely true because I think so\". At school, in arguments, among friends. The child gets confused — it sounds convincing, but they don't know how to check it or whether they even should.\n\nThis isn't proof — it's a substitution: a personal feeling is passed off as truth. A fact can be checked — an opinion is just someone's judgement. When the two get mixed up, it seems pointless to argue because \"that's just how the person feels\". Without the skill to tell them apart, the child starts to doubt themselves.\n\nThe result — they agree with something that has no real evidence behind it. Simply because someone sounded confident."
+  },
+  "solution": {
+    "title": "\"Sila Slova\" — a detective drama that teaches critical thinking",
+    "body": "40 episodes, 13 critical thinking lessons. Your child plays — but is actually learning to protect themselves.",
+    "bullets": [
+      "🔍 Tells facts apart from opinions and personal feelings",
+      "🧠 Asks \"can this be checked?\" — and waits for a real answer",
+      "💬 Doesn't automatically accept other people's feelings as truth",
+      "🛡️ Doesn't doubt themselves when someone speaks confidently but without evidence"
+    ]
+  },
+  "social_proof": {
+    "quote": "Now when a classmate says \"I feel like you're wrong\", my daughter asks: \"Is there any proof of that?\" Short, calm, no conflict. I couldn't do that at her age.",
+    "author": "Valentyna, mum of 11-year-old Polina",
+    "stats": [
+      { "label": "Children completed the course", "value": "2,400+" },
+      { "label": "Satisfied parents", "value": "94%" },
+      { "label": "Optimal age", "value": "8–12 yrs" }
+    ]
+  },
+  "faq_label": "FAQ",
+  "faq_title": "Questions about the course",
+  "faq": [
+    {
+      "q": "Is it a game or a learning course?",
+      "a": "Both at the same time. \"Sila Slova\" looks like a detective series, but every episode contains a hidden critical thinking lesson."
+    },
+    {
+      "q": "What age is it suitable for?",
+      "a": "Ideal for 8–12 year olds. At this age, children are most receptive to new thinking patterns and haven't yet formed rigid biases."
+    },
+    {
+      "q": "How much time is needed each day?",
+      "a": "15–20 minutes per episode. Flexible schedule — your child can come back at any convenient time."
+    },
+    {
+      "q": "Is registration required for the demo?",
+      "a": "No. The demo episode is fully open — no registration, no subscription, no personal data required."
+    }
+  ],
+  "final_cta": {
+    "headline": "Give your child the superpower of critical thinking",
+    "subheadline": "Episode 1 · Morning Without a Sister\nMum says there was never a sister. The school doesn't remember Sofia. But Marco remembers her laugh — and the diary in his hands is real…",
+    "cta_text": "Play demo now"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

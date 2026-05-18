@@ -1,0 +1,70 @@
+{
+  "slug": "regret-threat",
+  "audience": "parent",
+  "locale": "ro",
+  "meta": {
+    "title": "«Nu faci — o să regreți» — de ce copilul tău decide sub presiunea fricii | Forța Cuvântului",
+    "description": "Învățați copilul să deosebească avertismentele reale de intimidare și să nu acționeze sub presiunea fricii. Curs în format de joc pentru copii de 8–12 ani.",
+    "og_image": "/og/regret-threat-ro.jpg"
+  },
+  "hero": {
+    "headline": "«Nu faci — o să regreți!» — și copilul tău e deja de acord?",
+    "subheadline": "Este speriat de viitor ca să acționeze fără să gândească. Nu e vorba de consecințe reale. E manipulare prin frică.",
+    "cta_primary": { "text": "Înscrie-te la curs", "target": "/sign-up" },
+    "cta_secondary": { "text": "Joacă demo", "target": "/demo" },
+    "media": { "type": "image", "src": "/images/regret-threat.jpg", "alt": "Un copil care ia o decizie sub presiunea fricii față de viitor" }
+  },
+  "pain": {
+    "title": "Frica de «dacă e adevărat» îi face pe copii să accepte fără să gândească",
+    "body": "«Nu mergi — o să regreți», «nu faci — pierzi șansa», «nu cumperi — după nu mai e». La școală, printre prieteni, chiar și în reclame. Copilul nu e sigur — dar frica de «ce dacă chiar se înrăutățește» îl împinge să spună «da».\n\nNu e vorba de consecințe reale. E manipulare prin frică: cineva îl sperie deliberat cu viitorul ca să nu gândească, ci să acționeze imediat. Când îi e frică — creierul nu verifică, vrea doar să elimine rapid disconfortul.\n\nConsecinșa — copilul acceptă decizii care nu i se potrivesc, doar ca să evite «ceva mai rău». Nu înțelege că a fost speriat deliberat — și că în majoritatea cazurilor nu ar fi regretat nimic."
+  },
+  "solution": {
+    "title": "«Forța Cuvântului» — o dramă detectivistică ce învață să gândești",
+    "body": "40 de episoade, 13 lecții de gândire critică. Copilul se joacă — dar de fapt învață să se protejeze.",
+    "bullets": [
+      "🔍 Recunoaște folosirea fricii de viitor ca tactică de manipulare",
+      "🧠 Deosebește un avertisment real de o sperietoare artificială",
+      "💬 Poate să se oprească și să gândească — chiar și când e presiune de timp",
+      "🛡️ Nu ia decizii sub presiunea fricii"
+    ]
+  },
+  "social_proof": {
+    "quote": "«O să regreți» nu o mai face să acționeze imediat. A învățat să se oprească și să gândească.",
+    "author": "Olena, mama Soniei de 10 ani",
+    "stats": [
+      { "label": "Copii au finalizat cursul", "value": "2.400+" },
+      { "label": "Părinți mulțumiți", "value": "94%" },
+      { "label": "Vârsta optimă", "value": "8–12 ani" }
+    ]
+  },
+  "faq_label": "ÎNTREBĂRI FRECVENTE",
+  "faq_title": "Întrebări despre curs",
+  "faq": [
+    {
+      "q": "Este un joc sau un curs educațional?",
+      "a": "Ambele formule în același timp. «Forța Cuvântului» arată ca un serial detectivistic, dar în fiecare episod este ascunsă o lecție de gândire critică."
+    },
+    {
+      "q": "De la ce vârstă se poate începe?",
+      "a": "Optim — 8–12 ani. La această vârstă, copiii sunt cei mai receptivi la noi tipare de gândire și nu și-au format încă prejudecăți stabile."
+    },
+    {
+      "q": "Cât timp este necesar zilnic?",
+      "a": "15–20 de minute pe episod. Program flexibil — copilul poate reveni oricând îi convine."
+    },
+    {
+      "q": "Este necesară înregistrarea pentru demo?",
+      "a": "Nu. Episodul demo este complet deschis — fără înregistrare, fără abonament, fără introducerea datelor."
+    }
+  ],
+  "final_cta": {
+    "headline": "Oferă-i copilului tău superputerea gândirii critice",
+    "subheadline": "Episodul 1 · Dimineața fără soră\nMama spune că sora nu a existat niciodată. La școală nu o cunosc pe Sofia. Dar Marco își amintește râsul ei — și jurnalul din mâinile lui este real…",
+    "cta_text": "Joacă demo acum"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

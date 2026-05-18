@@ -1,0 +1,70 @@
+{
+  "slug": "false-cause",
+  "audience": "parent",
+  "locale": "en",
+  "meta": {
+    "title": "\"I did it and it happened\" — why your child draws false conclusions about causes | Sila Slova",
+    "description": "Teach your child to tell cause from coincidence and stop drawing conclusions from a single event. Game-based course for children aged 8–12.",
+    "og_image": "/og/false-cause-en.jpg"
+  },
+  "hero": {
+    "headline": "\"I did it and it happened!\" — and your child already believes in accidental patterns?",
+    "subheadline": "\"After\" doesn't mean \"because of\". But the brain loves quick conclusions. And that can lead to decisions with no real basis.",
+    "cta_primary": { "text": "Sign up for the course", "target": "/sign-up" },
+    "cta_secondary": { "text": "Play demo", "target": "/demo" },
+    "media": { "type": "image", "src": "/images/false-cause.jpg", "alt": "A child connecting two events and drawing a false conclusion about the cause" }
+  },
+  "pain": {
+    "title": "\"After\" doesn't mean \"because of\". But that's exactly how it feels",
+    "body": "\"I wore these trainers and we won\", \"I didn't study and got a bad mark — so that must be why\", \"I did that and everything went wrong\". At school, in sport, in everyday life. The child tries to find an explanation — and finds one, but not always the right one.\n\nThis isn't illogical thinking — it's the brain working naturally: it looks for connections between events to make sense of the world. But what happened \"after\" didn't necessarily happen \"because of\". A coincidence isn't a cause. Without the skill to check, the child starts believing in accidental patterns.\n\nThe result — wrong decisions and fears with no real foundation. Lucky trainers, avoiding certain actions, fear of repeating a \"mistake\" — all of it grows from an unconfirmed connection."
+  },
+  "solution": {
+    "title": "\"Sila Slova\" — a detective drama that teaches critical thinking",
+    "body": "40 episodes, 13 critical thinking lessons. Your child plays — but is actually learning to protect themselves.",
+    "bullets": [
+      "🔍 Tells cause from coincidence — \"after\" ≠ \"because of\"",
+      "🧠 Checks whether events are actually connected before drawing conclusions",
+      "💬 Doesn't believe in accidental \"rules\" without real evidence",
+      "🛡️ Makes decisions based on reality, not false patterns"
+    ]
+  },
+  "social_proof": {
+    "quote": "My son stopped wearing his \"lucky\" T-shirt to every test. He told me himself: \"It's just a coincidence, Mum.\" That was a real moment for me.",
+    "author": "Hanna, mum of 10-year-old Tymur",
+    "stats": [
+      { "label": "Children completed the course", "value": "2,400+" },
+      { "label": "Satisfied parents", "value": "94%" },
+      { "label": "Optimal age", "value": "8–12 yrs" }
+    ]
+  },
+  "faq_label": "FAQ",
+  "faq_title": "Questions about the course",
+  "faq": [
+    {
+      "q": "Is it a game or a learning course?",
+      "a": "Both at the same time. \"Sila Slova\" looks like a detective series, but every episode contains a hidden critical thinking lesson."
+    },
+    {
+      "q": "What age is it suitable for?",
+      "a": "Ideal for 8–12 year olds. At this age, children are most receptive to new thinking patterns and haven't yet formed rigid biases."
+    },
+    {
+      "q": "How much time is needed each day?",
+      "a": "15–20 minutes per episode. Flexible schedule — your child can come back at any convenient time."
+    },
+    {
+      "q": "Is registration required for the demo?",
+      "a": "No. The demo episode is fully open — no registration, no subscription, no personal data required."
+    }
+  ],
+  "final_cta": {
+    "headline": "Give your child the superpower of critical thinking",
+    "subheadline": "Episode 1 · Morning Without a Sister\nMum says there was never a sister. The school doesn't remember Sofia. But Marco remembers her laugh — and the diary in his hands is real…",
+    "cta_text": "Play demo now"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "slug": "greedy-label",
+  "audience": "parent",
+  "locale": "en",
+  "meta": {
+    "title": "\"Nobody likes a greedy kid\" — why your child gives in against their will | Sila Slova",
+    "description": "Teach your child to recognise shame manipulation and reject labels others try to put on them. Game-based course for children aged 8–12.",
+    "og_image": "/og/greedy-label-en.jpg"
+  },
+  "hero": {
+    "headline": "\"Nobody likes a greedy kid!\" — and your child gives up who they are just to be accepted?",
+    "subheadline": "They share not because they want to. But because they're afraid of being labelled. This isn't about generosity — it's shame manipulation.",
+    "cta_primary": { "text": "Sign up for the course", "target": "/sign-up" },
+    "cta_secondary": { "text": "Play demo", "target": "/demo" },
+    "media": { "type": "image", "src": "/images/greedy-label.jpg", "alt": "A child pressured into giving up their things under threat of a label" }
+  },
+  "pain": {
+    "title": "\"Greedy\" is a label used to make children act against themselves",
+    "body": "At school, among friends, during break — someone says \"nobody likes a greedy kid\" and your child is already reaching for their things. Not because they want to share. But because they're afraid of being called greedy.\n\nThis isn't about generosity or learning to share. It's manipulation through shame: a label is attached to the child and they're pushed to act in order to avoid it. Without the skill to recognise this pattern, they give in automatically — even at their own expense.\n\nThe result — their boundaries gradually disappear, and others learn that one word is enough to make them back down. The child feels resentment but doesn't understand why — after all, they're \"not greedy\"."
+  },
+  "solution": {
+    "title": "\"Sila Slova\" — a detective drama that teaches critical thinking",
+    "body": "40 episodes, 13 critical thinking lessons. Your child plays — but is actually learning to protect themselves.",
+    "bullets": [
+      "🔍 Recognises \"nobody likes a greedy kid\" as shame manipulation",
+      "🧠 Understands the difference between genuine generosity and fear of a label",
+      "💬 Can say no without guilt — even when shamed into it",
+      "🛡️ Keeps what's theirs without accepting labels others try to impose"
+    ]
+  },
+  "social_proof": {
+    "quote": "\"Nobody likes a greedy kid\" doesn't work on my son anymore. He can choose not to share — and not feel guilty about it.",
+    "author": "Tetiana, mum of 9-year-old Artem",
+    "stats": [
+      { "label": "Children completed the course", "value": "2,400+" },
+      { "label": "Satisfied parents", "value": "94%" },
+      { "label": "Optimal age", "value": "8–12 yrs" }
+    ]
+  },
+  "faq_label": "FAQ",
+  "faq_title": "Questions about the course",
+  "faq": [
+    {
+      "q": "Is it a game or a learning course?",
+      "a": "Both at the same time. \"Sila Slova\" looks like a detective series, but every episode contains a hidden critical thinking lesson."
+    },
+    {
+      "q": "What age is it suitable for?",
+      "a": "Ideal for 8–12 year olds. At this age, children are most receptive to new thinking patterns and haven't yet formed rigid biases."
+    },
+    {
+      "q": "How much time is needed each day?",
+      "a": "15–20 minutes per episode. Flexible schedule — your child can come back at any convenient time."
+    },
+    {
+      "q": "Is registration required for the demo?",
+      "a": "No. The demo episode is fully open — no registration, no subscription, no personal data required."
+    }
+  ],
+  "final_cta": {
+    "headline": "Give your child the superpower of critical thinking",
+    "subheadline": "Episode 1 · Morning Without a Sister\nMum says there was never a sister. The school doesn't remember Sofia. But Marco remembers her laugh — and the diary in his hands is real…",
+    "cta_text": "Play demo now"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

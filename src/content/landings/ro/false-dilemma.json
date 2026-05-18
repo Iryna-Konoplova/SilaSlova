@@ -1,0 +1,70 @@
+{
+  "slug": "false-dilemma",
+  "audience": "parent",
+  "locale": "ro",
+  "meta": {
+    "title": "«Ori ești cu noi, ori ești împotriva noastră» — de ce copilul alege din variante pe care nu le vrea | Forța Cuvântului",
+    "description": "Învățați copilul să vadă alegerea falsă ca o capcană și să găsească a treia opțiune. Curs în format de joc pentru copii de 8–12 ani.",
+    "og_image": "/og/false-dilemma-ro.jpg"
+  },
+  "hero": {
+    "headline": "«Ori ești cu noi, ori ești împotriva noastră!» — și copilul tău alege din variante pe care nu le vrea?",
+    "subheadline": "Nu vrea nici una, nici alta. Dar a treia opțiune a dispărut pur și simplu. Nu e o alegere — e o capcană.",
+    "cta_primary": { "text": "Înscrie-te la curs", "target": "/sign-up" },
+    "cta_secondary": { "text": "Joacă demo", "target": "/demo" },
+    "media": { "type": "image", "src": "/images/false-dilemma.jpg", "alt": "Un copil în fața unei alegeri artificiale între două opțiuni fără a treia cale" }
+  },
+  "pain": {
+    "title": "«Ori-ori» nu e o alegere — e un cadru îngust",
+    "body": "«Ori ești cu noi — ori ești împotriva noastră», «ori faci — ori nu ești prieten». În grup, la școală, în chat. Copilul nu vrea nici prima, nici a doua opțiune — dar alegerea a fost deja impusă. Acceptă pentru că nu vede o a treia cale.\n\nNu e o alegere reală, e manipulare: opțiunile sunt reduse deliberat la două ca să aleagă pe cea «corectă». Toate celelalte posibilități pur și simplu dispar. Fără abilitatea de a observa asta, copilul acceptă regulile jocului altuia și alege din ce i s-a dat.\n\nConsecinșa — deciziile sunt luate sub presiune, deși exista întotdeauna altă cale. Copilul se simte în colț, deși în realitate existau mai multe opțiuni."
+  },
+  "solution": {
+    "title": "«Forța Cuvântului» — o dramă detectivistică ce învață să gândești",
+    "body": "40 de episoade, 13 lecții de gândire critică. Copilul se joacă — dar de fapt învață să se protejeze.",
+    "bullets": [
+      "🔍 Vede «ori-ori» ca manipulare, nu ca alegere reală",
+      "🧠 Știe: când opțiunile sunt impuse, poți căuta a treia",
+      "💬 Poate ieși din cadru și propune propria variantă",
+      "🛡️ Ia decizii independent, nu din ce i s-a oferit"
+    ]
+  },
+  "social_proof": {
+    "quote": "«Ori-ori» nu o mai forțează să aleagă. Ea întotdeauna vede că există o altă variantă.",
+    "author": "Svitlana, mama Darinei de 10 ani",
+    "stats": [
+      { "label": "Copii au finalizat cursul", "value": "2.400+" },
+      { "label": "Părinți mulțumiți", "value": "94%" },
+      { "label": "Vârsta optimă", "value": "8–12 ani" }
+    ]
+  },
+  "faq_label": "ÎNTREBĂRI FRECVENTE",
+  "faq_title": "Întrebări despre curs",
+  "faq": [
+    {
+      "q": "Este un joc sau un curs educațional?",
+      "a": "Ambele formule în același timp. «Forța Cuvântului» arată ca un serial detectivistic, dar în fiecare episod este ascunsă o lecție de gândire critică."
+    },
+    {
+      "q": "De la ce vârstă se poate începe?",
+      "a": "Optim — 8–12 ani. La această vârstă, copiii sunt cei mai receptivi la noi tipare de gândire și nu și-au format încă prejudecăți stabile."
+    },
+    {
+      "q": "Cât timp este necesar zilnic?",
+      "a": "15–20 de minute pe episod. Program flexibil — copilul poate reveni oricând îi convine."
+    },
+    {
+      "q": "Este necesară înregistrarea pentru demo?",
+      "a": "Nu. Episodul demo este complet deschis — fără înregistrare, fără abonament, fără introducerea datelor."
+    }
+  ],
+  "final_cta": {
+    "headline": "Oferă-i copilului tău superputerea gândirii critice",
+    "subheadline": "Episodul 1 · Dimineața fără soră\nMama spune că sora nu a existat niciodată. La școală nu o cunosc pe Sofia. Dar Marco își amintește râsul ei — și jurnalul din mâinile lui este real…",
+    "cta_text": "Joacă demo acum"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

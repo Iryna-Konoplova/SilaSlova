@@ -1,0 +1,70 @@
+{
+  "slug": "hasty-generalization",
+  "audience": "parent",
+  "locale": "en",
+  "meta": {
+    "title": "\"It didn't work once, so it will never work\" — why your child limits themselves | Sila Slova",
+    "description": "Teach your child to stop drawing conclusions about themselves from a single attempt and give themselves another chance. Game-based course for children aged 8–12.",
+    "og_image": "/og/hasty-generalization-en.jpg"
+  },
+  "hero": {
+    "headline": "\"It didn't work once, so it will never work!\" — and your child has already written themselves off?",
+    "subheadline": "One episode isn't a rule. But the brain rushes to close the case. And the child limits themselves before they've even really tried.",
+    "cta_primary": { "text": "Sign up for the course", "target": "/sign-up" },
+    "cta_secondary": { "text": "Play demo", "target": "/demo" },
+    "media": { "type": "image", "src": "/images/hasty-generalization.jpg", "alt": "A child who decides after one failure that something isn't for them" }
+  },
+  "pain": {
+    "title": "\"It didn't work\" is one result — not a verdict",
+    "body": "Didn't answer in class — \"I can't do it\". Lost a game — \"I'm not good enough\". Something went wrong — \"that's just not for me\". At school, in sport, in friendships. One episode becomes \"the truth about me\" — and the child stops trying.\n\nThis isn't giving up quickly or weakness. It's the brain working naturally: it tries to draw a fast conclusion and move on. But one time isn't a rule. A real conclusion takes repetition, testing, experience.\n\nThe result — the child limits themselves before they've genuinely tried. \"Not for me\", \"I can't\", \"it won't work\" — labels they put on themselves, and they tend to stick."
+  },
+  "solution": {
+    "title": "\"Sila Slova\" — a detective drama that teaches critical thinking",
+    "body": "40 episodes, 13 critical thinking lessons. Your child plays — but is actually learning to protect themselves.",
+    "bullets": [
+      "🔍 Catches \"always/never\" conclusions drawn from a single event",
+      "🧠 Tells one result apart from a truth about themselves",
+      "💬 Questions \"that's not for me\" and gives themselves another chance",
+      "🛡️ Doesn't label themselves after a first failure"
+    ]
+  },
+  "social_proof": {
+    "quote": "My daughter lost a tournament and said \"I'll never win\". A month after the course she said: \"That was just one time. I'll try again.\" I couldn't believe what I was hearing.",
+    "author": "Liudmyla, mum of 9-year-old Nastia",
+    "stats": [
+      { "label": "Children completed the course", "value": "2,400+" },
+      { "label": "Satisfied parents", "value": "94%" },
+      { "label": "Optimal age", "value": "8–12 yrs" }
+    ]
+  },
+  "faq_label": "FAQ",
+  "faq_title": "Questions about the course",
+  "faq": [
+    {
+      "q": "Is it a game or a learning course?",
+      "a": "Both at the same time. \"Sila Slova\" looks like a detective series, but every episode contains a hidden critical thinking lesson."
+    },
+    {
+      "q": "What age is it suitable for?",
+      "a": "Ideal for 8–12 year olds. At this age, children are most receptive to new thinking patterns and haven't yet formed rigid biases."
+    },
+    {
+      "q": "How much time is needed each day?",
+      "a": "15–20 minutes per episode. Flexible schedule — your child can come back at any convenient time."
+    },
+    {
+      "q": "Is registration required for the demo?",
+      "a": "No. The demo episode is fully open — no registration, no subscription, no personal data required."
+    }
+  ],
+  "final_cta": {
+    "headline": "Give your child the superpower of critical thinking",
+    "subheadline": "Episode 1 · Morning Without a Sister\nMum says there was never a sister. The school doesn't remember Sofia. But Marco remembers her laugh — and the diary in his hands is real…",
+    "cta_text": "Play demo now"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "slug": "always-label",
+  "audience": "parent",
+  "locale": "ro",
+  "meta": {
+    "title": "«Tu mereu faci asta» — de ce copilul crede în generalizări | Forța Cuvântului",
+    "description": "Învățați copilul să nu accepte «mereu/niciodată» drept adevăr și să nu lase cuvintele să îi definească imaginea despre sine. Curs în format de joc pentru copii de 8–12 ani.",
+    "og_image": "/og/always-label-ro.jpg"
+  },
+  "hero": {
+    "headline": "«Tu mereu faci asta!» — și copilul tău deja crede în asta?",
+    "subheadline": "«Mereu», «niciodată», «întotdeauna» — sună ca un fapt. Dar o singură excepție e de ajuns ca afirmația să se prăbușească. Copilul nu observă asta.",
+    "cta_primary": { "text": "Înscrie-te la curs", "target": "/sign-up" },
+    "cta_secondary": { "text": "Joacă demo", "target": "/demo" },
+    "media": { "type": "image", "src": "/images/always-label.jpg", "alt": "Un copil căruia i se pune o etichetă prin cuvântul «mereu»" }
+  },
+  "pain": {
+    "title": "«Tu mereu» — nu e o descriere, e presiune",
+    "body": "«Tu mereu întârzii», «tu mereu strici totul», «cu tine e mereu la fel». La școală, acasă, printre prieteni. Copilul știe că nu e mereu adevărat — dar începe să se îndoiască și să se justifice în loc să verifice.\n\nNu e vorba de exagerare sau minciună intenționată. Cuvintele «mereu», «niciodată», «toți» sună ca fapte — și creierul le ia în serios. Dar o singură excepție este de ajuns ca afirmația să se prăbușească. Când copilul nu are abilitatea să observe asta, acceptă eticheta și se pune în defensivă în loc să gândească.\n\nConsecinșa — crede în exagerare și își formează o imagine greșită despre sine. «Eu mereu fac asta», «poate chiar așa sunt» — și eticheta devine parte din modul în care se percepe."
+  },
+  "solution": {
+    "title": "«Forța Cuvântului» — o dramă detectivistică ce învață să gândești",
+    "body": "40 de episoade, 13 lecții de gândire critică. Copilul se joacă — dar de fapt învață să se protejeze.",
+    "bullets": [
+      "🔍 Prinde cuvintele «mereu/niciodată» și le testează cu excepții",
+      "🧠 Deosebește generalizarea de o descriere reală a comportamentului",
+      "💬 Nu se justifică — întreabă: «Când nu a fost mereu?»",
+      "🛡️ Nu lasă exagerările să îi definească imaginea despre sine"
+    ]
+  },
+  "social_proof": {
+    "quote": "«Tu mereu faci asta» nu mai sună ca adevăr pentru ea. A învățat să vadă exagerarea în astfel de cuvinte.",
+    "author": "Maryna, mama Alinei de 11 ani",
+    "stats": [
+      { "label": "Copii au finalizat cursul", "value": "2.400+" },
+      { "label": "Părinți mulțumiți", "value": "94%" },
+      { "label": "Vârsta optimă", "value": "8–12 ani" }
+    ]
+  },
+  "faq_label": "ÎNTREBĂRI FRECVENTE",
+  "faq_title": "Întrebări despre curs",
+  "faq": [
+    {
+      "q": "Este un joc sau un curs educațional?",
+      "a": "Ambele formule în același timp. «Forța Cuvântului» arată ca un serial detectivistic, dar în fiecare episod este ascunsă o lecție de gândire critică."
+    },
+    {
+      "q": "De la ce vârstă se poate începe?",
+      "a": "Optim — 8–12 ani. La această vârstă, copiii sunt cei mai receptivi la noi tipare de gândire și nu și-au format încă prejudecăți stabile."
+    },
+    {
+      "q": "Cât timp este necesar zilnic?",
+      "a": "15–20 de minute pe episod. Program flexibil — copilul poate reveni oricând îi convine."
+    },
+    {
+      "q": "Este necesară înregistrarea pentru demo?",
+      "a": "Nu. Episodul demo este complet deschis — fără înregistrare, fără abonament, fără introducerea datelor."
+    }
+  ],
+  "final_cta": {
+    "headline": "Oferă-i copilului tău superputerea gândirii critice",
+    "subheadline": "Episodul 1 · Dimineața fără soră\nMama spune că sora nu a existat niciodată. La școală nu o cunosc pe Sofia. Dar Marco își amintește râsul ei — și jurnalul din mâinile lui este real…",
+    "cta_text": "Joacă demo acum"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

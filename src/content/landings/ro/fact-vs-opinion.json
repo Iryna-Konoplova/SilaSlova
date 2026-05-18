@@ -1,0 +1,70 @@
+{
+  "slug": "fact-vs-opinion",
+  "audience": "parent",
+  "locale": "ro",
+  "meta": {
+    "title": "«Simt că e adevărat — deci e adevărat» — de ce copilul se pierde când opiniile sunt prezentate ca fapte | Forța Cuvântului",
+    "description": "Învățați copilul să deosebească faptele de opinii și să nu accepte sentimentele altora ca dovezi. Curs în format de joc pentru copii de 8–12 ani.",
+    "og_image": "/og/fact-vs-opinion-ro.jpg"
+  },
+  "hero": {
+    "headline": "«Simt că e adevărat — deci e adevărat!» — și copilul tău se îndoiește deja de sine?",
+    "subheadline": "O opinie este prezentată ca fapt. Sună convingător — dar nu există nimic de verificat. Nu e o dovadă. E o substituție.",
+    "cta_primary": { "text": "Înscrie-te la curs", "target": "/sign-up" },
+    "cta_secondary": { "text": "Joacă demo", "target": "/demo" },
+    "media": { "type": "image", "src": "/images/fact-vs-opinion.jpg", "alt": "Un copil confuz între un fapt și o opinie prezentată ca adevăr" }
+  },
+  "pain": {
+    "title": "Un sentiment nu e un fapt. Dar exact așa este prezentat",
+    "body": "«Simt că asta e greșit», «mi se pare că tu ești de vină», «sigur e așa pentru că eu cred asta». La școală, în discuții, printre prieteni. Copilul se pierde — sună convingător, dar nu știe cum să verifice sau dacă merită să o facă.\n\nNu e o dovadă, ci o substituție: un sentiment personal este prezentat ca adevăr. Un fapt poate fi verificat — o opinie e doar judecata cuiva. Când cele două se amestecă, pare inutil să argumentezi pentru că «omul simte asta». Fără abilitatea de a le distinge, copilul începe să se îndoiască de sine.\n\nConsecinșa — acceptă ceva ce nu are nicio dovadă reală în spate. Pur și simplu pentru că cineva a vorbit cu încredere."
+  },
+  "solution": {
+    "title": "«Forța Cuvântului» — o dramă detectivistică ce învață să gândești",
+    "body": "40 de episoade, 13 lecții de gândire critică. Copilul se joacă — dar de fapt învață să se protejeze.",
+    "bullets": [
+      "🔍 Distinge faptele de opinii și sentimente personale",
+      "🧠 Întreabă «se poate verifica asta?» — și așteaptă un răspuns real",
+      "💬 Nu acceptă automat sentimentele altora ca adevăr",
+      "🛡️ Nu se îndoiește de sine când cineva vorbește cu încredere dar fără dovezi"
+    ]
+  },
+  "social_proof": {
+    "quote": "Acum când o colegă spune «simt că nu ai dreptate», fiica mea întreabă: «Există vreo dovadă?» Scurt, calm, fără conflict. Eu nu știam să fac asta la vârsta ei.",
+    "author": "Valentyna, mama Polinei de 11 ani",
+    "stats": [
+      { "label": "Copii au finalizat cursul", "value": "2.400+" },
+      { "label": "Părinți mulțumiți", "value": "94%" },
+      { "label": "Vârsta optimă", "value": "8–12 ani" }
+    ]
+  },
+  "faq_label": "ÎNTREBĂRI FRECVENTE",
+  "faq_title": "Întrebări despre curs",
+  "faq": [
+    {
+      "q": "Este un joc sau un curs educațional?",
+      "a": "Ambele formule în același timp. «Forța Cuvântului» arată ca un serial detectivistic, dar în fiecare episod este ascunsă o lecție de gândire critică."
+    },
+    {
+      "q": "De la ce vârstă se poate începe?",
+      "a": "Optim — 8–12 ani. La această vârstă, copiii sunt cei mai receptivi la noi tipare de gândire și nu și-au format încă prejudecăți stabile."
+    },
+    {
+      "q": "Cât timp este necesar zilnic?",
+      "a": "15–20 de minute pe episod. Program flexibil — copilul poate reveni oricând îi convine."
+    },
+    {
+      "q": "Este necesară înregistrarea pentru demo?",
+      "a": "Nu. Episodul demo este complet deschis — fără înregistrare, fără abonament, fără introducerea datelor."
+    }
+  ],
+  "final_cta": {
+    "headline": "Oferă-i copilului tău superputerea gândirii critice",
+    "subheadline": "Episodul 1 · Dimineața fără soră\nMama spune că sora nu a existat niciodată. La școală nu o cunosc pe Sofia. Dar Marco își amintește râsul ei — și jurnalul din mâinile lui este real…",
+    "cta_text": "Joacă demo acum"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

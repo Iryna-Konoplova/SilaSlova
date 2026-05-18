@@ -1,0 +1,70 @@
+{
+  "slug": "greedy-label",
+  "audience": "parent",
+  "locale": "ro",
+  "meta": {
+    "title": "«Pe zgârciți nu îi iubește nimeni» — de ce copilul tău cedează împotriva voinței sale | Forța Cuvântului",
+    "description": "Învățați copilul să recunoască manipularea prin rușine și să nu accepte etichete impuse. Curs în format de joc pentru copii de 8–12 ani.",
+    "og_image": "/og/greedy-label-ro.jpg"
+  },
+  "hero": {
+    "headline": "«Pe zgârciți nu îi iubește nimeni!» — și copilul tău renunță la sine pentru a fi acceptat?",
+    "subheadline": "Împarte nu pentru că vrea. Ci pentru că îi e frică să primească o etichetă. Nu e despre generozitate — e manipulare prin rușine.",
+    "cta_primary": { "text": "Înscrie-te la curs", "target": "/sign-up" },
+    "cta_secondary": { "text": "Joacă demo", "target": "/demo" },
+    "media": { "type": "image", "src": "/images/greedy-label.jpg", "alt": "Un copil forțat să împartă lucrurile sale sub presiunea unei etichete" }
+  },
+  "pain": {
+    "title": "«Zgârcit» este o etichetă folosită pentru a forța acțiuni împotriva voinței",
+    "body": "La școală, printre prieteni, în pauză — cineva spune «pe zgârciți nu îi iubește nimeni» și copilul tău deja se grăbește să dea ceva. Nu pentru că vrea să împartă. Ci pentru că îi e frică să fie numit zgârcit.\n\nNu e vorba de generozitate sau de a învăța să împarți. E manipulare prin rușine: copilului i se lipește o etichetă și este împins să acționeze pentru a o evita. Fără abilitatea de a recunoaște acest mecanism, el cedează automat — chiar în detrimentul lui.\n\nConsecinșa — limitele lui se șterg treptat, iar ceilalți învață că un singur cuvânt este suficient ca el să cedeze. Copilul simte resentimente dar nu înțelege de ce — la urma urmei, el nu e «zgârcit»."
+  },
+  "solution": {
+    "title": "«Forța Cuvântului» — o dramă detectivistică ce învață să gândești",
+    "body": "40 de episoade, 13 lecții de gândire critică. Copilul se joacă — dar de fapt învață să se protejeze.",
+    "bullets": [
+      "🔍 Recunoaște fraza «pe zgârciți nu îi iubește nimeni» ca manipulare prin rușine",
+      "🧠 Înțelege diferența dintre generozitatea adevărată și frica de etichetă",
+      "💬 Poate refuza fără vinovăție — chiar și când este rușinat",
+      "🛡️ Păstrează ce este al lui fără să accepte etichete impuse de alții"
+    ]
+  },
+  "social_proof": {
+    "quote": "«Pe zgârciți nu îi iubește nimeni» nu mai funcționează cu fiul meu. El poate să nu împartă — și să nu simtă vinovăție pentru asta.",
+    "author": "Tetiana, mama lui Artem de 9 ani",
+    "stats": [
+      { "label": "Copii au finalizat cursul", "value": "2.400+" },
+      { "label": "Părinți mulțumiți", "value": "94%" },
+      { "label": "Vârsta optimă", "value": "8–12 ani" }
+    ]
+  },
+  "faq_label": "ÎNTREBĂRI FRECVENTE",
+  "faq_title": "Întrebări despre curs",
+  "faq": [
+    {
+      "q": "Este un joc sau un curs educațional?",
+      "a": "Ambele formule în același timp. «Forța Cuvântului» arată ca un serial detectivistic, dar în fiecare episod este ascunsă o lecție de gândire critică."
+    },
+    {
+      "q": "De la ce vârstă se poate începe?",
+      "a": "Optim — 8–12 ani. La această vârstă, copiii sunt cei mai receptivi la noi tipare de gândire și nu și-au format încă prejudecăți stabile."
+    },
+    {
+      "q": "Cât timp este necesar zilnic?",
+      "a": "15–20 de minute pe episod. Program flexibil — copilul poate reveni oricând îi convine."
+    },
+    {
+      "q": "Este necesară înregistrarea pentru demo?",
+      "a": "Nu. Episodul demo este complet deschis — fără înregistrare, fără abonament, fără introducerea datelor."
+    }
+  ],
+  "final_cta": {
+    "headline": "Oferă-i copilului tău superputerea gândirii critice",
+    "subheadline": "Episodul 1 · Dimineața fără soră\nMama spune că sora nu a existat niciodată. La școală nu o cunosc pe Sofia. Dar Marco își amintește râsul ei — și jurnalul din mâinile lui este real…",
+    "cta_text": "Joacă demo acum"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

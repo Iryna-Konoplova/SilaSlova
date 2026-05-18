@@ -1,0 +1,70 @@
+{
+  "slug": "pseudo-norm",
+  "audience": "parent",
+  "locale": "en",
+  "meta": {
+    "title": "\"Everyone normal has already done it\" — why your child follows an illusion of the norm | Sila Slova",
+    "description": "Teach your child to question \"everyone\" and stop taking it as proof. Game-based course for children aged 8–12.",
+    "og_image": "/og/pseudo-norm-en.jpg"
+  },
+  "hero": {
+    "headline": "\"Everyone normal has already done it!\" — and your child is already going along with it?",
+    "subheadline": "\"Everyone\" isn't a fact. It's an illusion of a norm designed to make you follow rather than think. It's not an argument — it's pressure.",
+    "cta_primary": { "text": "Sign up for the course", "target": "/sign-up" },
+    "cta_secondary": { "text": "Play demo", "target": "/demo" },
+    "media": { "type": "image", "src": "/images/pseudo-norm.jpg", "alt": "A child trying to conform to an illusory group norm" }
+  },
+  "pain": {
+    "title": "\"Everyone\" is a pressure word, not reality",
+    "body": "\"Everyone already handed it in\", \"everyone's already gone\", \"everyone normal has done it\". In class, in the chat, among friends. The child might have doubts — but thinks: if everyone's doing it, I should too. The fear of being \"different\" turns out stronger than their own opinion.\n\nThis isn't a fact — it's a manufactured illusion of the norm. The word \"everyone\" is used as pressure, even though nobody checked. The child isn't shown reality — they're given the feeling that they're the only one who's \"not like the others\". Without the skill to notice this, they automatically conform.\n\nThe result — decisions are made not independently, but out of fear of standing out. The child doesn't even ask \"who exactly is everyone?\" — they just go along so as not to fall behind."
+  },
+  "solution": {
+    "title": "\"Sila Slova\" — a detective drama that teaches critical thinking",
+    "body": "40 episodes, 13 critical thinking lessons. Your child plays — but is actually learning to protect themselves.",
+    "bullets": [
+      "🔍 Notices \"everyone\" as a generalisation, not a proof",
+      "🧠 Asks: \"Everyone — like who exactly?\" instead of just believing it",
+      "💬 Can hold their ground even when \"everyone has already done it\"",
+      "🛡️ Makes decisions independently, not out of fear of standing out"
+    ]
+  },
+  "social_proof": {
+    "quote": "\"Everyone does it\" is no longer an argument for my son. He now asks: \"Everyone — like who?\" And waits for an answer.",
+    "author": "Yulia, mum of 9-year-old Oleksiy",
+    "stats": [
+      { "label": "Children completed the course", "value": "2,400+" },
+      { "label": "Satisfied parents", "value": "94%" },
+      { "label": "Optimal age", "value": "8–12 yrs" }
+    ]
+  },
+  "faq_label": "FAQ",
+  "faq_title": "Questions about the course",
+  "faq": [
+    {
+      "q": "Is it a game or a learning course?",
+      "a": "Both at the same time. \"Sila Slova\" looks like a detective series, but every episode contains a hidden critical thinking lesson."
+    },
+    {
+      "q": "What age is it suitable for?",
+      "a": "Ideal for 8–12 year olds. At this age, children are most receptive to new thinking patterns and haven't yet formed rigid biases."
+    },
+    {
+      "q": "How much time is needed each day?",
+      "a": "15–20 minutes per episode. Flexible schedule — your child can come back at any convenient time."
+    },
+    {
+      "q": "Is registration required for the demo?",
+      "a": "No. The demo episode is fully open — no registration, no subscription, no personal data required."
+    }
+  ],
+  "final_cta": {
+    "headline": "Give your child the superpower of critical thinking",
+    "subheadline": "Episode 1 · Morning Without a Sister\nMum says there was never a sister. The school doesn't remember Sofia. But Marco remembers her laugh — and the diary in his hands is real…",
+    "cta_text": "Play demo now"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

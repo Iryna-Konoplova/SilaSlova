@@ -1,0 +1,70 @@
+{
+  "slug": "always-label",
+  "audience": "parent",
+  "locale": "en",
+  "meta": {
+    "title": "\"You always do this\" — why your child believes in overgeneralisations | Sila Slova",
+    "description": "Teach your child not to accept \"always/never\" as truth and not to let words define who they are. Game-based course for children aged 8–12.",
+    "og_image": "/og/always-label-en.jpg"
+  },
+  "hero": {
+    "headline": "\"You always do this!\" — and your child already believes it?",
+    "subheadline": "\"Always\", \"never\", \"every time\" — it sounds like a fact. But one exception is enough to make the whole claim fall apart. Your child doesn't notice.",
+    "cta_primary": { "text": "Sign up for the course", "target": "/sign-up" },
+    "cta_secondary": { "text": "Play demo", "target": "/demo" },
+    "media": { "type": "image", "src": "/images/always-label.jpg", "alt": "A child being labelled through the word 'always'" }
+  },
+  "pain": {
+    "title": "\"You always\" — that's not a description, it's pressure",
+    "body": "\"You're always late\", \"you always mess everything up\", \"it's always like this with you\". At school, at home, among friends. The child knows this isn't always true — but starts to doubt and explain themselves instead of checking.\n\nThis isn't exaggerating or lying on purpose. Words like \"always\", \"never\", \"everyone\" sound like facts — and the brain takes them seriously. But a single exception is enough to make the claim fall apart. When a child lacks the skill to notice this, they accept the label and go on the defensive instead of thinking.\n\nThe result — they believe the exaggeration and build a false picture of themselves. \"I always do this\", \"maybe that really is me\" — and the label becomes part of how they see themselves."
+  },
+  "solution": {
+    "title": "\"Sila Slova\" — a detective drama that teaches critical thinking",
+    "body": "40 episodes, 13 critical thinking lessons. Your child plays — but is actually learning to protect themselves.",
+    "bullets": [
+      "🔍 Catches \"always/never\" words and tests them against exceptions",
+      "🧠 Tells the difference between a generalisation and a real description",
+      "💬 Doesn't defend themselves — asks instead: \"When was it not always?\"",
+      "🛡️ Doesn't let exaggerations define who they are"
+    ]
+  },
+  "social_proof": {
+    "quote": "\"You always do this\" no longer sounds like the truth to her. She's learned to see the exaggeration in words like that.",
+    "author": "Maryna, mum of 11-year-old Alina",
+    "stats": [
+      { "label": "Children completed the course", "value": "2,400+" },
+      { "label": "Satisfied parents", "value": "94%" },
+      { "label": "Optimal age", "value": "8–12 yrs" }
+    ]
+  },
+  "faq_label": "FAQ",
+  "faq_title": "Questions about the course",
+  "faq": [
+    {
+      "q": "Is it a game or a learning course?",
+      "a": "Both at the same time. \"Sila Slova\" looks like a detective series, but every episode contains a hidden critical thinking lesson."
+    },
+    {
+      "q": "What age is it suitable for?",
+      "a": "Ideal for 8–12 year olds. At this age, children are most receptive to new thinking patterns and haven't yet formed rigid biases."
+    },
+    {
+      "q": "How much time is needed each day?",
+      "a": "15–20 minutes per episode. Flexible schedule — your child can come back at any convenient time."
+    },
+    {
+      "q": "Is registration required for the demo?",
+      "a": "No. The demo episode is fully open — no registration, no subscription, no personal data required."
+    }
+  ],
+  "final_cta": {
+    "headline": "Give your child the superpower of critical thinking",
+    "subheadline": "Episode 1 · Morning Without a Sister\nMum says there was never a sister. The school doesn't remember Sofia. But Marco remembers her laugh — and the diary in his hands is real…",
+    "cta_text": "Play demo now"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

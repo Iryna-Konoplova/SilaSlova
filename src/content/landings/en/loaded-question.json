@@ -1,0 +1,70 @@
+{
+  "slug": "loaded-question",
+  "audience": "parent",
+  "locale": "en",
+  "meta": {
+    "title": "\"Have you stopped cheating yet?\" — why your child looks guilty even when they've done nothing | Sila Slova",
+    "description": "Teach your child to spot loaded questions with hidden accusations and stop defending themselves automatically. Game-based course for children aged 8–12.",
+    "og_image": "/og/loaded-question-en.jpg"
+  },
+  "hero": {
+    "headline": "\"Have you stopped cheating yet?\" — and your child instantly starts defending themselves?",
+    "subheadline": "The accusation is already built into the question. Any answer sounds like an admission of guilt. This isn't a question — it's a trap.",
+    "cta_primary": { "text": "Sign up for the course", "target": "/sign-up" },
+    "cta_secondary": { "text": "Play demo", "target": "/demo" },
+    "media": { "type": "image", "src": "/images/loaded-question.jpg", "alt": "A child confused and cornered by a loaded trap question" }
+  },
+  "pain": {
+    "title": "A loaded question: when any answer is a loss",
+    "body": "\"Have you stopped cheating yet?\", \"did you do it again?\" — in class, in front of everyone, in conversation with adults. The child is stuck: say \"yes\" and they admit guilt; say \"no\" and it sounds just as bad. They start defending themselves or go silent.\n\nThis isn't a question — it's manipulation: a \"fact\" is already embedded in the question before the child has had a chance to check if it's true. To answer at all, they must accept the assumption. Without the skill to spot the trap, they defend instead of stopping the question itself.\n\nThe result — the child looks guilty even when they've done nothing. Others see the defensiveness and draw conclusions. And the child has no idea how it happened."
+  },
+  "solution": {
+    "title": "\"Sila Slova\" — a detective drama that teaches critical thinking",
+    "body": "40 episodes, 13 critical thinking lessons. Your child plays — but is actually learning to protect themselves.",
+    "bullets": [
+      "🔍 Spots the hidden accusation in a question before answering",
+      "🧠 Understands that defending yourself means accepting someone else's \"fact\"",
+      "💬 Can stop the trap and bring the conversation back to real facts",
+      "🛡️ Doesn't look guilty even when a question is framed as an accusation"
+    ]
+  },
+  "social_proof": {
+    "quote": "Awkward questions with hidden blame no longer make him feel the need to defend himself. He's learning not to take them as truth.",
+    "author": "Larysa, mum of 11-year-old Bohdan",
+    "stats": [
+      { "label": "Children completed the course", "value": "2,400+" },
+      { "label": "Satisfied parents", "value": "94%" },
+      { "label": "Optimal age", "value": "8–12 yrs" }
+    ]
+  },
+  "faq_label": "FAQ",
+  "faq_title": "Questions about the course",
+  "faq": [
+    {
+      "q": "Is it a game or a learning course?",
+      "a": "Both at the same time. \"Sila Slova\" looks like a detective series, but every episode contains a hidden critical thinking lesson."
+    },
+    {
+      "q": "What age is it suitable for?",
+      "a": "Ideal for 8–12 year olds. At this age, children are most receptive to new thinking patterns and haven't yet formed rigid biases."
+    },
+    {
+      "q": "How much time is needed each day?",
+      "a": "15–20 minutes per episode. Flexible schedule — your child can come back at any convenient time."
+    },
+    {
+      "q": "Is registration required for the demo?",
+      "a": "No. The demo episode is fully open — no registration, no subscription, no personal data required."
+    }
+  ],
+  "final_cta": {
+    "headline": "Give your child the superpower of critical thinking",
+    "subheadline": "Episode 1 · Morning Without a Sister\nMum says there was never a sister. The school doesn't remember Sofia. But Marco remembers her laugh — and the diary in his hands is real…",
+    "cta_text": "Play demo now"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}
