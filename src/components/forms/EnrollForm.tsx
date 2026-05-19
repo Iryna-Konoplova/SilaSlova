@@ -47,17 +47,15 @@ export function EnrollForm({ onSuccess, className, source = "sila-slova" }: Prop
   }
 
   async function onSubmit(data: FormData) {
-    await fetch(process.env.NEXT_PUBLIC_CRM_WEBHOOK_URL!, {
+    await fetch("/api/enroll", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
-        payload: {
-          full_name: data.parentName,
-          phone: data.phone,
-          city: data.city,
-          message: data.comment ?? "",
-          source,
-        },
+        full_name: data.parentName,
+        phone: data.phone,
+        city: data.city,
+        message: data.comment ?? "",
+        source,
       }),
     });
     setSubmitted(true);
