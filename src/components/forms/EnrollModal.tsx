@@ -7,7 +7,7 @@ import { useEnrollStore } from "@/lib/enroll-store";
 import { EnrollForm } from "./EnrollForm";
 
 export function EnrollModal() {
-  const { isOpen, close } = useEnrollStore();
+  const { isOpen, source, close } = useEnrollStore();
   const t = useTranslations("enroll_form");
 
   // Lock body scroll
@@ -74,7 +74,7 @@ export function EnrollModal() {
                 {t("modal_title")}
               </h2>
 
-              <EnrollForm onSuccess={close} />
+              <EnrollForm onSuccess={close} source={source} />
             </div>
           </motion.div>
         </motion.div>

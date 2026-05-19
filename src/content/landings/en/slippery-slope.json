@@ -1,0 +1,70 @@
+{
+  "slug": "slippery-slope",
+  "audience": "parent",
+  "locale": "en",
+  "meta": {
+    "title": "\"If you don't do it, everything will fall apart\" — why your child fears the chain reaction | Sila Slova",
+    "description": "Teach your child to break down scary chain reactions step by step and check each one separately. Game-based course for children aged 8–12.",
+    "og_image": "/og/slippery-slope-en.jpg"
+  },
+  "hero": {
+    "headline": "\"You won't study — you'll fail everything, and nothing will work out!\" — and your child is already scared?",
+    "subheadline": "One action — and straight to catastrophe. It sounds logical. But between the first step and \"the end\" there are layers of assumptions no one has checked.",
+    "cta_primary": { "text": "Sign up for the course", "target": "/sign-up" },
+    "cta_secondary": { "text": "Play demo", "target": "/demo" },
+    "media": { "type": "image", "src": "/images/slippery-slope.jpg", "alt": "A child scared by a chain of events leading from one action to catastrophe" }
+  },
+  "pain": {
+    "title": "\"You won't go — you'll lose your chance forever\" — that's not a forecast, it's a chain of assumptions",
+    "body": "\"You won't study — you'll get a bad grade, fail everything, nothing will work out\". \"You won't go — you'll miss your chance, and there'll never be another\". At school, at home, in everyday conversations. One action gets inflated into a \"catastrophe\" through several steps. The child doesn't have time to check — they just get scared and agree.\n\nThis isn't panic or weakness. It's a natural response to exaggerated pressure: when the chain sounds coherent and confident, it's hard to stop and check each step. But every next link in such a chain is just an assumption — not a fact. And the further along, the less likely it becomes.\n\nThe result — fear drives the decision. \"Better agree, just in case it really does all go that way\" — and the child acts out of fear, not out of genuine reasoning."
+  },
+  "solution": {
+    "title": "\"Sila Slova\" — a detective drama that teaches critical thinking",
+    "body": "40 episodes, 13 critical thinking lessons. Your child plays — but is actually learning to protect themselves.",
+    "bullets": [
+      "🔍 Spots the \"scary chain\" — one step ≠ catastrophe",
+      "🧠 Breaks the chain into steps and checks each one separately",
+      "💬 Sees where fact ends and assumption begins",
+      "🛡️ Doesn't react automatically to fear — stops and thinks first"
+    ]
+  },
+  "social_proof": {
+    "quote": "\"If you don't do it, everything will go wrong\" no longer makes him act out of fear. He sees it as just one of many possible scenarios.",
+    "author": "Ihor, dad of 11-year-old Maxim",
+    "stats": [
+      { "label": "Children completed the course", "value": "2,400+" },
+      { "label": "Satisfied parents", "value": "94%" },
+      { "label": "Optimal age", "value": "8–12 yrs" }
+    ]
+  },
+  "faq_label": "FAQ",
+  "faq_title": "Questions about the course",
+  "faq": [
+    {
+      "q": "Is it a game or a learning course?",
+      "a": "Both at the same time. \"Sila Slova\" looks like a detective series, but every episode contains a hidden critical thinking lesson."
+    },
+    {
+      "q": "What age is it suitable for?",
+      "a": "Ideal for 8–12 year olds. At this age, children are most receptive to new thinking patterns and haven't yet formed rigid biases."
+    },
+    {
+      "q": "How much time is needed each day?",
+      "a": "15–20 minutes per episode. Flexible schedule — your child can come back at any convenient time."
+    },
+    {
+      "q": "Is registration required for the demo?",
+      "a": "No. The demo episode is fully open — no registration, no subscription, no personal data required."
+    }
+  ],
+  "final_cta": {
+    "headline": "Give your child the superpower of critical thinking",
+    "subheadline": "Episode 1 · Morning Without a Sister\nMum says there was never a sister. The school doesn't remember Sofia. But Marco remembers her laugh — and the diary in his hands is real…",
+    "cta_text": "Play demo now"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

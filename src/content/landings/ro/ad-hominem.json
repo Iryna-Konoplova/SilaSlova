@@ -1,0 +1,70 @@
+{
+  "slug": "ad-hominem",
+  "audience": "parent",
+  "locale": "ro",
+  "meta": {
+    "title": "«Tu nu înțelegi nimic» — de ce copilul pierde discuția chiar și când are dreptate | Forța Cuvântului",
+    "description": "Învățați copilul să deosebească atacul personal de argument și să nu-și piardă poziția când este el însuși atacat. Curs în format de joc pentru copii de 8–12 ani.",
+    "og_image": "/og/ad-hominem-ro.jpg"
+  },
+  "hero": {
+    "headline": "«Tu nu înțelegi nimic!» — și copilul tău a tăcut deja?",
+    "subheadline": "În loc de un argument — un atac la persoană. Copilul poate avea dreptate, dar iese din subiect. Și pierde discuția fără să înțeleagă de ce.",
+    "cta_primary": { "text": "Înscrie-te la curs", "target": "/sign-up" },
+    "cta_secondary": { "text": "Joacă demo", "target": "/demo" },
+    "media": { "type": "image", "src": "/images/ad-hominem.jpg", "alt": "Un copil scos din subiect în loc să primească un răspuns real" }
+  },
+  "pain": {
+    "title": "«Ești prea mic» — nu e un răspuns, e o lovitură",
+    "body": "«Tu nu înțelegi nimic», «ești prea mic», «nu are rost să vorbesc cu tine». La școală, acasă, printre prieteni. Copilul poate avea un punct de vedere perfect valid — dar după astfel de cuvinte fie tace, fie începe să se îndoiască de sine. Și discuția e pierdută.\n\nNu e vorba de o poziție slabă sau lipsă de încredere. E o reacție naturală la o lovitură: când atacul e îndreptat spre tine, nu spre ideea ta, e greu să rămâi în subiect. În loc să se răspundă la ce s-a spus, discuția trece de la «ce ai zis» la «cine ești tu». Copilul ajunge să se apere pe sine, nu poziția sa.\n\nConsecinșa — pierde discuția chiar și când a avut dreptate. «Poate că nu înțeleg», «mai bine tac» — și un punct de vedere valid rămâne nespus."
+  },
+  "solution": {
+    "title": "«Forța Cuvântului» — o dramă detectivistică ce învață să gândești",
+    "body": "40 de episoade, 13 lecții de gândire critică. Copilul se joacă — dar de fapt învață să se protejeze.",
+    "bullets": [
+      "🔍 Recunoaște atacul la persoană în loc de un răspuns real",
+      "🧠 Nu intră în atacul personal — readuce discuția la subiect",
+      "💬 Deosebește «cine ești» de «ce ai spus»",
+      "🛡️ Își păstrează poziția chiar și când este el însuși atacat"
+    ]
+  },
+  "social_proof": {
+    "quote": "«Tu nu înțelegi nimic» nu îl mai face să tacă. A învățat să deosebească atacul personal de argument și să rămână în subiect.",
+    "author": "Serhiy, tatăl lui Denys de 11 ani",
+    "stats": [
+      { "label": "Copii au finalizat cursul", "value": "2.400+" },
+      { "label": "Părinți mulțumiți", "value": "94%" },
+      { "label": "Vârsta optimă", "value": "8–12 ani" }
+    ]
+  },
+  "faq_label": "ÎNTREBĂRI FRECVENTE",
+  "faq_title": "Întrebări despre curs",
+  "faq": [
+    {
+      "q": "Este un joc sau un curs educațional?",
+      "a": "Ambele formule în același timp. «Forța Cuvântului» arată ca un serial detectivistic, dar în fiecare episod este ascunsă o lecție de gândire critică."
+    },
+    {
+      "q": "De la ce vârstă se poate începe?",
+      "a": "Optim — 8–12 ani. La această vârstă, copiii sunt cei mai receptivi la noi tipare de gândire și nu și-au format încă prejudecăți stabile."
+    },
+    {
+      "q": "Cât timp este necesar zilnic?",
+      "a": "15–20 de minute pe episod. Program flexibil — copilul poate reveni oricând îi convine."
+    },
+    {
+      "q": "Este necesară înregistrarea pentru demo?",
+      "a": "Nu. Episodul demo este complet deschis — fără înregistrare, fără abonament, fără introducerea datelor."
+    }
+  ],
+  "final_cta": {
+    "headline": "Oferă-i copilului tău superputerea gândirii critice",
+    "subheadline": "Episodul 1 · Dimineața fără soră\nMama spune că sora nu a existat niciodată. La școală nu o cunosc pe Sofia. Dar Marco își amintește râsul ei — și jurnalul din mâinile lui este real…",
+    "cta_text": "Joacă demo acum"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

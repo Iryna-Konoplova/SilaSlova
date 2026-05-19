@@ -1,0 +1,70 @@
+{
+  "slug": "weird-label",
+  "audience": "parent",
+  "locale": "en",
+  "meta": {
+    "title": "\"Why are you so weird?\" — why your child adjusts to labels others put on them | Sila Slova",
+    "description": "Teach your child to separate labels from facts and not accept someone else's word as the truth about themselves. Game-based course for children aged 8–12.",
+    "og_image": "/og/weird-label-en.jpg"
+  },
+  "hero": {
+    "headline": "\"Why are you so weird?\" — and your child is already trying to \"be normal\"?",
+    "subheadline": "No explanation, no facts — just a label. The child doesn't understand what exactly is \"wrong\". But already feels: something's off with me.",
+    "cta_primary": { "text": "Sign up for the course", "target": "/sign-up" },
+    "cta_secondary": { "text": "Play demo", "target": "/demo" },
+    "media": { "type": "image", "src": "/images/weird-label.jpg", "alt": "A child being labelled without any explanation" }
+  },
+  "pain": {
+    "title": "\"You're just not normal\" — that's not a fact, it's pressure",
+    "body": "\"Why are you so weird?\", \"you're just not like everyone else\", \"something's off with you\". At school, in a group, in everyday conversations. The child doesn't understand what exactly is meant — but already feels uncomfortable and starts adjusting. Trying to \"fix\" themselves without knowing what to fix.\n\nThis isn't being oversensitive or weak. It's a natural response to vague pressure: when the person is judged rather than their action — and nothing concrete is given to work with. There's nothing to check, nothing to argue against. Just the feeling: \"something is wrong with me\".\n\nThe result — the child starts believing the label and changing to \"be normal\". They lose confidence and reshape themselves to fit expectations they don't even fully understand."
+  },
+  "solution": {
+    "title": "\"Sila Slova\" — a detective drama that teaches critical thinking",
+    "body": "40 episodes, 13 critical thinking lessons. Your child plays — but is actually learning to protect themselves.",
+    "bullets": [
+      "🔍 Spots a label without facts — \"weird\" ≠ a specific action",
+      "🧠 Sees that there's nothing verifiable behind such a word",
+      "💬 Doesn't prove \"I'm normal\" — understands it's a pressure tactic",
+      "🛡️ Doesn't accept someone else's word as the truth about themselves"
+    ]
+  },
+  "social_proof": {
+    "quote": "\"You're just not normal\" no longer makes her adjust. She's learned to ask: \"What exactly is wrong?\" — and when there's no answer, she understands: that's not about her.",
+    "author": "Tetyana, mum of 10-year-old Polina",
+    "stats": [
+      { "label": "Children completed the course", "value": "2,400+" },
+      { "label": "Satisfied parents", "value": "94%" },
+      { "label": "Optimal age", "value": "8–12 yrs" }
+    ]
+  },
+  "faq_label": "FAQ",
+  "faq_title": "Questions about the course",
+  "faq": [
+    {
+      "q": "Is it a game or a learning course?",
+      "a": "Both at the same time. \"Sila Slova\" looks like a detective series, but every episode contains a hidden critical thinking lesson."
+    },
+    {
+      "q": "What age is it suitable for?",
+      "a": "Ideal for 8–12 year olds. At this age, children are most receptive to new thinking patterns and haven't yet formed rigid biases."
+    },
+    {
+      "q": "How much time is needed each day?",
+      "a": "15–20 minutes per episode. Flexible schedule — your child can come back at any convenient time."
+    },
+    {
+      "q": "Is registration required for the demo?",
+      "a": "No. The demo episode is fully open — no registration, no subscription, no personal data required."
+    }
+  ],
+  "final_cta": {
+    "headline": "Give your child the superpower of critical thinking",
+    "subheadline": "Episode 1 · Morning Without a Sister\nMum says there was never a sister. The school doesn't remember Sofia. But Marco remembers her laugh — and the diary in his hands is real…",
+    "cta_text": "Play demo now"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

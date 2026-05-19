@@ -131,7 +131,7 @@ export default async function LandingPage({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
         />
       ))}
-      <LandingHero hero={landing.hero} locale={locale} />
+      <LandingHero hero={landing.hero} locale={locale} slug={landing.slug} />
       <LandingPain pain={landing.pain} />
       <LandingSolution solution={landing.solution} />
       <LandingFinalCta

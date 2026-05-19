@@ -1,0 +1,70 @@
+{
+  "slug": "ad-hominem",
+  "audience": "parent",
+  "locale": "en",
+  "meta": {
+    "title": "\"You don't understand anything\" — why your child loses arguments even when they're right | Sila Slova",
+    "description": "Teach your child to tell the difference between a personal attack and an argument, and not lose their position when they're the target. Game-based course for children aged 8–12.",
+    "og_image": "/og/ad-hominem-en.jpg"
+  },
+  "hero": {
+    "headline": "\"You don't understand anything!\" — and your child has already gone quiet?",
+    "subheadline": "Instead of an argument — a personal attack. The child might be right, but gets thrown off topic. And loses the conversation without even knowing why.",
+    "cta_primary": { "text": "Sign up for the course", "target": "/sign-up" },
+    "cta_secondary": { "text": "Play demo", "target": "/demo" },
+    "media": { "type": "image", "src": "/images/ad-hominem.jpg", "alt": "A child being thrown off topic instead of receiving a real answer" }
+  },
+  "pain": {
+    "title": "\"You're too young\" — that's not an answer, it's a hit",
+    "body": "\"You don't understand anything\", \"you're too young\", \"there's no point talking to you\". At school, at home, among friends. The child might have a perfectly valid point — but after words like that, they either go quiet or start doubting themselves. And the conversation is lost.\n\nThis isn't a weak position or a lack of confidence. It's a natural reaction to being hit: when the attack is aimed at you rather than your idea, it's hard to stay on topic. Instead of engaging with what was said, the conversation shifts from \"what you said\" to \"who you are\". The child ends up defending themselves instead of their point.\n\nThe result — they lose the conversation even when they were right. \"Maybe I really don't understand\", \"better say nothing\" — and a valid point goes unspoken."
+  },
+  "solution": {
+    "title": "\"Sila Slova\" — a detective drama that teaches critical thinking",
+    "body": "40 episodes, 13 critical thinking lessons. Your child plays — but is actually learning to protect themselves.",
+    "bullets": [
+      "🔍 Recognises a personal attack instead of a real answer",
+      "🧠 Doesn't get drawn into the personal attack — steers back to the topic",
+      "💬 Tells the difference between \"who you are\" and \"what you said\"",
+      "🛡️ Holds their position even when they are the target of the attack"
+    ]
+  },
+  "social_proof": {
+    "quote": "\"You don't understand anything\" no longer makes him go quiet. He's learned to tell the difference between a personal attack and an argument — and stay on topic.",
+    "author": "Serhiy, dad of 11-year-old Denys",
+    "stats": [
+      { "label": "Children completed the course", "value": "2,400+" },
+      { "label": "Satisfied parents", "value": "94%" },
+      { "label": "Optimal age", "value": "8–12 yrs" }
+    ]
+  },
+  "faq_label": "FAQ",
+  "faq_title": "Questions about the course",
+  "faq": [
+    {
+      "q": "Is it a game or a learning course?",
+      "a": "Both at the same time. \"Sila Slova\" looks like a detective series, but every episode contains a hidden critical thinking lesson."
+    },
+    {
+      "q": "What age is it suitable for?",
+      "a": "Ideal for 8–12 year olds. At this age, children are most receptive to new thinking patterns and haven't yet formed rigid biases."
+    },
+    {
+      "q": "How much time is needed each day?",
+      "a": "15–20 minutes per episode. Flexible schedule — your child can come back at any convenient time."
+    },
+    {
+      "q": "Is registration required for the demo?",
+      "a": "No. The demo episode is fully open — no registration, no subscription, no personal data required."
+    }
+  ],
+  "final_cta": {
+    "headline": "Give your child the superpower of critical thinking",
+    "subheadline": "Episode 1 · Morning Without a Sister\nMum says there was never a sister. The school doesn't remember Sofia. But Marco remembers her laugh — and the diary in his hands is real…",
+    "cta_text": "Play demo now"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

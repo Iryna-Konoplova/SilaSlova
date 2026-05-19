@@ -7,6 +7,7 @@ type Props = {
   size?: "sm" | "md" | "lg";
   fullWidth?: boolean;
   className?: string;
+  source?: string;
 };
 
 const sizeClasses = {
@@ -15,12 +16,12 @@ const sizeClasses = {
   lg: "h-14 px-10 text-base",
 };
 
-export function EnrollButton({ label, size = "md", fullWidth = false, className }: Props) {
+export function EnrollButton({ label, size = "md", fullWidth = false, className, source }: Props) {
   const open = useEnrollStore((s) => s.open);
 
   return (
     <button
-      onClick={open}
+      onClick={() => open(source)}
       style={fullWidth ? undefined : { width: "fit-content" }}
       className={[
         "inline-flex items-center justify-center rounded-full font-semibold text-white",

@@ -1,0 +1,70 @@
+{
+  "slug": "straw-man",
+  "audience": "parent",
+  "locale": "ro",
+  "meta": {
+    "title": "«Ai spus un lucru — deci ai în vedere tot» — de ce copilul pierde disputa cu propriile cuvinte | Forța Cuvântului",
+    "description": "Învățați copilul să-și revendice cuvintele și să nu cedeze când sensul lor e denaturat. Curs în format de joc pentru copii de 8–12 ani.",
+    "og_image": "/og/straw-man-ro.jpg"
+  },
+  "hero": {
+    "headline": "Copilul tău se justifică deja pentru lucruri pe care nu le-a spus?",
+    "subheadline": "A spus un lucru. I s-a atribuit altceva. Și acum trebuie să se apere de cuvinte pe care nu le-a spus.",
+    "cta_primary": { "text": "Înscrie-te la curs", "target": "/sign-up" },
+    "cta_secondary": { "text": "Joacă demo", "target": "/demo" },
+    "media": { "type": "image", "src": "/images/straw-man.jpg", "alt": "Un copil ale cărui cuvinte sunt denaturate până la extrem" }
+  },
+  "pain": {
+    "title": "Substituirea gândului: când ce ai spus devine ceva ce nu ai vrut să spui",
+    "body": "«Nu îmi place această materie» → «deci nu vrei să înveți deloc». «Nu îmi place asta» → «deci nimic nu e bun pentru tine». La școală, acasă, în conversații. Copilul spune ceva concret — și i se exagerează până la extrem. Simte că nu a fost auzit, dar nu știe cum să explice.\n\nNu e vorba de explicații neclare sau gândire confuză. E o denaturare — intenționată sau nu: o idee e întinsă la «mereu», «tot», «niciodată» — ca să fie mai ușor de combătut. Copilul ajunge să se certe cu o versiune a cuvintelor sale pe care nu a spus-o niciodată. Și cu aceea e mai greu să nu fii de acord.\n\nConsecinșa — poziția copilului se pierde, chiar dacă era perfect valabilă. «Poate chiar am vrut să spun asta?» — și fie începe să se justifice, fie cedează."
+  },
+  "solution": {
+    "title": "«Forța Cuvântului» — o dramă detectivistică ce învață să gândești",
+    "body": "40 de episoade, 13 lecții de gândire critică. Copilul se joacă — dar de fapt învață să se protejeze.",
+    "bullets": [
+      "🔍 Observă când cuvintele sale sunt «extinse» până la extrem",
+      "🧠 Separă ce a spus de ce au «adăugat» alții",
+      "💬 Revendică calm poziția: «Nu asta am spus»",
+      "🛡️ Își păstrează gândul când cineva încearcă să-l înlocuiască cu propria versiune"
+    ]
+  },
+  "social_proof": {
+    "quote": "«Deci înseamnă că tu crezi…» nu o mai destabilizează. A învățat să spună calm: «Nu, asta nu am spus» — și să revină la punctul ei real.",
+    "author": "Oksana, mama Darinei de 10 ani",
+    "stats": [
+      { "label": "Copii au finalizat cursul", "value": "2.400+" },
+      { "label": "Părinți mulțumiți", "value": "94%" },
+      { "label": "Vârsta optimă", "value": "8–12 ani" }
+    ]
+  },
+  "faq_label": "ÎNTREBĂRI FRECVENTE",
+  "faq_title": "Întrebări despre curs",
+  "faq": [
+    {
+      "q": "Este un joc sau un curs educațional?",
+      "a": "Ambele formule în același timp. «Forța Cuvântului» arată ca un serial detectivistic, dar în fiecare episod este ascunsă o lecție de gândire critică."
+    },
+    {
+      "q": "De la ce vârstă se poate începe?",
+      "a": "Optim — 8–12 ani. La această vârstă, copiii sunt cei mai receptivi la noi tipare de gândire și nu și-au format încă prejudecăți stabile."
+    },
+    {
+      "q": "Cât timp este necesar zilnic?",
+      "a": "15–20 de minute pe episod. Program flexibil — copilul poate reveni oricând îi convine."
+    },
+    {
+      "q": "Este necesară înregistrarea pentru demo?",
+      "a": "Nu. Episodul demo este complet deschis — fără înregistrare, fără abonament, fără introducerea datelor."
+    }
+  ],
+  "final_cta": {
+    "headline": "Oferă-i copilului tău superputerea gândirii critice",
+    "subheadline": "Episodul 1 · Dimineața fără soră\nMama spune că sora nu a existat niciodată. La școală nu o cunosc pe Sofia. Dar Marco își amintește râsul ei — și jurnalul din mâinile lui este real…",
+    "cta_text": "Joacă demo acum"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

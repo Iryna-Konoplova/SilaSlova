@@ -1,0 +1,70 @@
+{
+  "slug": "weird-label",
+  "audience": "parent",
+  "locale": "ro",
+  "meta": {
+    "title": "«De ce ești atât de ciudat?» — de ce copilul se adaptează la etichetele altora | Forța Cuvântului",
+    "description": "Învățați copilul să separe etichetele de fapte și să nu accepte cuvintele altora ca adevăr despre sine. Curs în format de joc pentru copii de 8–12 ani.",
+    "og_image": "/og/weird-label-ro.jpg"
+  },
+  "hero": {
+    "headline": "«De ce ești atât de ciudat?» — și copilul tău încearcă deja să «fie normal»?",
+    "subheadline": "Fără explicații, fără fapte — doar o etichetă. Copilul nu înțelege ce anume e «greșit». Dar simte deja: ceva nu e în regulă cu mine.",
+    "cta_primary": { "text": "Înscrie-te la curs", "target": "/sign-up" },
+    "cta_secondary": { "text": "Joacă demo", "target": "/demo" },
+    "media": { "type": "image", "src": "/images/weird-label.jpg", "alt": "Un copil căruia i se pune o etichetă fără nicio explicație" }
+  },
+  "pain": {
+    "title": "«Tu pur și simplu nu ești normal» — nu e un fapt, e presiune",
+    "body": "«De ce ești atât de ciudat?», «tu nu ești ca ceilalți», «ceva nu e în regulă cu tine». La școală, în grup, în conversații zilnice. Copilul nu înțelege ce anume se înțelege prin asta — dar simte deja disconfort și începe să se adapteze. Încearcă să se «corecteze» fără să știe ce să corecteze.\n\nNu e vorba de sensibilitate excesivă sau slăbiciune. E un răspuns natural la presiunea vagă: când persoana este judecată, nu acțiunea sa — și nu se oferă nimic concret cu care să poți lucra. Nu e nimic de verificat, nimic de contrazis. Doar sentimentul: «ceva nu e în regulă cu mine».\n\nConsecinșa — copilul începe să creadă eticheta și să se schimbe pentru a «fi normal». Își pierde încrederea și se reformează după așteptări pe care nici nu le înțelege pe deplin."
+  },
+  "solution": {
+    "title": "«Forța Cuvântului» — o dramă detectivistică ce învață să gândești",
+    "body": "40 de episoade, 13 lecții de gândire critică. Copilul se joacă — dar de fapt învață să se protejeze.",
+    "bullets": [
+      "🔍 Identifică eticheta fără fapte — «ciudat» ≠ o acțiune concretă",
+      "🧠 Vede că în spatele unui astfel de cuvânt nu există nimic verificabil",
+      "💬 Nu dovedește «sunt normal» — înțelege că e o tactică de presiune",
+      "🛡️ Nu acceptă cuvintele altora ca adevăr despre sine"
+    ]
+  },
+  "social_proof": {
+    "quote": "«Tu nu ești normal» nu o mai face să se adapteze. A învățat să întrebe: «Ce anume nu e în regulă?» — și când nu primește răspuns, înțelege: nu e despre ea.",
+    "author": "Tetyana, mama Polinei de 10 ani",
+    "stats": [
+      { "label": "Copii au finalizat cursul", "value": "2.400+" },
+      { "label": "Părinți mulțumiți", "value": "94%" },
+      { "label": "Vârsta optimă", "value": "8–12 ani" }
+    ]
+  },
+  "faq_label": "ÎNTREBĂRI FRECVENTE",
+  "faq_title": "Întrebări despre curs",
+  "faq": [
+    {
+      "q": "Este un joc sau un curs educațional?",
+      "a": "Ambele formule în același timp. «Forța Cuvântului» arată ca un serial detectivistic, dar în fiecare episod este ascunsă o lecție de gândire critică."
+    },
+    {
+      "q": "De la ce vârstă se poate începe?",
+      "a": "Optim — 8–12 ani. La această vârstă, copiii sunt cei mai receptivi la noi tipare de gândire și nu și-au format încă prejudecăți stabile."
+    },
+    {
+      "q": "Cât timp este necesar zilnic?",
+      "a": "15–20 de minute pe episod. Program flexibil — copilul poate reveni oricând îi convine."
+    },
+    {
+      "q": "Este necesară înregistrarea pentru demo?",
+      "a": "Nu. Episodul demo este complet deschis — fără înregistrare, fără abonament, fără introducerea datelor."
+    }
+  ],
+  "final_cta": {
+    "headline": "Oferă-i copilului tău superputerea gândirii critice",
+    "subheadline": "Episodul 1 · Dimineața fără soră\nMama spune că sora nu a existat niciodată. La școală nu o cunosc pe Sofia. Dar Marco își amintește râsul ei — și jurnalul din mâinile lui este real…",
+    "cta_text": "Joacă demo acum"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

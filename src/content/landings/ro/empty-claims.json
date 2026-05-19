@@ -1,0 +1,70 @@
+{
+  "slug": "empty-claims",
+  "audience": "parent",
+  "locale": "ro",
+  "meta": {
+    "title": "«E cel mai bun — toți spun asta» — de ce copilul crede afirmații fără dovezi | Forța Cuvântului",
+    "description": "Învățați copilul să separe afirmațiile bombastice de fapte și să întrebe: de ce e «cel mai bun»? Curs în format de joc pentru copii de 8–12 ani.",
+    "og_image": "/og/empty-claims-ro.jpg"
+  },
+  "hero": {
+    "headline": "«E cel mai bun — toți au văzut deja!» — și copilul tău crede fără niciun «de ce»?",
+    "subheadline": "Sună convingător. Dar în spatele asta nu e nimic concret. Copilul aude «toți spun» — și încetează să mai întrebe.",
+    "cta_primary": { "text": "Înscrie-te la curs", "target": "/sign-up" },
+    "cta_secondary": { "text": "Joacă demo", "target": "/demo" },
+    "media": { "type": "image", "src": "/images/empty-claims.jpg", "alt": "Un copil care aude cuvinte convingătoare fără nicio dovadă în spate" }
+  },
+  "pain": {
+    "title": "«Cel mai bun» — nu e un fapt, e o afirmație",
+    "body": "«E cel mai bun», «toți l-au apreciat deja», «e top». La școală, pe rețelele sociale, în conversații cu prietenii. Sună convingător — dar nu e clar de ce e «cel mai bun». Copilul fie crede imediat, fie se pierde: «toți spun, deci probabil e adevărat».\n\nNu e vorba de a fi naiv sau de a ceda la publicitate. E un răspuns natural la o prezentare sigură: când ceva este spus hotărât și tare, creierul tinde să aibă încredere. Dar «cel mai bun», «toți», «top» — sunt afirmații emoționale fără nimic în spate. Fără comparație, fără dovezi, fără răspuns la «de ce».\n\nConsecinșa — copilul are încredere în ceea ce se spune mai tare, nu în ceea ce e cu adevărat argumentat. Și nu observă când este convins cu cuvinte goale."
+  },
+  "solution": {
+    "title": "«Forța Cuvântului» — o dramă detectivistică ce învață să gândești",
+    "body": "40 de episoade, 13 lecții de gândire critică. Copilul se joacă — dar de fapt învață să se protejeze.",
+    "bullets": [
+      "🔍 Observă cuvintele convingătoare fără fapte — «cel mai bun» ≠ dovedit",
+      "🧠 Pune întrebarea simplă: «De ce crezi asta?»",
+      "💬 Verifică dacă există o bază reală — sau doar cuvinte",
+      "🛡️ Nu se lasă convins de o prezentare sigură fără dovezi"
+    ]
+  },
+  "social_proof": {
+    "quote": "«Toți spun» nu mai este un argument pentru el. Acum întreabă imediat: «De ce e cel mai bun?» — și așteaptă un răspuns real.",
+    "author": "Vasyl, tatăl lui Roman de 10 ani",
+    "stats": [
+      { "label": "Copii au finalizat cursul", "value": "2.400+" },
+      { "label": "Părinți mulțumiți", "value": "94%" },
+      { "label": "Vârsta optimă", "value": "8–12 ani" }
+    ]
+  },
+  "faq_label": "ÎNTREBĂRI FRECVENTE",
+  "faq_title": "Întrebări despre curs",
+  "faq": [
+    {
+      "q": "Este un joc sau un curs educațional?",
+      "a": "Ambele formule în același timp. «Forța Cuvântului» arată ca un serial detectivistic, dar în fiecare episod este ascunsă o lecție de gândire critică."
+    },
+    {
+      "q": "De la ce vârstă se poate începe?",
+      "a": "Optim — 8–12 ani. La această vârstă, copiii sunt cei mai receptivi la noi tipare de gândire și nu și-au format încă prejudecăți stabile."
+    },
+    {
+      "q": "Cât timp este necesar zilnic?",
+      "a": "15–20 de minute pe episod. Program flexibil — copilul poate reveni oricând îi convine."
+    },
+    {
+      "q": "Este necesară înregistrarea pentru demo?",
+      "a": "Nu. Episodul demo este complet deschis — fără înregistrare, fără abonament, fără introducerea datelor."
+    }
+  ],
+  "final_cta": {
+    "headline": "Oferă-i copilului tău superputerea gândirii critice",
+    "subheadline": "Episodul 1 · Dimineața fără soră\nMama spune că sora nu a existat niciodată. La școală nu o cunosc pe Sofia. Dar Marco își amintește râsul ei — și jurnalul din mâinile lui este real…",
+    "cta_text": "Joacă demo acum"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

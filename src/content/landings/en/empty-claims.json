@@ -1,0 +1,70 @@
+{
+  "slug": "empty-claims",
+  "audience": "parent",
+  "locale": "en",
+  "meta": {
+    "title": "\"It's the best — everyone says so\" — why your child believes confident words with no proof | Sila Slova",
+    "description": "Teach your child to separate bold claims from facts and ask: why is it actually \"the best\"? Game-based course for children aged 8–12.",
+    "og_image": "/og/empty-claims-en.jpg"
+  },
+  "hero": {
+    "headline": "\"It's the best — everyone's already seen it!\" — and your child believes it without a single \"why\"?",
+    "subheadline": "It sounds confident. But there's nothing concrete behind it. The child hears \"everyone says so\" — and stops asking questions.",
+    "cta_primary": { "text": "Sign up for the course", "target": "/sign-up" },
+    "cta_secondary": { "text": "Play demo", "target": "/demo" },
+    "media": { "type": "image", "src": "/images/empty-claims.jpg", "alt": "A child hearing confident words with no evidence behind them" }
+  },
+  "pain": {
+    "title": "\"The best\" — that's not a fact, it's a claim",
+    "body": "\"It's the best\", \"everyone's already rated it\", \"it's top\". At school, on social media, in conversations with friends. It sounds confident — but it's unclear why it's \"the best\". The child either believes it straight away, or gets confused: \"everyone says it, so it's probably true\".\n\nThis isn't being gullible or falling for advertising. It's a natural response to confident delivery: when something is said decisively and loudly, the brain tends to trust it. But \"the best\", \"everyone\", \"top\" — these are emotional claims with nothing behind them. No comparison, no evidence, no answer to \"why\".\n\nThe result — the child trusts what's said loudest, not what's actually backed up. And doesn't notice when they're being persuaded by empty words."
+  },
+  "solution": {
+    "title": "\"Sila Slova\" — a detective drama that teaches critical thinking",
+    "body": "40 episodes, 13 critical thinking lessons. Your child plays — but is actually learning to protect themselves.",
+    "bullets": [
+      "🔍 Spots confident words without facts — \"the best\" ≠ proven",
+      "🧠 Asks the simple question: \"Why do you think that?\"",
+      "💬 Checks whether there's a real basis — or just words",
+      "🛡️ Isn't swayed by confident delivery when there's no evidence"
+    ]
+  },
+  "social_proof": {
+    "quote": "\"Everyone says so\" is no longer an argument for him. He now asks straight away: \"Why is it actually the best?\" — and waits for a real answer.",
+    "author": "Vasyl, dad of 10-year-old Roman",
+    "stats": [
+      { "label": "Children completed the course", "value": "2,400+" },
+      { "label": "Satisfied parents", "value": "94%" },
+      { "label": "Optimal age", "value": "8–12 yrs" }
+    ]
+  },
+  "faq_label": "FAQ",
+  "faq_title": "Questions about the course",
+  "faq": [
+    {
+      "q": "Is it a game or a learning course?",
+      "a": "Both at the same time. \"Sila Slova\" looks like a detective series, but every episode contains a hidden critical thinking lesson."
+    },
+    {
+      "q": "What age is it suitable for?",
+      "a": "Ideal for 8–12 year olds. At this age, children are most receptive to new thinking patterns and haven't yet formed rigid biases."
+    },
+    {
+      "q": "How much time is needed each day?",
+      "a": "15–20 minutes per episode. Flexible schedule — your child can come back at any convenient time."
+    },
+    {
+      "q": "Is registration required for the demo?",
+      "a": "No. The demo episode is fully open — no registration, no subscription, no personal data required."
+    }
+  ],
+  "final_cta": {
+    "headline": "Give your child the superpower of critical thinking",
+    "subheadline": "Episode 1 · Morning Without a Sister\nMum says there was never a sister. The school doesn't remember Sofia. But Marco remembers her laugh — and the diary in his hands is real…",
+    "cta_text": "Play demo now"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

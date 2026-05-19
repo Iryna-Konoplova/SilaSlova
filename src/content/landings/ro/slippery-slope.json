@@ -1,0 +1,70 @@
+{
+  "slug": "slippery-slope",
+  "audience": "parent",
+  "locale": "ro",
+  "meta": {
+    "title": "«Dacă nu faci — totul va merge în lanț» — de ce copilul se teme de «catastrofă» | Forța Cuvântului",
+    "description": "Învățați copilul să descompună lanțurile înspăimântătoare în pași și să verifice fiecare separat. Curs în format de joc pentru copii de 8–12 ani.",
+    "og_image": "/og/slippery-slope-ro.jpg"
+  },
+  "hero": {
+    "headline": "«Nu înveți — vei pica totul, și nimic nu va ieși!» — și copilul tău s-a speriat deja?",
+    "subheadline": "O acțiune — și direct la catastrofă. Sună logic. Dar între primul pas și «sfârșit» sunt straturi de presupuneri pe care nimeni nu le-a verificat.",
+    "cta_primary": { "text": "Înscrie-te la curs", "target": "/sign-up" },
+    "cta_secondary": { "text": "Joacă demo", "target": "/demo" },
+    "media": { "type": "image", "src": "/images/slippery-slope.jpg", "alt": "Un copil speriat de un lanț de evenimente de la o acțiune la catastrofă" }
+  },
+  "pain": {
+    "title": "«Nu mergi — îți pierzi șansa pentru totdeauna» — nu e un prognoze, e un lanț de presupuneri",
+    "body": "«Nu înveți — iei notă proastă, pici totul, nimic nu va ieși». «Nu mergi — pierzi șansa, și nu va mai fi niciodată alta». La școală, acasă, în conversații. O acțiune se umflă la o «catastrofă» prin câțiva pași. Copilul nu are timp să verifice — pur și simplu se sperie și cedează.\n\nNu e panică sau slăbiciune. E un răspuns natural la presiunea exagerată: când lanțul sună coerent și convingător, e greu să te oprești și să verifici fiecare pas. Dar fiecare verigă următoare dintr-un astfel de lanț este doar o presupunere — nu un fapt. Și cu cât mai departe, cu atât mai puțin probabilă.\n\nConsecinșa — frica conduce decizia. «Mai bine cedez, dacă tot va fi așa» — și copilul acționează din frică, nu din raționament real."
+  },
+  "solution": {
+    "title": "«Forța Cuvântului» — o dramă detectivistică ce învață să gândești",
+    "body": "40 de episoade, 13 lecții de gândire critică. Copilul se joacă — dar de fapt învață să se protejeze.",
+    "bullets": [
+      "🔍 Recunoaște «lanțul înspăimântător» — un pas ≠ catastrofă",
+      "🧠 Descompune lanțul în pași și verifică fiecare separat",
+      "💬 Vede unde se termină faptul și începe presupunerea",
+      "🛡️ Nu reacționează automat la frică — se oprește și gândește"
+    ]
+  },
+  "social_proof": {
+    "quote": "«Dacă nu faci — totul va merge prost» nu îl mai face să acționeze din frică. El vede că acesta e doar unul dintre scenariile posibile.",
+    "author": "Ihor, tatăl lui Maxim de 11 ani",
+    "stats": [
+      { "label": "Copii au finalizat cursul", "value": "2.400+" },
+      { "label": "Părinți mulțumiți", "value": "94%" },
+      { "label": "Vârsta optimă", "value": "8–12 ani" }
+    ]
+  },
+  "faq_label": "ÎNTREBĂRI FRECVENTE",
+  "faq_title": "Întrebări despre curs",
+  "faq": [
+    {
+      "q": "Este un joc sau un curs educațional?",
+      "a": "Ambele formule în același timp. «Forța Cuvântului» arată ca un serial detectivistic, dar în fiecare episod este ascunsă o lecție de gândire critică."
+    },
+    {
+      "q": "De la ce vârstă se poate începe?",
+      "a": "Optim — 8–12 ani. La această vârstă, copiii sunt cei mai receptivi la noi tipare de gândire și nu și-au format încă prejudecăți stabile."
+    },
+    {
+      "q": "Cât timp este necesar zilnic?",
+      "a": "15–20 de minute pe episod. Program flexibil — copilul poate reveni oricând îi convine."
+    },
+    {
+      "q": "Este necesară înregistrarea pentru demo?",
+      "a": "Nu. Episodul demo este complet deschis — fără înregistrare, fără abonament, fără introducerea datelor."
+    }
+  ],
+  "final_cta": {
+    "headline": "Oferă-i copilului tău superputerea gândirii critice",
+    "subheadline": "Episodul 1 · Dimineața fără soră\nMama spune că sora nu a existat niciodată. La școală nu o cunosc pe Sofia. Dar Marco își amintește râsul ei — și jurnalul din mâinile lui este real…",
+    "cta_text": "Joacă demo acum"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

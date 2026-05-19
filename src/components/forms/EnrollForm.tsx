@@ -13,7 +13,6 @@ const INT_MASK = "+_ ___ ___ __ __";
 const schema = z.object({
   parentName: z.string().min(1),
   phone: z.string().refine((v) => (v ?? "").replace(/\D/g, "").length >= 7),
-  childAge: z.string().min(1),
   city: z.string().min(1),
   comment: z.string().optional(),
 });
@@ -23,12 +22,13 @@ type FormData = z.infer<typeof schema>;
 type Props = {
   onSuccess?: () => void;
   className?: string;
+  source?: string;
 };
 
 const inputClass =
   "w-full rounded-xl border border-line bg-surface px-4 py-3 text-sm text-content placeholder-zinc-400 outline-none transition focus:border-accent-500 focus:ring-2 focus:ring-accent-500/20 dark:placeholder-zinc-500";
 
-export function EnrollForm({ onSuccess, className }: Props) {
+export function EnrollForm({ onSuccess, className, source = "sila-slova" }: Props) {
   const t = useTranslations("enroll_form");
   const [submitted, setSubmitted] = useState(false);
   const [abroad, setAbroad] = useState(false);
@@ -47,11 +47,21 @@ export function EnrollForm({ onSuccess, className }: Props) {
   }
 
   async function onSubmit(data: FormData) {
-    // TODO: CRM webhook (Sprint 3)
-    console.log("Enroll:", data);
-    await new Promise((r) => setTimeout(r, 600));
+    await fetch(process.env.NEXT_PUBLIC_CRM_WEBHOOK_URL!, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        payload: {
+          full_name: data.parentName,
+          phone: data.phone,
+          city: data.city,
+          message: data.comment ?? "",
+          source,
+        },
+      }),
+    });
     setSubmitted(true);
-    onSuccess?.();
+    if (onSuccess) setTimeout(onSuccess, 2500);
   }
 
   if (submitted) {
@@ -110,28 +120,16 @@ export function EnrollForm({ onSuccess, className }: Props) {
           />
         </div>
 
-        {/* Child age + City */}
-        <div className="grid grid-cols-2 gap-3">
-          <div>
-            <label className="sr-only">{t("child_age_label")}</label>
-            <input
-              type="text"
-              placeholder={t("child_age_placeholder")}
-              {...register("childAge")}
-              required
-              className={inputClass}
-            />
-          </div>
-          <div>
-            <label className="sr-only">{t("city_label")}</label>
-            <input
-              type="text"
-              placeholder={t("city_placeholder")}
-              {...register("city")}
-              required
-              className={inputClass}
-            />
-          </div>
+        {/* City */}
+        <div>
+          <label className="sr-only">{t("city_label")}</label>
+          <input
+            type="text"
+            placeholder={t("city_placeholder")}
+            {...register("city")}
+            required
+            className={inputClass}
+          />
         </div>
 
         {/* Comment */}

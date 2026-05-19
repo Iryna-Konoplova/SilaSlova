@@ -4,7 +4,7 @@ import { EnrollButton } from "@/components/forms/EnrollButton";
 import { DemoButton } from "@/components/ui/DemoButton";
 import type { Landing } from "@/lib/schemas/landing";
 
-type Props = { hero: Landing["hero"]; locale: string };
+type Props = { hero: Landing["hero"]; locale: string; slug: string };
 
 function HeroMedia({ media, headlineFallback }: { media: Landing["hero"]["media"]; headlineFallback: string }) {
   if (media.type === "video") {
@@ -48,7 +48,7 @@ function HeroMedia({ media, headlineFallback }: { media: Landing["hero"]["media"
   );
 }
 
-export function LandingHero({ hero, locale }: Props) {
+export function LandingHero({ hero, locale, slug }: Props) {
   return (
     <section
       aria-labelledby="landing-hero-heading"
@@ -76,6 +76,7 @@ export function LandingHero({ hero, locale }: Props) {
             <EnrollButton
               label={hero.cta_primary.text}
               size="lg"
+              source={`sila-slova/${slug}`}
             />
             {hero.cta_secondary && (
               <DemoButton locale={locale} label={hero.cta_secondary.text} size="lg" />

@@ -1,0 +1,70 @@
+{
+  "slug": "straw-man",
+  "audience": "parent",
+  "locale": "en",
+  "meta": {
+    "title": "\"You said one thing — so you mean everything\" — why your child loses arguments with their own words | Sila Slova",
+    "description": "Teach your child to reclaim their words and hold their position when their meaning gets twisted. Game-based course for children aged 8–12.",
+    "og_image": "/og/straw-man-en.jpg"
+  },
+  "hero": {
+    "headline": "Is your child already defending themselves for things they never said?",
+    "subheadline": "She said one thing. She was heard saying something else. Now she has to defend herself against words she never said.",
+    "cta_primary": { "text": "Sign up for the course", "target": "/sign-up" },
+    "cta_secondary": { "text": "Play demo", "target": "/demo" },
+    "media": { "type": "image", "src": "/images/straw-man.jpg", "alt": "A child whose words are twisted to an extreme" }
+  },
+  "pain": {
+    "title": "Thought substitution: when what you said becomes something you never meant",
+    "body": "\"I don't like this subject\" → \"so you don't want to learn anything at all\". \"I don't like this\" → \"so nothing is ever good enough for you\". At school, at home, in conversations. The child says something specific — and it gets blown up into something extreme. They feel unheard, but don't know how to explain it.\n\nThis isn't poor explanation or unclear thinking. It's distortion — deliberate or not: one idea gets stretched into \"always\", \"everything\", \"never\" — to make it easier to argue against. The child ends up arguing against a version of their words they never actually said. And that version is harder to defend.\n\nThe result — the child's position gets lost, even when it was perfectly valid. \"Maybe I did mean that?\" — and they either start justifying themselves or give up entirely."
+  },
+  "solution": {
+    "title": "\"Sila Slova\" — a detective drama that teaches critical thinking",
+    "body": "40 episodes, 13 critical thinking lessons. Your child plays — but is actually learning to protect themselves.",
+    "bullets": [
+      "🔍 Notices when their words are being stretched to an extreme",
+      "🧠 Separates what they said from what others \"added\"",
+      "💬 Calmly reclaims their position: \"That's not what I said\"",
+      "🛡️ Holds their point when someone tries to replace it with their own version"
+    ]
+  },
+  "social_proof": {
+    "quote": "\"So that means you think…\" no longer throws her off. She's learned to say calmly: \"No, that's not what I said\" — and come back to her actual point.",
+    "author": "Oksana, mum of 10-year-old Daryna",
+    "stats": [
+      { "label": "Children completed the course", "value": "2,400+" },
+      { "label": "Satisfied parents", "value": "94%" },
+      { "label": "Optimal age", "value": "8–12 yrs" }
+    ]
+  },
+  "faq_label": "FAQ",
+  "faq_title": "Questions about the course",
+  "faq": [
+    {
+      "q": "Is it a game or a learning course?",
+      "a": "Both at the same time. \"Sila Slova\" looks like a detective series, but every episode contains a hidden critical thinking lesson."
+    },
+    {
+      "q": "What age is it suitable for?",
+      "a": "Ideal for 8–12 year olds. At this age, children are most receptive to new thinking patterns and haven't yet formed rigid biases."
+    },
+    {
+      "q": "How much time is needed each day?",
+      "a": "15–20 minutes per episode. Flexible schedule — your child can come back at any convenient time."
+    },
+    {
+      "q": "Is registration required for the demo?",
+      "a": "No. The demo episode is fully open — no registration, no subscription, no personal data required."
+    }
+  ],
+  "final_cta": {
+    "headline": "Give your child the superpower of critical thinking",
+    "subheadline": "Episode 1 · Morning Without a Sister\nMum says there was never a sister. The school doesn't remember Sofia. But Marco remembers her laugh — and the diary in his hands is real…",
+    "cta_text": "Play demo now"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}
