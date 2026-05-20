@@ -37,7 +37,7 @@ export async function buildMetadata({
 
   const resolvedTitle = title ?? t("title");
   const resolvedDescription = description ?? t("description");
-  const image = imageUrl ?? `${siteUrl}/og-default.jpg`;
+  const image = imageUrl ?? `${siteUrl}/og/og-default.jpg`;
   const canonical = `${siteUrl}/${locale}${path}`;
 
   return {

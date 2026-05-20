@@ -64,20 +64,23 @@ export async function generateMetadata({
 
   const canonical = `${siteUrl}/${locale}/lp/${slug}`;
 
+  const base = await buildMetadata({
+    locale,
+    path: `/lp/${slug}`,
+    title: landing.meta.title,
+    description: landing.meta.description,
+    imageUrl,
+  });
+
   return {
-    ...buildMetadata({
-      locale,
-      path: `/lp/${slug}`,
-      title: landing.meta.title,
-      description: landing.meta.description,
-      imageUrl,
-    }),
+    ...base,
     alternates: {
       canonical,
       languages: {
         en: `${siteUrl}/en/lp/${slug}`,
         ru: `${siteUrl}/ru/lp/${slug}`,
         uk: `${siteUrl}/uk/lp/${slug}`,
+        ro: `${siteUrl}/ro/lp/${slug}`,
       },
     },
   };
