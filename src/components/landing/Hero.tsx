@@ -1,4 +1,5 @@
-﻿import { getTranslations } from "next-intl/server";
+﻿import Image from "next/image";
+import { getTranslations } from "next-intl/server";
 import { EnrollButton } from "@/components/forms/EnrollButton";
 import { DemoButton } from "@/components/ui/DemoButton";
 
@@ -60,34 +61,20 @@ export async function Hero({ locale }: Props) {
 
       {/* Hero visual */}
       <div className="relative z-10 mx-auto mt-16 w-full max-w-3xl">
-        <figure className="overflow-hidden rounded-2xl ring-1 ring-line shadow-xl shadow-zinc-200/60 dark:shadow-none">
-          <div
-            aria-label={t("media_alt")}
-            role="img"
-            className="aspect-video bg-gradient-to-br from-brand-50 via-brand-100/30 to-accent-50 dark:from-zinc-900 dark:via-brand-950/30 dark:to-zinc-900"
-          >
-            <div className="relative h-full w-full overflow-hidden">
-              <div className="absolute bottom-0 left-0 right-0 flex items-end justify-center gap-1 px-4 pb-0">
-                {[40, 70, 55, 90, 60, 80, 45, 75, 50, 85, 65, 50, 72, 48].map((h, i) => (
-                  <div
-                    key={i}
-                    aria-hidden="true"
-                    className="w-full flex-1 rounded-t bg-brand-200/60 dark:bg-surface/80"
-                    style={{ height: `${h}%` }}
-                  />
-                ))}
-              </div>
-              <div aria-hidden="true" className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-brand-50 to-transparent dark:from-zinc-950" />
-              <div className="absolute inset-0 flex flex-col items-center justify-center">
-                <p className="text-sm font-semibold uppercase tracking-[0.3em] text-brand-500/70 dark:text-brand-400/60">
-                  City of Broken Words
-                </p>
-                <p className="mt-2 text-xs text-content-subtle">
-                  Hero video · Coming in Sprint 2
-                </p>
-              </div>
-            </div>
-          </div>
+        <figure className="relative aspect-video overflow-hidden rounded-2xl ring-1 ring-line shadow-xl shadow-zinc-200/60 dark:shadow-none">
+          <Image
+            src="/images/hero.jpg"
+            alt={t("media_alt")}
+            fill
+            sizes="(max-width: 768px) 100vw, 768px"
+            className="object-cover"
+            priority
+          />
+          <figcaption className="absolute inset-0 flex items-end justify-center pb-8 sm:pb-12 md:pb-16">
+            <p className="text-center text-2xl font-bold uppercase tracking-[0.25em] text-white drop-shadow-[0_2px_12px_rgba(0,0,0,0.7)] sm:text-3xl md:text-4xl">
+              City of Broken Words
+            </p>
+          </figcaption>
         </figure>
       </div>
     </section>

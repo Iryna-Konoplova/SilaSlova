@@ -1,0 +1,70 @@
+{
+  "slug": "off-topic",
+  "audience": "parent",
+  "locale": "ro",
+  "meta": {
+    "title": "«Nu despre asta, dar tu…» — cum este abătut copilul de la subiect în discuții | Forța Cuvântului",
+    "description": "Învățați copilul să observe când cineva evită întrebarea și să readucă discuția la subiect. Curs în format de joc pentru copii de 8–12 ani.",
+    "og_image": "/og/og-default.jpg"
+  },
+  "hero": {
+    "headline": "Întrebarea copilului tău rămâne fără răspuns?",
+    "subheadline": "A întrebat concret — și a primit «dar tu ieri…», «nu despre asta», «hai mai bine despre altceva». Și nu a primit niciodată ce a întrebat de fapt.",
+    "cta_primary": { "text": "Înscrie-te la curs", "target": "/sign-up" },
+    "cta_secondary": { "text": "Joacă demo", "target": "/demo" },
+    "media": { "type": "image", "src": "/images/off-topic.jpg", "alt": "Un copil care primește o deviere de la subiect în loc de un răspuns" }
+  },
+  "pain": {
+    "title": "«Nu e despre asta, dar…»: când în loc de un răspuns ești dus în altă parte",
+    "body": "«De ce nu pot să merg?» → «Cu cine ai ieșit ieri?». «Nu e corect» → «Dar tu, miercuri…». «De ce strigi?» → «Hai mai bine să vorbim despre școală». Copilul a întrebat un lucru — și i s-a răspuns la altceva complet. Discuția a alunecat în lateral, iar întrebarea lui a rămas suspendată în aer.\n\nNu e confuzie și nu e «a pierdut firul». Este o eschivare — în loc de un răspuns, celălalt redirecționează atenția spre altă situație, altă persoană, alt moment. Subiectul se schimbă atât de discret, încât copilul începe să răspundă la cel nou. Iar când se trezește — a uitat deja ce a întrebat la început.\n\nConsecința — întrebarea rămâne fără răspuns. Copilul pleacă din discuție cu sentimentul că a fost «depășit», dar nu poate spune cum anume. Data viitoare îi va fi și mai greu să întrebe — așteaptă deja subconștient să fie dus în altă parte."
+  },
+  "solution": {
+    "title": "«Forța Cuvântului» — o dramă detectivistică ce învață să gândești",
+    "body": "40 de episoade, 13 lecții de gândire critică. Copilul se joacă — dar de fapt învață să păstreze subiectul discuției.",
+    "bullets": [
+      "🔍 Observă când subiectul se schimbă discret",
+      "🧠 Distinge un răspuns de o eschivare",
+      "💬 Readuce calm discuția: «Nu ai răspuns la întrebarea mea»",
+      "🛡️ Păstrează subiectul până primește un răspuns"
+    ]
+  },
+  "social_proof": {
+    "quote": "Înainte stătea după astfel de discuții și se gândea «ce s-a întâmplat de fapt». Acum spune: «Mamă, nu despre asta vorbeam. Poți să-mi răspunzi la întrebare?». Uneori mă prind că eu însămi mă eschivam — iar ea acum observă.",
+    "author": "Elena, mama Alisei de 10 ani",
+    "stats": [
+      { "label": "Copii au finalizat cursul", "value": "2.400+" },
+      { "label": "Părinți mulțumiți", "value": "94%" },
+      { "label": "Vârsta optimă", "value": "8–12 ani" }
+    ]
+  },
+  "faq_label": "ÎNTREBĂRI FRECVENTE",
+  "faq_title": "Întrebări despre curs",
+  "faq": [
+    {
+      "q": "Este un joc sau un curs educațional?",
+      "a": "Ambele formule în același timp. «Forța Cuvântului» arată ca un serial detectivistic, dar în fiecare episod este ascunsă o lecție de gândire critică."
+    },
+    {
+      "q": "De la ce vârstă se poate începe?",
+      "a": "Optim — 8–12 ani. La această vârstă, copiii sunt cei mai receptivi la noi tipare de gândire și nu și-au format încă prejudecăți stabile."
+    },
+    {
+      "q": "Cât timp este necesar zilnic?",
+      "a": "15–20 de minute pe episod. Program flexibil — copilul poate reveni oricând îi convine."
+    },
+    {
+      "q": "Este necesară înregistrarea pentru demo?",
+      "a": "Nu. Episodul demo este complet deschis — fără înregistrare, fără abonament, fără introducerea datelor."
+    }
+  ],
+  "final_cta": {
+    "headline": "Oferă-i copilului instrumentul de a păstra subiectul discuției",
+    "subheadline": "Episodul 1 · Dimineața fără soră\nMama spune că sora nu a existat niciodată. La școală nu o cunosc pe Sofia. Dar Marco își amintește râsul ei — și jurnalul din mâinile lui este real…",
+    "cta_text": "Joacă demo acum"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

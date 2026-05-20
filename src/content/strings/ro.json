@@ -212,6 +212,9 @@
     "submit": "Înscrie-te",
     "privacy": "Apăsând «Înscrie-te», ești de acord cu prelucrarea datelor personale. Nu le transmitem terților.",
     "error_required": "Acest câmp este obligatoriu",
+    "error_title": "Nu s-a putut trimite",
+    "error_body": "A apărut o eroare. Încearcă din nou sau contactează-ne direct.",
+    "error_rate_limited": "Ai trimis prea multe cereri de pe acest dispozitiv. Te rugăm să încerci din nou peste 10 minute.",
     "success_title": "Cerere acceptată!",
     "success_body": "Te vom contacta în termen de 24 de ore pentru confirmarea lecției de probă."
   },

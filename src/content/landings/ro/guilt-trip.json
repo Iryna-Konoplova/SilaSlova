@@ -1,0 +1,70 @@
+{
+  "slug": "guilt-trip",
+  "audience": "parent",
+  "locale": "ro",
+  "meta": {
+    "title": "«Eu mă străduiesc pentru tine» — cum este împins copilul în vinovăție | Forța Cuvântului",
+    "description": "Învățați copilul să recunoască presiunea prin vinovăție și să ia decizii fără șantaj emoțional. Curs în format de joc pentru copii de 8–12 ani.",
+    "og_image": "/og/og-default.jpg"
+  },
+  "hero": {
+    "headline": "Copilul tău acceptă pentru că «e jenant să refuze»?",
+    "subheadline": "«Eu mă străduiesc pentru tine», «fac totul pentru tine, iar tu…», «mă superi». Și face nu ce vrea, ci ce înlătură senzația neplăcută.",
+    "cta_primary": { "text": "Înscrie-te la curs", "target": "/sign-up" },
+    "cta_secondary": { "text": "Joacă demo", "target": "/demo" },
+    "media": { "type": "image", "src": "/images/guilt-trip.jpg", "alt": "Un copil care acceptă din vinovăție, nu din alegere proprie" }
+  },
+  "pain": {
+    "title": "Șantaj prin vinovăție: când ești forțat să faci ceva ca să nu te simți o persoană rea",
+    "body": "«Eu fac totul pentru tine, iar tu nu poți nici măcar asta». «Mă dezamăgești». «Credeam că ne-am înțeles — și m-ai dezamăgit». Copilul poate să nu vrea, să nu poată, să nu aibă timp — dar nu aude un argument sau o rugăminte. Aude: «dacă nu accepți, ești o persoană rea». Și acceptă în tăcere.\n\nNu este o discuție obișnuită. Este o manipulare — cealaltă persoană nu explică de ce e important, nu propune un compromis. Pur și simplu îl face pe copil să se simtă vinovat. Iar decizia se ia nu din «vreau / nu vreau», ci din «trebuie să fac să dispară senzația asta îngrozitoare din mine». Fără priceperea de a observa trucul, copilul se adaptează automat.\n\nConsecința — nu face alegerea lui. Face ca mama / tata / prietena să nu se supere. Face ca să nu îi fie rușine. Iar propriile «vreau» și «nu vreau» încet-încet încetează să mai însemne ceva. La vârsta adolescenței asta devine «nu mai știu nici eu ce vreau»."
+  },
+  "solution": {
+    "title": "«Forța Cuvântului» — o dramă detectivistică ce învață să gândești",
+    "body": "40 de episoade, 13 lecții de gândire critică. Copilul se joacă — dar de fapt învață să ia decizii fără presiune emoțională.",
+    "bullets": [
+      "🔍 Observă momentul în care este «împuns» cu vinovăție în loc de un argument",
+      "🧠 Înțelege că este o tehnică de presiune, nu «un comportament rău» al lui",
+      "💬 Spune calm: «Te aud, dar asta este o decizie separată»",
+      "🛡️ Nu acceptă automat doar ca să «închidă» senzația neplăcută"
+    ]
+  },
+  "social_proof": {
+    "quote": "Înainte spunea «da» chiar și când era obosit sau ocupat — doar ca să nu se certe cu nimeni. Acum îl aud spunând: «Bunico, te iubesc, dar acum nu pot». Calm, fără tonul vinovat. Sincer, mi-ar prinde și mie bine priceperea asta.",
+    "author": "Iulia, mama lui Timur de 9 ani",
+    "stats": [
+      { "label": "Copii au finalizat cursul", "value": "2.400+" },
+      { "label": "Părinți mulțumiți", "value": "94%" },
+      { "label": "Vârsta optimă", "value": "8–12 ani" }
+    ]
+  },
+  "faq_label": "ÎNTREBĂRI FRECVENTE",
+  "faq_title": "Întrebări despre curs",
+  "faq": [
+    {
+      "q": "Este un joc sau un curs educațional?",
+      "a": "Ambele formule în același timp. «Forța Cuvântului» arată ca un serial detectivistic, dar în fiecare episod este ascunsă o lecție de gândire critică."
+    },
+    {
+      "q": "De la ce vârstă se poate începe?",
+      "a": "Optim — 8–12 ani. La această vârstă, copiii sunt cei mai receptivi la noi tipare de gândire și nu și-au format încă prejudecăți stabile."
+    },
+    {
+      "q": "Cât timp este necesar zilnic?",
+      "a": "15–20 de minute pe episod. Program flexibil — copilul poate reveni oricând îi convine."
+    },
+    {
+      "q": "Este necesară înregistrarea pentru demo?",
+      "a": "Nu. Episodul demo este complet deschis — fără înregistrare, fără abonament, fără introducerea datelor."
+    }
+  ],
+  "final_cta": {
+    "headline": "Oferă-i copilului dreptul de a refuza fără a se simți vinovat",
+    "subheadline": "Episodul 1 · Dimineața fără soră\nMama spune că sora nu a existat niciodată. La școală nu o cunosc pe Sofia. Dar Marco își amintește râsul ei — și jurnalul din mâinile lui este real…",
+    "cta_text": "Joacă demo acum"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "slug": "not-said",
+  "audience": "parent",
+  "locale": "ro",
+  "meta": {
+    "title": "«Nu asta am spus» — fraza care întoarce discuția la cuvintele reale ale copilului | Forța Cuvântului",
+    "description": "Învățați copilul o singură frază prin care își recuperează cuvintele când sunt extinse până la extrem. Curs în format de joc pentru copii de 8–12 ani.",
+    "og_image": "/og/og-default.jpg"
+  },
+  "hero": {
+    "headline": "Copilul tău tace când cuvintele lui sunt denaturate?",
+    "subheadline": "Nu pentru că nu știe să-și apere gândul. Pur și simplu nu are un instrument simplu prin care să întoarcă discuția la ceea ce a spus de fapt.",
+    "cta_primary": { "text": "Înscrie-te la curs", "target": "/sign-up" },
+    "cta_secondary": { "text": "Joacă demo", "target": "/demo" },
+    "media": { "type": "image", "src": "/images/not-said.jpg", "alt": "Un copil care tace când cuvintele lui sunt denaturate" }
+  },
+  "pain": {
+    "title": "«Sperietoarea»: când cineva se ceartă cu o versiune inventată a cuvintelor tale, nu cu tine",
+    "body": "«Nu vreau să merg azi» → «deci nimic nu îți place niciodată». «Mi-e greu cu asta» → «deci pur și simplu nu vrei să te străduiești». Copilul spune un lucru — și i se răspunde deja la altceva. Simte nedreptatea, dar nu știe cum să o numească: «nu asta am spus» i se blochează în gât.\n\nNu este un copil care explică prost sau care nu are încredere în sine. Este o tehnică — ideea lui este extinsă până la extrem («mereu», «tot», «niciodată»), ca să fie mai ușor de doborât. Și acum se ceartă cu o versiune pe care nu a spus-o niciodată. În jocul ăsta pierde mereu: versiunea celuilalt a cuvintelor sale sună atât de dur că nu poți fi de acord, dar e și greu de combătut.\n\nConsecința — copilul fie începe să se justifice (și intră în jocul celuilalt), fie tace. Oricum ar fi, gândul lui real dispare din conversație."
+  },
+  "solution": {
+    "title": "«Forța Cuvântului» — o dramă detectivistică ce învață să gândești",
+    "body": "40 de episoade, 13 lecții de gândire critică. Copilul se joacă — dar de fapt asimilează instrumente verbale simple.",
+    "bullets": [
+      "🔍 Observă momentul în care cuvintele lui sunt «extinse»",
+      "🧠 Înțelege că este o tehnică — nu o greșeală a lui în explicații",
+      "💬 Întoarce discuția printr-o singură frază: «Nu asta am spus»",
+      "🛡️ Își păstrează gândul, fără să intre în jocul celuilalt"
+    ]
+  },
+  "social_proof": {
+    "quote": "Înainte îngheța și începea să plângă. Acum spune pur și simplu: «Stop, nu asta am spus. Am spus altceva». Și discuția revine la realitate.",
+    "author": "Irina, mama lui Artem de 11 ani",
+    "stats": [
+      { "label": "Copii au finalizat cursul", "value": "2.400+" },
+      { "label": "Părinți mulțumiți", "value": "94%" },
+      { "label": "Vârsta optimă", "value": "8–12 ani" }
+    ]
+  },
+  "faq_label": "ÎNTREBĂRI FRECVENTE",
+  "faq_title": "Întrebări despre curs",
+  "faq": [
+    {
+      "q": "Este un joc sau un curs educațional?",
+      "a": "Ambele formule în același timp. «Forța Cuvântului» arată ca un serial detectivistic, dar în fiecare episod este ascunsă o lecție de gândire critică."
+    },
+    {
+      "q": "De la ce vârstă se poate începe?",
+      "a": "Optim — 8–12 ani. La această vârstă, copiii sunt cei mai receptivi la noi tipare de gândire și nu și-au format încă prejudecăți stabile."
+    },
+    {
+      "q": "Cât timp este necesar zilnic?",
+      "a": "15–20 de minute pe episod. Program flexibil — copilul poate reveni oricând îi convine."
+    },
+    {
+      "q": "Este necesară înregistrarea pentru demo?",
+      "a": "Nu. Episodul demo este complet deschis — fără înregistrare, fără abonament, fără introducerea datelor."
+    }
+  ],
+  "final_cta": {
+    "headline": "Oferă-i copilului o frază care întoarce orice discuție la cuvintele lui",
+    "subheadline": "Episodul 1 · Dimineața fără soră\nMama spune că sora nu a existat niciodată. La școală nu o cunosc pe Sofia. Dar Marco își amintește râsul ei — și jurnalul din mâinile lui este real…",
+    "cta_text": "Joacă demo acum"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

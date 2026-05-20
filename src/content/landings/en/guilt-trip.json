@@ -1,0 +1,70 @@
+{
+  "slug": "guilt-trip",
+  "audience": "parent",
+  "locale": "en",
+  "meta": {
+    "title": "\"I'm doing this for you\" — how children get pushed into guilt-based agreement | Sila Slova",
+    "description": "Teach your child to recognise guilt-based pressure and make decisions without emotional manipulation. Game-based course for children aged 8–12.",
+    "og_image": "/og/og-default.jpg"
+  },
+  "hero": {
+    "headline": "Does your child agree because 'it's awkward to say no'?",
+    "subheadline": "\"I'm doing this for you\", \"I do everything for you and you can't even…\", \"you're disappointing me\". And they do what makes the bad feeling go away, not what they actually want.",
+    "cta_primary": { "text": "Sign up for the course", "target": "/sign-up" },
+    "cta_secondary": { "text": "Play demo", "target": "/demo" },
+    "media": { "type": "image", "src": "/images/guilt-trip.jpg", "alt": "A child agreeing out of guilt rather than choice" }
+  },
+  "pain": {
+    "title": "The guilt trip: when you're pushed into something so you don't feel like a bad person",
+    "body": "\"I do everything for you, and you can't even do this\". \"You're disappointing me\". \"I thought we agreed — and you let me down\". Your child might really not want to, not be able to, not have time. But what they hear isn't an argument or a request. They hear: \"if you don't agree, you're a bad person\". And they quietly agree.\n\nThis isn't a normal conversation. It's manipulation — the other person isn't explaining why something matters or asking to find a compromise. They're making the child feel guilty. And the decision then gets made not from 'I want / I don't want' but from 'I need to make this awful feeling go away'. Without the skill to notice the move, the child just adjusts automatically.\n\nThe result — they don't make their own choice. They do it so a parent / friend / sibling doesn't get angry. They do it so they don't feel shame. Their own 'wants' and 'don't wants' gradually stop meaning anything. In the teenage years this turns into 'I don't even know what I want anymore'."
+  },
+  "solution": {
+    "title": "\"Sila Slova\" — a detective drama that teaches critical thinking",
+    "body": "40 episodes, 13 critical thinking lessons. Your child plays — but is actually learning to make decisions without emotional pressure.",
+    "bullets": [
+      "🔍 Notices when they're being stung with guilt instead of given a reason",
+      "🧠 Understands it's a pressure tactic, not their 'bad behaviour'",
+      "💬 Calmly says: \"I hear you, but this is a separate decision\"",
+      "🛡️ Doesn't agree automatically just to make the bad feeling stop"
+    ]
+  },
+  "social_proof": {
+    "quote": "He used to say 'yes' even when tired or busy — just to avoid a fight with anyone. Now I hear him say: \"Grandma, I love you, but I can't right now\". Calm, no guilty tone. Honestly, I could use that skill too.",
+    "author": "Yuliya, mum of 9-year-old Tymur",
+    "stats": [
+      { "label": "Children completed the course", "value": "2,400+" },
+      { "label": "Satisfied parents", "value": "94%" },
+      { "label": "Optimal age", "value": "8–12 yrs" }
+    ]
+  },
+  "faq_label": "FAQ",
+  "faq_title": "Questions about the course",
+  "faq": [
+    {
+      "q": "Is it a game or a learning course?",
+      "a": "Both at the same time. \"Sila Slova\" looks like a detective series, but every episode contains a hidden critical thinking lesson."
+    },
+    {
+      "q": "What age is it suitable for?",
+      "a": "Ideal for 8–12 year olds. At this age, children are most receptive to new thinking patterns and haven't yet formed rigid biases."
+    },
+    {
+      "q": "How much time is needed each day?",
+      "a": "15–20 minutes per episode. Flexible schedule — your child can come back at any convenient time."
+    },
+    {
+      "q": "Is registration required for the demo?",
+      "a": "No. The demo episode is fully open — no registration, no subscription, no personal data required."
+    }
+  ],
+  "final_cta": {
+    "headline": "Give your child the right to say no without feeling guilty",
+    "subheadline": "Episode 1 · Morning Without a Sister\nMum says there was never a sister. The school doesn't remember Sofia. But Marco remembers her laugh — and the diary in his hands is real…",
+    "cta_text": "Play demo now"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

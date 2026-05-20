@@ -28,10 +28,13 @@ type Props = {
 const inputClass =
   "w-full rounded-xl border border-line bg-surface px-4 py-3 text-sm text-content placeholder-zinc-400 outline-none transition focus:border-accent-500 focus:ring-2 focus:ring-accent-500/20 dark:placeholder-zinc-500";
 
+type ErrorKind = "generic" | "rate_limited";
+
 export function EnrollForm({ onSuccess, className, source = "sila-slova" }: Props) {
   const t = useTranslations("enroll_form");
   const [submitted, setSubmitted] = useState(false);
   const [abroad, setAbroad] = useState(false);
+  const [error, setError] = useState<ErrorKind | null>(null);
 
   const {
     register,
@@ -47,19 +50,28 @@ export function EnrollForm({ onSuccess, className, source = "sila-slova" }: Prop
   }
 
   async function onSubmit(data: FormData) {
-    await fetch("/api/enroll", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        full_name: data.parentName,
-        phone: data.phone,
-        city: data.city,
-        message: data.comment ?? "",
-        source,
-      }),
-    });
-    setSubmitted(true);
-    if (onSuccess) setTimeout(onSuccess, 2500);
+    setError(null);
+    try {
+      const res = await fetch("/api/enroll", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          full_name: data.parentName,
+          phone: data.phone,
+          city: data.city,
+          message: data.comment ?? "",
+          source,
+        }),
+      });
+      if (!res.ok) {
+        setError(res.status === 429 ? "rate_limited" : "generic");
+        return;
+      }
+      setSubmitted(true);
+      if (onSuccess) setTimeout(onSuccess, 2500);
+    } catch {
+      setError("generic");
+    }
   }
 
   if (submitted) {
@@ -140,6 +152,19 @@ export function EnrollForm({ onSuccess, className, source = "sila-slova" }: Prop
             className={`${inputClass} resize-none`}
           />
         </div>
+
+        {/* Error message */}
+        {error && (
+          <div
+            role="alert"
+            className="rounded-xl border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-800 dark:border-red-900/50 dark:bg-red-950/30 dark:text-red-300"
+          >
+            <p className="font-semibold">{t("error_title")}</p>
+            <p className="mt-1">
+              {t(error === "rate_limited" ? "error_rate_limited" : "error_body")}
+            </p>
+          </div>
+        )}
 
         {/* Submit */}
         <button

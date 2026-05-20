@@ -1,0 +1,70 @@
+{
+  "slug": "yes-or-no",
+  "audience": "parent",
+  "locale": "ro",
+  "meta": {
+    "title": "«Da sau nu?» — cum este împins copilul într-un cadru de răspuns ales de altcineva | Forța Cuvântului",
+    "description": "Învățați copilul să refuze răspunsurile forțate «da/nu» când adevărul este mai complex. Curs în format de joc pentru copii de 8–12 ani.",
+    "og_image": "/og/og-default.jpg"
+  },
+  "hero": {
+    "headline": "Copilul tău e forțat să răspundă «da sau nu», când realitatea e mai complexă?",
+    "subheadline": "«Răspunde simplu», «nu te eschiva», «scurt». Copilul vede că în întrebare există nuanțe — dar e împins să aleagă o singură variantă, care nu i se potrivește.",
+    "cta_primary": { "text": "Înscrie-te la curs", "target": "/sign-up" },
+    "cta_secondary": { "text": "Joacă demo", "target": "/demo" },
+    "media": { "type": "image", "src": "/images/yes-or-no.jpg", "alt": "Un copil căruia i se impune un răspuns «da sau nu»" }
+  },
+  "pain": {
+    "title": "Capcana cadrului: când alegerea ta e redusă la două opțiuni alese de altcineva",
+    "body": "«Ți-a plăcut sau nu?» — și i-a plăcut, și nu i-a plăcut, și mai e și un al treilea aspect. «Ești pentru sau împotrivă?» — iar el vrea să întrebe despre ce anume. «Da sau nu, nu trage de timp» — și copilul alege răspunsul rapid pentru că presiunea e mare. Simte că nu a spus exact ce voia, dar nu i s-au dat alte variante.\n\nNu e vorba că copilul «nu poate răspunde clar». E vorba de control: câmpul lui de mișcare e redus la două opțiuni, ambele convenabile pentru cel care întreabă. Acceptând să joace «da/nu», copilul intră în regulile altcuiva. Tot ce nu intră în alegere — condiții, context, «pe de o parte — pe de altă parte» — este tăiat. Iar cel care întreabă are deja un răspuns cu care poate face ce vrea.\n\nConsecința — poziția copilului se simplifică sau e rescrisă. «Dar tu însuți ai spus «da»» — iar el voia să spună «da, dar…». Și acel «dar» nu mai există în discuție."
+  },
+  "solution": {
+    "title": "«Forța Cuvântului» — o dramă detectivistică ce învață să gândești",
+    "body": "40 de episoade, 13 lecții de gândire critică. Copilul se joacă — dar de fapt învață să-și apere gândul de cadrele impuse de alții.",
+    "bullets": [
+      "🔍 Observă momentul în care e împins într-o alegere între două opțiuni",
+      "🧠 Înțelege că răspunsul poate avea o a treia opțiune, o condiție sau o nuanță",
+      "💬 Spune calm: «Nu e nici da, nici nu — lasă-mă să explic»",
+      "🛡️ Refuză cadrul care îi simplifică gândul"
+    ]
+  },
+  "social_proof": {
+    "quote": "Înainte spunea repede «da» doar ca să-l lase în pace. Acum se oprește și spune: «Stai, nu e da sau nu. E și una, și alta, și mai trebuie explicat». Și în sfârșit auzim ce gândește cu adevărat.",
+    "author": "Serghei, tatăl lui Denis de 9 ani",
+    "stats": [
+      { "label": "Copii au finalizat cursul", "value": "2.400+" },
+      { "label": "Părinți mulțumiți", "value": "94%" },
+      { "label": "Vârsta optimă", "value": "8–12 ani" }
+    ]
+  },
+  "faq_label": "ÎNTREBĂRI FRECVENTE",
+  "faq_title": "Întrebări despre curs",
+  "faq": [
+    {
+      "q": "Este un joc sau un curs educațional?",
+      "a": "Ambele formule în același timp. «Forța Cuvântului» arată ca un serial detectivistic, dar în fiecare episod este ascunsă o lecție de gândire critică."
+    },
+    {
+      "q": "De la ce vârstă se poate începe?",
+      "a": "Optim — 8–12 ani. La această vârstă, copiii sunt cei mai receptivi la noi tipare de gândire și nu și-au format încă prejudecăți stabile."
+    },
+    {
+      "q": "Cât timp este necesar zilnic?",
+      "a": "15–20 de minute pe episod. Program flexibil — copilul poate reveni oricând îi convine."
+    },
+    {
+      "q": "Este necesară înregistrarea pentru demo?",
+      "a": "Nu. Episodul demo este complet deschis — fără înregistrare, fără abonament, fără introducerea datelor."
+    }
+  ],
+  "final_cta": {
+    "headline": "Oferă-i copilului dreptul la un răspuns mai complex decât «da sau nu»",
+    "subheadline": "Episodul 1 · Dimineața fără soră\nMama spune că sora nu a existat niciodată. La școală nu o cunosc pe Sofia. Dar Marco își amintește râsul ei — și jurnalul din mâinile lui este real…",
+    "cta_text": "Joacă demo acum"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

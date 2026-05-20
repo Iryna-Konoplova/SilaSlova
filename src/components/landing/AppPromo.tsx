@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Image from "next/image";
 import { getTranslations } from "next-intl/server";
 import { FadeIn } from "@/components/ui/FadeIn";
 import { EnrollButton } from "@/components/forms/EnrollButton";
@@ -45,11 +45,11 @@ export async function AppPromo({ locale }: Props) {
               ))}
             </ul>
 
-            {/* Store buttons — link to /app page (app not yet live) */}
+            {/* Store buttons — app not yet live, no navigation */}
             <div className="mb-8 flex flex-wrap gap-3">
               {/* App Store */}
-              <Link
-                href={`/${locale}/app`}
+              <button
+                type="button"
                 aria-label={t("badge_appstore_label")}
                 className="gradient-border rounded-xl transition-opacity hover:opacity-80 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
               >
@@ -59,11 +59,11 @@ export async function AppPromo({ locale }: Props) {
                   </svg>
                   <span className="text-sm font-semibold text-content">App Store</span>
                 </div>
-              </Link>
+              </button>
 
               {/* Google Play */}
-              <Link
-                href={`/${locale}/app`}
+              <button
+                type="button"
                 aria-label={t("badge_google_label")}
                 className="gradient-border rounded-xl transition-opacity hover:opacity-80 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
               >
@@ -73,7 +73,7 @@ export async function AppPromo({ locale }: Props) {
                   </svg>
                   <span className="text-sm font-semibold text-content">Google Play</span>
                 </div>
-              </Link>
+              </button>
             </div>
 
             {/* CTA buttons */}
@@ -89,20 +89,22 @@ export async function AppPromo({ locale }: Props) {
               {screenshots.map((altKey, i) => (
                 <div
                   key={altKey}
-                  role="img"
-                  aria-label={t(altKey)}
                   className={[
-                    "flex-1 overflow-hidden rounded-2xl ring-1",
-                    "bg-gradient-to-b from-brand-100/60 to-accent-50 ring-line",
+                    "relative flex-1 overflow-hidden rounded-2xl ring-1 ring-line shadow-sm",
+                    "bg-gradient-to-b from-brand-100/60 to-accent-50",
                     "dark:from-brand-950/40 dark:to-surface",
-                    "flex items-end justify-center pb-4 shadow-sm",
                     i === 1 ? "translate-y-0" : "translate-y-4",
                   ].join(" ")}
                   style={{ aspectRatio: "9/16" }}
                 >
-                  <span className="text-xs text-content-subtle">
-                    Screenshot {i + 1}
-                  </span>
+                  <Image
+                    src={`/images/screenshot-${i + 1}.jpg`}
+                    alt={t(altKey)}
+                    fill
+                    sizes="(max-width: 1024px) 33vw, 220px"
+                    quality={90}
+                    className="object-cover"
+                  />
                 </div>
               ))}
             </div>

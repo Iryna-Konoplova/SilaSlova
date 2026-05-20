@@ -1,0 +1,70 @@
+{
+  "slug": "off-topic",
+  "audience": "parent",
+  "locale": "en",
+  "meta": {
+    "title": "\"That's beside the point, but you…\" — how children get steered off-topic in conversations | Sila Slova",
+    "description": "Teach your child to spot when someone dodges a question and bring the conversation back. Game-based course for children aged 8–12.",
+    "og_image": "/og/og-default.jpg"
+  },
+  "hero": {
+    "headline": "Does your child's question keep going unanswered?",
+    "subheadline": "She asked something direct — and got back \"what about you yesterday…\", \"that's beside the point\", \"let's talk about something else\". And never got what she actually asked for.",
+    "cta_primary": { "text": "Sign up for the course", "target": "/sign-up" },
+    "cta_secondary": { "text": "Play demo", "target": "/demo" },
+    "media": { "type": "image", "src": "/images/off-topic.jpg", "alt": "A child hearing topic-deflection instead of an answer" }
+  },
+  "pain": {
+    "title": "\"That's beside the point, but…\": when instead of an answer, you get steered elsewhere",
+    "body": "\"Why can't I go?\" → \"Who were you out with yesterday?\". \"That's not fair\" → \"What about Wednesday when you…\". \"Why are you shouting?\" → \"Let's talk about school instead\". Your child asked one thing — and got answered on something completely different. The conversation drifted, and her question just hung in the air.\n\nThis isn't confusion or 'losing the thread'. It's a deflection — instead of answering, the other person redirects attention to a different situation, a different person, a different moment. The subject shifts so quietly that the child starts answering the new one. By the time she realises, she's forgotten what she originally asked.\n\nThe result — the question stays unanswered. The child walks away with a feeling of being 'outplayed' but can't even put her finger on how. Next time, asking will feel harder — she's already half-expecting to be steered elsewhere."
+  },
+  "solution": {
+    "title": "\"Sila Slova\" — a detective drama that teaches critical thinking",
+    "body": "40 episodes, 13 critical thinking lessons. Your child plays — but is actually learning to hold a conversation on topic.",
+    "bullets": [
+      "🔍 Notices when the topic quietly shifts",
+      "🧠 Tells an answer apart from a deflection",
+      "💬 Calmly brings the conversation back: \"You didn't answer my question\"",
+      "🛡️ Holds the topic until she gets a real answer"
+    ]
+  },
+  "social_proof": {
+    "quote": "She used to sit there afterwards thinking 'what just happened'. Now she says: \"Mum, that's not what we were talking about. Can you answer my question?\" I sometimes catch myself dodging — and she notices now.",
+    "author": "Olena, mum of 10-year-old Alisa",
+    "stats": [
+      { "label": "Children completed the course", "value": "2,400+" },
+      { "label": "Satisfied parents", "value": "94%" },
+      { "label": "Optimal age", "value": "8–12 yrs" }
+    ]
+  },
+  "faq_label": "FAQ",
+  "faq_title": "Questions about the course",
+  "faq": [
+    {
+      "q": "Is it a game or a learning course?",
+      "a": "Both at the same time. \"Sila Slova\" looks like a detective series, but every episode contains a hidden critical thinking lesson."
+    },
+    {
+      "q": "What age is it suitable for?",
+      "a": "Ideal for 8–12 year olds. At this age, children are most receptive to new thinking patterns and haven't yet formed rigid biases."
+    },
+    {
+      "q": "How much time is needed each day?",
+      "a": "15–20 minutes per episode. Flexible schedule — your child can come back at any convenient time."
+    },
+    {
+      "q": "Is registration required for the demo?",
+      "a": "No. The demo episode is fully open — no registration, no subscription, no personal data required."
+    }
+  ],
+  "final_cta": {
+    "headline": "Give your child the tool to hold a conversation on topic",
+    "subheadline": "Episode 1 · Morning Without a Sister\nMum says there was never a sister. The school doesn't remember Sofia. But Marco remembers her laugh — and the diary in his hands is real…",
+    "cta_text": "Play demo now"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

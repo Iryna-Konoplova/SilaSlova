@@ -212,6 +212,9 @@
     "submit": "Sign up",
     "privacy": "By clicking 'Sign up' you agree to the processing of personal data. We do not share it with third parties.",
     "error_required": "This field is required",
+    "error_title": "Couldn't send",
+    "error_body": "Something went wrong. Please try again or contact us directly.",
+    "error_rate_limited": "You've sent too many requests from this device. Please try again in 10 minutes.",
     "success_title": "Application received!",
     "success_body": "We'll contact you within 24 hours to confirm your free trial lesson."
   },

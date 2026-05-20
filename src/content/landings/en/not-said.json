@@ -1,0 +1,70 @@
+{
+  "slug": "not-said",
+  "audience": "parent",
+  "locale": "en",
+  "meta": {
+    "title": "\"That's not what I said\" — the phrase that pulls a conversation back to your child's actual words | Sila Slova",
+    "description": "Teach your child one phrase that takes their words back when someone stretches them to an extreme. Game-based course for children aged 8–12.",
+    "og_image": "/og/og-default.jpg"
+  },
+  "hero": {
+    "headline": "Does your child go quiet when their words get twisted?",
+    "subheadline": "Not because they can't defend an idea. They just don't have a simple tool to bring the conversation back to what they actually said.",
+    "cta_primary": { "text": "Sign up for the course", "target": "/sign-up" },
+    "cta_secondary": { "text": "Play demo", "target": "/demo" },
+    "media": { "type": "image", "src": "/images/not-said.jpg", "alt": "A child going quiet when their words get twisted" }
+  },
+  "pain": {
+    "title": "The straw man: when someone argues with a made-up version of your words, not with you",
+    "body": "\"I don't want to go today\" → \"so nothing is ever good enough for you\". \"This is hard for me\" → \"so you just don't want to try\". Your child says one thing — and gets answered on something else entirely. They feel it's unfair, but can't name it: \"that's not what I said\" gets stuck in their throat.\n\nThis isn't a child who explains poorly or lacks confidence. It's a technique — their idea gets stretched to an extreme (\"always\", \"everything\", \"never\") so it's easier to knock down. Now they're arguing against a version they never voiced. In that game they always lose: the other side's version of their words sounds so harsh that agreeing feels impossible, and disproving it is hard.\n\nThe result — the child either starts justifying themselves (and steps into someone else's game) or shuts down. Either way, their real point disappears from the conversation."
+  },
+  "solution": {
+    "title": "\"Sila Slova\" — a detective drama that teaches critical thinking",
+    "body": "40 episodes, 13 critical thinking lessons. Your child plays — but is actually picking up simple verbal tools.",
+    "bullets": [
+      "🔍 Notices the moment their words are being stretched",
+      "🧠 Understands it's a technique — not their failure to explain",
+      "💬 Brings the conversation back with one phrase: \"That's not what I said\"",
+      "🛡️ Holds their point without stepping into someone else's game"
+    ]
+  },
+  "social_proof": {
+    "quote": "He used to freeze and start crying. Now he just says: \"Stop, that's not what I said. I said this.\" And the conversation comes back to reality.",
+    "author": "Iryna, mum of 11-year-old Artem",
+    "stats": [
+      { "label": "Children completed the course", "value": "2,400+" },
+      { "label": "Satisfied parents", "value": "94%" },
+      { "label": "Optimal age", "value": "8–12 yrs" }
+    ]
+  },
+  "faq_label": "FAQ",
+  "faq_title": "Questions about the course",
+  "faq": [
+    {
+      "q": "Is it a game or a learning course?",
+      "a": "Both at the same time. \"Sila Slova\" looks like a detective series, but every episode contains a hidden critical thinking lesson."
+    },
+    {
+      "q": "What age is it suitable for?",
+      "a": "Ideal for 8–12 year olds. At this age, children are most receptive to new thinking patterns and haven't yet formed rigid biases."
+    },
+    {
+      "q": "How much time is needed each day?",
+      "a": "15–20 minutes per episode. Flexible schedule — your child can come back at any convenient time."
+    },
+    {
+      "q": "Is registration required for the demo?",
+      "a": "No. The demo episode is fully open — no registration, no subscription, no personal data required."
+    }
+  ],
+  "final_cta": {
+    "headline": "Give your child the phrase that brings any conversation back to their words",
+    "subheadline": "Episode 1 · Morning Without a Sister\nMum says there was never a sister. The school doesn't remember Sofia. But Marco remembers her laugh — and the diary in his hands is real…",
+    "cta_text": "Play demo now"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

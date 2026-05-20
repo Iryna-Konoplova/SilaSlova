@@ -44,6 +44,13 @@ Before implementing any feature, route, component, or data structure:
 - **Zod validates all JSON content at build time** — build must fail on invalid content (spec section 13.1)
 - Adding a new language = add to `locales` array in `src/lib/i18n.ts` + add `src/content/strings/{lang}.json`
 
+### Landing generation workflow
+
+- **Each topic = its own landing with a unique slug**, even if it partially overlaps with an existing one. "straw-man" and "thought-substitution" are different angles on the same phenomenon — different pain framing, different examples, different quote.
+- **Do NOT stop or ask about overlap with existing landings.** When the user gives a new topic, generate a new slug + fresh content (different headline, different examples, different social_proof quote/author).
+- **Keep slugs compact** — 2–3 words max, kebab-case. Prefer `not-said` over `i-didnt-mean-that`.
+- Always create all 4 locale files at once: `uk`, `ru`, `en`, `ro`.
+
 ## Performance Rules (spec section 17)
 
 - LCP ≤ 1.5s on mobile 4G

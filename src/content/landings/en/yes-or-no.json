@@ -1,0 +1,70 @@
+{
+  "slug": "yes-or-no",
+  "audience": "parent",
+  "locale": "en",
+  "meta": {
+    "title": "\"Yes or no?\" — how children get herded into someone else's answer frame | Sila Slova",
+    "description": "Teach your child to refuse forced \"yes/no\" answers when the truth is more complex. Game-based course for children aged 8–12.",
+    "og_image": "/og/og-default.jpg"
+  },
+  "hero": {
+    "headline": "Is your child forced to answer \"yes or no\" when reality is more complex?",
+    "subheadline": "\"Just answer\", \"don't dodge\", \"keep it short\". Your child sees there's nuance in the question — but gets pushed to pick one option that doesn't quite fit.",
+    "cta_primary": { "text": "Sign up for the course", "target": "/sign-up" },
+    "cta_secondary": { "text": "Play demo", "target": "/demo" },
+    "media": { "type": "image", "src": "/images/yes-or-no.jpg", "alt": "A child being pushed into a yes-or-no answer" }
+  },
+  "pain": {
+    "title": "The frame trap: when a choice gets reduced to two options someone else picked for you",
+    "body": "\"Did you like it or not?\" — they both liked it and didn't, and there's a third thing. \"Are you for or against?\" — they want to ask what exactly. \"Yes or no, don't stall\" — and your child picks the fast answer because the pressure is on. They feel they didn't say quite what they meant — but no other option was on the table.\n\nThis isn't about a child \"not being able to answer clearly\". It's about control: their field of moves gets narrowed to two, and both options suit the asker. By agreeing to play \"yes/no\", your child accepts someone else's rules. Anything that doesn't fit that choice — conditions, context, \"on one hand, on the other\" — gets cut out. And the asker now has an answer they can do whatever they want with.\n\nThe result — the child's position gets simplified or rewritten. \"But you said yes yourself\" — and they meant \"yes, but…\". That \"but\" no longer exists in the conversation."
+  },
+  "solution": {
+    "title": "\"Sila Slova\" — a detective drama that teaches critical thinking",
+    "body": "40 episodes, 13 critical thinking lessons. Your child plays — but is actually learning to defend their thinking from someone else's frames.",
+    "bullets": [
+      "🔍 Notices the moment they're being herded into a two-option choice",
+      "🧠 Understands the answer can have a third option, a condition, or a nuance",
+      "💬 Calmly says: \"It's not yes or no — let me explain\"",
+      "🛡️ Refuses to step into a frame that narrows their thinking"
+    ]
+  },
+  "social_proof": {
+    "quote": "He used to just say \"yes\" to make it stop. Now he pauses and says: \"Hold on, it's not yes or no. It's both, and there's more to explain.\" And we finally hear what he actually thinks.",
+    "author": "Serhii, dad of 9-year-old Denys",
+    "stats": [
+      { "label": "Children completed the course", "value": "2,400+" },
+      { "label": "Satisfied parents", "value": "94%" },
+      { "label": "Optimal age", "value": "8–12 yrs" }
+    ]
+  },
+  "faq_label": "FAQ",
+  "faq_title": "Questions about the course",
+  "faq": [
+    {
+      "q": "Is it a game or a learning course?",
+      "a": "Both at the same time. \"Sila Slova\" looks like a detective series, but every episode contains a hidden critical thinking lesson."
+    },
+    {
+      "q": "What age is it suitable for?",
+      "a": "Ideal for 8–12 year olds. At this age, children are most receptive to new thinking patterns and haven't yet formed rigid biases."
+    },
+    {
+      "q": "How much time is needed each day?",
+      "a": "15–20 minutes per episode. Flexible schedule — your child can come back at any convenient time."
+    },
+    {
+      "q": "Is registration required for the demo?",
+      "a": "No. The demo episode is fully open — no registration, no subscription, no personal data required."
+    }
+  ],
+  "final_cta": {
+    "headline": "Give your child the right to an answer that's more than \"yes or no\"",
+    "subheadline": "Episode 1 · Morning Without a Sister\nMum says there was never a sister. The school doesn't remember Sofia. But Marco remembers her laugh — and the diary in his hands is real…",
+    "cta_text": "Play demo now"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}
