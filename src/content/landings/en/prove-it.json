@@ -1,0 +1,70 @@
+{
+  "slug": "prove-it",
+  "audience": "parent",
+  "locale": "en",
+  "meta": {
+    "title": "\"Where's the proof?\" — how to teach your child to check confident claims | Sila Slova",
+    "description": "One simple question — and demagogy collapses on its own. Teach your child to move conversations from emotions to facts. Game-based course for children aged 8–12.",
+    "og_image": "/og/og-default.jpg"
+  },
+  "hero": {
+    "headline": "\"It definitely works. Everyone thinks so. It's the best\" — and your child already agrees?",
+    "subheadline": "Not because they believe it — but because they don't have a simple move to check: what actually stands behind those words?",
+    "cta_primary": { "text": "Sign up for the course", "target": "/sign-up" },
+    "cta_secondary": { "text": "Play demo", "target": "/demo" },
+    "media": { "type": "image", "src": "/images/prove-it.jpg", "alt": "A child listening to confident claims and looking for what they stand on" }
+  },
+  "pain": {
+    "title": "When confidence sounds like an argument",
+    "body": "At school, online, in conversations with friends: \"it definitely works\", \"everyone thinks so\", \"it's the best\". It sounds convincing — the intonation, the pace, the confident tone. The child either agrees right away, or gets lost: senses something is off but doesn't know how to name it.\n\nThe problem isn't that the child is \"falling for words\". The problem is that they have no simple tool for checking. Behind a confident claim there might be a fact, logic, a source — or there might be nothing at all. Without the habit of asking, it all looks the same: said with confidence, therefore probably true.\n\nThe result — the child starts trusting the delivery, not the content. Whoever speaks louder is \"right\". And whoever pauses to look for evidence comes across as boring. That's how the habit forms: agree with what sounds good, not with what is actually backed up."
+  },
+  "solution": {
+    "title": "\"Sila Slova\" — a detective drama that teaches critical thinking",
+    "body": "40 episodes, 13 critical-thinking lessons. Your child plays — but is actually mastering one simple move: checking what stands behind the words.",
+    "bullets": [
+      "🔍 Spots the moment when confidence comes without facts",
+      "🧠 Understands: a confident tone is delivery, not proof",
+      "💬 Asks the simple question: \"Where's the proof? What is this based on?\"",
+      "🛡️ Doesn't argue with emotions — moves the conversation to facts"
+    ]
+  },
+  "social_proof": {
+    "quote": "He used to agree with anything that sounded confident. Now he calmly asks: \"How do you know that?\" And he can see it himself when there's nothing behind the words.",
+    "author": "Oleh, dad of 11-year-old Daryna",
+    "stats": [
+      { "label": "Children completed the course", "value": "2,400+" },
+      { "label": "Satisfied parents", "value": "94%" },
+      { "label": "Optimal age", "value": "8–12 yrs" }
+    ]
+  },
+  "faq_label": "FAQ",
+  "faq_title": "Questions about the course",
+  "faq": [
+    {
+      "q": "Is it a game or a learning course?",
+      "a": "Both at the same time. \"Sila Slova\" looks like a detective series, but every episode contains a hidden critical thinking lesson."
+    },
+    {
+      "q": "What age is it suitable for?",
+      "a": "Ideal for 8–12 year olds. At this age, children are most receptive to new thinking patterns and haven't yet formed rigid biases."
+    },
+    {
+      "q": "How much time is needed each day?",
+      "a": "15–20 minutes per episode. Flexible schedule — your child can come back at any convenient time."
+    },
+    {
+      "q": "Is registration required for the demo?",
+      "a": "No. The demo episode is fully open — no registration, no subscription, no personal data required."
+    }
+  ],
+  "final_cta": {
+    "headline": "Give your child the superpower of critical thinking",
+    "subheadline": "Episode 1 · A morning without sister\nMom says there was never a sister. School doesn't remember Sofia. But Marko remembers her laugh — and the diary in his hands is real…",
+    "cta_text": "Play the demo now"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

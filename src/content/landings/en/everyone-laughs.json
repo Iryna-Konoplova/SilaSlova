@@ -1,0 +1,89 @@
+{
+  "slug": "everyone-laughs",
+  "audience": "parent",
+  "locale": "en",
+  "meta": {
+    "title": "\"Look, everyone's laughing\" — when laughter is used as \"proof\" | Sila Slova",
+    "description": "Help your child tell a group's reaction apart from the truth, and stop changing themselves to escape mockery. Course for kids 8–12.",
+    "og_image": "/og/og-default.jpg"
+  },
+  "hero": {
+    "headline": "Does your child go quiet the moment the class starts laughing?",
+    "subheadline": "\"Look, everyone's laughing,\" \"you're the only one,\" \"everyone already gets it.\" Pressure without a single argument — just a group reaction. And your child starts to doubt themselves.",
+    "cta_primary": {
+      "text": "Join the waitlist",
+      "target": "/sign-up"
+    },
+    "cta_secondary": {
+      "text": "Play demo",
+      "target": "/demo"
+    },
+    "media": {
+      "type": "image",
+      "src": "/images/everyone-laughs.jpg",
+      "alt": "A child stands alone against a group of laughing peers"
+    }
+  },
+  "pain": {
+    "title": "When \"everyone's laughing\" beats the facts",
+    "body": "In the classroom, in the hallway, in the group chat. Your child says something — and hears laughter. Or sees others exchange glances. Or someone says: \"look, everyone's laughing — what about you?\" There's no argument for why they're wrong. Just a group reaction served up as proof.\n\nThis isn't a fact or a majority opinion — it's manipulation through fear of being mocked. \"Everyone's laughing\" doesn't mean they're right. It only means they find it funny in this second. But without the skill to separate a group's emotion from reality, your child reads the laughter as a signal: \"something's wrong with me.\"\n\nThe consequence: they change their behavior. Go silent. Agree. Start saying what they're \"supposed\" to say to avoid being laughed at again. Their own thoughts get pushed aside because they feel \"awkward.\" In their teens this hardens into a habit: \"first I'll check how others react — then I'll speak.\""
+  },
+  "solution": {
+    "title": "\"Sila Slova\" — a detective drama that teaches thinking",
+    "body": "40 episodes, 13 lessons in critical thinking. Your child plays a game — but actually learns not to mistake laughter for an argument and to hold their ground under group pressure.",
+    "bullets": [
+      "🔍 Spots the moment they're being shown \"the room's reaction\" instead of a counterargument",
+      "🧠 Understands: laughter isn't proof that you're wrong",
+      "💬 Can calmly say: \"Sure, laugh. I still think differently.\"",
+      "🛡️ Stops dropping their opinion just because it's inconvenient for the group"
+    ]
+  },
+  "social_proof": {
+    "quote": "He used to go silent for half a day when the class started laughing. Now he can just turn around and say: \"I don't get what's funny.\" And you know what — the class stops laughing. Because it's only funny when you got scared.",
+    "author": "Iryna, mother of 11-year-old Daniel",
+    "stats": [
+      {
+        "label": "Kids completed the course",
+        "value": "2,400+"
+      },
+      {
+        "label": "Parents satisfied",
+        "value": "94%"
+      },
+      {
+        "label": "Optimal age",
+        "value": "8–12 y.o."
+      }
+    ]
+  },
+  "faq_label": "FREQUENTLY ASKED",
+  "faq_title": "Questions about the course",
+  "faq": [
+    {
+      "q": "Is it a game or a course?",
+      "a": "Both at the same time. \"Sila Slova\" looks like a detective series, but every episode hides a critical-thinking lesson."
+    },
+    {
+      "q": "What age does it work for?",
+      "a": "Best for 8–12 years old. At this age, kids are most receptive to new thinking patterns and haven't formed rigid biases yet."
+    },
+    {
+      "q": "How much time per day?",
+      "a": "15–20 minutes per episode. Flexible schedule — your child can come back whenever it's convenient."
+    },
+    {
+      "q": "Do we need to register for the demo?",
+      "a": "No. The demo episode is fully open — no registration, no subscription, no data entry."
+    }
+  ],
+  "final_cta": {
+    "headline": "Give your child the superpower of critical thinking",
+    "subheadline": "Episode 1 · A morning without sister\nMom says there was never a sister. School doesn't remember Sofia. But Marko remembers her laugh — and the diary in his hands is real…",
+    "cta_text": "Play the demo now"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

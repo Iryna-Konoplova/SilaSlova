@@ -1,0 +1,70 @@
+{
+  "slug": "check-source",
+  "audience": "parent",
+  "locale": "en",
+  "meta": {
+    "title": "\"How do you know that?\" — teaching your child to check sources | Sila Slova",
+    "description": "\"They said so\", \"I saw it\", \"the internet says\" — teach your child to tell apart an expert, a fact, and someone's opinion. Game-based course for ages 8–12.",
+    "og_image": "/og/og-default.jpg"
+  },
+  "hero": {
+    "headline": "\"I saw it online. They said so. Everyone knows\" — and your child already believes it?",
+    "subheadline": "Not because they're gullible — but because they haven't learned to ask: where did this come from in the first place?",
+    "cta_primary": { "text": "Sign up for the course", "target": "/sign-up" },
+    "cta_secondary": { "text": "Play demo", "target": "/demo" },
+    "media": { "type": "image", "src": "/images/check-source.jpg", "alt": "A child accepting information without asking about the source" }
+  },
+  "pain": {
+    "title": "When the source is \"someone said so\"",
+    "body": "At school a classmate confidently retells something they heard. In a chat someone drops a screenshot with no link. In a video a blogger opens with \"actually, it's not at all what they tell you\". It sounds confident, specific, convincing. The child takes it as fact — and walks away with a ready-made \"truth\".\n\nThe issue isn't the words themselves — it's where they came from. The same sentence can be true or made up, depending on the source. \"Someone said\", \"saw it on TikTok\", \"the internet says\" — that's not evidence, it's a link to a link to a link. Without the habit of asking \"how do you know that?\", all information weighs the same: an expert's words and somebody's random opinion become interchangeable.\n\nThe result — the child starts to trust whatever sounds louder, not whatever is more accurate. A false claim from a punchy video can overwrite a correct explanation from a teacher — simply because the delivery was sharper. And it's not a one-off; it becomes a habit: take in information without checking where it came from."
+  },
+  "solution": {
+    "title": "\"Sila Slova\" — a detective drama that teaches critical thinking",
+    "body": "40 episodes, 13 critical-thinking lessons. Your child plays — but is actually building the habit of checking where information comes from before trusting it.",
+    "bullets": [
+      "🔍 Notices when a claim is delivered without a source",
+      "🧠 Tells apart an expert, a fact, and a personal opinion",
+      "💬 Asks the simple question: \"How do you know that?\"",
+      "🛡️ Doesn't accept information automatically — checks the source first"
+    ]
+  },
+  "social_proof": {
+    "quote": "She used to bring home everything she heard at school as fact. Now she asks herself first: \"Where did she even get that?\" And often the answer is — nowhere.",
+    "author": "Natalia, mum of 10-year-old Sofia",
+    "stats": [
+      { "label": "Children completed the course", "value": "2,400+" },
+      { "label": "Satisfied parents", "value": "94%" },
+      { "label": "Optimal age", "value": "8–12 yrs" }
+    ]
+  },
+  "faq_label": "FAQ",
+  "faq_title": "Questions about the course",
+  "faq": [
+    {
+      "q": "Is it a game or a learning course?",
+      "a": "Both at the same time. \"Sila Slova\" looks like a detective series, but every episode contains a hidden critical thinking lesson."
+    },
+    {
+      "q": "What age is it suitable for?",
+      "a": "Ideal for 8–12 year olds. At this age, children are most receptive to new thinking patterns and haven't yet formed rigid biases."
+    },
+    {
+      "q": "How much time is needed each day?",
+      "a": "15–20 minutes per episode. Flexible schedule — your child can come back at any convenient time."
+    },
+    {
+      "q": "Is registration required for the demo?",
+      "a": "No. The demo episode is fully open — no registration, no subscription, no personal data required."
+    }
+  ],
+  "final_cta": {
+    "headline": "Give your child the superpower of critical thinking",
+    "subheadline": "Episode 1 · A morning without sister\nMom says there was never a sister. School doesn't remember Sofia. But Marko remembers her laugh — and the diary in his hands is real…",
+    "cta_text": "Play the demo now"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

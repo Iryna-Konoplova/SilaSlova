@@ -1,0 +1,70 @@
+{
+  "slug": "check-source",
+  "audience": "parent",
+  "locale": "ro",
+  "meta": {
+    "title": "«De unde știi asta?» — cum să-ți înveți copilul să verifice sursele | Forța Cuvântului",
+    "description": "«Așa au spus», «am văzut», «pe internet scrie» — învață-ți copilul să distingă un expert, un fapt și o părere. Curs în format de joc pentru copii de 8–12 ani.",
+    "og_image": "/og/og-default.jpg"
+  },
+  "hero": {
+    "headline": "«Am văzut pe internet. Așa au spus. Toți știu» — și copilul tău deja crede?",
+    "subheadline": "Nu pentru că ar fi naiv — ci pentru că nu a învățat să întrebe: de unde se știe asta, de fapt?",
+    "cta_primary": { "text": "Înscrie-te la curs", "target": "/sign-up" },
+    "cta_secondary": { "text": "Joacă demo", "target": "/demo" },
+    "media": { "type": "image", "src": "/images/check-source.jpg", "alt": "Un copil care acceptă informația fără să întrebe despre sursă" }
+  },
+  "pain": {
+    "title": "Când sursa e «a spus cineva»",
+    "body": "La școală, un coleg repovestește cu siguranță ceva ce a auzit. Într-un chat cineva trimite un screenshot fără link. Într-un video, un bloger începe cu «de fapt, totul e cu totul altfel». Sună sigur, concret, convingător. Copilul ia totul ca pe un fapt — și pleacă cu un «adevăr» gata făcut.\n\nProblema nu e în cuvinte, ci în locul de unde au venit. Aceeași frază poate fi adevărată sau inventată — în funcție de sursă. «A spus cineva», «am văzut pe TikTok», «pe internet scrie» — asta nu e o dovadă, e doar un link către alt link. Fără obiceiul de a întreba «de unde știi asta?», toată informația devine la fel de importantă: cuvintele unui expert și o părere aleatorie cântăresc la fel.\n\nConsecința — copilul începe să creadă în ceea ce sună mai tare, nu în ceea ce e mai exact. O afirmație falsă dintr-un video viral poate înlocui o explicație corectă a profesorului — pur și simplu pentru că prezentarea a fost mai tare. Și nu e un episod izolat, ci un obicei: să accepte informația fără să verifice de unde vine."
+  },
+  "solution": {
+    "title": "«Forța Cuvântului» — o dramă detectivistică ce învață să gândești",
+    "body": "40 de episoade, 13 lecții de gândire critică. Copilul se joacă — dar de fapt își formează obiceiul de a verifica de unde vine informația înainte să o creadă.",
+    "bullets": [
+      "🔍 Observă când o afirmație vine fără sursă",
+      "🧠 Distinge: expert, fapt sau o părere personală",
+      "💬 Pune întrebarea simplă: «De unde știi asta?»",
+      "🛡️ Nu acceptă informația automat — verifică mai întâi sursa"
+    ]
+  },
+  "social_proof": {
+    "quote": "Înainte ne repovestea acasă tot ce auzea la școală ca pe un fapt. Acum se întreabă singură: «De unde a luat ea asta?» Și vede că, deseori, de nicăieri.",
+    "author": "Natalia, mama Sofiei de 10 ani",
+    "stats": [
+      { "label": "Copii au finalizat cursul", "value": "2.400+" },
+      { "label": "Părinți mulțumiți", "value": "94%" },
+      { "label": "Vârsta optimă", "value": "8–12 ani" }
+    ]
+  },
+  "faq_label": "ÎNTREBĂRI FRECVENTE",
+  "faq_title": "Întrebări despre curs",
+  "faq": [
+    {
+      "q": "Este un joc sau un curs educațional?",
+      "a": "Ambele formule în același timp. «Forța Cuvântului» arată ca un serial detectivistic, dar în fiecare episod este ascunsă o lecție de gândire critică."
+    },
+    {
+      "q": "De la ce vârstă se poate începe?",
+      "a": "Optim — 8–12 ani. La această vârstă, copiii sunt cei mai receptivi la noi tipare de gândire și nu și-au format încă prejudecăți stabile."
+    },
+    {
+      "q": "Cât timp este necesar zilnic?",
+      "a": "15–20 de minute pe episod. Program flexibil — copilul poate reveni oricând îi convine."
+    },
+    {
+      "q": "Este necesară înregistrarea pentru demo?",
+      "a": "Nu. Episodul demo este complet deschis — fără înregistrare, fără abonament, fără introducerea datelor."
+    }
+  ],
+  "final_cta": {
+    "headline": "Oferă-i copilului tău superputerea gândirii critice",
+    "subheadline": "Episodul 1 · O dimineață fără soră\nMama spune că nu a existat nicio soră. La școală nu și-o amintesc pe Sofia. Dar Marko își amintește râsul ei — și jurnalul din mâinile lui e real…",
+    "cta_text": "Joacă demo acum"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

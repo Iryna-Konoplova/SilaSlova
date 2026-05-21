@@ -10,9 +10,19 @@
   "hero": {
     "headline": "Copilul tău tace când cuvintele lui sunt denaturate?",
     "subheadline": "Nu pentru că nu știe să-și apere gândul. Pur și simplu nu are un instrument simplu prin care să întoarcă discuția la ceea ce a spus de fapt.",
-    "cta_primary": { "text": "Înscrie-te la curs", "target": "/sign-up" },
-    "cta_secondary": { "text": "Joacă demo", "target": "/demo" },
-    "media": { "type": "image", "src": "/images/not-said.jpg", "alt": "Un copil care tace când cuvintele lui sunt denaturate" }
+    "cta_primary": {
+      "text": "Înscrie-te la curs",
+      "target": "/sign-up"
+    },
+    "cta_secondary": {
+      "text": "Joacă demo",
+      "target": "/demo"
+    },
+    "media": {
+      "type": "image",
+      "src": "/images/not-said.jpg",
+      "alt": "Un copil care tace când cuvintele lui sunt denaturate"
+    }
   },
   "pain": {
     "title": "«Sperietoarea»: când cineva se ceartă cu o versiune inventată a cuvintelor tale, nu cu tine",
@@ -32,9 +42,18 @@
     "quote": "Înainte îngheța și începea să plângă. Acum spune pur și simplu: «Stop, nu asta am spus. Am spus altceva». Și discuția revine la realitate.",
     "author": "Irina, mama lui Artem de 11 ani",
     "stats": [
-      { "label": "Copii au finalizat cursul", "value": "2.400+" },
-      { "label": "Părinți mulțumiți", "value": "94%" },
-      { "label": "Vârsta optimă", "value": "8–12 ani" }
+      {
+        "label": "Copii au finalizat cursul",
+        "value": "2.400+"
+      },
+      {
+        "label": "Părinți mulțumiți",
+        "value": "94%"
+      },
+      {
+        "label": "Vârsta optimă",
+        "value": "8–12 ani"
+      }
     ]
   },
   "faq_label": "ÎNTREBĂRI FRECVENTE",
@@ -58,7 +77,7 @@
     }
   ],
   "final_cta": {
-    "headline": "Oferă-i copilului o frază care întoarce orice discuție la cuvintele lui",
+    "headline": "Oferă-i copilului tău superputerea gândirii critice",
     "subheadline": "Episodul 1 · Dimineața fără soră\nMama spune că sora nu a existat niciodată. La școală nu o cunosc pe Sofia. Dar Marco își amintește râsul ei — și jurnalul din mâinile lui este real…",
     "cta_text": "Joacă demo acum"
   },

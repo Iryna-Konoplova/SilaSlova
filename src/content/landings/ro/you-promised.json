@@ -1,0 +1,89 @@
+{
+  "slug": "you-promised",
+  "audience": "parent",
+  "locale": "ro",
+  "meta": {
+    "title": "«Dar ai promis» — cum o promisiune din trecut devine o capcană | Sila Slova",
+    "description": "Ajută-ți copilul să separe responsabilitatea de presiune și să-și păstreze dreptul de a-și schimba decizia. Curs pentru copii 8–12 ani.",
+    "og_image": "/og/og-default.jpg"
+  },
+  "hero": {
+    "headline": "Copilul tău nu se poate răzgândi, pentru că odată «a promis»?",
+    "subheadline": "«Dar ai promis», «ai zis că da», «ne-am înțeles». Contextul s-a schimbat — iar lui i se spune că «nu are dreptul» să refuze.",
+    "cta_primary": {
+      "text": "Înscrie-te la curs",
+      "target": "/sign-up"
+    },
+    "cta_secondary": {
+      "text": "Joacă demo",
+      "target": "/demo"
+    },
+    "media": {
+      "type": "image",
+      "src": "/images/you-promised.jpg",
+      "alt": "Un copil ținut de o promisiune din trecut, deși circumstanțele s-au schimbat"
+    }
+  },
+  "pain": {
+    "title": "Promisiunea ca pârghie: când cuvintele de ieri blochează un «nu» de azi",
+    "body": "«Dar ai promis». «Ai zis că da». «Ne-am înțeles». O singură frază din trecut e folosită ca argument împotriva copilului tău astăzi. Nu contează că e obosit, bolnav, s-a răzgândit, a aflat ceva nou sau pur și simplu s-au schimbat circumstanțele. I se spune: «ți-ai dat cuvântul».\n\nAsta nu e despre responsabilitate — e manipulare prin obligație. Responsabilitatea reală îți permite să reanalizezi o decizie, să discuți, să explici de ce nu mai e oportun. Aici nu se cer explicații. Se apasă pur și simplu cu trecutul, ca și cum copilul ar fi obligat să onoreze tot ce a zis vreodată, în orice situație nouă.\n\nFără abilitatea de a observa această tehnică, copilul acceptă. Duce la capăt, chiar dacă îl rănește. Și pierde treptat lucrul cel mai important: dreptul de a-și revizui propriile decizii. La adolescență devine «sunt blocat în asta pentru că odată am spus da, iar acum e prea târziu»."
+  },
+  "solution": {
+    "title": "«Sila Slova» — o dramă-detectiv care învață gândirea",
+    "body": "40 de episoade, 13 lecții de gândire critică. Copilul se joacă — dar de fapt învață să separe responsabilitatea de presiune și să explice calm o schimbare de decizie.",
+    "bullets": [
+      "🔍 Observă momentul când o promisiune devine pârghie în loc de argument",
+      "🧠 Înțelege: să te răzgândești nu e trădare — e o parte normală a creșterii",
+      "💬 Poate spune: «Atunci gândeam altfel. Acum nu. Putem discuta.»",
+      "🛡️ Nu mai duce automat la capăt ce-i face rău doar pentru că «ai promis»"
+    ]
+  },
+  "social_proof": {
+    "quote": "Credeam că sarcina mea e să o învăț să-și «țină cuvântul». A reieșit că îl ținea cu ultimele puteri, de frică să nu dezamăgească pe nimeni. Acum poate spune liniștit: «Mamă, m-am răzgândit, uite de ce». Și nu mai are nevoie de o jumătate de oră ca să-și adune curajul pentru fraza asta.",
+    "author": "Svetlana, mama Alisei (9 ani)",
+    "stats": [
+      {
+        "label": "Copii au terminat cursul",
+        "value": "2 400+"
+      },
+      {
+        "label": "Părinți mulțumiți",
+        "value": "94%"
+      },
+      {
+        "label": "Vârsta optimă",
+        "value": "8–12 ani"
+      }
+    ]
+  },
+  "faq_label": "ÎNTREBĂRI FRECVENTE",
+  "faq_title": "Întrebări despre curs",
+  "faq": [
+    {
+      "q": "E un joc sau un curs?",
+      "a": "Ambele în același timp. «Sila Slova» arată ca un serial polițist, dar fiecare episod ascunde o lecție de gândire critică."
+    },
+    {
+      "q": "De la ce vârstă se poate începe?",
+      "a": "Optim — 8–12 ani. La această vârstă, copiii sunt cei mai receptivi la modele noi de gândire și nu au format încă prejudecăți rigide."
+    },
+    {
+      "q": "Cât timp pe zi e nevoie?",
+      "a": "15–20 de minute pe episod. Program flexibil — copilul revine când îi convine."
+    },
+    {
+      "q": "E nevoie de înregistrare pentru demo?",
+      "a": "Nu. Episodul demo e complet deschis — fără înregistrare, fără abonament, fără date introduse."
+    }
+  ],
+  "final_cta": {
+    "headline": "Oferă-i copilului tău superputerea gândirii critice",
+    "subheadline": "Episodul 1 · O dimineață fără soră\nMama spune că nu a existat nicio soră. La școală nu și-o amintesc pe Sofia. Dar Marko își amintește râsul ei — și jurnalul din mâinile lui e real…",
+    "cta_text": "Joacă demo acum"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

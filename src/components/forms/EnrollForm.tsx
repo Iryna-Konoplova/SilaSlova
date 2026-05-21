@@ -6,6 +6,9 @@ import { z } from "zod";
 import { useTranslations } from "next-intl";
 import { useState } from "react";
 import { InputMask } from "@react-input/mask";
+import { getStoredUtm } from "@/lib/utm";
+import { getAnonymousId } from "@/lib/anonymous-id";
+import { trackEvent, trackLead } from "@/lib/tracking";
 
 const UA_MASK = "+380 (__) ___ __ __";
 const INT_MASK = "+_ ___ ___ __ __";
@@ -52,6 +55,8 @@ export function EnrollForm({ onSuccess, className, source = "sila-slova" }: Prop
   async function onSubmit(data: FormData) {
     setError(null);
     try {
+      const utm = getStoredUtm();
+      const anonymous_id = getAnonymousId();
       const res = await fetch("/api/enroll", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -61,6 +66,8 @@ export function EnrollForm({ onSuccess, className, source = "sila-slova" }: Prop
           city: data.city,
           message: data.comment ?? "",
           source,
+          anonymous_id,
+          ...utm,
         }),
       });
       if (!res.ok) {
@@ -68,6 +75,8 @@ export function EnrollForm({ onSuccess, className, source = "sila-slova" }: Prop
         return;
       }
       setSubmitted(true);
+      trackLead(undefined, data.phone);
+      trackEvent("signup_completed", { source });
       if (onSuccess) setTimeout(onSuccess, 2500);
     } catch {
       setError("generic");

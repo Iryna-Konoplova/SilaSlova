@@ -10,9 +10,19 @@
   "hero": {
     "headline": "Copilul tău acceptă pentru că «e jenant să refuze»?",
     "subheadline": "«Eu mă străduiesc pentru tine», «fac totul pentru tine, iar tu…», «mă superi». Și face nu ce vrea, ci ce înlătură senzația neplăcută.",
-    "cta_primary": { "text": "Înscrie-te la curs", "target": "/sign-up" },
-    "cta_secondary": { "text": "Joacă demo", "target": "/demo" },
-    "media": { "type": "image", "src": "/images/guilt-trip.jpg", "alt": "Un copil care acceptă din vinovăție, nu din alegere proprie" }
+    "cta_primary": {
+      "text": "Înscrie-te la curs",
+      "target": "/sign-up"
+    },
+    "cta_secondary": {
+      "text": "Joacă demo",
+      "target": "/demo"
+    },
+    "media": {
+      "type": "image",
+      "src": "/images/guilt-trip.jpg",
+      "alt": "Un copil care acceptă din vinovăție, nu din alegere proprie"
+    }
   },
   "pain": {
     "title": "Șantaj prin vinovăție: când ești forțat să faci ceva ca să nu te simți o persoană rea",
@@ -32,9 +42,18 @@
     "quote": "Înainte spunea «da» chiar și când era obosit sau ocupat — doar ca să nu se certe cu nimeni. Acum îl aud spunând: «Bunico, te iubesc, dar acum nu pot». Calm, fără tonul vinovat. Sincer, mi-ar prinde și mie bine priceperea asta.",
     "author": "Iulia, mama lui Timur de 9 ani",
     "stats": [
-      { "label": "Copii au finalizat cursul", "value": "2.400+" },
-      { "label": "Părinți mulțumiți", "value": "94%" },
-      { "label": "Vârsta optimă", "value": "8–12 ani" }
+      {
+        "label": "Copii au finalizat cursul",
+        "value": "2.400+"
+      },
+      {
+        "label": "Părinți mulțumiți",
+        "value": "94%"
+      },
+      {
+        "label": "Vârsta optimă",
+        "value": "8–12 ani"
+      }
     ]
   },
   "faq_label": "ÎNTREBĂRI FRECVENTE",
@@ -58,7 +77,7 @@
     }
   ],
   "final_cta": {
-    "headline": "Oferă-i copilului dreptul de a refuza fără a se simți vinovat",
+    "headline": "Oferă-i copilului tău superputerea gândirii critice",
     "subheadline": "Episodul 1 · Dimineața fără soră\nMama spune că sora nu a existat niciodată. La școală nu o cunosc pe Sofia. Dar Marco își amintește râsul ei — și jurnalul din mâinile lui este real…",
     "cta_text": "Joacă demo acum"
   },

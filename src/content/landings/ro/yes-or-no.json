@@ -10,9 +10,19 @@
   "hero": {
     "headline": "Copilul tău e forțat să răspundă «da sau nu», când realitatea e mai complexă?",
     "subheadline": "«Răspunde simplu», «nu te eschiva», «scurt». Copilul vede că în întrebare există nuanțe — dar e împins să aleagă o singură variantă, care nu i se potrivește.",
-    "cta_primary": { "text": "Înscrie-te la curs", "target": "/sign-up" },
-    "cta_secondary": { "text": "Joacă demo", "target": "/demo" },
-    "media": { "type": "image", "src": "/images/yes-or-no.jpg", "alt": "Un copil căruia i se impune un răspuns «da sau nu»" }
+    "cta_primary": {
+      "text": "Înscrie-te la curs",
+      "target": "/sign-up"
+    },
+    "cta_secondary": {
+      "text": "Joacă demo",
+      "target": "/demo"
+    },
+    "media": {
+      "type": "image",
+      "src": "/images/yes-or-no.jpg",
+      "alt": "Un copil căruia i se impune un răspuns «da sau nu»"
+    }
   },
   "pain": {
     "title": "Capcana cadrului: când alegerea ta e redusă la două opțiuni alese de altcineva",
@@ -32,9 +42,18 @@
     "quote": "Înainte spunea repede «da» doar ca să-l lase în pace. Acum se oprește și spune: «Stai, nu e da sau nu. E și una, și alta, și mai trebuie explicat». Și în sfârșit auzim ce gândește cu adevărat.",
     "author": "Serghei, tatăl lui Denis de 9 ani",
     "stats": [
-      { "label": "Copii au finalizat cursul", "value": "2.400+" },
-      { "label": "Părinți mulțumiți", "value": "94%" },
-      { "label": "Vârsta optimă", "value": "8–12 ani" }
+      {
+        "label": "Copii au finalizat cursul",
+        "value": "2.400+"
+      },
+      {
+        "label": "Părinți mulțumiți",
+        "value": "94%"
+      },
+      {
+        "label": "Vârsta optimă",
+        "value": "8–12 ani"
+      }
     ]
   },
   "faq_label": "ÎNTREBĂRI FRECVENTE",
@@ -58,7 +77,7 @@
     }
   ],
   "final_cta": {
-    "headline": "Oferă-i copilului dreptul la un răspuns mai complex decât «da sau nu»",
+    "headline": "Oferă-i copilului tău superputerea gândirii critice",
     "subheadline": "Episodul 1 · Dimineața fără soră\nMama spune că sora nu a existat niciodată. La școală nu o cunosc pe Sofia. Dar Marco își amintește râsul ei — și jurnalul din mâinile lui este real…",
     "cta_text": "Joacă demo acum"
   },

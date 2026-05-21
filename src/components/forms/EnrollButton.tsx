@@ -1,6 +1,7 @@
 "use client";
 
 import { useEnrollStore } from "@/lib/enroll-store";
+import { trackEvent } from "@/lib/tracking";
 
 type Props = {
   label: string;
@@ -21,7 +22,11 @@ export function EnrollButton({ label, size = "md", fullWidth = false, className,
 
   return (
     <button
-      onClick={() => open(source)}
+      onClick={() => {
+        trackEvent("cta_click", { source });
+        trackEvent("signup_started", { source });
+        open(source);
+      }}
       style={fullWidth ? undefined : { width: "fit-content" }}
       className={[
         "inline-flex items-center justify-center rounded-full font-semibold text-white",

@@ -1,0 +1,89 @@
+{
+  "slug": "upset-me",
+  "audience": "parent",
+  "locale": "ro",
+  "meta": {
+    "title": "«Mă superi» — cum șantajul emoțional taie «nu»-ul copilului | Sila Slova",
+    "description": "Ajută-ți copilul să-și separe deciziile de emoțiile celorlalți și să nu mai spună «da» doar pentru că «e incomod să refuze». Curs pentru copii 8–12 ani.",
+    "og_image": "/og/og-default.jpg"
+  },
+  "hero": {
+    "headline": "Copilul tău spune «da» ca să nu supere pe nimeni?",
+    "subheadline": "«Mă superi», «o să mă supăr», «o să-mi pară rău». Copilul aude asta — și alege starea celuilalt în loc de propriul «nu».",
+    "cta_primary": {
+      "text": "Înscrie-te la curs",
+      "target": "/sign-up"
+    },
+    "cta_secondary": {
+      "text": "Joacă demo",
+      "target": "/demo"
+    },
+    "media": {
+      "type": "image",
+      "src": "/images/upset-me.jpg",
+      "alt": "Un copil acceptă ca să nu rănească sentimentele unui adult"
+    }
+  },
+  "pain": {
+    "title": "Șantaj cu sentimente: când «nu» sperie mai mult decât «da»",
+    "body": "«Mă superi». «O să-mi pară rău». «O să mă supăr». Se aude la școală, de la o prietenă, de la o rudă, de la un coleg. Și în loc de o cerere, copilul aude un avertisment: dacă spui «nu», persoana se va simți rău. Iar tu vei fi vinovat.\n\nAsta nu e o cerere — e șantaj emoțional. Adultul (sau colegul) nu explică de ce contează, nu propune o discuție. Transferă pur și simplu responsabilitatea pentru propria stare asupra copilului: «tu decizi dacă voi fi bine». Și ca să nu simtă vinovăția dinainte, copilul acceptă. Face nu ce vrea — face «ce trebuie».\n\nFără abilitatea de a observa această tehnică, copilul alege de fiecare dată varianta care «păstrează relația». Propriile «vreau»-uri se sting treptat. La 10–11 ani, copilul poate să nu mai știe ce vrea — pentru că a învățat să se întrebe mai întâi «cum se va simți celălalt dacă refuz?»"
+  },
+  "solution": {
+    "title": "«Sila Slova» — o dramă-detectiv care învață gândirea",
+    "body": "40 de episoade, 13 lecții de gândire critică. Copilul se joacă — dar de fapt învață să-și separe deciziile de emoțiile celorlalți.",
+    "bullets": [
+      "🔍 Observă momentul în care e făcut responsabil de starea altcuiva",
+      "🧠 Înțelege: nu ești obligat să «salvezi» pe nimeni de sentimentele lui",
+      "💬 Poate spune «nu» calm — fără să se apere, fără să se scuze",
+      "🛡️ Nu mai acceptă automat ca să «nu rănească»"
+    ]
+  },
+  "social_proof": {
+    "quote": "Înainte era ca o bombă cu ceas: spunea da la tot, apoi plângea că «nu mai poate». Acum poate să-i spună prietenei «nu astăzi» — și nu se mai scuză trei zile după. E alt copil.",
+    "author": "Elena, mama Margaritei (10 ani)",
+    "stats": [
+      {
+        "label": "Copii au terminat cursul",
+        "value": "2 400+"
+      },
+      {
+        "label": "Părinți mulțumiți",
+        "value": "94%"
+      },
+      {
+        "label": "Vârsta optimă",
+        "value": "8–12 ani"
+      }
+    ]
+  },
+  "faq_label": "ÎNTREBĂRI FRECVENTE",
+  "faq_title": "Întrebări despre curs",
+  "faq": [
+    {
+      "q": "E un joc sau un curs?",
+      "a": "Ambele în același timp. «Sila Slova» arată ca un serial polițist, dar fiecare episod ascunde o lecție de gândire critică."
+    },
+    {
+      "q": "De la ce vârstă se poate începe?",
+      "a": "Optim — 8–12 ani. La această vârstă, copiii sunt cei mai receptivi la modele noi de gândire și nu au format încă prejudecăți rigide."
+    },
+    {
+      "q": "Cât timp pe zi e nevoie?",
+      "a": "15–20 de minute pe episod. Program flexibil — copilul revine când îi convine."
+    },
+    {
+      "q": "E nevoie de înregistrare pentru demo?",
+      "a": "Nu. Episodul demo e complet deschis — fără înregistrare, fără abonament, fără date introduse."
+    }
+  ],
+  "final_cta": {
+    "headline": "Oferă-i copilului tău superputerea gândirii critice",
+    "subheadline": "Episodul 1 · O dimineață fără soră\nMama spune că nu a existat nicio soră. La școală nu și-o amintesc pe Sofia. Dar Marko își amintește râsul ei — și jurnalul din mâinile lui e real…",
+    "cta_text": "Joacă demo acum"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

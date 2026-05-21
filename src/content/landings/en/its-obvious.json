@@ -1,0 +1,70 @@
+{
+  "slug": "its-obvious",
+  "audience": "parent",
+  "locale": "en",
+  "meta": {
+    "title": "\"It's obvious\" — how an assertion replaces an argument | Sila Slova",
+    "description": "Help your child stop accepting \"it's obvious\" as proof, and bring the conversation back to actual reasons. Course for kids 8–12.",
+    "og_image": "/og/og-default.jpg"
+  },
+  "hero": {
+    "headline": "Does your child go quiet when someone says \"isn't it obvious\"?",
+    "subheadline": "\"It's obvious,\" \"goes without saying,\" \"everyone knows that.\" It sounds confident — but it's not an argument, it's a way to close the conversation without ever explaining anything.",
+    "cta_primary": { "text": "Join the waitlist", "target": "/sign-up" },
+    "cta_secondary": { "text": "Play demo", "target": "/demo" },
+    "media": { "type": "image", "src": "/images/its-obvious.jpg", "alt": "A child hears a confident \"it's obvious\" with no explanation" }
+  },
+  "pain": {
+    "title": "When \"obvious\" replaces the explanation",
+    "body": "At school, in an argument with a friend, in a family discussion. Someone states something as fact — and when your child has doubts, instead of an argument they hear: \"isn't it obvious,\" \"goes without saying,\" \"everyone knows.\" No explanation. No reason. Just a confident tone — and the feeling that the matter is already settled.\n\nThis isn't evidence — it's a substitute for the argument. Instead of reasons, the other person creates the impression that \"everyone has already worked it out\" and only your child didn't. If they have doubts, the problem isn't with the claim — it's with them. It works because it sounds confident, and your child doesn't dare to ask \"dumb\" questions.\n\nWithout the skill to spot this technique, your child either agrees or stays silent. They push their own thought aside — \"if everyone says so, I must be missing something.\" Bit by bit, they learn to accept other people's claims without checking them. By their teens this hardens into a habit: if someone sounds confident, they must be right."
+  },
+  "solution": {
+    "title": "\"Sila Slova\" — a detective drama that teaches thinking",
+    "body": "40 episodes, 13 lessons in critical thinking. Your child plays a game — but actually learns not to take \"it's obvious\" as an answer and to bring the conversation back to real reasons.",
+    "bullets": [
+      "🔍 Spots the moment a confident tone replaces an actual explanation",
+      "🧠 Understands: no explanation, no proof",
+      "💬 Can calmly ask: \"Why is it obvious? Tell me.\"",
+      "🛡️ Stops agreeing just because the other person sounds sure of themselves"
+    ]
+  },
+  "social_proof": {
+    "quote": "He used to hear \"isn't it obvious\" and just stay quiet. Now he simply asks: \"Why?\" And turns out, there's often no real answer.",
+    "author": "Tetiana, mother of 10-year-old Mykhailo",
+    "stats": [
+      { "label": "Kids completed the course", "value": "2,400+" },
+      { "label": "Parents satisfied", "value": "94%" },
+      { "label": "Optimal age", "value": "8–12 y.o." }
+    ]
+  },
+  "faq_label": "FREQUENTLY ASKED",
+  "faq_title": "Questions about the course",
+  "faq": [
+    {
+      "q": "Is it a game or a course?",
+      "a": "Both at the same time. \"Sila Slova\" looks like a detective series, but every episode hides a critical-thinking lesson."
+    },
+    {
+      "q": "What age does it work for?",
+      "a": "Best for 8–12 years old. At this age, kids are most receptive to new thinking patterns and haven't formed rigid biases yet."
+    },
+    {
+      "q": "How much time per day?",
+      "a": "15–20 minutes per episode. Flexible schedule — your child can come back whenever it's convenient."
+    },
+    {
+      "q": "Do we need to register for the demo?",
+      "a": "No. The demo episode is fully open — no registration, no subscription, no data entry."
+    }
+  ],
+  "final_cta": {
+    "headline": "Give your child the superpower of critical thinking",
+    "subheadline": "Episode 1 · A morning without sister\nMom says there was never a sister. School doesn't remember Sofia. But Marko remembers her laugh — and the diary in his hands is real…",
+    "cta_text": "Play the demo now"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

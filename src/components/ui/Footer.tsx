@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { getTranslations } from "next-intl/server";
+import { Logo } from "./Logo";
 import { NavLink } from "./NavLink";
 
 type Props = { locale: string };
@@ -61,8 +62,9 @@ export async function Footer({ locale }: Props) {
           {/* Logo + tagline + copyright */}
           <div className="flex flex-col justify-between gap-6">
             <div>
-              <Link href={`/${locale}`} className="logo">
-                Syla<span className="logo-accent"> Slova</span>
+              <Link href={`/${locale}`} className="logo inline-flex items-center gap-2">
+                <Logo size={32} className="shrink-0" />
+                <span>Syla<span className="logo-accent"> Slova</span></span>
               </Link>
               <p className="mt-3 max-w-xs border-l-2 border-accent-500 pl-3 text-sm leading-relaxed text-content-muted">
                 {t("tagline")}

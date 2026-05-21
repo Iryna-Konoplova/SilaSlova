@@ -1,0 +1,89 @@
+{
+  "slug": "you-promised",
+  "audience": "parent",
+  "locale": "en",
+  "meta": {
+    "title": "\"But you promised\" — when a past commitment is turned into a trap | Sila Slova",
+    "description": "Help your child separate responsibility from pressure and keep the right to change their mind. Course for kids 8–12.",
+    "og_image": "/og/og-default.jpg"
+  },
+  "hero": {
+    "headline": "Can your child not back out — because they once \"promised\"?",
+    "subheadline": "\"But you promised,\" \"you said you would,\" \"we agreed.\" The situation has changed — but they're being told they have \"no right\" to refuse.",
+    "cta_primary": {
+      "text": "Join the waitlist",
+      "target": "/sign-up"
+    },
+    "cta_secondary": {
+      "text": "Play demo",
+      "target": "/demo"
+    },
+    "media": {
+      "type": "image",
+      "src": "/images/you-promised.jpg",
+      "alt": "A child held to a past promise while the situation has clearly changed"
+    }
+  },
+  "pain": {
+    "title": "Promise as leverage: when yesterday's words block today's \"no\"",
+    "body": "\"But you promised.\" \"You said you would.\" \"We agreed.\" One sentence from the past gets used as an argument against your child today. It doesn't matter that they're tired, sick, changed their mind, learned something new, or the circumstances simply shifted. They're told: \"you gave your word.\"\n\nThis isn't about responsibility — it's manipulation through obligation. Real responsibility lets you revisit a decision, discuss it, explain why it no longer fits. Here, no one asks for an explanation. They just press with the past, as if a child is bound to honor every word they ever said, in every new situation.\n\nWithout the skill to spot this technique, your child agrees. They go through with it — even when it hurts them. And gradually they lose the most important thing: the right to revisit their own decisions. By their teens this hardens into \"I'm stuck with this because I once said yes, and now it's too late.\""
+  },
+  "solution": {
+    "title": "\"Sila Slova\" — a detective drama that teaches thinking",
+    "body": "40 episodes, 13 lessons in critical thinking. Your child plays a game — but actually learns to separate responsibility from pressure and to calmly explain a change of mind.",
+    "bullets": [
+      "🔍 Spots the moment a promise is turned into leverage instead of an argument",
+      "🧠 Understands: changing your mind isn't a betrayal — it's part of growing up",
+      "💬 Can say: \"Back then I thought differently. Now I don't. Let's talk about it.\"",
+      "🛡️ Stops automatically going through with what hurts them just because \"you promised\""
+    ]
+  },
+  "social_proof": {
+    "quote": "I thought my job was to teach her to \"keep her word.\" Turned out she was keeping it with the last of her strength, afraid to disappoint anyone. Now she can simply say: \"Mom, I've changed my mind, here's why.\" And not spend half an hour psyching herself up to say it.",
+    "author": "Svitlana, mother of 9-year-old Alisa",
+    "stats": [
+      {
+        "label": "Kids completed the course",
+        "value": "2,400+"
+      },
+      {
+        "label": "Parents satisfied",
+        "value": "94%"
+      },
+      {
+        "label": "Optimal age",
+        "value": "8–12 y.o."
+      }
+    ]
+  },
+  "faq_label": "FREQUENTLY ASKED",
+  "faq_title": "Questions about the course",
+  "faq": [
+    {
+      "q": "Is it a game or a course?",
+      "a": "Both at the same time. \"Sila Slova\" looks like a detective series, but every episode hides a critical-thinking lesson."
+    },
+    {
+      "q": "What age does it work for?",
+      "a": "Best for 8–12 years old. At this age, kids are most receptive to new thinking patterns and haven't formed rigid biases yet."
+    },
+    {
+      "q": "How much time per day?",
+      "a": "15–20 minutes per episode. Flexible schedule — your child can come back whenever it's convenient."
+    },
+    {
+      "q": "Do we need to register for the demo?",
+      "a": "No. The demo episode is fully open — no registration, no subscription, no data entry."
+    }
+  ],
+  "final_cta": {
+    "headline": "Give your child the superpower of critical thinking",
+    "subheadline": "Episode 1 · A morning without sister\nMom says there was never a sister. School doesn't remember Sofia. But Marko remembers her laugh — and the diary in his hands is real…",
+    "cta_text": "Play the demo now"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

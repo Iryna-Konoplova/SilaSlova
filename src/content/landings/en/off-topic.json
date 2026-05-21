@@ -10,9 +10,19 @@
   "hero": {
     "headline": "Does your child's question keep going unanswered?",
     "subheadline": "She asked something direct — and got back \"what about you yesterday…\", \"that's beside the point\", \"let's talk about something else\". And never got what she actually asked for.",
-    "cta_primary": { "text": "Sign up for the course", "target": "/sign-up" },
-    "cta_secondary": { "text": "Play demo", "target": "/demo" },
-    "media": { "type": "image", "src": "/images/off-topic.jpg", "alt": "A child hearing topic-deflection instead of an answer" }
+    "cta_primary": {
+      "text": "Sign up for the course",
+      "target": "/sign-up"
+    },
+    "cta_secondary": {
+      "text": "Play demo",
+      "target": "/demo"
+    },
+    "media": {
+      "type": "image",
+      "src": "/images/off-topic.jpg",
+      "alt": "A child hearing topic-deflection instead of an answer"
+    }
   },
   "pain": {
     "title": "\"That's beside the point, but…\": when instead of an answer, you get steered elsewhere",
@@ -32,9 +42,18 @@
     "quote": "She used to sit there afterwards thinking 'what just happened'. Now she says: \"Mum, that's not what we were talking about. Can you answer my question?\" I sometimes catch myself dodging — and she notices now.",
     "author": "Olena, mum of 10-year-old Alisa",
     "stats": [
-      { "label": "Children completed the course", "value": "2,400+" },
-      { "label": "Satisfied parents", "value": "94%" },
-      { "label": "Optimal age", "value": "8–12 yrs" }
+      {
+        "label": "Children completed the course",
+        "value": "2,400+"
+      },
+      {
+        "label": "Satisfied parents",
+        "value": "94%"
+      },
+      {
+        "label": "Optimal age",
+        "value": "8–12 yrs"
+      }
     ]
   },
   "faq_label": "FAQ",
@@ -58,7 +77,7 @@
     }
   ],
   "final_cta": {
-    "headline": "Give your child the tool to hold a conversation on topic",
+    "headline": "Give your child the superpower of critical thinking",
     "subheadline": "Episode 1 · Morning Without a Sister\nMum says there was never a sister. The school doesn't remember Sofia. But Marco remembers her laugh — and the diary in his hands is real…",
     "cta_text": "Play demo now"
   },

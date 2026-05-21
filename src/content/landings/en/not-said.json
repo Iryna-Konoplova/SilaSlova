@@ -10,9 +10,19 @@
   "hero": {
     "headline": "Does your child go quiet when their words get twisted?",
     "subheadline": "Not because they can't defend an idea. They just don't have a simple tool to bring the conversation back to what they actually said.",
-    "cta_primary": { "text": "Sign up for the course", "target": "/sign-up" },
-    "cta_secondary": { "text": "Play demo", "target": "/demo" },
-    "media": { "type": "image", "src": "/images/not-said.jpg", "alt": "A child going quiet when their words get twisted" }
+    "cta_primary": {
+      "text": "Sign up for the course",
+      "target": "/sign-up"
+    },
+    "cta_secondary": {
+      "text": "Play demo",
+      "target": "/demo"
+    },
+    "media": {
+      "type": "image",
+      "src": "/images/not-said.jpg",
+      "alt": "A child going quiet when their words get twisted"
+    }
   },
   "pain": {
     "title": "The straw man: when someone argues with a made-up version of your words, not with you",
@@ -32,9 +42,18 @@
     "quote": "He used to freeze and start crying. Now he just says: \"Stop, that's not what I said. I said this.\" And the conversation comes back to reality.",
     "author": "Iryna, mum of 11-year-old Artem",
     "stats": [
-      { "label": "Children completed the course", "value": "2,400+" },
-      { "label": "Satisfied parents", "value": "94%" },
-      { "label": "Optimal age", "value": "8–12 yrs" }
+      {
+        "label": "Children completed the course",
+        "value": "2,400+"
+      },
+      {
+        "label": "Satisfied parents",
+        "value": "94%"
+      },
+      {
+        "label": "Optimal age",
+        "value": "8–12 yrs"
+      }
     ]
   },
   "faq_label": "FAQ",
@@ -58,7 +77,7 @@
     }
   ],
   "final_cta": {
-    "headline": "Give your child the phrase that brings any conversation back to their words",
+    "headline": "Give your child the superpower of critical thinking",
     "subheadline": "Episode 1 · Morning Without a Sister\nMum says there was never a sister. The school doesn't remember Sofia. But Marco remembers her laugh — and the diary in his hands is real…",
     "cta_text": "Play demo now"
   },

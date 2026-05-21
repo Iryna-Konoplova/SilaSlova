@@ -10,9 +10,19 @@
   "hero": {
     "headline": "Is your child forced to answer \"yes or no\" when reality is more complex?",
     "subheadline": "\"Just answer\", \"don't dodge\", \"keep it short\". Your child sees there's nuance in the question — but gets pushed to pick one option that doesn't quite fit.",
-    "cta_primary": { "text": "Sign up for the course", "target": "/sign-up" },
-    "cta_secondary": { "text": "Play demo", "target": "/demo" },
-    "media": { "type": "image", "src": "/images/yes-or-no.jpg", "alt": "A child being pushed into a yes-or-no answer" }
+    "cta_primary": {
+      "text": "Sign up for the course",
+      "target": "/sign-up"
+    },
+    "cta_secondary": {
+      "text": "Play demo",
+      "target": "/demo"
+    },
+    "media": {
+      "type": "image",
+      "src": "/images/yes-or-no.jpg",
+      "alt": "A child being pushed into a yes-or-no answer"
+    }
   },
   "pain": {
     "title": "The frame trap: when a choice gets reduced to two options someone else picked for you",
@@ -32,9 +42,18 @@
     "quote": "He used to just say \"yes\" to make it stop. Now he pauses and says: \"Hold on, it's not yes or no. It's both, and there's more to explain.\" And we finally hear what he actually thinks.",
     "author": "Serhii, dad of 9-year-old Denys",
     "stats": [
-      { "label": "Children completed the course", "value": "2,400+" },
-      { "label": "Satisfied parents", "value": "94%" },
-      { "label": "Optimal age", "value": "8–12 yrs" }
+      {
+        "label": "Children completed the course",
+        "value": "2,400+"
+      },
+      {
+        "label": "Satisfied parents",
+        "value": "94%"
+      },
+      {
+        "label": "Optimal age",
+        "value": "8–12 yrs"
+      }
     ]
   },
   "faq_label": "FAQ",
@@ -58,7 +77,7 @@
     }
   ],
   "final_cta": {
-    "headline": "Give your child the right to an answer that's more than \"yes or no\"",
+    "headline": "Give your child the superpower of critical thinking",
     "subheadline": "Episode 1 · Morning Without a Sister\nMum says there was never a sister. The school doesn't remember Sofia. But Marco remembers her laugh — and the diary in his hands is real…",
     "cta_text": "Play demo now"
   },

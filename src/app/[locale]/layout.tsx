@@ -5,6 +5,7 @@ import { Header } from "@/components/ui/Header";
 import { Footer } from "@/components/ui/Footer";
 import { EnrollModal } from "@/components/forms/EnrollModal";
 import { CookieBanner } from "@/components/analytics/CookieBanner";
+import { TrackingBootstrap } from "@/components/analytics/TrackingBootstrap";
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -28,6 +29,7 @@ export default async function LocaleLayout({
       <Footer locale={locale} />
       <EnrollModal />
       <CookieBanner />
+      <TrackingBootstrap />
     </NextIntlClientProvider>
   );
 }

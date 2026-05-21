@@ -1,0 +1,70 @@
+{
+  "slug": "prove-it",
+  "audience": "parent",
+  "locale": "ro",
+  "meta": {
+    "title": "«Unde sunt dovezile?» — cum să-ți înveți copilul să verifice afirmațiile sigure | Forța Cuvântului",
+    "description": "O singură întrebare simplă — și demagogia se prăbușește singură. Învață-ți copilul să mute discuția de la emoții la fapte. Curs în format de joc pentru copii de 8–12 ani.",
+    "og_image": "/og/og-default.jpg"
+  },
+  "hero": {
+    "headline": "«Sigur funcționează. Toți cred asta. E cel mai bun» — și copilul tău e deja de acord?",
+    "subheadline": "Nu pentru că ar crede — ci pentru că nu are o acțiune simplă prin care să verifice: ce stă, de fapt, în spatele acestor cuvinte?",
+    "cta_primary": { "text": "Înscrie-te la curs", "target": "/sign-up" },
+    "cta_secondary": { "text": "Joacă demo", "target": "/demo" },
+    "media": { "type": "image", "src": "/images/prove-it.jpg", "alt": "Un copil care ascultă afirmații sigure și caută pe ce se sprijină" }
+  },
+  "pain": {
+    "title": "Când siguranța sună ca un argument",
+    "body": "La școală, pe internet, în discuții cu prietenii: «sigur funcționează», «toți cred asta», «e cel mai bun». Sună convingător — intonația, ritmul, tonul sigur. Copilul fie acceptă imediat, fie se pierde: simte că ceva nu e în regulă, dar nu știe cum să-i spună.\n\nProblema nu e că copilul «se lasă convins de cuvinte». Problema e că nu are un instrument simplu de verificare. În spatele unei afirmații sigure poate sta un fapt, o logică, o sursă — sau poate să nu stea nimic. Fără obiceiul de a întreba, arată la fel: dacă s-a spus cu siguranță, înseamnă că probabil e adevărat.\n\nConsecința — copilul începe să aibă încredere în felul în care se spune, nu în conținut. Cine vorbește mai tare are «dreptate». Iar cine se îndoiește și caută dovezi pare plictisitor. Așa se formează obiceiul de a fi de acord cu ce sună bine, nu cu ce e cu adevărat argumentat."
+  },
+  "solution": {
+    "title": "«Forța Cuvântului» — o dramă detectivistică ce învață să gândești",
+    "body": "40 de episoade, 13 lecții de gândire critică. Copilul se joacă — dar de fapt învață o singură acțiune simplă: să verifice ce stă în spatele cuvintelor.",
+    "bullets": [
+      "🔍 Observă momentul în care siguranța vine fără fapte",
+      "🧠 Înțelege: tonul sigur e prezentare, nu dovadă",
+      "💬 Pune întrebarea simplă: «Unde sunt dovezile? Pe ce se bazează?»",
+      "🛡️ Nu se ceartă cu emoții — mută discuția în fapte"
+    ]
+  },
+  "social_proof": {
+    "quote": "Înainte era de acord cu tot ce suna sigur. Acum întreabă calm: «De unde știi asta?» Și vede singur când în spatele cuvintelor nu e nimic.",
+    "author": "Oleh, tatăl Darynei de 11 ani",
+    "stats": [
+      { "label": "Copii au finalizat cursul", "value": "2.400+" },
+      { "label": "Părinți mulțumiți", "value": "94%" },
+      { "label": "Vârsta optimă", "value": "8–12 ani" }
+    ]
+  },
+  "faq_label": "ÎNTREBĂRI FRECVENTE",
+  "faq_title": "Întrebări despre curs",
+  "faq": [
+    {
+      "q": "Este un joc sau un curs educațional?",
+      "a": "Ambele formule în același timp. «Forța Cuvântului» arată ca un serial detectivistic, dar în fiecare episod este ascunsă o lecție de gândire critică."
+    },
+    {
+      "q": "De la ce vârstă se poate începe?",
+      "a": "Optim — 8–12 ani. La această vârstă, copiii sunt cei mai receptivi la noi tipare de gândire și nu și-au format încă prejudecăți stabile."
+    },
+    {
+      "q": "Cât timp este necesar zilnic?",
+      "a": "15–20 de minute pe episod. Program flexibil — copilul poate reveni oricând îi convine."
+    },
+    {
+      "q": "Este necesară înregistrarea pentru demo?",
+      "a": "Nu. Episodul demo este complet deschis — fără înregistrare, fără abonament, fără introducerea datelor."
+    }
+  ],
+  "final_cta": {
+    "headline": "Oferă-i copilului tău superputerea gândirii critice",
+    "subheadline": "Episodul 1 · O dimineață fără soră\nMama spune că nu a existat nicio soră. La școală nu și-o amintesc pe Sofia. Dar Marko își amintește râsul ei — și jurnalul din mâinile lui e real…",
+    "cta_text": "Joacă demo acum"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

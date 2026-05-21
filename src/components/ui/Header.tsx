@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { getTranslations } from "next-intl/server";
 import { LanguageSwitcher } from "./LanguageSwitcher";
+import { Logo } from "./Logo";
 import { ThemeSwitcher } from "./ThemeSwitcher";
 import { NavLink } from "./NavLink";
 import { MobileMenu } from "./MobileMenu";
@@ -34,9 +35,10 @@ export async function Header({ locale }: Props) {
         <Link
           href={`/${locale}`}
           aria-label={t("logo_alt")}
-          className="logo"
+          className="logo inline-flex items-center gap-2"
         >
-          Syla<span className="logo-accent"> Slova</span>
+          <Logo size={32} className="shrink-0" />
+          <span>Syla<span className="logo-accent"> Slova</span></span>
         </Link>
 
         {/* Desktop nav — md and up */}

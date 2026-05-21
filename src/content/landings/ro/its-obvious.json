@@ -1,0 +1,70 @@
+{
+  "slug": "its-obvious",
+  "audience": "parent",
+  "locale": "ro",
+  "meta": {
+    "title": "«E evident» — cum o afirmație înlocuiește argumentul | Sila Slova",
+    "description": "Ajută-ți copilul să nu mai accepte «e evident» ca dovadă și să readucă discuția la motivele reale. Curs pentru copii 8–12 ani.",
+    "og_image": "/og/og-default.jpg"
+  },
+  "hero": {
+    "headline": "Copilul tău tace când aude «doar e evident»?",
+    "subheadline": "«E evident», «se înțelege de la sine», «toată lumea știe». Sună sigur — dar nu e un argument, e un mod de a închide discuția fără să explici nimic.",
+    "cta_primary": { "text": "Înscrie-te la curs", "target": "/sign-up" },
+    "cta_secondary": { "text": "Joacă demo", "target": "/demo" },
+    "media": { "type": "image", "src": "/images/its-obvious.jpg", "alt": "Un copil aude un «e evident» sigur de sine, fără nicio explicație" }
+  },
+  "pain": {
+    "title": "Când «evident» înlocuiește explicația",
+    "body": "La școală, într-o ceartă cu un prieten, într-o discuție în familie. Cineva afirmă ceva ca pe un fapt — iar când copilul se îndoiește, în loc de un argument aude: «e evident», «se înțelege», «toată lumea știe». Fără explicație. Fără motiv. Doar un ton sigur — și senzația că subiectul e deja închis.\n\nAsta nu e o dovadă — e o înlocuire a argumentului. În loc de motive, cealaltă persoană creează impresia că «toți și-au dat seama» și doar copilul nu. Dacă se îndoiește — parcă problema nu e cu afirmația, ci cu el. Funcționează pentru că sună sigur, iar copilul nu îndrăznește să pună întrebări «proaste».\n\nFără abilitatea de a observa această tehnică, copilul fie acceptă, fie tace. Își dă propria părere la o parte — «dacă toți zic așa, înseamnă că eu nu înțeleg». Așa învață treptat să accepte afirmațiile altora fără să le verifice. La adolescență devine un obicei: dacă cineva sună sigur — înseamnă că are dreptate."
+  },
+  "solution": {
+    "title": "«Sila Slova» — o dramă-detectiv care învață gândirea",
+    "body": "40 de episoade, 13 lecții de gândire critică. Copilul se joacă — dar de fapt învață să nu accepte «e evident» ca răspuns și să readucă discuția la motive reale.",
+    "bullets": [
+      "🔍 Observă momentul când un ton sigur înlocuiește o explicație reală",
+      "🧠 Înțelege: fără explicație nu există dovadă",
+      "💬 Poate întreba calm: «De ce e evident? Spune-mi.»",
+      "🛡️ Nu mai acceptă doar pentru că celălalt sună sigur pe el"
+    ]
+  },
+  "social_proof": {
+    "quote": "Înainte îi spuneau «doar e evident» — și el tăcea. Acum întreabă pur și simplu: «De ce?» Și se dovedește că de multe ori nu există explicație.",
+    "author": "Tetiana, mama lui Mihail (10 ani)",
+    "stats": [
+      { "label": "Copii au terminat cursul", "value": "2 400+" },
+      { "label": "Părinți mulțumiți", "value": "94%" },
+      { "label": "Vârsta optimă", "value": "8–12 ani" }
+    ]
+  },
+  "faq_label": "ÎNTREBĂRI FRECVENTE",
+  "faq_title": "Întrebări despre curs",
+  "faq": [
+    {
+      "q": "E un joc sau un curs?",
+      "a": "Ambele în același timp. «Sila Slova» arată ca un serial polițist, dar fiecare episod ascunde o lecție de gândire critică."
+    },
+    {
+      "q": "De la ce vârstă se poate începe?",
+      "a": "Optim — 8–12 ani. La această vârstă, copiii sunt cei mai receptivi la modele noi de gândire și nu au format încă prejudecăți rigide."
+    },
+    {
+      "q": "Cât timp pe zi e nevoie?",
+      "a": "15–20 de minute pe episod. Program flexibil — copilul revine când îi convine."
+    },
+    {
+      "q": "E nevoie de înregistrare pentru demo?",
+      "a": "Nu. Episodul demo e complet deschis — fără înregistrare, fără abonament, fără date introduse."
+    }
+  ],
+  "final_cta": {
+    "headline": "Oferă-i copilului tău superputerea gândirii critice",
+    "subheadline": "Episodul 1 · O dimineață fără soră\nMama spune că nu a existat nicio soră. La școală nu și-o amintesc pe Sofia. Dar Marko își amintește râsul ei — și jurnalul din mâinile lui e real…",
+    "cta_text": "Joacă demo acum"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

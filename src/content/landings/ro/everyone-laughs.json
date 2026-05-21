@@ -1,0 +1,89 @@
+{
+  "slug": "everyone-laughs",
+  "audience": "parent",
+  "locale": "ro",
+  "meta": {
+    "title": "«Uite, toți râd» — când râsul e prezentat ca «dovadă» | Sila Slova",
+    "description": "Ajută-ți copilul să deosebească reacția grupului de realitate și să nu se mai schimbe ca să scape de ironie. Curs pentru copii 8–12 ani.",
+    "og_image": "/og/og-default.jpg"
+  },
+  "hero": {
+    "headline": "Copilul tău tace în clipa în care clasa începe să râdă?",
+    "subheadline": "«Uite, toți râd», «doar tu ești așa», «toți au înțeles deja». Presiune fără niciun argument — doar reacția grupului. Și copilul începe să se îndoiască de el însuși.",
+    "cta_primary": {
+      "text": "Înscrie-te la curs",
+      "target": "/sign-up"
+    },
+    "cta_secondary": {
+      "text": "Joacă demo",
+      "target": "/demo"
+    },
+    "media": {
+      "type": "image",
+      "src": "/images/everyone-laughs.jpg",
+      "alt": "Un copil rămas singur în fața unui grup care râde"
+    }
+  },
+  "pain": {
+    "title": "Când «toți râd» bate faptele",
+    "body": "În clasă, în pauză, pe chat. Copilul spune ce gândește — și aude râsete. Sau vede cum ceilalți se uită unii la alții. Sau cineva îi spune: «uite, toți râd — tu ce zici?» Nu există niciun argument de ce ar greși. Doar o reacție de grup servită ca dovadă.\n\nAsta nu e un fapt și nici opinia majorității — e o manipulare prin frica de a fi luat în râs. «Toți râd» nu înseamnă că au dreptate. Înseamnă doar că în secunda asta li se pare amuzant. Dar fără abilitatea de a separa emoția grupului de realitate, copilul percepe râsul ca pe un semnal: «e ceva în neregulă cu mine».\n\nConsecința — își schimbă comportamentul. Tace, e de acord, începe să spună ce «trebuie», ca să nu fie luat din nou în râs. Gândurile lui rămân pe planul doi, fiindcă pentru ele e «incomod». La adolescență devine un obicei: «mai întâi văd cum reacționează ceilalți — apoi vorbesc»."
+  },
+  "solution": {
+    "title": "«Sila Slova» — o dramă-detectiv care învață gândirea",
+    "body": "40 de episoade, 13 lecții de gândire critică. Copilul se joacă — dar de fapt învață să nu confunde râsul cu un argument și să-și mențină poziția sub presiunea grupului.",
+    "bullets": [
+      "🔍 Observă momentul când i se arată «reacția sălii» în locul unui contraargument",
+      "🧠 Înțelege: râsul nu e o dovadă că greșești",
+      "💬 Poate spune calm: «Râdeți. Eu cred altceva.»",
+      "🛡️ Nu mai renunță la opinia lui doar pentru că e incomodă pentru grup"
+    ]
+  },
+  "social_proof": {
+    "quote": "Înainte, când clasa începea să râdă, tăcea o jumătate de zi. Acum se poate întoarce și să spună: «Nu înțeleg ce e amuzant». Și știți ce — clasa încetează să mai râdă. Pentru că e amuzant doar atâta timp cât te-ai speriat.",
+    "author": "Irina, mama lui Daniel (11 ani)",
+    "stats": [
+      {
+        "label": "Copii au terminat cursul",
+        "value": "2 400+"
+      },
+      {
+        "label": "Părinți mulțumiți",
+        "value": "94%"
+      },
+      {
+        "label": "Vârsta optimă",
+        "value": "8–12 ani"
+      }
+    ]
+  },
+  "faq_label": "ÎNTREBĂRI FRECVENTE",
+  "faq_title": "Întrebări despre curs",
+  "faq": [
+    {
+      "q": "E un joc sau un curs?",
+      "a": "Ambele în același timp. «Sila Slova» arată ca un serial polițist, dar fiecare episod ascunde o lecție de gândire critică."
+    },
+    {
+      "q": "De la ce vârstă se poate începe?",
+      "a": "Optim — 8–12 ani. La această vârstă, copiii sunt cei mai receptivi la modele noi de gândire și nu au format încă prejudecăți rigide."
+    },
+    {
+      "q": "Cât timp pe zi e nevoie?",
+      "a": "15–20 de minute pe episod. Program flexibil — copilul revine când îi convine."
+    },
+    {
+      "q": "E nevoie de înregistrare pentru demo?",
+      "a": "Nu. Episodul demo e complet deschis — fără înregistrare, fără abonament, fără date introduse."
+    }
+  ],
+  "final_cta": {
+    "headline": "Oferă-i copilului tău superputerea gândirii critice",
+    "subheadline": "Episodul 1 · O dimineață fără soră\nMama spune că nu a existat nicio soră. La școală nu și-o amintesc pe Sofia. Dar Marko își amintește râsul ei — și jurnalul din mâinile lui e real…",
+    "cta_text": "Joacă demo acum"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

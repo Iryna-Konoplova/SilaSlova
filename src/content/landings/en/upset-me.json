@@ -1,0 +1,89 @@
+{
+  "slug": "upset-me",
+  "audience": "parent",
+  "locale": "en",
+  "meta": {
+    "title": "\"You'll Upset Me\" — How Emotional Blackmail Silences Your Child's \"No\" | Sila Slova",
+    "description": "Help your child separate their decisions from others' emotions and stop saying yes just because \"saying no feels awkward.\" Course for kids 8–12.",
+    "og_image": "/og/og-default.jpg"
+  },
+  "hero": {
+    "headline": "Does your child say \"yes\" just to keep others from being upset?",
+    "subheadline": "\"You'll upset me,\" \"I'll be offended,\" \"that would hurt my feelings.\" Your child hears this — and picks someone else's mood over their own \"no.\"",
+    "cta_primary": {
+      "text": "Join the waitlist",
+      "target": "/sign-up"
+    },
+    "cta_secondary": {
+      "text": "Play demo",
+      "target": "/demo"
+    },
+    "media": {
+      "type": "image",
+      "src": "/images/upset-me.jpg",
+      "alt": "A child agrees to avoid hurting an adult's feelings"
+    }
+  },
+  "pain": {
+    "title": "Emotional blackmail: when \"no\" feels scarier than \"yes\"",
+    "body": "\"You'll upset me.\" \"That would hurt.\" \"I'll be offended.\" It happens at school, from a friend, a relative, a classmate. Instead of a request, your child hears a warning: if you say no, this person will feel bad — and it'll be your fault.\n\nThis isn't a request — it's emotional blackmail. The adult (or peer) doesn't explain why it matters, doesn't propose to talk it through. They simply transfer responsibility for their own mood onto your child: \"you decide whether I'll be okay.\" To avoid the preemptive guilt, the child agrees. They do what's \"right\" — not what they want.\n\nWithout the skill to recognize this technique, your child picks the option that \"keeps the peace\" every time. Their own \"wants\" go quiet. By age 10–11, they may not know what they want — because they've learned to ask \"how will the other person feel if I say no?\" first."
+  },
+  "solution": {
+    "title": "\"Sila Slova\" — a detective drama that teaches thinking",
+    "body": "40 episodes, 13 lessons in critical thinking. Your child plays a game — but actually learns to separate their decisions from others' emotions.",
+    "bullets": [
+      "🔍 Spots the moment they're being made responsible for someone else's mood",
+      "🧠 Understands: you're not obligated to \"save\" anyone from their feelings",
+      "💬 Can say \"no\" calmly — without defenses or justifications",
+      "🛡️ Stops automatically agreeing just to avoid \"hurting\" someone"
+    ]
+  },
+  "social_proof": {
+    "quote": "She used to be a ticking bomb: said yes to everything, then cried because \"I can't.\" Now she can tell her friend \"not today\" — and doesn't spend three days apologizing for it. It's a different kid.",
+    "author": "Elena, mother of 10-year-old Margarita",
+    "stats": [
+      {
+        "label": "Kids completed the course",
+        "value": "2,400+"
+      },
+      {
+        "label": "Parents satisfied",
+        "value": "94%"
+      },
+      {
+        "label": "Optimal age",
+        "value": "8–12 y.o."
+      }
+    ]
+  },
+  "faq_label": "FREQUENTLY ASKED",
+  "faq_title": "Questions about the course",
+  "faq": [
+    {
+      "q": "Is it a game or a course?",
+      "a": "Both at the same time. \"Sila Slova\" looks like a detective series, but every episode hides a critical-thinking lesson."
+    },
+    {
+      "q": "What age does it work for?",
+      "a": "Best for 8–12 years old. At this age, kids are most receptive to new thinking patterns and haven't formed rigid biases yet."
+    },
+    {
+      "q": "How much time per day?",
+      "a": "15–20 minutes per episode. Flexible schedule — your child can come back whenever it's convenient."
+    },
+    {
+      "q": "Do we need to register for the demo?",
+      "a": "No. The demo episode is fully open — no registration, no subscription, no data entry."
+    }
+  ],
+  "final_cta": {
+    "headline": "Give your child the superpower of critical thinking",
+    "subheadline": "Episode 1 · A morning without sister\nMom says there was never a sister. School doesn't remember Sofia. But Marko remembers her laugh — and the diary in his hands is real…",
+    "cta_text": "Play the demo now"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}
