@@ -57,18 +57,30 @@ export function EnrollForm({ onSuccess, className, source = "sila-slova" }: Prop
     try {
       const utm = getStoredUtm();
       const anonymous_id = getAnonymousId();
+      const landing_slug =
+        typeof window !== "undefined" ? window.location.pathname : "";
+
+      const sourceInfoLines = [
+        landing_slug ? `landing=${landing_slug}` : null,
+        anonymous_id ? `anonymous_id=${anonymous_id}` : null,
+      ].filter(Boolean);
+
+      const payload: Record<string, unknown> = {
+        title: data.parentName,
+        phones: [data.phone],
+        source,
+        city: data.city,
+      };
+      if (data.comment) payload.comment = data.comment;
+      if (sourceInfoLines.length > 0) {
+        payload.source_information = sourceInfoLines.join("\n");
+      }
+      Object.assign(payload, utm);
+
       const res = await fetch("/api/enroll", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          full_name: data.parentName,
-          phone: data.phone,
-          city: data.city,
-          message: data.comment ?? "",
-          source,
-          anonymous_id,
-          ...utm,
-        }),
+        body: JSON.stringify(payload),
       });
       if (!res.ok) {
         setError(res.status === 429 ? "rate_limited" : "generic");

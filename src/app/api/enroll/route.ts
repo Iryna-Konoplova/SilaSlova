@@ -10,6 +10,9 @@ export async function POST(req: NextRequest) {
     );
   }
 
+  // Form already builds the CRM-shaped payload (title, phones[], city, comment, source,
+  // source_information, utm_*). We just wrap it and forward — what you see in DevTools
+  // on /api/enroll is exactly what reaches the CRM webhook.
   const body = await req.json();
 
   const res = await fetch(process.env.CRM_WEBHOOK_URL!, {
