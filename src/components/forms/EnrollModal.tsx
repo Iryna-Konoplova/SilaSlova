@@ -9,6 +9,7 @@ import { EnrollForm } from "./EnrollForm";
 export function EnrollModal() {
   const { isOpen, source, close } = useEnrollStore();
   const t = useTranslations("enroll_form");
+  const ta = useTranslations("a11y");
 
   // Lock body scroll
   useEffect(() => {
@@ -59,7 +60,7 @@ export function EnrollModal() {
               {/* Close */}
               <button
                 onClick={close}
-                aria-label="Close"
+                aria-label={ta("close")}
                 className="absolute right-4 top-5 flex h-8 w-8 items-center justify-center rounded-full text-content-subtle transition-colors hover:bg-surface-subtle hover:text-content"
               >
                 <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">

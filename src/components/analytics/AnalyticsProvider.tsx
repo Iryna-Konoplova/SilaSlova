@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import Script from "next/script";
 import type { ConsentState } from "@/lib/cookie-consent";
 import { getConsent } from "@/lib/cookie-consent";
@@ -12,56 +12,41 @@ const POSTHOG_KEY = process.env.NEXT_PUBLIC_POSTHOG_KEY;
 const POSTHOG_HOST =
   process.env.NEXT_PUBLIC_POSTHOG_HOST ?? "https://app.posthog.com";
 
-function applyConsent(consent: ConsentState) {
-  if (consent.statistics) {
-    window.gtag?.("consent", "update", { analytics_storage: "granted" });
-
-    if (POSTHOG_KEY) {
-      import("posthog-js").then(({ default: posthog }) => {
-        if (!window.posthog) {
-          posthog.init(POSTHOG_KEY, {
-            api_host: POSTHOG_HOST,
-            capture_pageview: true,
-          });
-          window.posthog = posthog as unknown as Window["posthog"];
-        }
-      });
-    }
-  }
-
-  if (consent.marketing) {
-    window.gtag?.("consent", "update", { ad_storage: "granted" });
-
-    if (META_PIXEL_ID) {
-      window.fbq?.("init", META_PIXEL_ID);
-      window.fbq?.("track", "PageView");
-    }
-
-    if (TIKTOK_PIXEL_ID) {
-      window.ttq?.load(TIKTOK_PIXEL_ID);
-      window.ttq?.page();
-    }
-  }
-}
-
+// Аналитика грузится ТОЛЬКО после согласия (spec §19 + правила CLAUDE.md):
+// до согласия ни posthog, ни GA4, ни пиксели не загружаются вообще.
+// Скрипты рендерятся условно по состоянию consent; posthog — через ленивый модуль.
 export function AnalyticsProvider() {
-  useEffect(() => {
-    // Returning visitor — consent already in cookie
-    const existing = getConsent();
-    if (existing) applyConsent(existing);
+  const [consent, setConsent] = useState<ConsentState | null>(null);
 
-    // Listen for consent updates from our CookieBanner
+  useEffect(() => {
+    // Вернувшийся посетитель — согласие уже в cookie
+    const existing = getConsent();
+    if (existing) setConsent(existing);
+
+    // Обновление согласия из нашего CookieBanner
     function onConsentUpdated(e: Event) {
-      applyConsent((e as CustomEvent<ConsentState>).detail);
+      setConsent((e as CustomEvent<ConsentState>).detail);
     }
     window.addEventListener("consentUpdated", onConsentUpdated);
     return () => window.removeEventListener("consentUpdated", onConsentUpdated);
   }, []);
 
+  const statistics = consent?.statistics ?? false;
+  const marketing = consent?.marketing ?? false;
+
+  // PostHog — отдельный чанк, грузится лениво и только после согласия на статистику
+  useEffect(() => {
+    if (statistics && POSTHOG_KEY) {
+      import("@/lib/analytics/posthog-client").then(({ initPostHog }) =>
+        initPostHog(POSTHOG_KEY, POSTHOG_HOST)
+      );
+    }
+  }, [statistics]);
+
   return (
     <>
-      {/* GA4 — loads immediately, tracking blocked until consent granted */}
-      {GA4_ID && (
+      {/* GA4 — загружается только после согласия на статистику */}
+      {statistics && GA4_ID && (
         <>
           <Script
             src={`https://www.googletagmanager.com/gtag/js?id=${GA4_ID}`}
@@ -71,19 +56,14 @@ export function AnalyticsProvider() {
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('consent', 'default', {
-              analytics_storage: 'denied',
-              ad_storage: 'denied',
-              wait_for_update: 500
-            });
-            gtag('config', '${GA4_ID}', { send_page_view: false });
+            gtag('config', '${GA4_ID}');
           `}</Script>
         </>
       )}
 
-      {/* Meta Pixel — loader only; init called after marketing consent */}
-      {META_PIXEL_ID && (
-        <Script id="meta-pixel-loader" strategy="afterInteractive">{`
+      {/* Meta Pixel — загружается только после согласия на маркетинг */}
+      {marketing && META_PIXEL_ID && (
+        <Script id="meta-pixel" strategy="afterInteractive">{`
           !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){
           n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};
           if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
@@ -91,12 +71,14 @@ export function AnalyticsProvider() {
           t.src=v;s=b.getElementsByTagName(e)[0];
           s.parentNode.insertBefore(t,s)}(window,document,'script',
           'https://connect.facebook.net/en_US/fbevents.js');
+          fbq('init', '${META_PIXEL_ID}');
+          fbq('track', 'PageView');
         `}</Script>
       )}
 
-      {/* TikTok Pixel — loader only; init called after marketing consent */}
-      {TIKTOK_PIXEL_ID && (
-        <Script id="tiktok-pixel-loader" strategy="afterInteractive">{`
+      {/* TikTok Pixel — загружается только после согласия на маркетинг */}
+      {marketing && TIKTOK_PIXEL_ID && (
+        <Script id="tiktok-pixel" strategy="afterInteractive">{`
           !function(w,d,t){w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];
           ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie","holdConsent","revokeConsent","grantConsent"],
           ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};
@@ -106,6 +88,8 @@ export function AnalyticsProvider() {
           ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=r,ttq._p=ttq._p||[],ttq._p.push([e,n]);
           var a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src=r+"?sdkid="+e+"&lib="+t;
           var u=document.getElementsByTagName("script")[0];u.parentNode.insertBefore(a,u)};
+          ttq.load('${TIKTOK_PIXEL_ID}');
+          ttq.page();
           }(window,document,'ttq');
         `}</Script>
       )}

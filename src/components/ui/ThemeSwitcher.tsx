@@ -1,10 +1,12 @@
 "use client";
 
 import { useTheme } from "next-themes";
+import { useTranslations } from "next-intl";
 import { useEffect, useState } from "react";
 
 export function ThemeSwitcher() {
   const { theme, setTheme } = useTheme();
+  const t = useTranslations("a11y");
   const [mounted, setMounted] = useState(false);
 
   // Avoid hydration mismatch — render only after mount
@@ -19,7 +21,7 @@ export function ThemeSwitcher() {
   return (
     <button
       onClick={() => setTheme(isDark ? "light" : "dark")}
-      aria-label={isDark ? "Switch to light mode" : "Switch to dark mode"}
+      aria-label={isDark ? t("theme_light") : t("theme_dark")}
       className="flex h-8 w-8 items-center justify-center rounded-md text-content-subtle transition-colors hover:text-content focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500"
     >
       {isDark ? <SunIcon /> : <MoonIcon />}

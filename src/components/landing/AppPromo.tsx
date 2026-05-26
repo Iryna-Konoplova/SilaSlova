@@ -13,6 +13,7 @@ export async function AppPromo({ locale }: Props) {
   const t = await getTranslations({ locale, namespace: "app_promo" });
   const tForm = await getTranslations({ locale, namespace: "enroll_form" });
   const tBar = await getTranslations({ locale, namespace: "sticky_bar" });
+  const a = await getTranslations({ locale, namespace: "a11y" });
 
   return (
     <section
@@ -85,7 +86,7 @@ export async function AppPromo({ locale }: Props) {
 
           {/* Screenshots column */}
           <FadeIn direction="right">
-            <div className="flex gap-3 lg:gap-4" aria-label="App screenshots">
+            <div className="flex gap-3 lg:gap-4" aria-label={a("app_screenshots")}>
               {screenshots.map((altKey, i) => (
                 <div
                   key={altKey}

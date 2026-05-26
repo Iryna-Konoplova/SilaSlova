@@ -1,22 +1,33 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+## Локальный запуск
 
-First, run the development server:
+### Разработка (правишь код)
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Открыть [http://localhost:3000](http://localhost:3000). Страница сама обновляется при правках кода.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+⚠️ **Dev-сервер ощущается медленным — это нормально, не баг и не «деградация».** Next компилирует каждый маршрут в момент первого клика на него, поэтому переход «кликнул → подождал секунду → открылось». Повторный заход уже быстрый. По скорости dev-сервера **нельзя** судить о реальной скорости сайта.
+
+Если в браузере вылезает `Failed to load chunk …` — это устаревший кэш HMR. Лечение:
+1. Жёсткое обновление вкладки: `Ctrl+Shift+R`.
+2. Если не помогло — остановить dev (`Ctrl+C`), затем:
+   ```bash
+   rm -rf .next && npm run dev
+   ```
+
+### Проверка реальной скорости (как у пользователей)
+
+Чтобы оценить, как сайт работает в продакшене (статика + префетч, переходы почти мгновенные):
+
+```bash
+npm run build && npx next start -p 3137
+```
+
+Открыть [http://localhost:3137](http://localhost:3137) и кликать по меню / менять язык. Порт `3137` взят, чтобы не конфликтовать с dev на `3000` — можно держать оба запущенными. Это и есть честный замер скорости.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 

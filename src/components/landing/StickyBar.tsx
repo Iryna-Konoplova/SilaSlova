@@ -8,6 +8,7 @@ type Props = { locale: string };
 
 export function StickyBar({ locale }: Props) {
   const t = useTranslations("sticky_bar");
+  const ta = useTranslations("a11y");
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
@@ -19,7 +20,7 @@ export function StickyBar({ locale }: Props) {
   return (
     <div
       role="complementary"
-      aria-label="Quick demo access"
+      aria-label={ta("sticky_demo")}
       className={[
         "fixed bottom-0 left-0 right-0 z-50 flex items-center justify-between gap-3",
         "border-t border-line bg-surface/98 px-4 py-3 backdrop-blur-md",

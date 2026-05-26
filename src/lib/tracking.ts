@@ -1,26 +1,28 @@
-import { createHash } from "crypto";
-
 export function trackEvent(name: string, properties?: Record<string, unknown>) {
   if (typeof window === "undefined") return;
   window.posthog?.capture(name, properties);
   window.gtag?.("event", name, properties);
 }
 
-// SHA-256 hash for PII before sending to ad pixels (spec §19)
-export async function hashPii(value: string): Promise<string> {
+// SHA-256 hash for PII before sending to ad pixels (spec §19).
+// Только Web Crypto — это модуль клиентской аналитики (tracking.ts используется
+// лишь в EnrollButton/EnrollForm). Node-крипту НЕ импортируем: статический
+// `import "crypto"` тянул в браузер полифилл buffer+crypto (~128 КБ gzip).
+// Если Web Crypto недоступен (старый браузер / не-secure context) — не хешируем
+// и не отправляем PII (возвращаем undefined).
+// КОНТРАКТ ДЛЯ ВЫЗЫВАЮЩИХ: результат `string | undefined`. Никогда не отправляйте
+// в рекламные пиксели сырое значение как фолбэк при undefined — это нарушит §19.
+// Передавайте undefined как есть (пиксель просто опустит поле).
+export async function hashPii(value: string): Promise<string | undefined> {
+  if (typeof window === "undefined" || !window.crypto?.subtle) return undefined;
   const normalized = value.trim().toLowerCase();
-  // Browser
-  if (typeof window !== "undefined" && window.crypto?.subtle) {
-    const buf = await window.crypto.subtle.digest(
-      "SHA-256",
-      new TextEncoder().encode(normalized)
-    );
-    return Array.from(new Uint8Array(buf))
-      .map((b) => b.toString(16).padStart(2, "0"))
-      .join("");
-  }
-  // Server (Node)
-  return createHash("sha256").update(normalized).digest("hex");
+  const buf = await window.crypto.subtle.digest(
+    "SHA-256",
+    new TextEncoder().encode(normalized)
+  );
+  return Array.from(new Uint8Array(buf))
+    .map((b) => b.toString(16).padStart(2, "0"))
+    .join("");
 }
 
 export function trackLead(email?: string, phone?: string) {

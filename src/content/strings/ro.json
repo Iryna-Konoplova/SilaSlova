@@ -14,7 +14,7 @@
     "parents": "Părinți",
     "faq": "Întrebări frecvente",
     "about": "Despre noi",
-    "logo_alt": "Forța Cuvântului — acasă"
+    "logo_alt": "Syla Slova — acasă"
   },
   "hero": {
     "title": "Învațăți copilul să gândească — nu să urmeze mulțimea",
@@ -376,5 +376,25 @@
     "line2": "Aflați mai multe în <link>politica noastră privind cookie-urile</link>.",
     "acceptAll": "Acceptă toate",
     "reject": "Respinge toate"
+  },
+  "a11y": {
+    "nav_main": "Navigare principală",
+    "nav_footer": "Navigare subsol",
+    "menu_open": "Deschide meniul",
+    "menu_close": "Închide meniul",
+    "lang_current": "Limbă: {lang}",
+    "lang_select": "Selectează limba",
+    "theme_light": "Comută la modul luminos",
+    "theme_dark": "Comută la modul întunecat",
+    "close": "Închide",
+    "sticky_demo": "Acces rapid la demo",
+    "rating": "5 din 5 stele",
+    "review_prev": "Recenzia anterioară",
+    "review_next": "Recenzia următoare",
+    "reviews_nav": "Navigare recenzii",
+    "review_n": "Recenzia {n}",
+    "app_screenshots": "Capturi din aplicație",
+    "pricing_included": "Ce este inclus",
+    "cookie_dialog": "Consimțământ cookie"
   }
 }

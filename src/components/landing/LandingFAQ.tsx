@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
 import { FadeIn } from "@/components/ui/FadeIn";
 import type { Landing } from "@/lib/schemas/landing";
 
@@ -41,14 +40,15 @@ export function LandingFAQ({ faq, label, title }: Props) {
           {faq.map(({ q, a }, i) => {
             const isOpen = openIndex === i;
             return (
-              <FadeIn key={i} delay={i * 0.06}>
-                <div
-                  className={`overflow-hidden rounded-xl border transition-colors duration-200 ${
-                    isOpen
-                      ? "border-accent-400/60 bg-surface-raised dark:border-accent-500/40"
-                      : "border-line bg-surface-raised hover:border-line-strong"
-                  }`}
-                >
+              <FadeIn
+                key={i}
+                delay={i * 0.06}
+                className={`block overflow-hidden rounded-xl border transition-colors duration-200 ${
+                  isOpen
+                    ? "border-accent-400/60 bg-surface-raised dark:border-accent-500/40"
+                    : "border-line bg-surface-raised hover:border-line-strong"
+                }`}
+              >
                   <dt>
                     <button
                       type="button"
@@ -80,25 +80,24 @@ export function LandingFAQ({ faq, label, title }: Props) {
                     </button>
                   </dt>
 
-                  <AnimatePresence initial={false}>
-                    {isOpen && (
-                      <motion.dd
-                        key="answer"
-                        initial={{ height: 0, opacity: 0 }}
-                        animate={{ height: "auto", opacity: 1 }}
-                        exit={{ height: 0, opacity: 0 }}
-                        transition={{ duration: 0.25, ease: [0.22, 1, 0.36, 1] }}
-                        className="overflow-hidden"
-                      >
-                        <div className="border-t border-line px-6 pb-5 pt-4">
-                          <p className="text-base leading-relaxed text-content-muted">
-                            {a}
-                          </p>
-                        </div>
-                      </motion.dd>
-                    )}
-                  </AnimatePresence>
-                </div>
+                  {/* CSS-аккордеон: grid-template-rows 0fr→1fr плавно меняет высоту без framer */}
+                  <dd
+                    className="grid"
+                    style={{
+                      gridTemplateRows: isOpen ? "1fr" : "0fr",
+                      opacity: isOpen ? 1 : 0,
+                      transition:
+                        "grid-template-rows 0.25s cubic-bezier(0.22,1,0.36,1), opacity 0.25s cubic-bezier(0.22,1,0.36,1)",
+                    }}
+                  >
+                    <div className="overflow-hidden">
+                      <div className="border-t border-line px-6 pb-5 pt-4">
+                        <p className="text-base leading-relaxed text-content-muted">
+                          {a}
+                        </p>
+                      </div>
+                    </div>
+                  </dd>
               </FadeIn>
             );
           })}

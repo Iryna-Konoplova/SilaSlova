@@ -19,6 +19,7 @@ const statKeys = [
 export async function Pricing({ locale }: Props) {
   const t = await getTranslations({ locale, namespace: "pricing" });
   const tForm = await getTranslations({ locale, namespace: "enroll_form" });
+  const a = await getTranslations({ locale, namespace: "a11y" });
 
   return (
     <section
@@ -69,7 +70,7 @@ export async function Pricing({ locale }: Props) {
               <p className="mb-7 text-xs text-content-subtle">{t("details")}</p>
 
               {/* Features */}
-              <ul className="mb-8 space-y-3" aria-label="What's included">
+              <ul className="mb-8 space-y-3" aria-label={a("pricing_included")}>
                 {featureKeys.map((key) => (
                   <li key={key} className="flex items-start gap-3">
                     <span

@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { createElement, useEffect, useRef, useState } from "react";
 
 type Tag = "div" | "li" | "article" | "section" | "span";
 
@@ -12,21 +12,56 @@ type Props = {
   as?: Tag;
 };
 
+// Scroll-reveal без framer-motion: IntersectionObserver + CSS-переход.
+// API совпадает с прежним компонентом, поэтому вызовы менять не нужно.
 export function FadeIn({ children, delay = 0, className, direction = "up", as = "div" }: Props) {
-  const MotionTag = motion[as] as typeof motion.div;
-  return (
-    <MotionTag
-      initial={{
-        opacity: 0,
-        y: direction === "up" ? 28 : 0,
-        x: direction === "left" ? -28 : direction === "right" ? 28 : 0,
-      }}
-      whileInView={{ opacity: 1, y: 0, x: 0 }}
-      viewport={{ once: true, margin: "-60px" }}
-      transition={{ duration: 0.55, delay, ease: [0.22, 1, 0.36, 1] }}
-      className={className}
-    >
-      {children}
-    </MotionTag>
+  const ref = useRef<HTMLElement>(null);
+  const [visible, setVisible] = useState(false);
+
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    if (typeof IntersectionObserver === "undefined") {
+      setVisible(true);
+      return;
+    }
+    const io = new IntersectionObserver(
+      (entries) => {
+        if (entries[0]?.isIntersecting) {
+          setVisible(true);
+          io.disconnect();
+        }
+      },
+      { rootMargin: "0px 0px -60px 0px" }
+    );
+    io.observe(el);
+    return () => io.disconnect();
+  }, []);
+
+  const offset = 28;
+  const hiddenTransform =
+    direction === "up"
+      ? `translateY(${offset}px)`
+      : direction === "left"
+        ? `translateX(-${offset}px)`
+        : direction === "right"
+          ? `translateX(${offset}px)`
+          : "none";
+
+  return createElement(
+    as,
+    {
+      ref,
+      className,
+      style: {
+        opacity: visible ? 1 : 0,
+        transform: visible ? "none" : hiddenTransform,
+        transition:
+          "opacity 0.55s cubic-bezier(0.22,1,0.36,1), transform 0.55s cubic-bezier(0.22,1,0.36,1)",
+        transitionDelay: `${delay}s`,
+        willChange: "opacity, transform",
+      },
+    },
+    children
   );
 }

@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
-import { setRequestLocale } from "next-intl/server";
-import { getTranslations } from "next-intl/server";
+import { NextIntlClientProvider } from "next-intl";
+import { setRequestLocale, getTranslations, getMessages } from "next-intl/server";
 import { buildMetadata } from "../metadata";
 import { ParentsFAQ } from "@/components/parents/ParentsFAQ";
+import { pickMessages } from "@/lib/client-messages";
 
 export async function generateMetadata({
   params,
@@ -21,10 +22,17 @@ export default async function FaqPage({
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
+  const messages = await getMessages();
 
   return (
     <main id="main-content" className="pt-16">
-      <ParentsFAQ />
+      {/* ParentsFAQ — единственный клиентский потребитель тяжёлого раздела `parents`.
+          Подаём `parents` (+ `enroll_form`, который компонент тоже использует) локально,
+          чтобы 9 КБ словаря не попадали в клиентский payload остальных страниц.
+          Вложенный провайдер ЗАМЕНЯЕТ родительский словарь — поэтому включаем оба раздела. */}
+      <NextIntlClientProvider messages={pickMessages(messages, ["parents", "enroll_form"])}>
+        <ParentsFAQ />
+      </NextIntlClientProvider>
     </main>
   );
 }

@@ -50,6 +50,7 @@ const socials = [
 
 export async function Footer({ locale }: Props) {
   const t = await getTranslations({ locale, namespace: "footer" });
+  const a = await getTranslations({ locale, namespace: "a11y" });
 
   return (
     <footer className="relative bg-surface-raised px-4 pb-8 pt-10 sm:px-6">
@@ -77,7 +78,7 @@ export async function Footer({ locale }: Props) {
           </div>
 
           {/* Site navigation */}
-          <nav aria-label="Footer navigation" className="sm:pl-8 lg:pl-16">
+          <nav aria-label={a("nav_footer")} className="sm:pl-8 lg:pl-16">
             <ul className="flex flex-col gap-3">
               {(
                 [

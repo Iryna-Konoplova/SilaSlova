@@ -11,7 +11,6 @@ import { LandingSolution } from "@/components/landing/LandingSolution";
 import { LandingSocialProof } from "@/components/landing/LandingSocialProof";
 import { LandingFAQ } from "@/components/landing/LandingFAQ";
 import { LandingFinalCta } from "@/components/landing/LandingFinalCta";
-import { EnrollModal } from "@/components/forms/EnrollModal";
 
 async function loadLanding(locale: string, slug: string): Promise<Landing | null> {
   const filePath = path.join(
@@ -126,7 +125,6 @@ export default async function LandingPage({
 
   return (
     <main id="main-content">
-      <EnrollModal />
       {jsonLd.map((schema, i) => (
         <script
           key={i}

@@ -1,8 +1,9 @@
 ﻿"use client";
 
-import { usePathname, useRouter } from "@/lib/navigation";
+import { usePathname, getPathname } from "@/lib/navigation";
 import { locales, type Locale } from "@/lib/i18n";
-import { useEffect, useRef, useState, useTransition } from "react";
+import { useTranslations } from "next-intl";
+import { useEffect, useRef, useState } from "react";
 
 /** Add an entry here whenever a new locale is added to src/lib/i18n.ts */
 const localeMeta: Record<string, { label: string; native: string }> = {
@@ -16,8 +17,7 @@ type Props = { currentLocale: string };
 
 export function LanguageSwitcher({ currentLocale }: Props) {
   const pathname = usePathname();
-  const router = useRouter();
-  const [isPending, startTransition] = useTransition();
+  const t = useTranslations("a11y");
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
 
@@ -33,21 +33,25 @@ export function LanguageSwitcher({ currentLocale }: Props) {
 
   function switchLocale(locale: Locale) {
     setOpen(false);
-    startTransition(() => {
-      router.replace(pathname, { locale });
-    });
+    // Полная перезагрузка при смене языка: страница (и тема/<html lang>) рендерятся
+    // заново на сервере для новой локали. Так избегаем клиентского пересоздания
+    // корневого [locale]/layout, на котором React 19 ругается из-за <script>
+    // от next-themes. URL не меняется. См. docs/PERF_PLAN.md (хвост Этапа 1).
+    const target = getPathname({ href: pathname, locale });
+    window.location.href = `${target}${window.location.search}${window.location.hash}`;
   }
 
   const current = localeMeta[currentLocale] ?? { label: currentLocale.toUpperCase(), native: currentLocale };
 
   return (
     <div ref={ref} className="relative">
+      {/* Accessible name кнопки ведём видимым кодом локали (current.label, напр. "RU"),
+          чтобы он содержал видимый текст — WCAG 2.5.3 Label in Name. */}
       <button
         onClick={() => setOpen((v) => !v)}
-        disabled={isPending}
         aria-haspopup="listbox"
         aria-expanded={open}
-        aria-label={`Language: ${current.native}`}
+        aria-label={`${current.label}, ${t("lang_current", { lang: current.native })}`}
         className="flex items-center gap-1 rounded-md px-2 py-1.5 text-xs font-medium text-content-muted transition-colors hover:text-content focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500"
       >
         {current.label}
@@ -66,7 +70,7 @@ export function LanguageSwitcher({ currentLocale }: Props) {
       {open && (
         <ul
           role="listbox"
-          aria-label="Select language"
+          aria-label={t("lang_select")}
           className="absolute right-0 top-full z-50 mt-1 min-w-[130px] overflow-hidden rounded-lg border border-line bg-surface-raised py-1 shadow-xl"
         >
           {locales.map((locale) => {

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { useTranslations } from "next-intl";
 import { motion, AnimatePresence } from "framer-motion";
 
 export type Testimonial = {
@@ -14,8 +15,9 @@ type Props = {
 };
 
 function Stars() {
+  const t = useTranslations("a11y");
   return (
-    <div aria-label="5 out of 5 stars" className="mb-4 flex gap-0.5">
+    <div role="img" aria-label={t("rating")} className="mb-4 flex gap-0.5">
       {Array.from({ length: 5 }).map((_, i) => (
         <span key={i} aria-hidden="true" className="text-xl text-accent-400">★</span>
       ))}
@@ -68,6 +70,7 @@ const slideVariants = {
 };
 
 export function TestimonialsSlider({ items }: Props) {
+  const t = useTranslations("a11y");
   const [active, setActive] = useState(0);
   const [dir, setDir] = useState(1);
   const count = items.length;
@@ -124,19 +127,19 @@ export function TestimonialsSlider({ items }: Props) {
       <div className="mt-8 flex items-center justify-center gap-4">
         <button
           onClick={prev}
-          aria-label="Previous review"
+          aria-label={t("review_prev")}
           className="flex h-10 w-10 items-center justify-center rounded-full border border-line bg-surface-raised text-content-muted transition-colors hover:border-brand-600/40 hover:text-brand-600 dark:hover:text-brand-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
         >
           ←
         </button>
 
-        <div className="flex gap-2" role="tablist" aria-label="Reviews navigation">
+        <div className="flex gap-2" role="tablist" aria-label={t("reviews_nav")}>
           {items.map((_, i) => (
             <button
               key={i}
               role="tab"
               aria-selected={i === active}
-              aria-label={`Review ${i + 1}`}
+              aria-label={t("review_n", { n: i + 1 })}
               onClick={() => go(i)}
               className={[
                 "h-2 rounded-full transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring",
@@ -150,7 +153,7 @@ export function TestimonialsSlider({ items }: Props) {
 
         <button
           onClick={next}
-          aria-label="Next review"
+          aria-label={t("review_next")}
           className="flex h-10 w-10 items-center justify-center rounded-full border border-line bg-surface-raised text-content-muted transition-colors hover:border-brand-600/40 hover:text-brand-600 dark:hover:text-brand-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
         >
           →

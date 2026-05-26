@@ -31,13 +31,16 @@ export function LandingSocialProof({ proof, title }: Props) {
           <FadeIn>
             <dl className="mb-12 grid grid-cols-1 gap-4 text-center sm:grid-cols-3 sm:gap-8">
               {proof.stats!.map(({ label, value }, i) => (
-                <FadeIn key={label} delay={i * 0.08} as="div">
-                  <div className="card flex flex-col-reverse p-6 transition-colors duration-300 hover:border-accent-500">
-                    <dt className="text-sm text-content-muted">{label}</dt>
-                    <dd className="text-2xl font-extrabold text-brand-600 dark:text-brand-400 sm:text-3xl">
-                      {value}
-                    </dd>
-                  </div>
+                <FadeIn
+                  key={label}
+                  delay={i * 0.08}
+                  as="div"
+                  className="card flex flex-col-reverse p-6 transition-colors duration-300 hover:border-accent-500"
+                >
+                  <dt className="text-sm text-content-muted">{label}</dt>
+                  <dd className="text-2xl font-extrabold text-brand-600 dark:text-brand-400 sm:text-3xl">
+                    {value}
+                  </dd>
                 </FadeIn>
               ))}
             </dl>

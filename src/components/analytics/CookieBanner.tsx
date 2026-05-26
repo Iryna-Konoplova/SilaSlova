@@ -1,13 +1,13 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { motion, AnimatePresence } from "framer-motion";
 import { useTranslations } from "next-intl";
 import { Link } from "@/lib/navigation";
 import { hasConsented, acceptAll, acceptNecessaryOnly } from "@/lib/cookie-consent";
 
 export function CookieBanner() {
   const t = useTranslations("cookieBanner");
+  const ta = useTranslations("a11y");
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
@@ -24,20 +24,15 @@ export function CookieBanner() {
     setVisible(false);
   }
 
+  if (!visible) return null;
+
   return (
-    <AnimatePresence>
-      {visible && (
-        <motion.div
-          key="cookie-banner"
-          initial={{ y: "100%", opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          exit={{ y: "100%", opacity: 0 }}
-          transition={{ type: "spring", stiffness: 300, damping: 30 }}
-          className="fixed bottom-0 left-0 right-0 z-50 px-4 pb-4 sm:px-6"
-          role="dialog"
-          aria-label="Cookie consent"
-          aria-modal="false"
-        >
+    <div
+      className="animate-slide-up-in fixed bottom-0 left-0 right-0 z-50 px-4 pb-4 sm:px-6"
+      role="dialog"
+      aria-label={ta("cookie_dialog")}
+      aria-modal="false"
+    >
           <div className="gradient-border mx-auto max-w-3xl rounded-[var(--radius-card)] shadow-modal">
             <div className="flex flex-col gap-4 rounded-[calc(var(--radius-card)-1px)] bg-surface-raised px-5 py-4 sm:flex-row sm:items-center sm:gap-6">
             {/* Icon + text */}
@@ -73,8 +68,6 @@ export function CookieBanner() {
             </div>
             </div>
           </div>
-        </motion.div>
-      )}
-    </AnimatePresence>
+        </div>
   );
 }

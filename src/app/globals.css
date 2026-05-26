@@ -3,6 +3,26 @@
 /* Class-based dark mode via next-themes */
 @variant dark (&:where(.dark, .dark *));
 
+/* ── Анимации появления (вместо framer-motion в MobileMenu / CookieBanner) ── */
+@keyframes fade-slide-down {
+  from { opacity: 0; transform: translateY(-6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.animate-fade-slide-down {
+  animation: fade-slide-down 0.15s ease-out both;
+}
+@keyframes slide-up-in {
+  from { opacity: 0; transform: translateY(100%); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.animate-slide-up-in {
+  animation: slide-up-in 0.35s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+@media (prefers-reduced-motion: reduce) {
+  .animate-fade-slide-down,
+  .animate-slide-up-in { animation: none; }
+}
+
 /* ═══════════════════════════════════════════════════════════════
    DESIGN SYSTEM
    Чтобы изменить цветовую схему — правь только :root и .dark ниже.
@@ -98,7 +118,7 @@
   /* Текст */
   --ds-content:        #fafaf9;
   --ds-content-muted:  #a1a1aa;
-  --ds-content-subtle: #71717a;
+  --ds-content-subtle: #8b8b94; /* осветлён с #71717a → AA-контраст 4.5:1 на тёмном фоне (Lighthouse a11y) */
 
   /* Линии */
   --ds-line:           #27272a;

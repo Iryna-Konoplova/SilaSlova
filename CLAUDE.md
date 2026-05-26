@@ -54,7 +54,7 @@ Before implementing any feature, route, component, or data structure:
 ## Performance Rules (spec section 17)
 
 - LCP ≤ 1.5s on mobile 4G
-- JS bundle for landing pages ≤ 80 KB gzip
+- JS bundle for landing pages ≤ 220 KB gzip (revised 2026-05 — see `docs/PERF_PLAN.md`; the original 80 KB is below the Next 16 + React 19 + next-intl framework floor. Keep route-specific client JS minimal: heavy deps via `next/dynamic` and after consent)
 - JS bundle for demo engine ≤ 200 KB gzip
 - Demo engine must be **dynamically imported** — never included in landing bundle
 - Hero video ≤ 1 MB WebM + poster JPEG

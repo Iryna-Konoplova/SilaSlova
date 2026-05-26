@@ -376,5 +376,25 @@
     "line2": "Learn more in our <link>cookie policy</link>.",
     "acceptAll": "Accept all",
     "reject": "Decline all"
+  },
+  "a11y": {
+    "nav_main": "Main navigation",
+    "nav_footer": "Footer navigation",
+    "menu_open": "Open menu",
+    "menu_close": "Close menu",
+    "lang_current": "Language: {lang}",
+    "lang_select": "Select language",
+    "theme_light": "Switch to light mode",
+    "theme_dark": "Switch to dark mode",
+    "close": "Close",
+    "sticky_demo": "Quick demo access",
+    "rating": "5 out of 5 stars",
+    "review_prev": "Previous review",
+    "review_next": "Next review",
+    "reviews_nav": "Reviews navigation",
+    "review_n": "Review {n}",
+    "app_screenshots": "App screenshots",
+    "pricing_included": "What's included",
+    "cookie_dialog": "Cookie consent"
   }
 }

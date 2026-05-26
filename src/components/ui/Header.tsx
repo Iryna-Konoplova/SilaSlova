@@ -16,6 +16,7 @@ const navLinkActive =
 
 export async function Header({ locale }: Props) {
   const t = await getTranslations({ locale, namespace: "nav" });
+  const a = await getTranslations({ locale, namespace: "a11y" });
 
   const navItems = [
     { href: "/parents", label: t("parents") },
@@ -28,7 +29,7 @@ export async function Header({ locale }: Props) {
   return (
     <header className="fixed left-0 right-0 top-0 z-50 border-b border-line/50 bg-surface/80 backdrop-blur-xl">
       <nav
-        aria-label="Main navigation"
+        aria-label={a("nav_main")}
         className="relative mx-auto flex max-w-7xl items-center justify-between px-6 py-5 sm:px-10 lg:px-16"
       >
         {/* Logo */}
