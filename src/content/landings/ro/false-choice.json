@@ -1,0 +1,89 @@
+{
+  "slug": "false-choice",
+  "audience": "parent",
+  "locale": "ro",
+  "meta": {
+    "title": "«Ori ești cu noi, ori împotriva noastră»: de ce două variante nu sunt toată alegerea | Forța Cuvântului",
+    "description": "Învățați copilul să iasă din tiparul «ori-ori», să vadă a treia variantă și să nu accepte condiții impuse. Curs de gândire critică în format de joc pentru copii de 8–12 ani.",
+    "og_image": "/og/og-default.jpg"
+  },
+  "hero": {
+    "headline": "Copilului tău i s-a dat o alegere care de fapt nu există?",
+    "subheadline": "«Ori ești cu noi, ori împotriva noastră.» «Ori faci, ori ești leneș.» «Ori accepți, ori ești un prieten rău.» Pare că există o alegere — dar a fost îngustată la două. Iar copilul alege una, pentru că pur și simplu nu vede alte variante.",
+    "cta_primary": {
+      "text": "Înscrie-te la curs",
+      "target": "/sign-up"
+    },
+    "cta_secondary": {
+      "text": "Joacă demo",
+      "target": "/demo"
+    },
+    "media": {
+      "type": "image",
+      "src": "/images/false-choice.jpg",
+      "alt": "Un copil lăsat doar cu două variante, deși sunt mai multe"
+    }
+  },
+  "pain": {
+    "title": "Nu e o alegere reală, ci o dilemă falsă",
+    "body": "Copilului i se lasă doar două variante — deși în realitate sunt mai multe. Și amândouă îi convin celui care întreabă: oricum ar răspunde, acela câștigă. Pare o alegere corectă, dar cadrul a fost deja desenat în locul lui.\n\nNu e vorba că «nu gândește» sau că e fără voință. Copilul a fost pur și simplu pus într-un cadru «ori-ori», iar în acel cadru pare că nu există a treia cale. Fără deprinderea de a observa asta, acceptă regulile jocului și alege din ce i s-a dat — chiar dacă niciuna nu i se potrivește.\n\nConsecința — copilul acceptă nu pentru că vrea, ci pentru că nu vede alternative. Joacă după regulile altcuiva, crezând că a fost propria lui alegere."
+  },
+  "solution": {
+    "title": "«Forța Cuvântului» — o dramă detectivistică ce învață să gândești",
+    "body": "40 de episoade, 13 lecții de gândire critică. Copilul se joacă — dar de fapt învață să se protejeze.",
+    "bullets": [
+      "🔍 Observă când alegerea a fost îngustată la «ori-ori»",
+      "🧠 Întreabă: «chiar există doar două variante?»",
+      "💬 Înțelege: dacă ți se dau două variante, asta nu înseamnă că nu mai sunt altele",
+      "🛡️ Caută a treia variantă și nu joacă după regulile altcuiva"
+    ]
+  },
+  "social_proof": {
+    "quote": "Înainte, «ori faci, ori ai dezamăgit echipa» — și fiul meu ceda imediat. Acum spune: «Mai e și a treia variantă» — și vede singur că a fost doar băgat într-un tipar.",
+    "author": "Marina, mama lui Nazar de 10 ani",
+    "stats": [
+      {
+        "label": "Copii au finalizat cursul",
+        "value": "2.400+"
+      },
+      {
+        "label": "Părinți mulțumiți",
+        "value": "94%"
+      },
+      {
+        "label": "Vârsta optimă",
+        "value": "8–12 ani"
+      }
+    ]
+  },
+  "faq_label": "ÎNTREBĂRI FRECVENTE",
+  "faq_title": "Întrebări despre curs",
+  "faq": [
+    {
+      "q": "Este un joc sau un curs educațional?",
+      "a": "Ambele formule în același timp. «Forța Cuvântului» arată ca un serial detectivistic, dar în fiecare episod este ascunsă o lecție de gândire critică."
+    },
+    {
+      "q": "De la ce vârstă se poate începe?",
+      "a": "Optim — 8–12 ani. La această vârstă, copiii sunt cei mai receptivi la noi tipare de gândire și nu și-au format încă prejudecăți stabile."
+    },
+    {
+      "q": "Cât timp este necesar zilnic?",
+      "a": "15–20 de minute pe episod. Program flexibil — copilul poate reveni oricând îi convine."
+    },
+    {
+      "q": "Este necesară înregistrarea pentru demo?",
+      "a": "Nu. Episodul demo este complet deschis — fără înregistrare, fără abonament, fără introducerea datelor."
+    }
+  ],
+  "final_cta": {
+    "headline": "Oferă-i copilului tău superputerea gândirii critice",
+    "subheadline": "Episodul 1 · Dimineața fără soră\nMama spune că sora nu a existat niciodată. La școală nu o cunosc pe Sofia. Dar Marco își amintește râsul ei — și jurnalul din mâinile lui este real…",
+    "cta_text": "Joacă demo acum"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

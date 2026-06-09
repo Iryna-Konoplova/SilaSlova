@@ -1,0 +1,89 @@
+{
+  "slug": "not-the-end",
+  "audience": "parent",
+  "locale": "en",
+  "meta": {
+    "title": "\"One bad grade and it's all over\": when a small mistake is turned into the end of the world | Sila Slova",
+    "description": "Teach your child to scale things down and separate the event from its consequences: what will actually happen. Game-based critical thinking course for children aged 8–12.",
+    "og_image": "/og/og-default.jpg"
+  },
+  "hero": {
+    "headline": "Does one mistake make your child feel like \"it's all over\"?",
+    "subheadline": "\"Get a bad grade and it's all over.\" \"Failed once means you've failed for good.\" A small event is turned into a big story — and your child has no time to think it through, they're simply frightened by the scale.",
+    "cta_primary": {
+      "text": "Sign up for the course",
+      "target": "/sign-up"
+    },
+    "cta_secondary": {
+      "text": "Play demo",
+      "target": "/demo"
+    },
+    "media": {
+      "type": "image",
+      "src": "/images/not-the-end.jpg",
+      "alt": "A child for whom one small mistake looks like the end of everything"
+    }
+  },
+  "pain": {
+    "title": "This isn't reality — it's dramatization",
+    "body": "They take one event — and inflate it to the maximum, as if all of life depended on it. \"It didn't work once\" becomes \"nothing will ever work\". \"A bad grade\" becomes \"there's no future\". But between \"one mistake\" and \"the end\" lies a chasm.\n\nThis isn't exaggerating or a dramatic temperament. The child simply doesn't yet have the skill to see where the real event ends and the inflation begins. So they take the exaggeration as fact — the scale frightens them faster than thought can kick in.\n\nThe result — fear and a sense that \"everything is being decided right now\". The child freezes, gives up, or rushes to rescue something, even though the real consequence of the event is small and fixable."
+  },
+  "solution": {
+    "title": "\"Sila Slova\" — a detective drama that teaches critical thinking",
+    "body": "40 episodes, 13 critical thinking lessons. Your child plays — but is actually learning to protect themselves.",
+    "bullets": [
+      "🔍 Notices when a small event is turned into \"the end of the world\"",
+      "🧠 Separates the event from its consequences: \"what will actually happen after this?\"",
+      "💬 Scales it down: \"one situation isn't the whole story\"",
+      "🛡️ Doesn't believe \"it's all over\" when it's just loud words"
+    ]
+  },
+  "social_proof": {
+    "quote": "A bad mark used to ruin my daughter's whole evening — a total catastrophe. Now she asks: \"But what will actually change because of this?\" — and sees for herself that nothing is \"over\".",
+    "author": "Tetiana, mum of 10-year-old Solomia",
+    "stats": [
+      {
+        "label": "Children completed the course",
+        "value": "2,400+"
+      },
+      {
+        "label": "Satisfied parents",
+        "value": "94%"
+      },
+      {
+        "label": "Optimal age",
+        "value": "8–12 yrs"
+      }
+    ]
+  },
+  "faq_label": "FAQ",
+  "faq_title": "Questions about the course",
+  "faq": [
+    {
+      "q": "Is it a game or a learning course?",
+      "a": "Both at the same time. \"Sila Slova\" looks like a detective series, but every episode contains a hidden critical thinking lesson."
+    },
+    {
+      "q": "What age is it suitable for?",
+      "a": "Ideal for 8–12 year olds. At this age, children are most receptive to new thinking patterns and haven't yet formed rigid biases."
+    },
+    {
+      "q": "How much time is needed each day?",
+      "a": "15–20 minutes per episode. Flexible schedule — your child can come back at any convenient time."
+    },
+    {
+      "q": "Is registration required for the demo?",
+      "a": "No. The demo episode is fully open — no registration, no subscription, no personal data required."
+    }
+  ],
+  "final_cta": {
+    "headline": "Give your child the superpower of critical thinking",
+    "subheadline": "Episode 1 · Morning Without a Sister\nMum says there was never a sister. The school doesn't remember Sofia. But Marco remembers her laugh — and the diary in his hands is real…",
+    "cta_text": "Play demo now"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

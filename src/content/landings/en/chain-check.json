@@ -1,0 +1,89 @@
+{
+  "slug": "chain-check",
+  "audience": "parent",
+  "locale": "en",
+  "meta": {
+    "title": "\"Do it or you'll fail everything\": when a chain of events sounds logical but is unchecked | Sila Slova",
+    "description": "Teach your child to break \"logical\" chains into steps and check each one: does one really lead to the next? Game-based critical thinking course for children aged 8–12.",
+    "og_image": "/og/og-default.jpg"
+  },
+  "hero": {
+    "headline": "Does your child believe a \"logical story\" without checking the steps?",
+    "subheadline": "\"Do it or you'll get a bad grade, then fail everything.\" \"Go or you'll lose your chance, and it'll never come again.\" Each step sounds fine — but nobody checks whether it actually leads to the next.",
+    "cta_primary": {
+      "text": "Sign up for the course",
+      "target": "/sign-up"
+    },
+    "cta_secondary": {
+      "text": "Play demo",
+      "target": "/demo"
+    },
+    "media": {
+      "type": "image",
+      "src": "/images/chain-check.jpg",
+      "alt": "A child taking a chain of events as fact without checking each step"
+    }
+  },
+  "pain": {
+    "title": "This isn't logic — it's a chain with no checking",
+    "body": "Events are lined up one after another, and it feels inevitable: \"A → so B → so C → catastrophe\". It sounds coherent, so it's easy to believe. But between the steps there are often gaps where nothing is proven: \"a bad grade\" doesn't mean \"you'll fail everything\", \"one chance\" doesn't mean \"never again\".\n\nThis isn't believing everything or naivety. The child simply doesn't yet have the habit of breaking a story into parts and questioning each link separately: \"does this really follow from the last one?\". So they take the whole scenario as one ready-made fact.\n\nThe result — the child agrees because of \"sort-of logic\" that was never actually checked. They rush, refuse, fear consequences that may not even happen — because the chain sounded whole, even though it rested on unproven links."
+  },
+  "solution": {
+    "title": "\"Sila Slova\" — a detective drama that teaches critical thinking",
+    "body": "40 episodes, 13 critical thinking lessons. Your child plays — but is actually learning to protect themselves.",
+    "bullets": [
+      "🔍 Breaks a \"logical story\" down into separate steps",
+      "🧠 Checks each link: \"does this really follow from the previous one?\"",
+      "💬 Spots the gaps where one thing isn't proven to lead to another",
+      "🛡️ Doesn't accept the whole chain automatically until they've checked it step by step"
+    ]
+  },
+  "social_proof": {
+    "quote": "Any \"and then it'll get even worse\" used to work on my son instantly. Now he stops: \"But why does one definitely lead to the other?\" — and often finds for himself where the chain breaks.",
+    "author": "Maryna, mum of 11-year-old Denys",
+    "stats": [
+      {
+        "label": "Children completed the course",
+        "value": "2,400+"
+      },
+      {
+        "label": "Satisfied parents",
+        "value": "94%"
+      },
+      {
+        "label": "Optimal age",
+        "value": "8–12 yrs"
+      }
+    ]
+  },
+  "faq_label": "FAQ",
+  "faq_title": "Questions about the course",
+  "faq": [
+    {
+      "q": "Is it a game or a learning course?",
+      "a": "Both at the same time. \"Sila Slova\" looks like a detective series, but every episode contains a hidden critical thinking lesson."
+    },
+    {
+      "q": "What age is it suitable for?",
+      "a": "Ideal for 8–12 year olds. At this age, children are most receptive to new thinking patterns and haven't yet formed rigid biases."
+    },
+    {
+      "q": "How much time is needed each day?",
+      "a": "15–20 minutes per episode. Flexible schedule — your child can come back at any convenient time."
+    },
+    {
+      "q": "Is registration required for the demo?",
+      "a": "No. The demo episode is fully open — no registration, no subscription, no personal data required."
+    }
+  ],
+  "final_cta": {
+    "headline": "Give your child the superpower of critical thinking",
+    "subheadline": "Episode 1 · Morning Without a Sister\nMum says there was never a sister. The school doesn't remember Sofia. But Marco remembers her laugh — and the diary in his hands is real…",
+    "cta_text": "Play demo now"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

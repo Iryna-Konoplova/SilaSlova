@@ -1,0 +1,89 @@
+{
+  "slug": "just-words",
+  "audience": "parent",
+  "locale": "ro",
+  "meta": {
+    "title": "«E cool», «e pentru cei deștepți» — și copilul e deja de acord, fără să verifice | Forța Cuvântului",
+    "description": "Învățați copilul să separe formulările atrăgătoare de conținutul real. Curs de gândire critică în format de joc pentru copii de 8–12 ani.",
+    "og_image": "/og/og-default.jpg"
+  },
+  "hero": {
+    "headline": "Copilul tău e de acord doar pentru că «sună convingător»?",
+    "subheadline": "«E cool.» «E pentru cei deștepți.» «E pentru ai noștri.» Cuvintele creează o senzație — iar copilul reacționează la ea înainte să verifice ce se află de fapt în spatele lor.",
+    "cta_primary": {
+      "text": "Înscrie-te la curs",
+      "target": "/sign-up"
+    },
+    "cta_secondary": {
+      "text": "Joacă demo",
+      "target": "/demo"
+    },
+    "media": {
+      "type": "image",
+      "src": "/images/just-words.jpg",
+      "alt": "Un copil care reacționează la felul în care e spus ceva, nu la sensul real"
+    }
+  },
+  "pain": {
+    "title": "Când forma sună mai convingător decât fondul",
+    "body": "«E cool» → și deja își dorește. «Așa e corect» → și deja e jenant să contrazici. «E pentru cei deștepți» → și copilul se teme să nu pară prost. La școală, în reclame, în conversațiile obișnuite — același lucru poate fi formulat diferit, iar fiecare formulare provoacă altă reacție.\n\nNu e vorba de naivitate sau credulitate. Copilul reacționează firesc la felul în care e spus ceva: cuvintele atrăgătoare creează o senzație, iar senzația o ia înaintea verificării. Conținutul din spate poate fi gol — dar forma și-a făcut deja efectul.\n\nConsecința — deciziile se iau sub influența cuvintelor, nu a faptelor reale. Copilul acceptă, cumpără, refuză — nu pentru că a înțeles, ci pentru că «a sunat frumos»."
+  },
+  "solution": {
+    "title": "«Forța Cuvântului» — o dramă detectivistică ce învață să gândești",
+    "body": "40 de episoade, 13 lecții de gândire critică. Copilul se joacă — dar de fapt învață să se protejeze.",
+    "bullets": [
+      "🔍 Observă când e convins prin formulare, nu prin fapte",
+      "🧠 Se întreabă: «ce anume s-a spus — și există ceva real în spate?»",
+      "💬 Separă «cum sună» de «ce înseamnă cu adevărat»",
+      "🛡️ Nu ia decizii sub vraja cuvintelor frumoase — verifică mai întâi fondul"
+    ]
+  },
+  "social_proof": {
+    "quote": "Înainte, «e cool» sau «e pentru cei mari» funcționa de fiecare dată. Acum fiica mea întreabă calm: «Dar ce înseamnă asta de fapt?» — și vede singură când în spatele cuvintelor nu e nimic.",
+    "author": "Natalia, mama Katyei de 11 ani",
+    "stats": [
+      {
+        "label": "Copii au finalizat cursul",
+        "value": "2.400+"
+      },
+      {
+        "label": "Părinți mulțumiți",
+        "value": "94%"
+      },
+      {
+        "label": "Vârsta optimă",
+        "value": "8–12 ani"
+      }
+    ]
+  },
+  "faq_label": "ÎNTREBĂRI FRECVENTE",
+  "faq_title": "Întrebări despre curs",
+  "faq": [
+    {
+      "q": "Este un joc sau un curs educațional?",
+      "a": "Ambele formule în același timp. «Forța Cuvântului» arată ca un serial detectivistic, dar în fiecare episod este ascunsă o lecție de gândire critică."
+    },
+    {
+      "q": "De la ce vârstă se poate începe?",
+      "a": "Optim — 8–12 ani. La această vârstă, copiii sunt cei mai receptivi la noi tipare de gândire și nu și-au format încă prejudecăți stabile."
+    },
+    {
+      "q": "Cât timp este necesar zilnic?",
+      "a": "15–20 de minute pe episod. Program flexibil — copilul poate reveni oricând îi convine."
+    },
+    {
+      "q": "Este necesară înregistrarea pentru demo?",
+      "a": "Nu. Episodul demo este complet deschis — fără înregistrare, fără abonament, fără introducerea datelor."
+    }
+  ],
+  "final_cta": {
+    "headline": "Oferă-i copilului tău superputerea gândirii critice",
+    "subheadline": "Episodul 1 · Dimineața fără soră\nMama spune că sora nu a existat niciodată. La școală nu o cunosc pe Sofia. Dar Marco își amintește râsul ei — și jurnalul din mâinile lui este real…",
+    "cta_text": "Joacă demo acum"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

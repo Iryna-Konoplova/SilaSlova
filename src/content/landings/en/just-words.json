@@ -1,0 +1,89 @@
+{
+  "slug": "just-words",
+  "audience": "parent",
+  "locale": "en",
+  "meta": {
+    "title": "\"It's cool\", \"it's for the smart kids\" — and your child already agrees, without checking | Sila Slova",
+    "description": "Teach your child to separate appealing wording from the actual substance. Game-based critical thinking course for children aged 8–12.",
+    "og_image": "/og/og-default.jpg"
+  },
+  "hero": {
+    "headline": "Does your child agree just because it \"sounds convincing\"?",
+    "subheadline": "\"It's cool.\" \"It's for smart people.\" \"It's for us.\" Words create a feeling — and the child reacts to that feeling before ever checking what's actually behind them.",
+    "cta_primary": {
+      "text": "Sign up for the course",
+      "target": "/sign-up"
+    },
+    "cta_secondary": {
+      "text": "Play demo",
+      "target": "/demo"
+    },
+    "media": {
+      "type": "image",
+      "src": "/images/just-words.jpg",
+      "alt": "A child reacting to how something is said, not to what it means"
+    }
+  },
+  "pain": {
+    "title": "When the wording sounds more convincing than the substance",
+    "body": "\"It's cool\" → and they already want it. \"It's the right thing\" → and arguing feels embarrassing. \"It's for smart people\" → and the child is afraid of looking stupid. At school, in ads, in everyday conversation — the same thing can be phrased in different ways, and each phrasing triggers a different reaction.\n\nThis isn't being gullible or naive. The child reacts naturally to how something is said: appealing words create a feeling, and the feeling runs ahead of any checking. The substance behind them may be empty — but the wording has already done its job.\n\nThe result — decisions get made under the influence of words, not real facts. The child agrees, buys, refuses — not because they worked it out, but because it \"sounded good\"."
+  },
+  "solution": {
+    "title": "\"Sila Slova\" — a detective drama that teaches critical thinking",
+    "body": "40 episodes, 13 critical thinking lessons. Your child plays — but is actually learning to protect themselves.",
+    "bullets": [
+      "🔍 Notices when they're being convinced by wording, not by facts",
+      "🧠 Asks themselves: \"what exactly was said — and is there anything real behind it?\"",
+      "💬 Separates \"how it sounds\" from \"what it actually means\"",
+      "🛡️ Doesn't decide under the spell of appealing words — checks the substance first"
+    ]
+  },
+  "social_proof": {
+    "quote": "\"It's cool\" or \"it's for grown-ups\" used to work every time. Now my daughter calmly asks: \"But what does that actually mean?\" — and sees for herself when there's nothing behind the words.",
+    "author": "Natalia, mum of 11-year-old Katya",
+    "stats": [
+      {
+        "label": "Children completed the course",
+        "value": "2,400+"
+      },
+      {
+        "label": "Satisfied parents",
+        "value": "94%"
+      },
+      {
+        "label": "Optimal age",
+        "value": "8–12 yrs"
+      }
+    ]
+  },
+  "faq_label": "FAQ",
+  "faq_title": "Questions about the course",
+  "faq": [
+    {
+      "q": "Is it a game or a learning course?",
+      "a": "Both at the same time. \"Sila Slova\" looks like a detective series, but every episode contains a hidden critical thinking lesson."
+    },
+    {
+      "q": "What age is it suitable for?",
+      "a": "Ideal for 8–12 year olds. At this age, children are most receptive to new thinking patterns and haven't yet formed rigid biases."
+    },
+    {
+      "q": "How much time is needed each day?",
+      "a": "15–20 minutes per episode. Flexible schedule — your child can come back at any convenient time."
+    },
+    {
+      "q": "Is registration required for the demo?",
+      "a": "No. The demo episode is fully open — no registration, no subscription, no personal data required."
+    }
+  ],
+  "final_cta": {
+    "headline": "Give your child the superpower of critical thinking",
+    "subheadline": "Episode 1 · Morning Without a Sister\nMum says there was never a sister. The school doesn't remember Sofia. But Marco remembers her laugh — and the diary in his hands is real…",
+    "cta_text": "Play demo now"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

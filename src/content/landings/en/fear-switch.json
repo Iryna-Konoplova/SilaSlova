@@ -1,0 +1,89 @@
+{
+  "slug": "fear-switch",
+  "audience": "parent",
+  "locale": "en",
+  "meta": {
+    "title": "\"Do it or you'll be sorry\" — and your child acts just to make the fear go away | Sila Slova",
+    "description": "Teach your child to pause in a moment of fear and check: is this a real warning or manipulation? Game-based critical thinking course for children aged 8–12.",
+    "og_image": "/og/og-default.jpg"
+  },
+  "hero": {
+    "headline": "Is your child easier to scare than to convince?",
+    "subheadline": "\"Do it or you'll be sorry.\" \"You'll regret it.\" \"Everyone will laugh.\" Fear hits instantly — and your child acts just to make the feeling go away, without ever checking whether it's even true.",
+    "cta_primary": {
+      "text": "Sign up for the course",
+      "target": "/sign-up"
+    },
+    "cta_secondary": {
+      "text": "Play demo",
+      "target": "/demo"
+    },
+    "media": {
+      "type": "image",
+      "src": "/images/fear-switch.jpg",
+      "alt": "A child acting out of fear rather than their own decision"
+    }
+  },
+  "pain": {
+    "title": "Fear isn't an argument — it's a way to switch off thinking",
+    "body": "When a child is scared, they don't analyse — they act. The brain switches into \"remove the threat\" mode, and there's no room left for thinking. This isn't weakness or naivety — it's simply how we react to a strong emotion.\n\nAnd people use it. Instead of facts, the child is handed a scary scenario: \"it'll be bad\", \"you'll regret it\", \"you'll end up alone\". There's no time to check how real it is. The child just wants the frightening feeling to stop — and does what's wanted of them.\n\nThe result — it's not the child making the decision, it's their fear. They agree, refuse, stay silent — not because they decided to, but to get rid of the anxiety faster. And it turns out not to be their choice at all."
+  },
+  "solution": {
+    "title": "\"Sila Slova\" — a detective drama that teaches critical thinking",
+    "body": "40 episodes, 13 critical thinking lessons. Your child plays — but is actually learning to protect themselves.",
+    "bullets": [
+      "🔍 Notices the moment someone tries to push them into acting through fear",
+      "🧠 Pauses and asks: \"is this a real warning, or am I just being scared?\"",
+      "💬 Understands: being frightened doesn't mean it's true",
+      "🛡️ Decides once the fear has passed — not under its pressure"
+    ]
+  },
+  "social_proof": {
+    "quote": "\"You'll regret it\" used to make my son give in instantly. Now he asks first: \"But why exactly would it be bad?\" — and sees for himself when he's just being scared.",
+    "author": "Irina, mum of 10-year-old Tim",
+    "stats": [
+      {
+        "label": "Children completed the course",
+        "value": "2,400+"
+      },
+      {
+        "label": "Satisfied parents",
+        "value": "94%"
+      },
+      {
+        "label": "Optimal age",
+        "value": "8–12 yrs"
+      }
+    ]
+  },
+  "faq_label": "FAQ",
+  "faq_title": "Questions about the course",
+  "faq": [
+    {
+      "q": "Is it a game or a learning course?",
+      "a": "Both at the same time. \"Sila Slova\" looks like a detective series, but every episode contains a hidden critical thinking lesson."
+    },
+    {
+      "q": "What age is it suitable for?",
+      "a": "Ideal for 8–12 year olds. At this age, children are most receptive to new thinking patterns and haven't yet formed rigid biases."
+    },
+    {
+      "q": "How much time is needed each day?",
+      "a": "15–20 minutes per episode. Flexible schedule — your child can come back at any convenient time."
+    },
+    {
+      "q": "Is registration required for the demo?",
+      "a": "No. The demo episode is fully open — no registration, no subscription, no personal data required."
+    }
+  ],
+  "final_cta": {
+    "headline": "Give your child the superpower of critical thinking",
+    "subheadline": "Episode 1 · Morning Without a Sister\nMum says there was never a sister. The school doesn't remember Sofia. But Marco remembers her laugh — and the diary in his hands is real…",
+    "cta_text": "Play demo now"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

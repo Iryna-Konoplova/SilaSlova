@@ -1,0 +1,89 @@
+{
+  "slug": "face-or-facts",
+  "audience": "parent",
+  "locale": "ro",
+  "meta": {
+    "title": "«El n-ar spune o prostie»: de ce un chip cunoscut nu e o dovadă | Forța Cuvântului",
+    "description": "Învățați copilul să mute atenția de la chip la conținut și să întrebe «de ce e adevărat?», în loc să creadă doar pentru că a spus-o cineva celebru. Curs de gândire critică în format de joc pentru copii de 8–12 ani.",
+    "og_image": "/og/og-default.jpg"
+  },
+  "hero": {
+    "headline": "Copilul tău crede chipul — sau faptele?",
+    "subheadline": "«E de succes.» «E populară.» «El n-ar spune o prostie.» Un chip cunoscut stârnește încredere încă înainte să apară conținutul — iar copilul crede pentru că recunoaște, fără să verifice vorbele.",
+    "cta_primary": {
+      "text": "Înscrie-te la curs",
+      "target": "/sign-up"
+    },
+    "cta_secondary": {
+      "text": "Joacă demo",
+      "target": "/demo"
+    },
+    "media": {
+      "type": "image",
+      "src": "/images/face-or-facts.jpg",
+      "alt": "Un copil care are încredere într-un chip cunoscut încă înainte să audă conținutul"
+    }
+  },
+  "pain": {
+    "title": "Un chip nu e o dovadă",
+    "body": "Un om cunoscut poate inspira încredere — dar asta nu înseamnă că vorbele lui sunt corecte. Poate greși, poate să nu se priceapă la subiect sau pur și simplu să facă reclamă la ceva. Faptul că recunoaștem un chip nu spune nimic despre faptul că ce zice ar fi adevărat.\n\nNu e vorba că e «naiv» sau credul. Copilul reacționează pur și simplu la familiaritate și status: un chip recunoscut pare automat «de-al nostru», în care poți avea încredere. Fără deprinderea de a le separa, el reține «cine a spus» în loc de «ce a spus» — iar încrederea apare înainte de orice verificare.\n\nConsecința — copilul are încredere în imagine, nu în fapte. Repetă, cumpără, crede pentru că «doar e el/ea» — nu pentru că în spatele vorbelor stă ceva adevărat."
+  },
+  "solution": {
+    "title": "«Forța Cuvântului» — o dramă detectivistică ce învață să gândești",
+    "body": "40 de episoade, 13 lecții de gândire critică. Copilul se joacă — dar de fapt învață să se protejeze.",
+    "bullets": [
+      "🔍 Observă când încrederea vine din chip, nu din conținut",
+      "🧠 Mută atenția de la «cine a spus» la «ce anume a spus»",
+      "💬 Înțelege: un chip cunoscut nu e un argument",
+      "🛡️ Nu crede automat doar pentru că a spus-o cineva celebru"
+    ]
+  },
+  "social_proof": {
+    "quote": "Înainte, fiicei mele îi era de ajuns «doar el a zis» — și subiectul era închis. Acum întreabă întâi: «Dar de ce e adevărat?» — și vede singură că avea încredere în chip, nu în vorbe.",
+    "author": "Oksana, mama Darinei de 11 ani",
+    "stats": [
+      {
+        "label": "Copii au finalizat cursul",
+        "value": "2.400+"
+      },
+      {
+        "label": "Părinți mulțumiți",
+        "value": "94%"
+      },
+      {
+        "label": "Vârsta optimă",
+        "value": "8–12 ani"
+      }
+    ]
+  },
+  "faq_label": "ÎNTREBĂRI FRECVENTE",
+  "faq_title": "Întrebări despre curs",
+  "faq": [
+    {
+      "q": "Este un joc sau un curs educațional?",
+      "a": "Ambele formule în același timp. «Forța Cuvântului» arată ca un serial detectivistic, dar în fiecare episod este ascunsă o lecție de gândire critică."
+    },
+    {
+      "q": "De la ce vârstă se poate începe?",
+      "a": "Optim — 8–12 ani. La această vârstă, copiii sunt cei mai receptivi la noi tipare de gândire și nu și-au format încă prejudecăți stabile."
+    },
+    {
+      "q": "Cât timp este necesar zilnic?",
+      "a": "15–20 de minute pe episod. Program flexibil — copilul poate reveni oricând îi convine."
+    },
+    {
+      "q": "Este necesară înregistrarea pentru demo?",
+      "a": "Nu. Episodul demo este complet deschis — fără înregistrare, fără abonament, fără introducerea datelor."
+    }
+  ],
+  "final_cta": {
+    "headline": "Oferă-i copilului tău superputerea gândirii critice",
+    "subheadline": "Episodul 1 · Dimineața fără soră\nMama spune că sora nu a existat niciodată. La școală nu o cunosc pe Sofia. Dar Marco își amintește râsul ei — și jurnalul din mâinile lui este real…",
+    "cta_text": "Joacă demo acum"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "slug": "real-or-scare",
+  "audience": "parent",
+  "locale": "en",
+  "meta": {
+    "title": "\"Do it or it'll be a disaster\": real danger or is your child just being wound up? | Sila Slova",
+    "description": "Teach your child to tell a real warning from inflated fear: are there facts, is there logic, or is it just words? Game-based critical thinking course for children aged 8–12.",
+    "og_image": "/og/og-default.jpg"
+  },
+  "hero": {
+    "headline": "Does your child react to every \"scary\" the same way?",
+    "subheadline": "\"Go or you'll miss your chance.\" \"Do it or it'll be a disaster.\" \"Buy it or you'll regret it.\" It sounds serious — and your child reacts automatically, because they have no way to tell real danger from hype.",
+    "cta_primary": {
+      "text": "Sign up for the course",
+      "target": "/sign-up"
+    },
+    "cta_secondary": {
+      "text": "Play demo",
+      "target": "/demo"
+    },
+    "media": {
+      "type": "image",
+      "src": "/images/real-or-scare.jpg",
+      "alt": "A child unable to tell real danger from inflated fear"
+    }
+  },
+  "pain": {
+    "title": "Not every fear is true",
+    "body": "There are real warnings: where there's a clear \"cause → effect\" link and the danger genuinely exists. And there are exaggerations, where the fear is simply inflated to make someone act. The trouble is, both sound equally convincing — \"it'll be bad\" is said with the same tone either way.\n\nThis isn't being scared of everything or cowardice. The child simply has no tool to check: is there fact behind this fear, or only words? So they take any \"scary\" as a signal to act, without telling a warning apart from pressure.\n\nThe result — the child gives in even where nothing is actually at stake. They agree, rush, give up their own position — because \"what if it's true\", even though a loud phrase often has no real consequence behind it at all."
+  },
+  "solution": {
+    "title": "\"Sila Slova\" — a detective drama that teaches critical thinking",
+    "body": "40 episodes, 13 critical thinking lessons. Your child plays — but is actually learning to protect themselves.",
+    "bullets": [
+      "🔍 Tests the fear: is there fact behind it, or just loud words?",
+      "🧠 Asks: \"what's the real cause-and-effect link here?\"",
+      "💬 Tells a real warning apart from an inflated \"it'll be a disaster\"",
+      "🛡️ Doesn't act automatically on \"scary\" when there's no real threat behind it"
+    ]
+  },
+  "social_proof": {
+    "quote": "My daughter used to rush to do anything that came with \"or it'll be bad\". Now she asks: \"But what exactly will happen?\" — and often sees for herself that there's nothing behind the loud phrase.",
+    "author": "Svetlana, mum of 11-year-old Alina",
+    "stats": [
+      {
+        "label": "Children completed the course",
+        "value": "2,400+"
+      },
+      {
+        "label": "Satisfied parents",
+        "value": "94%"
+      },
+      {
+        "label": "Optimal age",
+        "value": "8–12 yrs"
+      }
+    ]
+  },
+  "faq_label": "FAQ",
+  "faq_title": "Questions about the course",
+  "faq": [
+    {
+      "q": "Is it a game or a learning course?",
+      "a": "Both at the same time. \"Sila Slova\" looks like a detective series, but every episode contains a hidden critical thinking lesson."
+    },
+    {
+      "q": "What age is it suitable for?",
+      "a": "Ideal for 8–12 year olds. At this age, children are most receptive to new thinking patterns and haven't yet formed rigid biases."
+    },
+    {
+      "q": "How much time is needed each day?",
+      "a": "15–20 minutes per episode. Flexible schedule — your child can come back at any convenient time."
+    },
+    {
+      "q": "Is registration required for the demo?",
+      "a": "No. The demo episode is fully open — no registration, no subscription, no personal data required."
+    }
+  ],
+  "final_cta": {
+    "headline": "Give your child the superpower of critical thinking",
+    "subheadline": "Episode 1 · Morning Without a Sister\nMum says there was never a sister. The school doesn't remember Sofia. But Marco remembers her laugh — and the diary in his hands is real…",
+    "cta_text": "Play demo now"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

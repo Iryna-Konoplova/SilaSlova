@@ -1,0 +1,89 @@
+{
+  "slug": "crowd-proof",
+  "audience": "parent",
+  "locale": "ro",
+  "meta": {
+    "title": "«Un milion de vizualizări — deci e adevărat»: de ce popularitatea nu e o dovadă | Forța Cuvântului",
+    "description": "Învățați copilul să separe popularitatea de adevăr și să întrebe «de ce e corect?», în loc să se uite la like-uri și vizualizări. Curs de gândire critică în format de joc pentru copii de 8–12 ani.",
+    "og_image": "/og/og-default.jpg"
+  },
+  "hero": {
+    "headline": "Pentru copilul tău «multe like-uri» = «e adevărat»?",
+    "subheadline": "«Un milion de vizualizări — deci e adevărat.» «Toți se uită la asta.» «Toți fac așa.» Numărul pare o confirmare — iar copilul are încredere în cifre, fără măcar să verifice ce se ascunde de fapt în spatele lor.",
+    "cta_primary": {
+      "text": "Înscrie-te la curs",
+      "target": "/sign-up"
+    },
+    "cta_secondary": {
+      "text": "Joacă demo",
+      "target": "/demo"
+    },
+    "media": {
+      "type": "image",
+      "src": "/images/crowd-proof.jpg",
+      "alt": "Un copil care percepe numărul de like-uri și vizualizări ca dovadă a adevărului"
+    }
+  },
+  "pain": {
+    "title": "Popularitatea nu e o dovadă",
+    "body": "Mulți oameni pot să se uite, să dea like sau să repete același lucru — dar asta nu înseamnă că e adevărat. Numărul arată interes, nu corectitudine. Un milion de vizualizări spune doar că mulți au deschis clipul — și nimic despre faptul că ce e acolo ar fi adevărat.\n\nNu e vorba că «se lasă dus» sau că e naiv. Copilul se orientează pur și simplu după majoritate, ceea ce e firesc: dacă toți fac așa, pare că așa trebuie. Fără deprinderea de a separa conținutul de cifre, «toți» devine un argument — chiar dacă în spate nu stă niciun fapt.\n\nConsecința — copilul decide sub presiunea mulțimii, nu a faptelor. Repetă, cumpără, crede pentru că «așa fac toți» — nu pentru că a verificat dacă chiar e așa."
+  },
+  "solution": {
+    "title": "«Forța Cuvântului» — o dramă detectivistică ce învață să gândești",
+    "body": "40 de episoade, 13 lecții de gândire critică. Copilul se joacă — dar de fapt învață să se protejeze.",
+    "bullets": [
+      "🔍 Observă când numărul de like-uri sau vizualizări e dat drept dovadă",
+      "🧠 Întreabă «de ce e corect?», nu «câte vizualizări are?»",
+      "💬 Înțelege: dacă o fac toți, asta tot nu înseamnă că e adevărat",
+      "🛡️ Caută temelia, nu cifrele — și nu merge după majoritate fără sens"
+    ]
+  },
+  "social_proof": {
+    "quote": "Înainte, «are milioane de vizualizări» era o dovadă pentru fiica mea. Acum întreabă: «Dar de ce e de fapt corect?» — și vede singură că popular ≠ adevărat.",
+    "author": "Natalia, mama Sofiei de 10 ani",
+    "stats": [
+      {
+        "label": "Copii au finalizat cursul",
+        "value": "2.400+"
+      },
+      {
+        "label": "Părinți mulțumiți",
+        "value": "94%"
+      },
+      {
+        "label": "Vârsta optimă",
+        "value": "8–12 ani"
+      }
+    ]
+  },
+  "faq_label": "ÎNTREBĂRI FRECVENTE",
+  "faq_title": "Întrebări despre curs",
+  "faq": [
+    {
+      "q": "Este un joc sau un curs educațional?",
+      "a": "Ambele formule în același timp. «Forța Cuvântului» arată ca un serial detectivistic, dar în fiecare episod este ascunsă o lecție de gândire critică."
+    },
+    {
+      "q": "De la ce vârstă se poate începe?",
+      "a": "Optim — 8–12 ani. La această vârstă, copiii sunt cei mai receptivi la noi tipare de gândire și nu și-au format încă prejudecăți stabile."
+    },
+    {
+      "q": "Cât timp este necesar zilnic?",
+      "a": "15–20 de minute pe episod. Program flexibil — copilul poate reveni oricând îi convine."
+    },
+    {
+      "q": "Este necesară înregistrarea pentru demo?",
+      "a": "Nu. Episodul demo este complet deschis — fără înregistrare, fără abonament, fără introducerea datelor."
+    }
+  ],
+  "final_cta": {
+    "headline": "Oferă-i copilului tău superputerea gândirii critice",
+    "subheadline": "Episodul 1 · Dimineața fără soră\nMama spune că sora nu a existat niciodată. La școală nu o cunosc pe Sofia. Dar Marco își amintește râsul ei — și jurnalul din mâinile lui este real…",
+    "cta_text": "Joacă demo acum"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

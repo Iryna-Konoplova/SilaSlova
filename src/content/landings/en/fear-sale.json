@@ -1,0 +1,89 @@
+{
+  "slug": "fear-sale",
+  "audience": "parent",
+  "locale": "en",
+  "meta": {
+    "title": "\"Buy it and you won't worry\": your child is sold relief from fear, not a solution | Sila Slova",
+    "description": "Teach your child to separate emotion from decision: to spot when tension is created first, then an \"exit\" is sold. Game-based critical thinking course for children aged 8–12.",
+    "og_image": "/og/og-default.jpg"
+  },
+  "hero": {
+    "headline": "Does your child agree just to make the unease go away?",
+    "subheadline": "\"Buy it and you won't worry.\" \"Do it and everything will be fine.\" \"Otherwise it'll be bad.\" First the tension is created — then an \"exit\" is handed over right away. And your child acts to remove the uncomfortable feeling, not because it's actually needed.",
+    "cta_primary": {
+      "text": "Sign up for the course",
+      "target": "/sign-up"
+    },
+    "cta_secondary": {
+      "text": "Play demo",
+      "target": "/demo"
+    },
+    "media": {
+      "type": "image",
+      "src": "/images/fear-sale.jpg",
+      "alt": "A child deciding to get rid of discomfort rather than because it's needed"
+    }
+  },
+  "pain": {
+    "title": "This isn't a solution — it's a way to sell through fear",
+    "body": "The pattern is always the same: first they scare or unsettle you — \"it'll be bad\", \"you'll lose out\", \"everyone will see\". Then they immediately offer an action that supposedly removes it: \"buy\", \"do it\", \"agree\". The tension and the \"exit\" come as a pair — and that's exactly why it works.\n\nThis isn't gullibility or weakness. The child just wants the discomfort gone fast — and grabs the first thing that removes it. The decision is made through emotion (\"I want it to stop being scary\"), not through logic (\"do I actually need this?\").\n\nThe result — the child agrees or \"buys\" not because it's needed, but to feel calmer. And once the tension passes, it often turns out the decision wasn't theirs at all — it belonged to whoever created the tension."
+  },
+  "solution": {
+    "title": "\"Sila Slova\" — a detective drama that teaches critical thinking",
+    "body": "40 episodes, 13 critical thinking lessons. Your child plays — but is actually learning to protect themselves.",
+    "bullets": [
+      "🔍 Spots the pattern \"scare first, hand over the exit right away\"",
+      "🧠 Separates emotion from decision: \"do I want this, or do I just want to calm down?\"",
+      "💬 Understands: being scared first doesn't make the decision right",
+      "🛡️ Doesn't make a decision just to make the fear go away"
+    ]
+  },
+  "social_proof": {
+    "quote": "My son used to grab at any \"do it and it'll be fine\". Now he asks first: \"But do I even need this?\" — and sees for himself when he's just being sold peace of mind.",
+    "author": "Elena, mum of 12-year-old Nazar",
+    "stats": [
+      {
+        "label": "Children completed the course",
+        "value": "2,400+"
+      },
+      {
+        "label": "Satisfied parents",
+        "value": "94%"
+      },
+      {
+        "label": "Optimal age",
+        "value": "8–12 yrs"
+      }
+    ]
+  },
+  "faq_label": "FAQ",
+  "faq_title": "Questions about the course",
+  "faq": [
+    {
+      "q": "Is it a game or a learning course?",
+      "a": "Both at the same time. \"Sila Slova\" looks like a detective series, but every episode contains a hidden critical thinking lesson."
+    },
+    {
+      "q": "What age is it suitable for?",
+      "a": "Ideal for 8–12 year olds. At this age, children are most receptive to new thinking patterns and haven't yet formed rigid biases."
+    },
+    {
+      "q": "How much time is needed each day?",
+      "a": "15–20 minutes per episode. Flexible schedule — your child can come back at any convenient time."
+    },
+    {
+      "q": "Is registration required for the demo?",
+      "a": "No. The demo episode is fully open — no registration, no subscription, no personal data required."
+    }
+  ],
+  "final_cta": {
+    "headline": "Give your child the superpower of critical thinking",
+    "subheadline": "Episode 1 · Morning Without a Sister\nMum says there was never a sister. The school doesn't remember Sofia. But Marco remembers her laugh — and the diary in his hands is real…",
+    "cta_text": "Play demo now"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

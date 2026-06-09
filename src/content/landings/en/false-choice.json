@@ -1,0 +1,89 @@
+{
+  "slug": "false-choice",
+  "audience": "parent",
+  "locale": "en",
+  "meta": {
+    "title": "\"You're either with us or against us\": why two options aren't the whole choice | Sila Slova",
+    "description": "Teach your child to step outside \"either-or\", see the third option and not accept imposed terms. Game-based critical thinking course for children aged 8–12.",
+    "og_image": "/og/og-default.jpg"
+  },
+  "hero": {
+    "headline": "Was your child given a choice that doesn't really exist?",
+    "subheadline": "\"You're either with us or against us.\" \"Either you do it or you're lazy.\" \"Either you agree or you're a bad friend.\" It sounds like there's a choice — but it's been narrowed to two. And your child picks one, because they simply don't see any other options.",
+    "cta_primary": {
+      "text": "Sign up for the course",
+      "target": "/sign-up"
+    },
+    "cta_secondary": {
+      "text": "Play demo",
+      "target": "/demo"
+    },
+    "media": {
+      "type": "image",
+      "src": "/images/false-choice.jpg",
+      "alt": "A child left with only two options, when there are more"
+    }
+  },
+  "pain": {
+    "title": "It's not a real choice — it's a false dilemma",
+    "body": "The child is left with only two options — when in reality there are more. And both suit whoever is asking: whichever way they answer, that person wins. It looks like a fair choice, but the frame has already been drawn for them.\n\nThis isn't \"not thinking\" or being weak-willed. The child has simply been placed inside an \"either-or\" frame, and inside that frame it feels like there's no third way. Without the skill to spot it, they accept the rules of the game and pick from what they were given — even if neither option fits them.\n\nThe result — the child agrees not because they want to, but because they don't see any alternatives. They play by someone else's rules, thinking it was their own choice."
+  },
+  "solution": {
+    "title": "\"Sila Slova\" — a detective drama that teaches critical thinking",
+    "body": "40 episodes, 13 critical thinking lessons. Your child plays — but is actually learning to protect themselves.",
+    "bullets": [
+      "🔍 Notices when a choice has been narrowed to \"either-or\"",
+      "🧠 Asks: \"are there really only two options?\"",
+      "💬 Understands: being given two options doesn't mean there are no others",
+      "🛡️ Looks for a third option and won't play by someone else's rules"
+    ]
+  },
+  "social_proof": {
+    "quote": "\"Either you do it or you let the team down\" used to make my son give in instantly. Now he says: \"There's a third option, actually\" — and sees for himself that he was just being boxed in.",
+    "author": "Marina, mum of 10-year-old Nazar",
+    "stats": [
+      {
+        "label": "Children completed the course",
+        "value": "2,400+"
+      },
+      {
+        "label": "Satisfied parents",
+        "value": "94%"
+      },
+      {
+        "label": "Optimal age",
+        "value": "8–12 yrs"
+      }
+    ]
+  },
+  "faq_label": "FAQ",
+  "faq_title": "Questions about the course",
+  "faq": [
+    {
+      "q": "Is it a game or a learning course?",
+      "a": "Both at the same time. \"Sila Slova\" looks like a detective series, but every episode contains a hidden critical thinking lesson."
+    },
+    {
+      "q": "What age is it suitable for?",
+      "a": "Ideal for 8–12 year olds. At this age, children are most receptive to new thinking patterns and haven't yet formed rigid biases."
+    },
+    {
+      "q": "How much time is needed each day?",
+      "a": "15–20 minutes per episode. Flexible schedule — your child can come back at any convenient time."
+    },
+    {
+      "q": "Is registration required for the demo?",
+      "a": "No. The demo episode is fully open — no registration, no subscription, no personal data required."
+    }
+  ],
+  "final_cta": {
+    "headline": "Give your child the superpower of critical thinking",
+    "subheadline": "Episode 1 · Morning Without a Sister\nMum says there was never a sister. The school doesn't remember Sofia. But Marco remembers her laugh — and the diary in his hands is real…",
+    "cta_text": "Play demo now"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

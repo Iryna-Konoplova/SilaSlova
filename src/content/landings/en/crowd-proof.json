@@ -1,0 +1,89 @@
+{
+  "slug": "crowd-proof",
+  "audience": "parent",
+  "locale": "en",
+  "meta": {
+    "title": "\"A million views means it's true\": why popularity isn't proof | Sila Slova",
+    "description": "Teach your child to separate popularity from truth and ask \"why is this right?\" instead of looking at likes and views. Game-based critical thinking course for children aged 8–12.",
+    "og_image": "/og/og-default.jpg"
+  },
+  "hero": {
+    "headline": "Does your child think \"lots of likes\" = \"it's true\"?",
+    "subheadline": "\"A million views — it must be true.\" \"Everyone watches this.\" \"Everyone does it.\" The numbers look like confirmation — and your child trusts the count without ever checking what's actually behind it.",
+    "cta_primary": {
+      "text": "Sign up for the course",
+      "target": "/sign-up"
+    },
+    "cta_secondary": {
+      "text": "Play demo",
+      "target": "/demo"
+    },
+    "media": {
+      "type": "image",
+      "src": "/images/crowd-proof.jpg",
+      "alt": "A child treating the number of likes and views as proof of truth"
+    }
+  },
+  "pain": {
+    "title": "Popularity isn't proof",
+    "body": "Lots of people can watch, like, or repeat the same thing — but that doesn't make it true. A number shows interest, not correctness. A million views only tells you that a lot of people opened the video — and nothing about whether what's in it is true.\n\nThis isn't being naive or easily fooled. The child simply orients toward the majority, which is natural: if everyone does it, it feels like that's how it should be. Without the skill of separating content from numbers, \"everyone\" turns into an argument — even when there isn't a single fact behind it.\n\nThe result — the child decides under the pressure of the crowd, not the facts. They repeat, buy, and believe because \"everyone does\" — not because they checked whether it's actually so."
+  },
+  "solution": {
+    "title": "\"Sila Slova\" — a detective drama that teaches critical thinking",
+    "body": "40 episodes, 13 critical thinking lessons. Your child plays — but is actually learning to protect themselves.",
+    "bullets": [
+      "🔍 Notices when a like or view count is passed off as proof",
+      "🧠 Asks \"why is this right?\" instead of \"how many views does it have?\"",
+      "💬 Understands: if everyone's into it, that still doesn't make it true",
+      "🛡️ Looks for the basis, not the numbers — and won't follow the crowd with nothing behind it"
+    ]
+  },
+  "social_proof": {
+    "quote": "\"It's got millions of views\" used to be proof for my daughter. Now she asks: \"But why is it actually right?\" — and sees for herself that popular ≠ true.",
+    "author": "Natalia, mum of 10-year-old Sophia",
+    "stats": [
+      {
+        "label": "Children completed the course",
+        "value": "2,400+"
+      },
+      {
+        "label": "Satisfied parents",
+        "value": "94%"
+      },
+      {
+        "label": "Optimal age",
+        "value": "8–12 yrs"
+      }
+    ]
+  },
+  "faq_label": "FAQ",
+  "faq_title": "Questions about the course",
+  "faq": [
+    {
+      "q": "Is it a game or a learning course?",
+      "a": "Both at the same time. \"Sila Slova\" looks like a detective series, but every episode contains a hidden critical thinking lesson."
+    },
+    {
+      "q": "What age is it suitable for?",
+      "a": "Ideal for 8–12 year olds. At this age, children are most receptive to new thinking patterns and haven't yet formed rigid biases."
+    },
+    {
+      "q": "How much time is needed each day?",
+      "a": "15–20 minutes per episode. Flexible schedule — your child can come back at any convenient time."
+    },
+    {
+      "q": "Is registration required for the demo?",
+      "a": "No. The demo episode is fully open — no registration, no subscription, no personal data required."
+    }
+  ],
+  "final_cta": {
+    "headline": "Give your child the superpower of critical thinking",
+    "subheadline": "Episode 1 · Morning Without a Sister\nMum says there was never a sister. The school doesn't remember Sofia. But Marco remembers her laugh — and the diary in his hands is real…",
+    "cta_text": "Play demo now"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "slug": "face-or-facts",
+  "audience": "parent",
+  "locale": "en",
+  "meta": {
+    "title": "\"He wouldn't say something silly\": why a familiar face isn't proof | Sila Slova",
+    "description": "Teach your child to switch attention from the face to the content and ask \"why is this true?\" instead of believing just because someone famous said it. Game-based critical thinking course for children aged 8–12.",
+    "og_image": "/og/og-default.jpg"
+  },
+  "hero": {
+    "headline": "Does your child believe the face — or the facts?",
+    "subheadline": "\"He's successful.\" \"She's popular.\" \"He wouldn't say something silly.\" A familiar face triggers trust before any content even appears — and your child believes because they recognise it, without ever checking the words.",
+    "cta_primary": {
+      "text": "Sign up for the course",
+      "target": "/sign-up"
+    },
+    "cta_secondary": {
+      "text": "Play demo",
+      "target": "/demo"
+    },
+    "media": {
+      "type": "image",
+      "src": "/images/face-or-facts.jpg",
+      "alt": "A child trusting a familiar face before they've even heard the content"
+    }
+  },
+  "pain": {
+    "title": "A face isn't proof",
+    "body": "A familiar person can inspire trust — but that doesn't mean their words are right. They can be mistaken, know nothing about the topic, or simply be advertising something. The fact that we recognise a face says nothing about whether what it says is true.\n\nThis isn't being naive or gullible. The child is simply reacting to familiarity and status: a recognised face automatically feels like \"one of us\", someone to be believed. Without the skill of separating the two, they take in \"who said it\" instead of \"what was said\" — and trust shows up before any checking does.\n\nThe result — the child trusts the image, not the facts. They repeat, buy, and believe because \"it's him/her\" — not because there's anything true behind the words."
+  },
+  "solution": {
+    "title": "\"Sila Slova\" — a detective drama that teaches critical thinking",
+    "body": "40 episodes, 13 critical thinking lessons. Your child plays — but is actually learning to protect themselves.",
+    "bullets": [
+      "🔍 Notices when trust comes from the face, not the content",
+      "🧠 Switches attention from \"who said it\" to \"what they actually said\"",
+      "💬 Understands: a familiar face is not an argument",
+      "🛡️ Doesn't trust automatically just because someone famous said it"
+    ]
+  },
+  "social_proof": {
+    "quote": "\"But he said it\" used to settle it for my daughter. Now she asks first: \"But why is it true?\" — and sees for herself that she was trusting the face, not the words.",
+    "author": "Oksana, mum of 11-year-old Daryna",
+    "stats": [
+      {
+        "label": "Children completed the course",
+        "value": "2,400+"
+      },
+      {
+        "label": "Satisfied parents",
+        "value": "94%"
+      },
+      {
+        "label": "Optimal age",
+        "value": "8–12 yrs"
+      }
+    ]
+  },
+  "faq_label": "FAQ",
+  "faq_title": "Questions about the course",
+  "faq": [
+    {
+      "q": "Is it a game or a learning course?",
+      "a": "Both at the same time. \"Sila Slova\" looks like a detective series, but every episode contains a hidden critical thinking lesson."
+    },
+    {
+      "q": "What age is it suitable for?",
+      "a": "Ideal for 8–12 year olds. At this age, children are most receptive to new thinking patterns and haven't yet formed rigid biases."
+    },
+    {
+      "q": "How much time is needed each day?",
+      "a": "15–20 minutes per episode. Flexible schedule — your child can come back at any convenient time."
+    },
+    {
+      "q": "Is registration required for the demo?",
+      "a": "No. The demo episode is fully open — no registration, no subscription, no personal data required."
+    }
+  ],
+  "final_cta": {
+    "headline": "Give your child the superpower of critical thinking",
+    "subheadline": "Episode 1 · Morning Without a Sister\nMum says there was never a sister. The school doesn't remember Sofia. But Marco remembers her laugh — and the diary in his hands is real…",
+    "cta_text": "Play demo now"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

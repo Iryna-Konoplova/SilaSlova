@@ -1,0 +1,89 @@
+{
+  "slug": "chain-check",
+  "audience": "parent",
+  "locale": "ro",
+  "meta": {
+    "title": "«Dacă nu faci — pici tot»: când un lanț de evenimente sună logic, dar nu e verificat | Forța Cuvântului",
+    "description": "Învățați copilul să descompună lanțurile «logice» în pași și să verifice fiecare separat: chiar duce unul la celălalt? Curs de gândire critică în format de joc pentru copii de 8–12 ani.",
+    "og_image": "/og/og-default.jpg"
+  },
+  "hero": {
+    "headline": "Copilul tău crede o «poveste logică» fără să verifice pașii?",
+    "subheadline": "«Dacă nu faci — iei o notă proastă, apoi pici tot.» «Dacă nu mergi — pierzi șansa și nu mai vine.» Fiecare pas sună în regulă — dar nimeni nu verifică dacă chiar duce la următorul.",
+    "cta_primary": {
+      "text": "Înscrie-te la curs",
+      "target": "/sign-up"
+    },
+    "cta_secondary": {
+      "text": "Joacă demo",
+      "target": "/demo"
+    },
+    "media": {
+      "type": "image",
+      "src": "/images/chain-check.jpg",
+      "alt": "Un copil care ia un lanț de evenimente drept fapt fără să verifice fiecare pas"
+    }
+  },
+  "pain": {
+    "title": "Nu e logică — e un lanț fără verificare",
+    "body": "Evenimentele sunt puse unul după altul — și apare senzația că totul e inevitabil: «A → deci B → deci C → catastrofă». Sună coerent, așa că e ușor de crezut. Dar între pași sunt adesea rupturi unde nimic nu e dovedit: «o notă proastă» nu înseamnă «pici tot», «o șansă» nu înseamnă «niciodată».\n\nNu e vorba că «crede orice» sau de naivitate. Pur și simplu copilul încă n-are obiceiul de a descompune povestea în părți și de a întreba despre fiecare trecere separat: «chiar rezultă asta din ce a fost înainte?». Așa că ia tot scenariul drept un fapt gata făcut.\n\nConsecința — copilul acceptă printr-o «pseudo-logică» care de fapt n-a fost verificată. Se grăbește, refuză, se teme de consecințe care poate nici nu există — pentru că lanțul a sunat întreg, deși se sprijinea pe legături nedovedite."
+  },
+  "solution": {
+    "title": "«Forța Cuvântului» — o dramă detectivistică ce învață să gândești",
+    "body": "40 de episoade, 13 lecții de gândire critică. Copilul se joacă — dar de fapt învață să se protejeze.",
+    "bullets": [
+      "🔍 Descompune o «poveste logică» în pași separați",
+      "🧠 Verifică fiecare trecere: «chiar rezultă asta din pasul anterior?»",
+      "💬 Observă rupturile unde un lucru nu e dovedit că duce la altul",
+      "🛡️ Nu acceptă tot lanțul automat până nu îl verifică pas cu pas"
+    ]
+  },
+  "social_proof": {
+    "quote": "Înainte, orice «și apoi o să fie și mai rău» funcționa instant la fiul meu. Acum se oprește: «Dar de ce duce sigur unul la altul?» — și deseori găsește singur unde se rupe lanțul.",
+    "author": "Maryna, mama lui Denys de 11 ani",
+    "stats": [
+      {
+        "label": "Copii au finalizat cursul",
+        "value": "2.400+"
+      },
+      {
+        "label": "Părinți mulțumiți",
+        "value": "94%"
+      },
+      {
+        "label": "Vârsta optimă",
+        "value": "8–12 ani"
+      }
+    ]
+  },
+  "faq_label": "ÎNTREBĂRI FRECVENTE",
+  "faq_title": "Întrebări despre curs",
+  "faq": [
+    {
+      "q": "Este un joc sau un curs educațional?",
+      "a": "Ambele formule în același timp. «Forța Cuvântului» arată ca un serial detectivistic, dar în fiecare episod este ascunsă o lecție de gândire critică."
+    },
+    {
+      "q": "De la ce vârstă se poate începe?",
+      "a": "Optim — 8–12 ani. La această vârstă, copiii sunt cei mai receptivi la noi tipare de gândire și nu și-au format încă prejudecăți stabile."
+    },
+    {
+      "q": "Cât timp este necesar zilnic?",
+      "a": "15–20 de minute pe episod. Program flexibil — copilul poate reveni oricând îi convine."
+    },
+    {
+      "q": "Este necesară înregistrarea pentru demo?",
+      "a": "Nu. Episodul demo este complet deschis — fără înregistrare, fără abonament, fără introducerea datelor."
+    }
+  ],
+  "final_cta": {
+    "headline": "Oferă-i copilului tău superputerea gândirii critice",
+    "subheadline": "Episodul 1 · Dimineața fără soră\nMama spune că sora nu a existat niciodată. La școală nu o cunosc pe Sofia. Dar Marco își amintește râsul ei — și jurnalul din mâinile lui este real…",
+    "cta_text": "Joacă demo acum"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}
