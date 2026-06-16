@@ -1,0 +1,89 @@
+{
+  "slug": "perfect-or-nothing",
+  "audience": "parent",
+  "locale": "en",
+  "meta": {
+    "title": "\"Perfect or not at all\" — and your child never even starts? | Sila Slova",
+    "description": "Teach your child to see the process instead of the extremes and allow themselves to do it \"well enough\", not \"perfectly\". Game-based critical thinking course for children aged 8–12.",
+    "og_image": "/og/og-default.jpg"
+  },
+  "hero": {
+    "headline": "Does your child refuse to start because \"it won't be perfect anyway\"?",
+    "subheadline": "\"If it's not the best, then why bother.\" \"Either I do it brilliantly or not at all.\" The bar shoots straight to maximum — and the action stops before it even begins. Easier not to try than to do it \"imperfectly\".",
+    "cta_primary": {
+      "text": "Sign up for the course",
+      "target": "/sign-up"
+    },
+    "cta_secondary": {
+      "text": "Play demo",
+      "target": "/demo"
+    },
+    "media": {
+      "type": "image",
+      "src": "/images/perfect-or-nothing.jpg",
+      "alt": "A child not starting something out of fear of doing it imperfectly"
+    }
+  },
+  "pain": {
+    "title": "It's not a high standard — it's the \"perfect or failure\" trap",
+    "body": "The child (often themselves) leaves only two options: either it comes out perfect, or it's a failure. As if there's no third. But between those extremes lies the whole process — the first uncertain attempts, the mistakes, the small steps that a result actually grows from.\n\nThis isn't laziness or indifference. The child is caught in a rigid frame where \"imperfect\" equals \"bad\". Without the skill to see the process, they choose not to do it at all — to avoid the feeling of not being \"good enough\".\n\nThe result — the child doesn't even give themselves a chance to try. They don't start drawing, writing, or performing, because they're afraid it won't be perfect — and so they never find out that they could."
+  },
+  "solution": {
+    "title": "\"Sila Slova\" — a detective drama that teaches critical thinking",
+    "body": "40 episodes, 13 critical thinking lessons. Your child plays — but is actually learning to protect themselves.",
+    "bullets": [
+      "🔍 Notices the \"perfect or not at all\" moment",
+      "🧠 Sees the process — the tries and mistakes — between the extremes",
+      "💬 Understands: imperfect isn't failure, it's a step",
+      "🛡️ Lets themselves start and do it \"well enough\" instead of waiting for perfect"
+    ]
+  },
+  "social_proof": {
+    "quote": "My daughter used to tear up a drawing if it came out \"not right\". Now she says \"this is only the first try\" — and just keeps going. Getting started became easier than freezing in front of perfect.",
+    "author": "Svitlana, mum of 9-year-old Eva",
+    "stats": [
+      {
+        "label": "Children completed the course",
+        "value": "2,400+"
+      },
+      {
+        "label": "Satisfied parents",
+        "value": "94%"
+      },
+      {
+        "label": "Optimal age",
+        "value": "8–12 yrs"
+      }
+    ]
+  },
+  "faq_label": "FAQ",
+  "faq_title": "Questions about the course",
+  "faq": [
+    {
+      "q": "Is it a game or a learning course?",
+      "a": "Both at the same time. \"Sila Slova\" looks like a detective series, but every episode contains a hidden critical thinking lesson."
+    },
+    {
+      "q": "What age is it suitable for?",
+      "a": "Ideal for 8–12 year olds. At this age, children are most receptive to new thinking patterns and haven't yet formed rigid biases."
+    },
+    {
+      "q": "How much time is needed each day?",
+      "a": "15–20 minutes per episode. Flexible schedule — your child can come back at any convenient time."
+    },
+    {
+      "q": "Is registration required for the demo?",
+      "a": "No. The demo episode is fully open — no registration, no subscription, no personal data required."
+    }
+  ],
+  "final_cta": {
+    "headline": "Give your child the superpower of critical thinking",
+    "subheadline": "Episode 1 · Morning Without a Sister\nMum says there was never a sister. The school doesn't remember Sofia. But Marco remembers her laugh — and the diary in his hands is real…",
+    "cta_text": "Play demo now"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

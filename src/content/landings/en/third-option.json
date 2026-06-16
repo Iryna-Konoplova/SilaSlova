@@ -1,0 +1,89 @@
+{
+  "slug": "third-option",
+  "audience": "parent",
+  "locale": "en",
+  "meta": {
+    "title": "\"Do it this way or not at all\" — but what else? Why there's almost always a third option | Sila Slova",
+    "description": "Teach your child to ask \"what else?\" and see the third option that was hidden from them. Game-based critical thinking course for children aged 8–12.",
+    "og_image": "/og/og-default.jpg"
+  },
+  "hero": {
+    "headline": "Does your child pick between two options — because no one showed them the others?",
+    "subheadline": "\"Either you come with us, or you sit alone.\" \"Do it this way or not at all.\" The options sound logical — and your child picks one. They don't even think there's a third, because no one named it.",
+    "cta_primary": {
+      "text": "Sign up for the course",
+      "target": "/sign-up"
+    },
+    "cta_secondary": {
+      "text": "Play demo",
+      "target": "/demo"
+    },
+    "media": {
+      "type": "image",
+      "src": "/images/third-option.jpg",
+      "alt": "A child shown only two options, when there's a third"
+    }
+  },
+  "pain": {
+    "title": "It's not the limit of reality — it's a limit drawn for them",
+    "body": "The child isn't shown all the options — only the ones that suit whoever is offering them. Two points sound like the full list, when in fact there's a third and a fourth right beside them. They just weren't mentioned.\n\nThis isn't \"not looking\" or being too lazy to think. The child simply wasn't shown the other possibilities — and the \"either-or\" frame looks complete in itself. Without the skill to notice it, they accept the offered options as the only ones possible and never ask whether there's anything beyond them.\n\nThe result — the child doesn't see the solutions that actually fit them. They pick from someone else's short list, thinking it's all of reality — and walk right past the option that would have been better for them."
+  },
+  "solution": {
+    "title": "\"Sila Slova\" — a detective drama that teaches critical thinking",
+    "body": "40 episodes, 13 critical thinking lessons. Your child plays — but is actually learning to protect themselves.",
+    "bullets": [
+      "🔍 Notices they've only been shown part of the options",
+      "🧠 Asks \"what else?\" — and looks for what wasn't named",
+      "💬 Understands: two options isn't the limit",
+      "🛡️ Finds the third option and steps outside the imposed frame"
+    ]
+  },
+  "social_proof": {
+    "quote": "My daughter used to see only \"either-or\" and pick one of the two. Now she asks \"what other option is there?\" — and often finds one nobody even mentioned.",
+    "author": "Olena, mum of 11-year-old Alice",
+    "stats": [
+      {
+        "label": "Children completed the course",
+        "value": "2,400+"
+      },
+      {
+        "label": "Satisfied parents",
+        "value": "94%"
+      },
+      {
+        "label": "Optimal age",
+        "value": "8–12 yrs"
+      }
+    ]
+  },
+  "faq_label": "FAQ",
+  "faq_title": "Questions about the course",
+  "faq": [
+    {
+      "q": "Is it a game or a learning course?",
+      "a": "Both at the same time. \"Sila Slova\" looks like a detective series, but every episode contains a hidden critical thinking lesson."
+    },
+    {
+      "q": "What age is it suitable for?",
+      "a": "Ideal for 8–12 year olds. At this age, children are most receptive to new thinking patterns and haven't yet formed rigid biases."
+    },
+    {
+      "q": "How much time is needed each day?",
+      "a": "15–20 minutes per episode. Flexible schedule — your child can come back at any convenient time."
+    },
+    {
+      "q": "Is registration required for the demo?",
+      "a": "No. The demo episode is fully open — no registration, no subscription, no personal data required."
+    }
+  ],
+  "final_cta": {
+    "headline": "Give your child the superpower of critical thinking",
+    "subheadline": "Episode 1 · Morning Without a Sister\nMum says there was never a sister. The school doesn't remember Sofia. But Marco remembers her laugh — and the diary in his hands is real…",
+    "cta_text": "Play demo now"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

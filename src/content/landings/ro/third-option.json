@@ -1,0 +1,89 @@
+{
+  "slug": "third-option",
+  "audience": "parent",
+  "locale": "ro",
+  "meta": {
+    "title": "«Ori așa, ori deloc» — dar ce altceva? De ce există aproape mereu o a treia variantă | Forța Cuvântului",
+    "description": "Învățați copilul să întrebe «ce altceva?» și să vadă a treia variantă care i-a fost ascunsă. Curs de gândire critică în format de joc pentru copii de 8–12 ani.",
+    "og_image": "/og/og-default.jpg"
+  },
+  "hero": {
+    "headline": "Copilul tău alege dintre două variante — pentru că nimeni nu i le-a arătat pe celelalte?",
+    "subheadline": "«Ori vii cu noi, ori stai singur.» «Ori faci așa, ori deloc.» Variantele sună logic — și copilul alege una. Nici nu se gândește că ar exista a treia, pentru că nimeni nu i-a numit-o.",
+    "cta_primary": {
+      "text": "Înscrie-te la curs",
+      "target": "/sign-up"
+    },
+    "cta_secondary": {
+      "text": "Joacă demo",
+      "target": "/demo"
+    },
+    "media": {
+      "type": "image",
+      "src": "/images/third-option.jpg",
+      "alt": "Un copil căruia i s-au arătat doar două variante, deși există și a treia"
+    }
+  },
+  "pain": {
+    "title": "Nu e limita realității — e o limită trasată în locul lui",
+    "body": "Copilului nu i se arată toate variantele, ci doar pe cele care îi convin celui care le propune. Două puncte sună ca o listă completă — deși de fapt mai există a treia și a patra chiar alături. Doar că nu au fost pomenite.\n\nNu e vorba că «nu caută» sau că e prea leneș să gândească. Copilului pur și simplu nu i s-au arătat celelalte posibilități — iar cadrul «ori-ori» pare complet în sine. Fără deprinderea de a observa asta, acceptă variantele oferite ca singurele posibile și nici nu întreabă dacă există ceva dincolo de ele.\n\nConsecința — copilul nu vede soluțiile care i se potrivesc tocmai lui. Alege dintr-o listă scurtă a altcuiva, crezând că asta e toată realitatea — și trece pe lângă varianta care ar fi fost mai bună pentru el."
+  },
+  "solution": {
+    "title": "«Forța Cuvântului» — o dramă detectivistică ce învață să gândești",
+    "body": "40 de episoade, 13 lecții de gândire critică. Copilul se joacă — dar de fapt învață să se protejeze.",
+    "bullets": [
+      "🔍 Observă că i s-a arătat doar o parte din variante",
+      "🧠 Pune întrebarea «ce altceva?» — și caută ce nu a fost numit",
+      "💬 Înțelege: două variante nu sunt limita",
+      "🛡️ Găsește a treia variantă și iese din cadrul impus"
+    ]
+  },
+  "social_proof": {
+    "quote": "Înainte, fiica mea vedea doar «ori-ori» și alegea una din două. Acum întreabă «ce altă variantă mai e?» — și găsește deseori una pe care nimeni nici n-a pomenit-o.",
+    "author": "Elena, mama Alisei de 11 ani",
+    "stats": [
+      {
+        "label": "Copii au finalizat cursul",
+        "value": "2.400+"
+      },
+      {
+        "label": "Părinți mulțumiți",
+        "value": "94%"
+      },
+      {
+        "label": "Vârsta optimă",
+        "value": "8–12 ani"
+      }
+    ]
+  },
+  "faq_label": "ÎNTREBĂRI FRECVENTE",
+  "faq_title": "Întrebări despre curs",
+  "faq": [
+    {
+      "q": "Este un joc sau un curs educațional?",
+      "a": "Ambele formule în același timp. «Forța Cuvântului» arată ca un serial detectivistic, dar în fiecare episod este ascunsă o lecție de gândire critică."
+    },
+    {
+      "q": "De la ce vârstă se poate începe?",
+      "a": "Optim — 8–12 ani. La această vârstă, copiii sunt cei mai receptivi la noi tipare de gândire și nu și-au format încă prejudecăți stabile."
+    },
+    {
+      "q": "Cât timp este necesar zilnic?",
+      "a": "15–20 de minute pe episod. Program flexibil — copilul poate reveni oricând îi convine."
+    },
+    {
+      "q": "Este necesară înregistrarea pentru demo?",
+      "a": "Nu. Episodul demo este complet deschis — fără înregistrare, fără abonament, fără introducerea datelor."
+    }
+  ],
+  "final_cta": {
+    "headline": "Oferă-i copilului tău superputerea gândirii critice",
+    "subheadline": "Episodul 1 · Dimineața fără soră\nMama spune că sora nu a existat niciodată. La școală nu o cunosc pe Sofia. Dar Marco își amintește râsul ei — și jurnalul din mâinile lui este real…",
+    "cta_text": "Joacă demo acum"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

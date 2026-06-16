@@ -1,0 +1,89 @@
+{
+  "slug": "already-guilty",
+  "audience": "parent",
+  "locale": "en",
+  "meta": {
+    "title": "\"Have you stopped cheating yet?\" — a question you can't answer honestly | Sila Slova",
+    "description": "Teach your child to spot the hidden accusation inside a question and bring back reality: \"I didn't do that\". Game-based critical thinking course for children aged 8–12.",
+    "og_image": "/og/og-default.jpg"
+  },
+  "hero": {
+    "headline": "Is your child cornered by a question that makes them \"guilty\" already?",
+    "subheadline": "\"Have you stopped cheating yet?\" \"Why did you do it again?\" Whatever they answer, they look guilty. Your child gets flustered, makes excuses or goes silent — because the accusation is already hidden inside the question.",
+    "cta_primary": {
+      "text": "Sign up for the course",
+      "target": "/sign-up"
+    },
+    "cta_secondary": {
+      "text": "Play demo",
+      "target": "/demo"
+    },
+    "media": {
+      "type": "image",
+      "src": "/images/already-guilty.jpg",
+      "alt": "A child cornered by a question where any answer is an admission of guilt"
+    }
+  },
+  "pain": {
+    "title": "It's not a question — it's a hidden accusation",
+    "body": "The wording already hides an assumption that the child did something. \"Have you stopped yet?\" — both \"yes\" and \"no\" confirm they were doing it. There's no honest answer: the very form of the question leaves no way out.\n\nThis isn't \"not knowing what to say\" or freezing from shame. The child falls into a trap: the question sounds ordinary, so they start to answer it — and by doing so accept someone else's version of events as the starting point.\n\nThe result — the child defends and excuses themselves for something that never happened. They agree with the hidden accusation simply because they answered the question — and someone else's \"version\" becomes their truth about themselves."
+  },
+  "solution": {
+    "title": "\"Sila Slova\" — a detective drama that teaches critical thinking",
+    "body": "40 episodes, 13 critical thinking lessons. Your child plays — but is actually learning to protect themselves.",
+    "bullets": [
+      "🔍 Notices that the question already hides an accusation",
+      "🧠 Answers the substance, not the form — the assumption itself",
+      "💬 Stops the question and brings back reality: \"I didn't do that\", \"that's not true\"",
+      "🛡️ Doesn't accept someone else's \"version of events\" as the truth about themselves"
+    ]
+  },
+  "social_proof": {
+    "quote": "\"Why did you do it again?\" used to send my son straight into excuses. Now he says first: \"Wait, I didn't do that\" — and won't let something that never happened be pinned on him.",
+    "author": "Kateryna, mum of 10-year-old Bohdan",
+    "stats": [
+      {
+        "label": "Children completed the course",
+        "value": "2,400+"
+      },
+      {
+        "label": "Satisfied parents",
+        "value": "94%"
+      },
+      {
+        "label": "Optimal age",
+        "value": "8–12 yrs"
+      }
+    ]
+  },
+  "faq_label": "FAQ",
+  "faq_title": "Questions about the course",
+  "faq": [
+    {
+      "q": "Is it a game or a learning course?",
+      "a": "Both at the same time. \"Sila Slova\" looks like a detective series, but every episode contains a hidden critical thinking lesson."
+    },
+    {
+      "q": "What age is it suitable for?",
+      "a": "Ideal for 8–12 year olds. At this age, children are most receptive to new thinking patterns and haven't yet formed rigid biases."
+    },
+    {
+      "q": "How much time is needed each day?",
+      "a": "15–20 minutes per episode. Flexible schedule — your child can come back at any convenient time."
+    },
+    {
+      "q": "Is registration required for the demo?",
+      "a": "No. The demo episode is fully open — no registration, no subscription, no personal data required."
+    }
+  ],
+  "final_cta": {
+    "headline": "Give your child the superpower of critical thinking",
+    "subheadline": "Episode 1 · Morning Without a Sister\nMum says there was never a sister. The school doesn't remember Sofia. But Marco remembers her laugh — and the diary in his hands is real…",
+    "cta_text": "Play demo now"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

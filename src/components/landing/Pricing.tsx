@@ -57,16 +57,15 @@ export async function Pricing({ locale }: Props) {
                 </div>
               </div>
 
-              {/* Price */}
-              <div className="mb-1 flex items-baseline gap-2">
-                <span className="text-6xl font-extrabold tabular-nums text-content">
-                  {t("price")}
-                </span>
-                <span className="text-2xl font-semibold text-content-muted">{t("currency")}</span>
+              {/* Free-trial hook (no price shown) */}
+              <div className="mb-3">
+                <p className="text-3xl font-extrabold leading-tight tracking-tight text-content sm:text-4xl">
+                  {t("plan_headline")}
+                </p>
+                <p className="mt-2 text-base font-semibold text-content-muted">
+                  {t("plan_subheadline")}
+                </p>
               </div>
-              <p className="mb-1 text-sm text-content-muted">
-                {t("per_month")} · <span className="text-content-muted">{t("total")}</span>
-              </p>
               <p className="mb-7 text-xs text-content-subtle">{t("details")}</p>
 
               {/* Features */}

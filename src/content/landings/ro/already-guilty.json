@@ -1,0 +1,89 @@
+{
+  "slug": "already-guilty",
+  "audience": "parent",
+  "locale": "ro",
+  "meta": {
+    "title": "«Ai terminat cu copiatul?» — o întrebare la care nu poți răspunde cinstit | Forța Cuvântului",
+    "description": "Învățați copilul să observe acuzația ascunsă într-o întrebare și să readucă realitatea: «n-am făcut asta». Curs de gândire critică în format de joc pentru copii de 8–12 ani.",
+    "og_image": "/og/og-default.jpg"
+  },
+  "hero": {
+    "headline": "Copilul tău e încolțit de o întrebare care îl face deja «vinovat»?",
+    "subheadline": "«Ai terminat cu copiatul?» «De ce ai făcut-o iar?» Oricum ar răspunde, pare vinovat. Copilul se fâstâcește, se scuză sau tace — pentru că acuzația e deja ascunsă în întrebare.",
+    "cta_primary": {
+      "text": "Înscrie-te la curs",
+      "target": "/sign-up"
+    },
+    "cta_secondary": {
+      "text": "Joacă demo",
+      "target": "/demo"
+    },
+    "media": {
+      "type": "image",
+      "src": "/images/already-guilty.jpg",
+      "alt": "Un copil încolțit de o întrebare în care orice răspuns e o recunoaștere a vinovăției"
+    }
+  },
+  "pain": {
+    "title": "Nu e o întrebare — e o acuzație ascunsă",
+    "body": "În formulare e deja ascunsă presupunerea că ar fi făcut ceva. «Ai terminat?» — și «da», și «nu» confirmă că o făcea. Nu există răspuns cinstit: însăși forma întrebării nu lasă cale de ieșire.\n\nNu e vorba că «nu știe ce să spună» sau că se pierde de rușine. Copilul cade într-o capcană: întrebarea sună obișnuit, așa că începe să-i răspundă — și astfel acceptă versiunea altcuiva despre fapte ca punct de plecare.\n\nConsecința — copilul se apără și se scuză pentru ceva ce nu s-a întâmplat. E de acord cu acuzația ascunsă doar pentru că a răspuns la întrebare — iar «versiunea» altcuiva devine adevărul lui despre sine."
+  },
+  "solution": {
+    "title": "«Forța Cuvântului» — o dramă detectivistică ce învață să gândești",
+    "body": "40 de episoade, 13 lecții de gândire critică. Copilul se joacă — dar de fapt învață să se protejeze.",
+    "bullets": [
+      "🔍 Observă că întrebarea ascunde deja o acuzație",
+      "🧠 Răspunde la fond, nu la formă — la presupunerea în sine",
+      "💬 Oprește întrebarea și readuce realitatea: «n-am făcut asta», «nu e așa»",
+      "🛡️ Nu acceptă «versiunea despre fapte» a altcuiva ca adevăr despre sine"
+    ]
+  },
+  "social_proof": {
+    "quote": "Înainte, după «de ce ai făcut-o iar?», fiul meu o lua imediat pe scuze. Acum spune întâi: «Stai, n-am făcut asta» — și nu lasă să i se pună în cârcă ceva ce nu s-a întâmplat.",
+    "author": "Ecaterina, mama lui Bohdan de 10 ani",
+    "stats": [
+      {
+        "label": "Copii au finalizat cursul",
+        "value": "2.400+"
+      },
+      {
+        "label": "Părinți mulțumiți",
+        "value": "94%"
+      },
+      {
+        "label": "Vârsta optimă",
+        "value": "8–12 ani"
+      }
+    ]
+  },
+  "faq_label": "ÎNTREBĂRI FRECVENTE",
+  "faq_title": "Întrebări despre curs",
+  "faq": [
+    {
+      "q": "Este un joc sau un curs educațional?",
+      "a": "Ambele formule în același timp. «Forța Cuvântului» arată ca un serial detectivistic, dar în fiecare episod este ascunsă o lecție de gândire critică."
+    },
+    {
+      "q": "De la ce vârstă se poate începe?",
+      "a": "Optim — 8–12 ani. La această vârstă, copiii sunt cei mai receptivi la noi tipare de gândire și nu și-au format încă prejudecăți stabile."
+    },
+    {
+      "q": "Cât timp este necesar zilnic?",
+      "a": "15–20 de minute pe episod. Program flexibil — copilul poate reveni oricând îi convine."
+    },
+    {
+      "q": "Este necesară înregistrarea pentru demo?",
+      "a": "Nu. Episodul demo este complet deschis — fără înregistrare, fără abonament, fără introducerea datelor."
+    }
+  ],
+  "final_cta": {
+    "headline": "Oferă-i copilului tău superputerea gândirii critice",
+    "subheadline": "Episodul 1 · Dimineața fără soră\nMama spune că sora nu a existat niciodată. La școală nu o cunosc pe Sofia. Dar Marco își amintește râsul ei — și jurnalul din mâinile lui este real…",
+    "cta_text": "Joacă demo acum"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}
