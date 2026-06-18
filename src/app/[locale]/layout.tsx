@@ -12,6 +12,7 @@ import { CookieBanner } from "@/components/analytics/CookieBanner";
 import { TrackingBootstrap } from "@/components/analytics/TrackingBootstrap";
 import { ScrollRestoration } from "@/components/ui/ScrollRestoration";
 import { pickMessages } from "@/lib/client-messages";
+import { siteUrl } from "@/lib/site-url";
 import "../globals.css";
 
 // Разделы словаря, нужные КЛИЕНТСКИМ компонентам, которые рендерит этот layout
@@ -30,8 +31,6 @@ const geistSans = Geist({
   subsets: ["latin", "latin-ext", "cyrillic"],
   display: "swap",
 });
-
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://sila-slova.vercel.app";
 
 export const metadata: Metadata = {
   title: "Сила Слова / Syla Slova",

@@ -32,6 +32,17 @@ function setCookie(name: string, value: string, days: number) {
   document.cookie = `${name}=${encodeURIComponent(value)}; expires=${expires}; path=/; SameSite=Lax`;
 }
 
+function getCookie(name: string): string | null {
+  if (typeof document === "undefined") return null;
+  for (const part of document.cookie.split("; ")) {
+    const eq = part.indexOf("=");
+    if (eq > -1 && part.slice(0, eq) === name) {
+      return decodeURIComponent(part.slice(eq + 1));
+    }
+  }
+  return null;
+}
+
 /**
  * Reads URL UTM params (if any) and stores them. Idempotent: only overwrites when URL carries fresh UTM,
  * so a return visit via a direct link doesn't wipe the original attribution.
@@ -50,9 +61,12 @@ export function captureUtm(): UtmParams {
 
 export function getStoredUtm(): UtmParams {
   if (typeof window === "undefined") return {};
+  // localStorage — основной носитель, cookie — fallback: если localStorage очищен,
+  // но cookie (30д) жив, исходная UTM-атрибуция не теряется.
+  const raw = localStorage.getItem(STORAGE_KEY) ?? getCookie(STORAGE_KEY);
+  if (!raw) return {};
   try {
-    const raw = localStorage.getItem(STORAGE_KEY);
-    return raw ? (JSON.parse(raw) as UtmParams) : {};
+    return JSON.parse(raw) as UtmParams;
   } catch {
     return {};
   }

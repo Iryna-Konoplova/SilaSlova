@@ -66,12 +66,12 @@ Before implementing any feature, route, component, or data structure:
 Ask before proceeding if:
 - A feature is not described in `docs/SPECIFICATION.md`
 - Two parts of the spec contradict each other
-- A third-party integration requires credentials not yet provided (CRM webhook URL/secret is TBD per spec section 24)
+- A third-party integration requires credentials not yet provided (the CRM webhook is already wired — see CRM Webhook Rules below)
 - The chosen implementation approach has a meaningful tradeoff not obvious from the spec
 
 ## Sprint Plan
 
-- **Sprint 1:** scaffold + home page + i18n + analytics + cookie banner (Cookiebot or Iubenda)
+- **Sprint 1:** scaffold + home page + i18n + analytics + cookie banner (custom banner OK; CMP optional)
 - **Sprint 2:** landing template + 8 landings × 2 langs + quiz + demo engine
 - **Sprint 3:** Clerk auth + sign-up + welcome + CRM webhook client
 - **Sprint 4:** remaining landings + audio + Lighthouse optimization + a11y audit
@@ -91,13 +91,22 @@ Ask before proceeding if:
 ## Analytics & Cookie Rules
 
 - Pixels (Meta Pixel, TikTok Pixel, GA4) must NOT load before user gives cookie consent
-- Use a CMP solution (Cookiebot or Iubenda) — NOT a custom cookie banner
+- A **custom (self-written) cookie banner is allowed** for Stage 1 (decided per explicit user instruction, 2026-06-16). A third-party CMP (Cookiebot / Iubenda) is optional, not required — use it only if/when granular consent management is needed. The custom banner must still gate all non-essential scripts (pixels + PostHog) behind explicit consent and offer a clear reject option.
 - PostHog also loads only after consent
 - Email and phone must be SHA-256 hashed before sending to ad pixels (spec section 19)
 
 ## CRM Webhook Rules
 
-- CRM is TBD (spec section 24) — webhook client must be universal
-- All events from spec section 11.3 must be implemented
-- Never store lead profiles in site DB — only pass to CRM
-- Always include anonymous_id + utm params in every webhook call
+- **CRM is live, not TBD** (confirmed 2026-06-16). It is the client's own custom CRM at
+  `crm.soroban.ua`; the form posts leads to its inbound endpoint via `CRM_WEBHOOK_URL`
+  (`/api/v1/crm/inbound/sila-slova-form`). The spec's §24 "TBD" is outdated.
+- **Auth is by a secret token embedded in `CRM_WEBHOOK_URL`** (capability-URL), NOT an
+  `Authorization: Bearer` header. Therefore `CRM_WEBHOOK_SECRET` is optional/unused for this
+  CRM — `/api/enroll` only adds a Bearer header if that env var is set (future-proofing).
+- Treat `CRM_WEBHOOK_URL` as a secret: never log it, never commit it (only `.env.example`
+  ships a blank template).
+- Lead payload shape the CRM expects: `title`, `phones[]`, `source`, `city`,
+  `comment?`, `source_information?`, `utm_*`. Server-validated by `src/lib/schemas/enroll.ts`.
+- Never store lead profiles in site DB — only pass to CRM.
+- Always include anonymous_id + utm params with every lead (currently carried in
+  `source_information` + `utm_*` fields).

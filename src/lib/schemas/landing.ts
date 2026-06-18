@@ -9,6 +9,10 @@ export const LandingSchema = z.object({
   meta: z.object({
     title: z.string().min(1),
     description: z.string().min(1),
+    // Единая og-картинка (`/og/og-default.jpg`) на всех лендингах — это СОЗНАТЕЛЬНОЕ
+    // решение, а не недоработка. Подпись превью (заголовок/описание) у каждого лендинга
+    // своя — её берёт Telegram/Google из <title>/<meta description>. Картинку при желании
+    // можно сделать пер-лендинговой позже (контентная задача), но это не обязательно.
     og_image: z.string().min(1),
   }),
   hero: z.object({

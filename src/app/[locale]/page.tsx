@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { setRequestLocale } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import { buildMetadata, siteUrl } from "./metadata";
 import { Hero } from "@/components/landing/Hero";
 import { Benefits } from "@/components/landing/Benefits";
@@ -20,7 +20,15 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  return buildMetadata({ locale });
+  // Главная сохраняет свои curated OG-заголовок/описание (короче основного title);
+  // остальные страницы теперь получают OG из собственных title/description.
+  const t = await getTranslations({ locale, namespace: "meta.home" });
+  return buildMetadata({
+    locale,
+    ogTitle: t("og_title"),
+    ogDescription: t("og_description"),
+    ogImageAlt: t("og_image_alt"),
+  });
 }
 
 // JSON-LD Course schema (spec section 18)
@@ -50,13 +58,14 @@ function CourseJsonLd({ locale }: { locale: string }) {
       "Independent decision making",
     ],
     "@id": `${siteUrl}/#course`,
-    image: `${siteUrl}/og-default.jpg`,
-    inLanguage: ["en", "ru", "uk"],
+    image: `${siteUrl}/og/og-default.jpg`,
+    inLanguage: ["en", "ru", "uk", "ro"],
     isAccessibleForFree: true,
     availableLanguage: [
       { "@type": "Language", name: "English", alternateName: "en" },
       { "@type": "Language", name: "Russian", alternateName: "ru" },
       { "@type": "Language", name: "Ukrainian", alternateName: "uk" },
+      { "@type": "Language", name: "Romanian", alternateName: "ro" },
     ],
   };
 

@@ -19,11 +19,28 @@ async function loadLanding(locale: string, slug: string): Promise<Landing | null
     locale,
     `${slug}.json`
   );
+
+  let raw: string;
   try {
-    const raw = await fs.readFile(filePath, "utf-8");
+    raw = await fs.readFile(filePath, "utf-8");
+  } catch (err) {
+    // Файла нет — легитимный 404 (запрос несуществующего slug). Любую другую
+    // I/O-ошибку НЕ маскируем.
+    if ((err as NodeJS.ErrnoException).code === "ENOENT") return null;
+    throw err;
+  }
+
+  // Файл есть, но битый JSON / не проходит схему — это ошибка КОНТЕНТА.
+  // Бросаем наружу, чтобы `next build` упал (ТЗ §13.1), а не отдавал молчаливый
+  // 404 на замороженный рекламный URL. См. также scripts/validate-content.ts.
+  try {
     return LandingSchema.parse(JSON.parse(raw));
-  } catch {
-    return null;
+  } catch (err) {
+    throw new Error(
+      `Invalid landing content: src/content/landings/${locale}/${slug}.json — ${
+        err instanceof Error ? err.message : String(err)
+      }`
+    );
   }
 }
 
@@ -61,28 +78,16 @@ export async function generateMetadata({
     ? landing.meta.og_image
     : `${siteUrl}${landing.meta.og_image}`;
 
-  const canonical = `${siteUrl}/${locale}/lp/${slug}`;
-
-  const base = await buildMetadata({
+  // buildMetadata уже строит правильный canonical (/[locale]/lp/[slug]) и
+  // languages со ВСЕМИ локалями + x-default для пути /lp/[slug]. Раньше тут был
+  // override alternates, который терял x-default (SEO-аудит S8) — он удалён.
+  return buildMetadata({
     locale,
     path: `/lp/${slug}`,
     title: landing.meta.title,
     description: landing.meta.description,
     imageUrl,
   });
-
-  return {
-    ...base,
-    alternates: {
-      canonical,
-      languages: {
-        en: `${siteUrl}/en/lp/${slug}`,
-        ru: `${siteUrl}/ru/lp/${slug}`,
-        uk: `${siteUrl}/uk/lp/${slug}`,
-        ro: `${siteUrl}/ro/lp/${slug}`,
-      },
-    },
-  };
 }
 
 function buildJsonLd(landing: Landing, locale: string, slug: string) {

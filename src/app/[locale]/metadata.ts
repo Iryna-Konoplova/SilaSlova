@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
-
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://sila-slova.vercel.app";
+import { siteUrl } from "@/lib/site-url";
 
 export type PageMetaOptions = {
   locale: string;
@@ -13,6 +12,12 @@ export type PageMetaOptions = {
   description?: string;
   /** Override the default OG image URL */
   imageUrl?: string;
+  /** Override the OG/Twitter title (defaults to the page title) */
+  ogTitle?: string;
+  /** Override the OG/Twitter description (defaults to the page description) */
+  ogDescription?: string;
+  /** Override the OG image alt text (defaults to the page title) */
+  ogImageAlt?: string;
 };
 
 /**
@@ -32,6 +37,9 @@ export async function buildMetadata({
   title,
   description,
   imageUrl,
+  ogTitle,
+  ogDescription,
+  ogImageAlt,
 }: PageMetaOptions): Promise<Metadata> {
   const t = await getTranslations({ locale, namespace: "meta.home" });
 
@@ -39,6 +47,14 @@ export async function buildMetadata({
   const resolvedDescription = description ?? t("description");
   const image = imageUrl ?? `${siteUrl}/og/og-default.jpg`;
   const canonical = `${siteUrl}/${locale}${path}`;
+
+  // OG/Twitter по умолчанию повторяют постраничные title/description, а не
+  // захардкоженные значения главной — иначе все лендинги/страницы шарят превью
+  // главной (бьёт по CTR в рекламе/шеринге). Главная передаёт свои curated OG
+  // через override-поля ниже.
+  const resolvedOgTitle = ogTitle ?? resolvedTitle;
+  const resolvedOgDescription = ogDescription ?? resolvedDescription;
+  const resolvedOgImageAlt = ogImageAlt ?? resolvedTitle;
 
   return {
     title: resolvedTitle,
@@ -55,8 +71,8 @@ export async function buildMetadata({
       },
     },
     openGraph: {
-      title: t("og_title"),
-      description: t("og_description"),
+      title: resolvedOgTitle,
+      description: resolvedOgDescription,
       url: canonical,
       siteName: "Syla Slova",
       type: "website",
@@ -66,14 +82,14 @@ export async function buildMetadata({
           url: image,
           width: 1200,
           height: 630,
-          alt: t("og_image_alt"),
+          alt: resolvedOgImageAlt,
         },
       ],
     },
     twitter: {
       card: "summary_large_image",
-      title: resolvedTitle,
-      description: resolvedDescription,
+      title: resolvedOgTitle,
+      description: resolvedOgDescription,
       images: [image],
     },
     robots: {

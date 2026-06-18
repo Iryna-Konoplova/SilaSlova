@@ -191,9 +191,34 @@ export function EnrollForm({ onSuccess, className, source = "sila-slova" }: Prop
         <button
           type="submit"
           disabled={isSubmitting}
-          className="w-full rounded-xl bg-gradient-to-r from-accent-500 to-accent-600 py-3.5 text-sm font-semibold text-white shadow-lg shadow-orange-500/25 transition-all hover:from-accent-400 hover:to-accent-500 hover:shadow-orange-500/40 disabled:opacity-60 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-500"
+          aria-busy={isSubmitting}
+          aria-label={t("submit")}
+          className="flex w-full items-center justify-center rounded-xl bg-gradient-to-r from-accent-500 to-accent-600 py-3.5 text-sm font-semibold text-white shadow-lg shadow-orange-500/25 transition-all hover:from-accent-400 hover:to-accent-500 hover:shadow-orange-500/40 disabled:cursor-not-allowed disabled:opacity-60 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-500"
         >
-          {isSubmitting ? "..." : t("submit")}
+          {isSubmitting ? (
+            <svg
+              className="h-5 w-5 animate-spin"
+              viewBox="0 0 24 24"
+              fill="none"
+              aria-hidden="true"
+            >
+              <circle
+                className="opacity-25"
+                cx="12"
+                cy="12"
+                r="10"
+                stroke="currentColor"
+                strokeWidth="4"
+              />
+              <path
+                className="opacity-75"
+                fill="currentColor"
+                d="M4 12a8 8 0 0 1 8-8V0C5.373 0 0 5.373 0 12h4z"
+              />
+            </svg>
+          ) : (
+            t("submit")
+          )}
         </button>
 
         <p className="text-center text-xs leading-relaxed text-content-subtle">

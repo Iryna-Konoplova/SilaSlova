@@ -7,7 +7,9 @@ type Props = { params: Promise<{ locale: string }> };
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "demoPage" });
-  return { title: t("page_title") };
+  // Demo-движок ещё не реализован (placeholder «coming soon»). Пока закрыта от
+  // индексации и убрана из sitemap — вернуть index при появлении рабочего demo.
+  return { title: t("page_title"), robots: { index: false } };
 }
 
 export default async function DemoPage({ params }: Props) {
