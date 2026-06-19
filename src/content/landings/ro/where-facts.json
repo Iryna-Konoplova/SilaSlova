@@ -1,0 +1,70 @@
+{
+  "slug": "where-facts",
+  "audience": "parent",
+  "locale": "ro",
+  "meta": {
+    "title": "«Tare, emoțional… dar unde sunt faptele?» — cum să-ți înveți copilul să recunoască demagogia | Forța Cuvântului",
+    "description": "Învățați copilul să pună o singură întrebare — «unde sunt faptele?» — și să nu confunde siguranța cu adevărul. Curs în format de joc pentru copii de 8–12 ani.",
+    "og_image": "/og/og-default.jpg"
+  },
+  "hero": {
+    "headline": "Copilul aude un discurs sigur și emoțional — și deja crede că e adevărat?",
+    "subheadline": "«Asta e cel mai bun!», «e o catastrofă!», «toți normalii au făcut-o deja!». Cuvinte puternice, un ton sigur — și atât e de ajuns. Copilul reacționează la prezentare, nu la conținut.",
+    "cta_primary": { "text": "Înscrie-te la curs", "target": "/sign-up" },
+    "cta_secondary": { "text": "Joacă demo", "target": "/demo" },
+    "media": { "type": "image", "src": "/images/where-facts.jpg", "alt": "Un copil captivat de un discurs tare și emoțional care nu conține niciun fapt" }
+  },
+  "pain": {
+    "title": "Multă emoție, multe cuvinte — și niciun fapt",
+    "body": "Copilul aude un discurs sigur, emoțional — și pare că e adevărat. «Asta e cel mai bun!», «e o catastrofă!», «toți normalii au făcut-o deja!» — la școală, pe internet, în videoclipuri. Cuvinte puternice, un ton sigur — și atât e de ajuns ca să creadă.\n\nDar acestea nu sunt argumente, ci demagogie. Multe cuvinte, multă emoție — dar niciun fapt. Sună convingător, însă nu dovedește nimic. Copilul reacționează la prezentare, nu la conținut.\n\nFără abilitatea de a observa asta, copilul confundă siguranța cu adevărul. Consecința — este de acord cu ceva ce nici măcar nu a fost argumentat. Nu pentru că «se lasă păcălit», ci pentru că e firesc să reacționezi la emoție."
+  },
+  "solution": {
+    "title": "«Forța Cuvântului» — o dramă detectivistică ce învață să gândești",
+    "body": "40 de episoade, 13 lecții de gândire critică. Copilul se joacă — dar de fapt învață să se apere prin cuvinte.",
+    "bullets": [
+      "🔍 Deosebește prezentarea sigură de un argument real",
+      "❓ Pune o singură întrebare — «unde sunt faptele?» — și caută baza din spatele cuvintelor",
+      "🧠 Înțelege: doar emoția nu este o dovadă",
+      "🛡️ Nu crede cuvintele tari și goale, oricât de sigure ar suna"
+    ]
+  },
+  "social_proof": {
+    "quote": "Înainte lua orice videoclip sigur drept adevăr. Acum întreabă «unde sunt faptele?» — și se vede imediat cât de des nu e nimic în spatele cuvintelor.",
+    "author": "Serhii, tatăl lui Maksym de 11 ani",
+    "stats": [
+      { "label": "Copii au finalizat cursul", "value": "2.400+" },
+      { "label": "Părinți mulțumiți", "value": "94%" },
+      { "label": "Vârsta optimă", "value": "8–12 ani" }
+    ]
+  },
+  "faq_label": "ÎNTREBĂRI FRECVENTE",
+  "faq_title": "Întrebări despre curs",
+  "faq": [
+    {
+      "q": "Este un joc sau un curs educațional?",
+      "a": "Ambele formule în același timp. «Forța Cuvântului» arată ca un serial detectivistic, dar în fiecare episod este ascunsă o lecție de gândire critică."
+    },
+    {
+      "q": "De la ce vârstă se poate începe?",
+      "a": "Optim — 8–12 ani. La această vârstă, copiii sunt cei mai receptivi la noi tipare de gândire și nu și-au format încă prejudecăți stabile."
+    },
+    {
+      "q": "Cât timp este necesar zilnic?",
+      "a": "15–20 de minute pe episod. Program flexibil — copilul poate reveni oricând îi convine."
+    },
+    {
+      "q": "Este necesară înregistrarea pentru demo?",
+      "a": "Nu. Episodul demo este complet deschis — fără înregistrare, fără abonament, fără introducerea datelor."
+    }
+  ],
+  "final_cta": {
+    "headline": "Oferă-i copilului tău superputerea gândirii critice",
+    "subheadline": "Episodul 1 · Dimineața fără soră\nMama spune că sora nu a existat niciodată. La școală nu o cunosc pe Sofia. Dar Marco își amintește râsul ei — și jurnalul din mâinile lui este real…",
+    "cta_text": "Joacă demo acum"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

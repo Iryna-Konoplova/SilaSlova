@@ -1,0 +1,70 @@
+{
+  "slug": "three-in-one",
+  "audience": "parent",
+  "locale": "en",
+  "meta": {
+    "title": "\"Why did you take it and not say anything?\" — how one question hides three and makes your child look guilty | Sila Slova",
+    "description": "Teach your child to break tangled questions into parts and answer one at a time instead of looking guilty. Game-based course for children aged 8–12.",
+    "og_image": "/og/og-default.jpg"
+  },
+  "hero": {
+    "headline": "\"Why did you take it and not say anything?\" — and your child doesn't know which part to answer first?",
+    "subheadline": "Three questions hidden inside one. Your child answers one — and looks guilty for the rest. This isn't confusion: the question was tangled on purpose.",
+    "cta_primary": { "text": "Sign up for the course", "target": "/sign-up" },
+    "cta_secondary": { "text": "Play demo", "target": "/demo" },
+    "media": { "type": "image", "src": "/images/three-in-one.jpg", "alt": "A child going silent, stuck because several questions are hidden inside one" }
+  },
+  "pain": {
+    "title": "One question — but three inside it",
+    "body": "\"Why did you take it and not say anything?\", \"when will you stop doing this?\", \"why didn't you do it and didn't warn anyone?\" — at school, at home, in everyday conversation. Your child answers — but something is always \"off\". Because they only answered one part.\n\nThis isn't one question — it's several, stitched into a single sentence: multiple statements and multiple questions at once. To answer properly, you first have to pull them apart. But without the skill to notice that, the child tries to answer everything at once — and comes across as muddled, guilty or lost.\n\nThe result — they lose the conversation before they've even opened their mouth. Not because they're guilty, but because the question was built so that no clean answer is possible."
+  },
+  "solution": {
+    "title": "\"Sila Slova\" — a detective drama that teaches critical thinking",
+    "body": "40 episodes, 13 critical thinking lessons. Your child plays — but is actually learning to defend themselves with words.",
+    "bullets": [
+      "🔍 Hears that one question is actually several — and says so out loud",
+      "🧩 Breaks a tangled question into parts and answers one at a time",
+      "💬 Understands: not one question means not one answer",
+      "🛡️ Doesn't get muddled or look guilty when a question is made complicated on purpose"
+    ]
+  },
+  "social_proof": {
+    "quote": "Compound questions used to make him freeze and go quiet. Now he calmly says \"that's two questions\" — and answers each one separately.",
+    "author": "Oksana, mum of 10-year-old Artem",
+    "stats": [
+      { "label": "Children completed the course", "value": "2,400+" },
+      { "label": "Satisfied parents", "value": "94%" },
+      { "label": "Optimal age", "value": "8–12 yrs" }
+    ]
+  },
+  "faq_label": "FAQ",
+  "faq_title": "Questions about the course",
+  "faq": [
+    {
+      "q": "Is it a game or a learning course?",
+      "a": "Both at the same time. \"Sila Slova\" looks like a detective series, but every episode contains a hidden critical thinking lesson."
+    },
+    {
+      "q": "What age is it suitable for?",
+      "a": "Ideal for 8–12 year olds. At this age, children are most receptive to new thinking patterns and haven't yet formed rigid biases."
+    },
+    {
+      "q": "How much time is needed each day?",
+      "a": "15–20 minutes per episode. Flexible schedule — your child can come back at any convenient time."
+    },
+    {
+      "q": "Is registration required for the demo?",
+      "a": "No. The demo episode is fully open — no registration, no subscription, no personal data required."
+    }
+  ],
+  "final_cta": {
+    "headline": "Give your child the superpower of critical thinking",
+    "subheadline": "Episode 1 · Morning Without a Sister\nMum says there was never a sister. The school doesn't remember Sofia. But Marco remembers her laugh — and the diary in his hands is real…",
+    "cta_text": "Play demo now"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

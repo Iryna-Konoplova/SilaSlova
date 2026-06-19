@@ -1,0 +1,70 @@
+{
+  "slug": "disagree-calmly",
+  "audience": "parent",
+  "locale": "en",
+  "meta": {
+    "title": "\"You can disagree — without falling out\" — how to teach your child constructive pushback | Sila Slova",
+    "description": "Teach your child to say \"I think differently\" calmly and on the merits, without it turning into conflict. Ready-made phrasings. Game-based course for children aged 8–12.",
+    "og_image": "/og/og-default.jpg"
+  },
+  "hero": {
+    "headline": "Your child disagrees — but stays quiet because they're afraid of a fight?",
+    "subheadline": "\"It'll cause a conflict\", \"they'll be offended\", \"a fight will start\". So they either silently agree or snap — and a fight really does break out. Because there's no other way to say it.",
+    "cta_primary": { "text": "Sign up for the course", "target": "/sign-up" },
+    "cta_secondary": { "text": "Play demo", "target": "/demo" },
+    "media": { "type": "image", "src": "/images/disagree-calmly.jpg", "alt": "A child staying silent, not daring to say they think differently" }
+  },
+  "pain": {
+    "title": "Disagreement isn't a fight",
+    "body": "Your child disagrees — but is afraid to say so. Because \"it'll cause a conflict\", \"they'll be offended\", \"a fight will start\". At school, with friends, at home. They either stay quiet and go along with it, or speak sharply — and a fight really does break out.\n\nBut disagreement isn't a fight. It's not about thinking differently — it's about how it's said. Without the skill, any \"no\" sounds like an attack and triggers conflict. With no alternative, the child picks either silence or sharpness.\n\nThe result — either their position simply isn't there, or the relationship suffers. Not because they're avoiding things, but because they have no way to say \"I think differently\" without it landing like a blow."
+  },
+  "solution": {
+    "title": "\"Sila Slova\" — a detective drama that teaches critical thinking",
+    "body": "40 episodes, 13 critical thinking lessons. Your child plays — but is actually learning to defend themselves with words.",
+    "bullets": [
+      "🗣️ Gets ready-made phrasings for disagreeing calmly and on the merits",
+      "🧠 Understands: it's not about thinking differently, it's about how you say it",
+      "💬 Holds their position without breaking the conversation",
+      "🛡️ Can say \"I think differently\" and stay on good terms"
+    ]
+  },
+  "social_proof": {
+    "quote": "She used to silently agree just to avoid a fight. Now she calmly says \"I think differently\" — and doesn't fall out with anyone.",
+    "author": "Olena, mum of 10-year-old Maria",
+    "stats": [
+      { "label": "Children completed the course", "value": "2,400+" },
+      { "label": "Satisfied parents", "value": "94%" },
+      { "label": "Optimal age", "value": "8–12 yrs" }
+    ]
+  },
+  "faq_label": "FAQ",
+  "faq_title": "Questions about the course",
+  "faq": [
+    {
+      "q": "Is it a game or a learning course?",
+      "a": "Both at the same time. \"Sila Slova\" looks like a detective series, but every episode contains a hidden critical thinking lesson."
+    },
+    {
+      "q": "What age is it suitable for?",
+      "a": "Ideal for 8–12 year olds. At this age, children are most receptive to new thinking patterns and haven't yet formed rigid biases."
+    },
+    {
+      "q": "How much time is needed each day?",
+      "a": "15–20 minutes per episode. Flexible schedule — your child can come back at any convenient time."
+    },
+    {
+      "q": "Is registration required for the demo?",
+      "a": "No. The demo episode is fully open — no registration, no subscription, no personal data required."
+    }
+  ],
+  "final_cta": {
+    "headline": "Give your child the superpower of critical thinking",
+    "subheadline": "Episode 1 · Morning Without a Sister\nMum says there was never a sister. The school doesn't remember Sofia. But Marco remembers her laugh — and the diary in his hands is real…",
+    "cta_text": "Play demo now"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

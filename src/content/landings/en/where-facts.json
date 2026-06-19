@@ -1,0 +1,70 @@
+{
+  "slug": "where-facts",
+  "audience": "parent",
+  "locale": "en",
+  "meta": {
+    "title": "\"Loud, emotional… but where are the facts?\" — how to teach your child to spot empty rhetoric | Sila Slova",
+    "description": "Teach your child to ask one simple question — \"where are the facts?\" — and stop mistaking confidence for truth. Game-based course for children aged 8–12.",
+    "og_image": "/og/og-default.jpg"
+  },
+  "hero": {
+    "headline": "Your child hears a confident, emotional speech — and already believes it's true?",
+    "subheadline": "\"This is the best!\", \"this is a disaster!\", \"everyone normal has already done it!\". Strong words, a confident voice — and that's enough. Your child reacts to the delivery, not the content.",
+    "cta_primary": { "text": "Sign up for the course", "target": "/sign-up" },
+    "cta_secondary": { "text": "Play demo", "target": "/demo" },
+    "media": { "type": "image", "src": "/images/where-facts.jpg", "alt": "A child captivated by a loud, emotional speech that contains no facts" }
+  },
+  "pain": {
+    "title": "Lots of emotion, lots of words — and not a single fact",
+    "body": "Your child hears a confident, emotional speech — and it feels true. \"This is the best!\", \"this is a disaster!\", \"everyone normal has already done it!\" — at school, online, in videos. Strong words, a confident voice — and that's enough to believe it.\n\nBut these aren't arguments — it's empty rhetoric. Lots of words, lots of emotion — but not a single fact. It sounds convincing, yet it proves nothing. The child reacts to the delivery, not the content.\n\nWithout the skill to spot it, the child mistakes confidence for truth. The result — they agree with something that was never even backed up. Not because they're \"gullible\", but because reacting to emotion is natural."
+  },
+  "solution": {
+    "title": "\"Sila Slova\" — a detective drama that teaches critical thinking",
+    "body": "40 episodes, 13 critical thinking lessons. Your child plays — but is actually learning to defend themselves with words.",
+    "bullets": [
+      "🔍 Tells confident delivery apart from a real argument",
+      "❓ Asks one simple question — \"where are the facts?\" — and looks for the basis behind the words",
+      "🧠 Understands: emotion alone is not proof",
+      "🛡️ Doesn't believe loud, empty words, no matter how confident they sound"
+    ]
+  },
+  "social_proof": {
+    "quote": "He used to take any confident video as the truth. Now he asks \"where are the facts?\" — and it's immediately clear how often there's nothing behind the words.",
+    "author": "Serhii, dad of 11-year-old Maksym",
+    "stats": [
+      { "label": "Children completed the course", "value": "2,400+" },
+      { "label": "Satisfied parents", "value": "94%" },
+      { "label": "Optimal age", "value": "8–12 yrs" }
+    ]
+  },
+  "faq_label": "FAQ",
+  "faq_title": "Questions about the course",
+  "faq": [
+    {
+      "q": "Is it a game or a learning course?",
+      "a": "Both at the same time. \"Sila Slova\" looks like a detective series, but every episode contains a hidden critical thinking lesson."
+    },
+    {
+      "q": "What age is it suitable for?",
+      "a": "Ideal for 8–12 year olds. At this age, children are most receptive to new thinking patterns and haven't yet formed rigid biases."
+    },
+    {
+      "q": "How much time is needed each day?",
+      "a": "15–20 minutes per episode. Flexible schedule — your child can come back at any convenient time."
+    },
+    {
+      "q": "Is registration required for the demo?",
+      "a": "No. The demo episode is fully open — no registration, no subscription, no personal data required."
+    }
+  ],
+  "final_cta": {
+    "headline": "Give your child the superpower of critical thinking",
+    "subheadline": "Episode 1 · Morning Without a Sister\nMum says there was never a sister. The school doesn't remember Sofia. But Marco remembers her laugh — and the diary in his hands is real…",
+    "cta_text": "Play demo now"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

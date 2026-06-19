@@ -1,0 +1,70 @@
+{
+  "slug": "argue-not-attack",
+  "audience": "parent",
+  "locale": "en",
+  "meta": {
+    "title": "\"Are you disagreeing or attacking?\" — how to teach your child to argue on the merits, without conflict | Sila Slova",
+    "description": "Teach your child to separate the idea from the person: disagree on the merits and not make it personal. Game-based course for children aged 8–12.",
+    "og_image": "/og/og-default.jpg"
+  },
+  "hero": {
+    "headline": "Your child disagrees — and the conversation instantly turns into a fight?",
+    "subheadline": "\"You don't understand anything\", \"you're one to talk\", \"there's no point talking to you\". Instead of a discussion — an attack. Because your child can't tell disagreement from an attack.",
+    "cta_primary": { "text": "Sign up for the course", "target": "/sign-up" },
+    "cta_secondary": { "text": "Play demo", "target": "/demo" },
+    "media": { "type": "image", "src": "/images/argue-not-attack.jpg", "alt": "Two children in an argument that escalates into conflict instead of discussion" }
+  },
+  "pain": {
+    "title": "Disagreement or attack — and any \"no\" turns into a fight",
+    "body": "Your child says \"I think differently\" — and the conversation instantly explodes. \"You don't understand anything\", \"you're one to talk\", \"there's no point talking to you\" — at school, in chats, in everyday conversation. Instead of a discussion, an attack begins. The child either fires back or goes silent.\n\nBut disagreement isn't an attack. You can disagree with an idea without touching the person. When the two get mixed up, any \"I think differently\" feels like a personal insult — both theirs and the other person's.\n\nWithout the skill to separate the position from the person, the conversation quickly turns into a quarrel. The result — the child either \"fights with words\" or stops speaking up altogether. Not because they're aggressive, but because they don't see the difference between \"I disagree\" and \"you're bad\"."
+  },
+  "solution": {
+    "title": "\"Sila Slova\" — a detective drama that teaches critical thinking",
+    "body": "40 episodes, 13 critical thinking lessons. Your child plays — but is actually learning to defend themselves with words.",
+    "bullets": [
+      "🔍 Tells the difference between disagreeing with an idea and attacking a person",
+      "🧠 Argues on the merits without making it personal",
+      "💬 Understands: you can disagree and still stay in a normal conversation",
+      "🛡️ Stands up for their opinion without blowing up into conflict or going silent"
+    ]
+  },
+  "social_proof": {
+    "quote": "Any disagreement used to end in a fight. Now she says \"I don't agree with this\" — and it's not an insult, just a different opinion.",
+    "author": "Iryna, mum of 12-year-old Sofia",
+    "stats": [
+      { "label": "Children completed the course", "value": "2,400+" },
+      { "label": "Satisfied parents", "value": "94%" },
+      { "label": "Optimal age", "value": "8–12 yrs" }
+    ]
+  },
+  "faq_label": "FAQ",
+  "faq_title": "Questions about the course",
+  "faq": [
+    {
+      "q": "Is it a game or a learning course?",
+      "a": "Both at the same time. \"Sila Slova\" looks like a detective series, but every episode contains a hidden critical thinking lesson."
+    },
+    {
+      "q": "What age is it suitable for?",
+      "a": "Ideal for 8–12 year olds. At this age, children are most receptive to new thinking patterns and haven't yet formed rigid biases."
+    },
+    {
+      "q": "How much time is needed each day?",
+      "a": "15–20 minutes per episode. Flexible schedule — your child can come back at any convenient time."
+    },
+    {
+      "q": "Is registration required for the demo?",
+      "a": "No. The demo episode is fully open — no registration, no subscription, no personal data required."
+    }
+  ],
+  "final_cta": {
+    "headline": "Give your child the superpower of critical thinking",
+    "subheadline": "Episode 1 · Morning Without a Sister\nMum says there was never a sister. The school doesn't remember Sofia. But Marco remembers her laugh — and the diary in his hands is real…",
+    "cta_text": "Play demo now"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

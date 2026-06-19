@@ -1,0 +1,70 @@
+{
+  "slug": "three-in-one",
+  "audience": "parent",
+  "locale": "ro",
+  "meta": {
+    "title": "«De ce ai luat și nu ai spus?» — cum o singură întrebare ascunde trei și îți face copilul să pară vinovat | Forța Cuvântului",
+    "description": "Învățați copilul să descompună întrebările încurcate în părți și să răspundă pe rând, fără să pară vinovat. Curs în format de joc pentru copii de 8–12 ani.",
+    "og_image": "/og/og-default.jpg"
+  },
+  "hero": {
+    "headline": "«De ce ai luat și nu ai spus?» — și copilul nu știe la ce să răspundă primul?",
+    "subheadline": "Trei întrebări ascunse într-una singură. Copilul răspunde la una — și pare vinovat pentru restul. Nu e confuzie: întrebarea a fost încurcată intenționat.",
+    "cta_primary": { "text": "Înscrie-te la curs", "target": "/sign-up" },
+    "cta_secondary": { "text": "Joacă demo", "target": "/demo" },
+    "media": { "type": "image", "src": "/images/three-in-one.jpg", "alt": "Un copil care tace nedumerit, pentru că într-o singură întrebare sunt ascunse mai multe" }
+  },
+  "pain": {
+    "title": "O singură întrebare — dar trei înăuntru",
+    "body": "«De ce ai luat și nu ai spus?», «când o să încetezi să faci așa?», «de ce nu ai făcut și nici nu ai avertizat?» — la școală, acasă, într-o conversație obișnuită. Copilul răspunde — dar mereu e ceva «în neregulă». Pentru că a răspuns doar la o parte.\n\nNu e o singură întrebare, ci mai multe, cusute într-o singură frază: mai multe afirmații și mai multe întrebări deodată. Ca să răspundă corect, trebuie întâi să le separe. Dar fără abilitatea de a observa asta, copilul încearcă să răspundă la tot deodată — și sună încurcat, vinovat sau nedumerit.\n\nConsecința — pierde conversația înainte să fi deschis gura. Nu pentru că ar fi vinovat, ci pentru că întrebarea a fost construită astfel încât să nu se poată răspunde curat la ea."
+  },
+  "solution": {
+    "title": "«Forța Cuvântului» — o dramă detectivistică ce învață să gândești",
+    "body": "40 de episoade, 13 lecții de gândire critică. Copilul se joacă — dar de fapt învață să se apere prin cuvinte.",
+    "bullets": [
+      "🔍 Aude că o singură întrebare conține de fapt mai multe — și o spune cu voce tare",
+      "🧩 Descompune o întrebare încurcată în părți și răspunde pe rând",
+      "💬 Înțelege: dacă nu e o singură întrebare, nici răspunsul nu e unul singur",
+      "🛡️ Nu se încurcă și nu pare vinovat când întrebarea este complicată intenționat"
+    ]
+  },
+  "social_proof": {
+    "quote": "Înainte, întrebările compuse îl făceau să încremenească și să tacă. Acum spune calm «sunt două întrebări aici» — și răspunde la fiecare separat.",
+    "author": "Oksana, mama lui Artem de 10 ani",
+    "stats": [
+      { "label": "Copii au finalizat cursul", "value": "2.400+" },
+      { "label": "Părinți mulțumiți", "value": "94%" },
+      { "label": "Vârsta optimă", "value": "8–12 ani" }
+    ]
+  },
+  "faq_label": "ÎNTREBĂRI FRECVENTE",
+  "faq_title": "Întrebări despre curs",
+  "faq": [
+    {
+      "q": "Este un joc sau un curs educațional?",
+      "a": "Ambele formule în același timp. «Forța Cuvântului» arată ca un serial detectivistic, dar în fiecare episod este ascunsă o lecție de gândire critică."
+    },
+    {
+      "q": "De la ce vârstă se poate începe?",
+      "a": "Optim — 8–12 ani. La această vârstă, copiii sunt cei mai receptivi la noi tipare de gândire și nu și-au format încă prejudecăți stabile."
+    },
+    {
+      "q": "Cât timp este necesar zilnic?",
+      "a": "15–20 de minute pe episod. Program flexibil — copilul poate reveni oricând îi convine."
+    },
+    {
+      "q": "Este necesară înregistrarea pentru demo?",
+      "a": "Nu. Episodul demo este complet deschis — fără înregistrare, fără abonament, fără introducerea datelor."
+    }
+  ],
+  "final_cta": {
+    "headline": "Oferă-i copilului tău superputerea gândirii critice",
+    "subheadline": "Episodul 1 · Dimineața fără soră\nMama spune că sora nu a existat niciodată. La școală nu o cunosc pe Sofia. Dar Marco își amintește râsul ei — și jurnalul din mâinile lui este real…",
+    "cta_text": "Joacă demo acum"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

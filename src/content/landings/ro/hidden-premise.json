@@ -1,0 +1,70 @@
+{
+  "slug": "hidden-premise",
+  "audience": "parent",
+  "locale": "ro",
+  "meta": {
+    "title": "«De ce nu îți place să citești?» — cum o întrebare îți face copilul să fie de acord înainte să răspundă | Forța Cuvântului",
+    "description": "Învățați copilul să observe presupunerea ascunsă dintr-o întrebare și să o verifice înainte de a fi de acord. Curs în format de joc pentru copii de 8–12 ani.",
+    "og_image": "/og/og-default.jpg"
+  },
+  "hero": {
+    "headline": "«De ce nu îți place să citești?» — și copilul a și început să explice de ce?",
+    "subheadline": "Răspunsul este deja inclus în întrebare. Răspunzând, copilul acceptă ceva ce putea să nici nu fie adevărat. A fost făcut să fie de acord înainte să răspundă.",
+    "cta_primary": { "text": "Înscrie-te la curs", "target": "/sign-up" },
+    "cta_secondary": { "text": "Joacă demo", "target": "/demo" },
+    "media": { "type": "image", "src": "/images/hidden-premise.jpg", "alt": "Un copil care începe să se justifice fără să observe presupunerea din întrebare" }
+  },
+  "pain": {
+    "title": "O întrebare care conține deja răspunsul",
+    "body": "«De ce nu îți place să citești?», «când o să încetezi să întârzii?», «de ce ai făcut-o din nou?» — la școală, acasă, în conversații. Copilul începe să răspundă — și nici nu observă că deja a fost de acord cu ceva ce putea să nici nu fie adevărat.\n\nNu e doar o întrebare, ci o întrebare cu o presupunere ascunsă. Înainte să răspundă, copilul acceptă deja condiția construită înăuntru: că «nu îi place să citească», că «întârzie», că a făcut-o «din nou». Iar conversația merge mai departe ca și cum ar fi adevărat.\n\nFără abilitatea de a observa asta, copilul este de acord automat. Consecința — acceptă versiunea de realitate a altcuiva fără măcar să o verifice. Nu pentru că nu gândește, ci pentru că nu vede că întrebarea conține deja o afirmație."
+  },
+  "solution": {
+    "title": "«Forța Cuvântului» — o dramă detectivistică ce învață să gândești",
+    "body": "40 de episoade, 13 lecții de gândire critică. Copilul se joacă — dar de fapt învață să se apere prin cuvinte.",
+    "bullets": [
+      "🔍 Observă presupunerea ascunsă înainte de a începe să răspundă",
+      "🧠 Înțelege că a răspunde la o astfel de întrebare înseamnă a fi deja de acord cu ea",
+      "❓ Verifică întâi ce este ascuns în întrebare, apoi decide dacă să fie de acord",
+      "🛡️ Nu acceptă automat versiunea de realitate a altcuiva"
+    ]
+  },
+  "social_proof": {
+    "quote": "Înainte începea imediat să se justifice. Acum întreabă «de unde știi că nu îmi place să citesc?» — și nu acceptă ceea ce nu a fost.",
+    "author": "Natalia, mama lui Denys de 11 ani",
+    "stats": [
+      { "label": "Copii au finalizat cursul", "value": "2.400+" },
+      { "label": "Părinți mulțumiți", "value": "94%" },
+      { "label": "Vârsta optimă", "value": "8–12 ani" }
+    ]
+  },
+  "faq_label": "ÎNTREBĂRI FRECVENTE",
+  "faq_title": "Întrebări despre curs",
+  "faq": [
+    {
+      "q": "Este un joc sau un curs educațional?",
+      "a": "Ambele formule în același timp. «Forța Cuvântului» arată ca un serial detectivistic, dar în fiecare episod este ascunsă o lecție de gândire critică."
+    },
+    {
+      "q": "De la ce vârstă se poate începe?",
+      "a": "Optim — 8–12 ani. La această vârstă, copiii sunt cei mai receptivi la noi tipare de gândire și nu și-au format încă prejudecăți stabile."
+    },
+    {
+      "q": "Cât timp este necesar zilnic?",
+      "a": "15–20 de minute pe episod. Program flexibil — copilul poate reveni oricând îi convine."
+    },
+    {
+      "q": "Este necesară înregistrarea pentru demo?",
+      "a": "Nu. Episodul demo este complet deschis — fără înregistrare, fără abonament, fără introducerea datelor."
+    }
+  ],
+  "final_cta": {
+    "headline": "Oferă-i copilului tău superputerea gândirii critice",
+    "subheadline": "Episodul 1 · Dimineața fără soră\nMama spune că sora nu a existat niciodată. La școală nu o cunosc pe Sofia. Dar Marco își amintește râsul ei — și jurnalul din mâinile lui este real…",
+    "cta_text": "Joacă demo acum"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

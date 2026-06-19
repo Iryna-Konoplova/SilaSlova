@@ -1,0 +1,70 @@
+{
+  "slug": "hidden-premise",
+  "audience": "parent",
+  "locale": "en",
+  "meta": {
+    "title": "\"Why don't you like reading?\" — how a question makes your child agree before they even answer | Sila Slova",
+    "description": "Teach your child to spot the hidden assumption in a question and check it before agreeing. Game-based course for children aged 8–12.",
+    "og_image": "/og/og-default.jpg"
+  },
+  "hero": {
+    "headline": "\"Why don't you like reading?\" — and your child has already started explaining why?",
+    "subheadline": "The answer is already built into the question. By answering, your child agrees to something that may not even be true. They were made to agree before they answered.",
+    "cta_primary": { "text": "Sign up for the course", "target": "/sign-up" },
+    "cta_secondary": { "text": "Play demo", "target": "/demo" },
+    "media": { "type": "image", "src": "/images/hidden-premise.jpg", "alt": "A child starting to defend themselves without noticing the assumption in the question" }
+  },
+  "pain": {
+    "title": "A question that already contains the answer",
+    "body": "\"Why don't you like reading?\", \"when will you stop being late?\", \"why did you do it again?\" — at school, at home, in everyday conversation. Your child starts answering — and doesn't even notice they've already agreed to something that may not be true.\n\nThis isn't just a question — it's a question with a hidden assumption. Before answering, the child already accepts the condition built inside it: that they \"don't like reading\", that they \"are late\", that they did it \"again\". And the conversation carries on as if it were true.\n\nWithout the skill to spot it, the child agrees automatically. The result — they accept someone else's version of reality without ever checking it. Not because they don't think, but because they don't see that the question already contains a claim."
+  },
+  "solution": {
+    "title": "\"Sila Slova\" — a detective drama that teaches critical thinking",
+    "body": "40 episodes, 13 critical thinking lessons. Your child plays — but is actually learning to defend themselves with words.",
+    "bullets": [
+      "🔍 Spots the hidden assumption before they start answering",
+      "🧠 Understands that answering such a question means already agreeing with it",
+      "❓ Checks what's hidden in the question first, then decides whether to agree",
+      "🛡️ Doesn't accept someone else's version of reality automatically"
+    ]
+  },
+  "social_proof": {
+    "quote": "He used to start defending himself right away. Now he asks \"what makes you think I don't like reading?\" — and refuses to accept what never happened.",
+    "author": "Natalia, mum of 11-year-old Denys",
+    "stats": [
+      { "label": "Children completed the course", "value": "2,400+" },
+      { "label": "Satisfied parents", "value": "94%" },
+      { "label": "Optimal age", "value": "8–12 yrs" }
+    ]
+  },
+  "faq_label": "FAQ",
+  "faq_title": "Questions about the course",
+  "faq": [
+    {
+      "q": "Is it a game or a learning course?",
+      "a": "Both at the same time. \"Sila Slova\" looks like a detective series, but every episode contains a hidden critical thinking lesson."
+    },
+    {
+      "q": "What age is it suitable for?",
+      "a": "Ideal for 8–12 year olds. At this age, children are most receptive to new thinking patterns and haven't yet formed rigid biases."
+    },
+    {
+      "q": "How much time is needed each day?",
+      "a": "15–20 minutes per episode. Flexible schedule — your child can come back at any convenient time."
+    },
+    {
+      "q": "Is registration required for the demo?",
+      "a": "No. The demo episode is fully open — no registration, no subscription, no personal data required."
+    }
+  ],
+  "final_cta": {
+    "headline": "Give your child the superpower of critical thinking",
+    "subheadline": "Episode 1 · Morning Without a Sister\nMum says there was never a sister. The school doesn't remember Sofia. But Marco remembers her laugh — and the diary in his hands is real…",
+    "cta_text": "Play demo now"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

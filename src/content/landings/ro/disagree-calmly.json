@@ -1,0 +1,70 @@
+{
+  "slug": "disagree-calmly",
+  "audience": "parent",
+  "locale": "ro",
+  "meta": {
+    "title": "«Poți să nu fii de acord — fără să te cerți» — cum să-ți înveți copilul rezistența constructivă | Forța Cuvântului",
+    "description": "Învățați copilul să spună «eu gândesc altfel» calm și la obiect, fără să ajungă la conflict. Formulări gata făcute. Curs în format de joc pentru copii de 8–12 ani.",
+    "og_image": "/og/og-default.jpg"
+  },
+  "hero": {
+    "headline": "Copilul nu e de acord — dar tace, pentru că se teme de ceartă?",
+    "subheadline": "«O să fie conflict», «o să se supere», «o să înceapă cearta». Așa că fie acceptă în tăcere, fie spune tăios — și cearta chiar izbucnește. Pentru că nu are alt mod de a o spune.",
+    "cta_primary": { "text": "Înscrie-te la curs", "target": "/sign-up" },
+    "cta_secondary": { "text": "Joacă demo", "target": "/demo" },
+    "media": { "type": "image", "src": "/images/disagree-calmly.jpg", "alt": "Un copil care tace, neîndrăznind să spună că gândește altfel" }
+  },
+  "pain": {
+    "title": "Dezacordul nu e încă o ceartă",
+    "body": "Copilul nu e de acord — dar se teme să spună. Pentru că «o să fie conflict», «o să se supere», «o să înceapă cearta». La școală, cu prietenii, acasă. Fie tace și acceptă, fie spune tăios — și cearta chiar izbucnește.\n\nDar dezacordul nu este o ceartă. Nu e vorba că gândește altfel, ci de cum este spus. Fără această abilitate, orice «nu» sună ca un atac și declanșează un conflict. Când nu are o alternativă, copilul alege fie tăcerea, fie asprimea.\n\nConsecința — fie poziția lui pur și simplu nu există, fie relațiile se strică. Nu pentru că evită, ci pentru că nu are un mod de a spune «eu gândesc altfel» fără ca asta să cadă ca o lovitură."
+  },
+  "solution": {
+    "title": "«Forța Cuvântului» — o dramă detectivistică ce învață să gândești",
+    "body": "40 de episoade, 13 lecții de gândire critică. Copilul se joacă — dar de fapt învață să se apere prin cuvinte.",
+    "bullets": [
+      "🗣️ Primește formulări gata făcute pentru a nu fi de acord calm și la obiect",
+      "🧠 Înțelege: nu e vorba că gândești altfel, ci de cum o spui",
+      "💬 Își păstrează poziția fără să distrugă conversația",
+      "🛡️ Poate spune «eu gândesc altfel» și să rămână în relații bune"
+    ]
+  },
+  "social_proof": {
+    "quote": "Înainte accepta în tăcere, doar ca să nu se certe. Acum spune calm «eu gândesc altfel» — și nu se ceartă cu nimeni.",
+    "author": "Olena, mama Mariei de 10 ani",
+    "stats": [
+      { "label": "Copii au finalizat cursul", "value": "2.400+" },
+      { "label": "Părinți mulțumiți", "value": "94%" },
+      { "label": "Vârsta optimă", "value": "8–12 ani" }
+    ]
+  },
+  "faq_label": "ÎNTREBĂRI FRECVENTE",
+  "faq_title": "Întrebări despre curs",
+  "faq": [
+    {
+      "q": "Este un joc sau un curs educațional?",
+      "a": "Ambele formule în același timp. «Forța Cuvântului» arată ca un serial detectivistic, dar în fiecare episod este ascunsă o lecție de gândire critică."
+    },
+    {
+      "q": "De la ce vârstă se poate începe?",
+      "a": "Optim — 8–12 ani. La această vârstă, copiii sunt cei mai receptivi la noi tipare de gândire și nu și-au format încă prejudecăți stabile."
+    },
+    {
+      "q": "Cât timp este necesar zilnic?",
+      "a": "15–20 de minute pe episod. Program flexibil — copilul poate reveni oricând îi convine."
+    },
+    {
+      "q": "Este necesară înregistrarea pentru demo?",
+      "a": "Nu. Episodul demo este complet deschis — fără înregistrare, fără abonament, fără introducerea datelor."
+    }
+  ],
+  "final_cta": {
+    "headline": "Oferă-i copilului tău superputerea gândirii critice",
+    "subheadline": "Episodul 1 · Dimineața fără soră\nMama spune că sora nu a existat niciodată. La școală nu o cunosc pe Sofia. Dar Marco își amintește râsul ei — și jurnalul din mâinile lui este real…",
+    "cta_text": "Joacă demo acum"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

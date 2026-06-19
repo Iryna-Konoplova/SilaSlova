@@ -1,0 +1,70 @@
+{
+  "slug": "awkward-yes",
+  "audience": "parent",
+  "locale": "en",
+  "meta": {
+    "title": "\"You agree just to avoid the awkwardness\" — how to teach your child to separate their decisions from other people's emotions | Sila Slova",
+    "description": "Teach your child to spot manipulation through feelings and stop saying \"yes\" just because saying no feels awkward. Game-based course for children aged 8–12.",
+    "og_image": "/og/og-default.jpg"
+  },
+  "hero": {
+    "headline": "Your child says \"yes\" while inside it's a \"no\" — just to avoid the awkwardness?",
+    "subheadline": "\"Come on, you're a normal person\", \"what, is it too much to ask?\", \"don't be like that\". Nobody pushes directly — but saying no feels awkward. So the child agrees, just to make the discomfort go away.",
+    "cta_primary": { "text": "Sign up for the course", "target": "/sign-up" },
+    "cta_secondary": { "text": "Play demo", "target": "/demo" },
+    "media": { "type": "image", "src": "/images/awkward-yes.jpg", "alt": "A child agreeing uncomfortably even though they don't really want to" }
+  },
+  "pain": {
+    "title": "\"Yes\" not because they want to, but to avoid the awkwardness",
+    "body": "Your child says \"yes\" while inside it's a \"no\". \"Come on, you're a normal person\", \"what, is it too much to ask?\", \"don't be like that\" — at school, among friends, in conversation. Nobody pushes directly, but saying no feels awkward. The child agrees just to avoid that discomfort.\n\nBut this isn't a request — it's manipulation through feelings. An emotion is created in the child — shame, awkwardness, the fear of looking \"bad\". And the decision is made not out of desire, but to make that feeling disappear.\n\nWithout the skill to spot it, the child agrees automatically. The result — they do not what they want, but what's \"easier to get through\". Not because they're spineless, but because they're reacting to social pressure."
+  },
+  "solution": {
+    "title": "\"Sila Slova\" — a detective drama that teaches critical thinking",
+    "body": "40 episodes, 13 critical thinking lessons. Your child plays — but is actually learning to defend themselves with words.",
+    "bullets": [
+      "🔍 Spots the moment when awkwardness is being created to get a \"yes\"",
+      "🧠 Separates their own decision from other people's emotions",
+      "💬 Understands: \"I feel awkward\" is not a reason to agree",
+      "🛡️ Can say \"no\" even when it feels uncomfortable inside"
+    ]
+  },
+  "social_proof": {
+    "quote": "He used to agree to everything just to avoid feeling awkward. Now he calmly says \"no\" — and no longer does things he doesn't want to.",
+    "author": "Maryna, mum of 11-year-old Tymofii",
+    "stats": [
+      { "label": "Children completed the course", "value": "2,400+" },
+      { "label": "Satisfied parents", "value": "94%" },
+      { "label": "Optimal age", "value": "8–12 yrs" }
+    ]
+  },
+  "faq_label": "FAQ",
+  "faq_title": "Questions about the course",
+  "faq": [
+    {
+      "q": "Is it a game or a learning course?",
+      "a": "Both at the same time. \"Sila Slova\" looks like a detective series, but every episode contains a hidden critical thinking lesson."
+    },
+    {
+      "q": "What age is it suitable for?",
+      "a": "Ideal for 8–12 year olds. At this age, children are most receptive to new thinking patterns and haven't yet formed rigid biases."
+    },
+    {
+      "q": "How much time is needed each day?",
+      "a": "15–20 minutes per episode. Flexible schedule — your child can come back at any convenient time."
+    },
+    {
+      "q": "Is registration required for the demo?",
+      "a": "No. The demo episode is fully open — no registration, no subscription, no personal data required."
+    }
+  ],
+  "final_cta": {
+    "headline": "Give your child the superpower of critical thinking",
+    "subheadline": "Episode 1 · Morning Without a Sister\nMum says there was never a sister. The school doesn't remember Sofia. But Marco remembers her laugh — and the diary in his hands is real…",
+    "cta_text": "Play demo now"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

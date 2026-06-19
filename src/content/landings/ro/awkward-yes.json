@@ -1,0 +1,70 @@
+{
+  "slug": "awkward-yes",
+  "audience": "parent",
+  "locale": "ro",
+  "meta": {
+    "title": "«Ești de acord doar ca să nu fie incomod» — cum să-ți înveți copilul să separe deciziile de emoțiile altora | Forța Cuvântului",
+    "description": "Învățați copilul să observe manipularea prin sentimente și să nu spună «da» doar pentru că e incomod să refuze. Curs în format de joc pentru copii de 8–12 ani.",
+    "og_image": "/og/og-default.jpg"
+  },
+  "hero": {
+    "headline": "Copilul spune «da», deși înăuntru e «nu» — doar ca să nu fie incomod?",
+    "subheadline": "«Hai, doar ești om normal», «ce, îți pare rău?», «nu fi așa». Nimeni nu presează direct — dar să refuze devine incomod. Și copilul acceptă, doar ca disconfortul să dispară.",
+    "cta_primary": { "text": "Înscrie-te la curs", "target": "/sign-up" },
+    "cta_secondary": { "text": "Joacă demo", "target": "/demo" },
+    "media": { "type": "image", "src": "/images/awkward-yes.jpg", "alt": "Un copil care acceptă stânjenit, deși de fapt nu vrea" }
+  },
+  "pain": {
+    "title": "«Da» nu pentru că vrea, ci ca să nu fie incomod",
+    "body": "Copilul spune «da», deși înăuntru e «nu». «Hai, doar ești om normal», «ce, îți pare rău?», «nu fi așa» — la școală, printre prieteni, în comunicare. Nimeni nu presează direct, dar să refuze devine incomod. Copilul acceptă ca să nu simtă acest disconfort.\n\nDar asta nu e o rugăminte, ci o manipulare prin sentimente. I se creează o emoție — rușine, stânjeneală, frica de a părea «rău». Iar decizia este luată nu din dorință, ci ca acea senzație să dispară.\n\nFără abilitatea de a observa asta, copilul acceptă automat. Consecința — face nu ceea ce vrea, ci ceea ce e «mai ușor de suportat». Nu pentru că ar fi fără caracter, ci pentru că reacționează la presiunea socială."
+  },
+  "solution": {
+    "title": "«Forța Cuvântului» — o dramă detectivistică ce învață să gândești",
+    "body": "40 de episoade, 13 lecții de gândire critică. Copilul se joacă — dar de fapt învață să se apere prin cuvinte.",
+    "bullets": [
+      "🔍 Observă momentul în care i se creează disconfort ca să obțină un «da»",
+      "🧠 Separă propria decizie de emoțiile altora",
+      "💬 Înțelege: «îmi este incomod» nu este un motiv să fii de acord",
+      "🛡️ Poate spune «nu» chiar și când înăuntru devine incomod"
+    ]
+  },
+  "social_proof": {
+    "quote": "Înainte accepta orice doar ca să nu se simtă stânjenit. Acum spune calm «nu» — și nu mai face lucruri pe care nu le vrea.",
+    "author": "Maryna, mama lui Tymofii de 11 ani",
+    "stats": [
+      { "label": "Copii au finalizat cursul", "value": "2.400+" },
+      { "label": "Părinți mulțumiți", "value": "94%" },
+      { "label": "Vârsta optimă", "value": "8–12 ani" }
+    ]
+  },
+  "faq_label": "ÎNTREBĂRI FRECVENTE",
+  "faq_title": "Întrebări despre curs",
+  "faq": [
+    {
+      "q": "Este un joc sau un curs educațional?",
+      "a": "Ambele formule în același timp. «Forța Cuvântului» arată ca un serial detectivistic, dar în fiecare episod este ascunsă o lecție de gândire critică."
+    },
+    {
+      "q": "De la ce vârstă se poate începe?",
+      "a": "Optim — 8–12 ani. La această vârstă, copiii sunt cei mai receptivi la noi tipare de gândire și nu și-au format încă prejudecăți stabile."
+    },
+    {
+      "q": "Cât timp este necesar zilnic?",
+      "a": "15–20 de minute pe episod. Program flexibil — copilul poate reveni oricând îi convine."
+    },
+    {
+      "q": "Este necesară înregistrarea pentru demo?",
+      "a": "Nu. Episodul demo este complet deschis — fără înregistrare, fără abonament, fără introducerea datelor."
+    }
+  ],
+  "final_cta": {
+    "headline": "Oferă-i copilului tău superputerea gândirii critice",
+    "subheadline": "Episodul 1 · Dimineața fără soră\nMama spune că sora nu a existat niciodată. La școală nu o cunosc pe Sofia. Dar Marco își amintește râsul ei — și jurnalul din mâinile lui este real…",
+    "cta_text": "Joacă demo acum"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

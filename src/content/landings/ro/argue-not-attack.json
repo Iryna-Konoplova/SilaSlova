@@ -1,0 +1,70 @@
+{
+  "slug": "argue-not-attack",
+  "audience": "parent",
+  "locale": "ro",
+  "meta": {
+    "title": "«Nu ești de acord sau ataci?» — cum să-ți înveți copilul să argumenteze la obiect, fără conflict | Forța Cuvântului",
+    "description": "Învățați copilul să separe ideea de persoană: să nu fie de acord la obiect și să nu treacă la atacuri personale. Curs în format de joc pentru copii de 8–12 ani.",
+    "og_image": "/og/og-default.jpg"
+  },
+  "hero": {
+    "headline": "Copilul nu e de acord — și conversația trece imediat în ceartă?",
+    "subheadline": "«Nu înțelegi nimic», «tu vorbești», «n-are rost să vorbesc cu tine». În loc de discuție — un atac. Pentru că nu deosebește dezacordul de un atac.",
+    "cta_primary": { "text": "Înscrie-te la curs", "target": "/sign-up" },
+    "cta_secondary": { "text": "Joacă demo", "target": "/demo" },
+    "media": { "type": "image", "src": "/images/argue-not-attack.jpg", "alt": "Doi copii într-o ceartă care escaladează în conflict în loc de discuție" }
+  },
+  "pain": {
+    "title": "Dezacord sau atac — și orice «nu» devine o ceartă",
+    "body": "Copilul spune «eu gândesc altfel» — și conversația explodează instantaneu. «Nu înțelegi nimic», «tu vorbești», «n-are rost să vorbesc cu tine» — la școală, în chat-uri, în comunicarea de zi cu zi. În loc de discuție începe un atac. Copilul fie răspunde la fel, fie tace.\n\nDar dezacordul nu este un atac. Poți să nu fii de acord cu o idee fără să atingi persoana. Când cele două se amestecă, orice «eu gândesc altfel» este perceput ca o jignire personală — și a lui, și a celuilalt.\n\nFără abilitatea de a separa poziția de persoană, conversația trece repede în ceartă. Consecința — copilul fie «se bate cu vorbe», fie încetează cu totul să își spună părerea. Nu pentru că ar fi agresiv, ci pentru că nu vede diferența dintre «nu sunt de acord» și «ești rău»."
+  },
+  "solution": {
+    "title": "«Forța Cuvântului» — o dramă detectivistică ce învață să gândești",
+    "body": "40 de episoade, 13 lecții de gândire critică. Copilul se joacă — dar de fapt învață să se apere prin cuvinte.",
+    "bullets": [
+      "🔍 Deosebește dezacordul cu o idee de atacul asupra persoanei",
+      "🧠 Argumentează la obiect, fără să treacă la atacuri personale",
+      "💬 Înțelege: poți să nu fii de acord și să rămâi într-o conversație normală",
+      "🛡️ Își susține părerea fără să izbucnească în conflict și fără să tacă"
+    ]
+  },
+  "social_proof": {
+    "quote": "Înainte, orice dezacord se termina cu o ceartă. Acum spune «nu sunt de acord cu asta» — și nu e o jignire, ci doar o altă părere.",
+    "author": "Iryna, mama Sofiei de 12 ani",
+    "stats": [
+      { "label": "Copii au finalizat cursul", "value": "2.400+" },
+      { "label": "Părinți mulțumiți", "value": "94%" },
+      { "label": "Vârsta optimă", "value": "8–12 ani" }
+    ]
+  },
+  "faq_label": "ÎNTREBĂRI FRECVENTE",
+  "faq_title": "Întrebări despre curs",
+  "faq": [
+    {
+      "q": "Este un joc sau un curs educațional?",
+      "a": "Ambele formule în același timp. «Forța Cuvântului» arată ca un serial detectivistic, dar în fiecare episod este ascunsă o lecție de gândire critică."
+    },
+    {
+      "q": "De la ce vârstă se poate începe?",
+      "a": "Optim — 8–12 ani. La această vârstă, copiii sunt cei mai receptivi la noi tipare de gândire și nu și-au format încă prejudecăți stabile."
+    },
+    {
+      "q": "Cât timp este necesar zilnic?",
+      "a": "15–20 de minute pe episod. Program flexibil — copilul poate reveni oricând îi convine."
+    },
+    {
+      "q": "Este necesară înregistrarea pentru demo?",
+      "a": "Nu. Episodul demo este complet deschis — fără înregistrare, fără abonament, fără introducerea datelor."
+    }
+  ],
+  "final_cta": {
+    "headline": "Oferă-i copilului tău superputerea gândirii critice",
+    "subheadline": "Episodul 1 · Dimineața fără soră\nMama spune că sora nu a existat niciodată. La școală nu o cunosc pe Sofia. Dar Marco își amintește râsul ei — și jurnalul din mâinile lui este real…",
+    "cta_text": "Joacă demo acum"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}

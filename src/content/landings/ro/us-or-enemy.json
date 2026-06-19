@@ -1,0 +1,70 @@
+{
+  "slug": "us-or-enemy",
+  "audience": "parent",
+  "locale": "ro",
+  "meta": {
+    "title": "«Dacă nu ești cu noi, ești dușman» — cum să-ți înveți copilul să reziste presiunii grupului | Forța Cuvântului",
+    "description": "Învățați copilul să vadă presiunea «ai noștri/străini», să nu accepte rolurile impuse și să-și păstreze dreptul de a nu alege extremele. Curs în format de joc pentru copii de 8–12 ani.",
+    "og_image": "/og/og-default.jpg"
+  },
+  "hero": {
+    "headline": "«Ori ești cu noi, ori împotriva noastră» — și copilul alege o tabără doar ca să nu iasă din grup?",
+    "subheadline": "«Dacă nu susții — ești trădător», «toți normalii s-au hotărât deja». Nu e loc pentru părerea proprie — doar «de-al nostru» sau «străin». Copilul reacționează la frica de a fi respins.",
+    "cta_primary": { "text": "Înscrie-te la curs", "target": "/sign-up" },
+    "cta_secondary": { "text": "Joacă demo", "target": "/demo" },
+    "media": { "type": "image", "src": "/images/us-or-enemy.jpg", "alt": "Un copil atras în alegerea unei tabere între două grupuri de colegi" }
+  },
+  "pain": {
+    "title": "«De-al nostru» sau «străin» — și nu e loc pentru părerea proprie",
+    "body": "Copilul este forțat să aleagă o tabără. «Ori ești cu noi, ori împotriva noastră», «dacă nu susții ești trădător», «toți normalii s-au hotărât deja» — la școală, în grup, în chat-uri. Copilul simte presiunea și alege, doar ca să nu iasă din grup.\n\nDar asta nu e o poziție, ci presiunea grupului. Omul este forțat să aleagă o parte, chiar dacă situația e mai complicată. Și se adaugă emoții — «prieten/dușman», «de-al nostru/străin». Alegerea e redusă la două extreme, deși de fapt sunt mai multe.\n\nFără abilitatea de a observa asta, copilul este de acord doar ca să rămână «înăuntru». Consecința — renunță la părerea proprie în schimbul acceptării. Nu pentru că «cedează», ci pentru că reacționează la frica de a fi respins."
+  },
+  "solution": {
+    "title": "«Forța Cuvântului» — o dramă detectivistică ce învață să gândești",
+    "body": "40 de episoade, 13 lecții de gândire critică. Copilul se joacă — dar de fapt învață să se apere prin cuvinte.",
+    "bullets": [
+      "🔍 Vede presiunea «ori cu noi, ori împotriva noastră» și nu acceptă rolul impus",
+      "🧠 Înțelege: «de-al nostru/străin» este o emoție, nu o alegere reală",
+      "💬 Își păstrează dreptul de a nu alege extremele",
+      "🛡️ Poate să nu fie «împotrivă», chiar dacă nu este nici «pentru»"
+    ]
+  },
+  "social_proof": {
+    "quote": "Înainte trecea imediat de partea cuiva doar ca să nu rămână singură. Acum spune «nu sunt împotriva voastră, dar gândesc în felul meu» — și nu se lasă atrasă în tabere.",
+    "author": "Tetiana, mama Alinei de 12 ani",
+    "stats": [
+      { "label": "Copii au finalizat cursul", "value": "2.400+" },
+      { "label": "Părinți mulțumiți", "value": "94%" },
+      { "label": "Vârsta optimă", "value": "8–12 ani" }
+    ]
+  },
+  "faq_label": "ÎNTREBĂRI FRECVENTE",
+  "faq_title": "Întrebări despre curs",
+  "faq": [
+    {
+      "q": "Este un joc sau un curs educațional?",
+      "a": "Ambele formule în același timp. «Forța Cuvântului» arată ca un serial detectivistic, dar în fiecare episod este ascunsă o lecție de gândire critică."
+    },
+    {
+      "q": "De la ce vârstă se poate începe?",
+      "a": "Optim — 8–12 ani. La această vârstă, copiii sunt cei mai receptivi la noi tipare de gândire și nu și-au format încă prejudecăți stabile."
+    },
+    {
+      "q": "Cât timp este necesar zilnic?",
+      "a": "15–20 de minute pe episod. Program flexibil — copilul poate reveni oricând îi convine."
+    },
+    {
+      "q": "Este necesară înregistrarea pentru demo?",
+      "a": "Nu. Episodul demo este complet deschis — fără înregistrare, fără abonament, fără introducerea datelor."
+    }
+  ],
+  "final_cta": {
+    "headline": "Oferă-i copilului tău superputerea gândirii critice",
+    "subheadline": "Episodul 1 · Dimineața fără soră\nMama spune că sora nu a existat niciodată. La școală nu o cunosc pe Sofia. Dar Marco își amintește râsul ei — și jurnalul din mâinile lui este real…",
+    "cta_text": "Joacă demo acum"
+  },
+  "tracking": {
+    "fb_pixel_event": "ViewContent",
+    "tt_pixel_event": "ViewContent",
+    "ga_event": "landing_view"
+  }
+}
