@@ -1,0 +1,210 @@
+{
+  "uk": {
+    "title": "Політика конфіденційності",
+    "intro": "Ми поважаємо Вашу конфіденційність і дбаємо про безпеку Ваших персональних даних. Інформація, яку Ви залишаєте на сайті, використовується для зв'язку з Вами щодо навчання, формування навчальних груп, покращення сайту й послуг, а також — за Вашої згоди — для маркетингових повідомлень і вимірювання ефективності реклами. Ми не продаємо Ваші дані й передаємо їх лише в обсязі, описаному нижче.",
+    "sections": [
+      {
+        "heading": "Які дані Ви залишаєте на сайті",
+        "paragraphs": [
+          "Заповнюючи форму запису на курс, Ви добровільно залишаєте: ім'я батька або матері, номер телефону, місто та, за бажанням, короткий коментар. Форма не запитує вік чи інші дані дитини."
+        ]
+      },
+      {
+        "heading": "Кому ми передаємо дані",
+        "paragraphs": [
+          "Дані з форми запису передаються до нашої CRM-системи й використовуються для зв'язку з Вами та формування навчальних груп.",
+          "Якщо Ви надали згоду на cookie категорії «Маркетинг», псевдонімізовані (хешовані за SHA-256) контактні дані можуть передаватися до рекламних платформ — Meta, TikTok і Google — для вимірювання ефективності реклами. До моменту згоди такі передачі не відбуваються.",
+          "Ми не продаємо Ваші персональні дані та не передаємо їх іншим третім особам, окрім випадків, передбачених чинним законодавством."
+        ]
+      },
+      {
+        "heading": "Мета збору даних",
+        "paragraphs": [
+          "Ми збираємо контактні дані, щоб призначити зручний час для пробного уроку та відповісти на Ваші запитання. З Вашої згоди ми можемо надсилати повідомлення про нові можливості курсу та корисні матеріали. У будь-який момент Ви можете відмовитися від розсилки або видалити свої дані, написавши нам через форму зворотного зв'язку."
+        ]
+      },
+      {
+        "heading": "Аналітика та файли cookie",
+        "paragraphs": [
+          "Ми використовуємо аналітичні інструменти (PostHog, Google Analytics) для збору агрегованої та псевдонімізованої інформації про дії відвідувачів — це допомагає покращувати зручність сайту та якість контенту.",
+          "Аналітичні та рекламні інструменти (PostHog, Google Analytics, Meta Pixel, TikTok Pixel) завантажуються лише після Вашої явної згоди через банер cookie. Детальніше — у Політиці використання файлів cookie."
+        ]
+      },
+      {
+        "heading": "Взаємодія з соціальними мережами",
+        "paragraphs": [
+          "На сайті можуть бути посилання на сторінки «Сила Слова» у соціальних мережах. Переходячи за ними, Ви приймаєте умови відповідної платформи; дані, залишені на таких сторінках, обробляються згідно з їхніми власними політиками конфіденційності."
+        ]
+      },
+      {
+        "heading": "Захист даних",
+        "paragraphs": [
+          "Ми захищаємо Вашу інформацію за допомогою технічних та організаційних заходів безпеки. Наші співробітники ознайомлені з вимогами конфіденційності та зобов'язані їх дотримуватись."
+        ]
+      },
+      {
+        "heading": "Зміни до цієї політики",
+        "paragraphs": [
+          "У разі внесення змін оновлена версія буде опублікована на цій сторінці. У виняткових випадках ми можемо надіслати Вам повідомлення безпосередньо."
+        ]
+      }
+    ],
+    "updated": "Остання редакція: червень 2026 р. © Сила Слова"
+  },
+  "ru": {
+    "title": "Политика конфиденциальности",
+    "intro": "Мы уважаем вашу конфиденциальность и заботимся о безопасности ваших персональных данных. Информация, которую вы оставляете на сайте, используется для связи с вами по вопросам обучения, формирования учебных групп, улучшения сайта и услуг, а также — с вашего согласия — для маркетинговых сообщений и измерения эффективности рекламы. Мы не продаём ваши данные и передаём их только в объёме, описанном ниже.",
+    "sections": [
+      {
+        "heading": "Какие данные вы оставляете на сайте",
+        "paragraphs": [
+          "Заполняя форму записи на курс, вы добровольно оставляете: имя отца или матери, номер телефона, город и, по желанию, короткий комментарий. Форма не запрашивает возраст или другие данные ребёнка."
+        ]
+      },
+      {
+        "heading": "Кому мы передаём данные",
+        "paragraphs": [
+          "Данные из формы записи передаются в нашу CRM-систему и используются для связи с вами и формирования учебных групп.",
+          "Если вы дали согласие на cookie категории «Маркетинг», псевдонимизированные (хешированные SHA-256) контактные данные могут передаваться рекламным платформам — Meta, TikTok и Google — для измерения эффективности рекламы. До момента согласия такие передачи не происходят.",
+          "Мы не продаём ваши персональные данные и не передаём их другим третьим лицам, кроме случаев, предусмотренных действующим законодательством."
+        ]
+      },
+      {
+        "heading": "Цель сбора данных",
+        "paragraphs": [
+          "Мы собираем контактные данные, чтобы назначить удобное время для пробного урока и ответить на ваши вопросы. С вашего согласия мы можем присылать сообщения о новых возможностях курса и полезных материалах. В любой момент вы можете отказаться от рассылки или удалить свои данные, написав нам через форму обратной связи."
+        ]
+      },
+      {
+        "heading": "Аналитика и файлы cookie",
+        "paragraphs": [
+          "Мы используем аналитические инструменты (PostHog, Google Analytics) для сбора агрегированной и псевдонимизированной информации о действиях посетителей — это помогает улучшать удобство сайта и качество контента.",
+          "Аналитические и рекламные инструменты (PostHog, Google Analytics, Meta Pixel, TikTok Pixel) загружаются только после вашего явного согласия через баннер cookie. Подробнее — в Политике использования файлов cookie."
+        ]
+      },
+      {
+        "heading": "Взаимодействие с социальными сетями",
+        "paragraphs": [
+          "На сайте могут быть ссылки на страницы «Сила Слова» в социальных сетях. Переходя по ним, вы принимаете условия соответствующей платформы; данные, оставленные на таких страницах, обрабатываются согласно их собственным политикам конфиденциальности."
+        ]
+      },
+      {
+        "heading": "Защита данных",
+        "paragraphs": [
+          "Мы защищаем вашу информацию с помощью технических и организационных мер безопасности. Наши сотрудники ознакомлены с требованиями конфиденциальности и обязаны их соблюдать."
+        ]
+      },
+      {
+        "heading": "Изменения в этой политике",
+        "paragraphs": [
+          "В случае внесения изменений обновлённая версия будет опубликована на этой странице. В исключительных случаях мы можем уведомить вас напрямую."
+        ]
+      }
+    ],
+    "updated": "Последняя редакция: июнь 2026 г. © Сила Слова"
+  },
+  "en": {
+    "title": "Privacy Policy",
+    "intro": "We respect your privacy and take the security of your personal data seriously. The information you leave on the site is used to contact you about the courses, form study groups, improve the site and services, and — with your consent — send marketing messages and measure advertising effectiveness. We do not sell your data and share it only to the extent described below.",
+    "sections": [
+      {
+        "heading": "What data you leave on the site",
+        "paragraphs": [
+          "When filling in the course enrolment form, you voluntarily provide: a parent's name, a phone number, a city and, optionally, a short comment. The form does not ask for the child's age or any other details about the child."
+        ]
+      },
+      {
+        "heading": "Who we share data with",
+        "paragraphs": [
+          "Data from the enrolment form is sent to our CRM system and used to contact you and to form study groups.",
+          "If you have consented to the «Marketing» cookie category, pseudonymised (SHA-256 hashed) contact details may be shared with advertising platforms — Meta, TikTok and Google — to measure advertising effectiveness. No such transfer happens before you give consent.",
+          "We do not sell your personal data and do not share it with other third parties, except where required by applicable law."
+        ]
+      },
+      {
+        "heading": "Purpose of data collection",
+        "paragraphs": [
+          "We collect contact details to schedule a convenient time for a trial lesson and to answer your questions. With your consent, we may send you messages about new course opportunities and useful materials. You can opt out of the mailing or have your data deleted at any time by contacting us through the feedback form."
+        ]
+      },
+      {
+        "heading": "Analytics and cookies",
+        "paragraphs": [
+          "We use analytics tools (PostHog, Google Analytics) to collect aggregated and pseudonymised information about visitors' actions — this helps us improve the usability of the site and the quality of the content.",
+          "Analytics and advertising tools (PostHog, Google Analytics, Meta Pixel, TikTok Pixel) load only after your explicit consent via the cookie banner. See the Cookie Policy for details."
+        ]
+      },
+      {
+        "heading": "Interaction with social networks",
+        "paragraphs": [
+          "The site may contain links to Sila Slova pages on social networks. By following them, you accept the terms of the respective platform; any data you leave on such pages is processed in accordance with their own privacy policies."
+        ]
+      },
+      {
+        "heading": "Data protection",
+        "paragraphs": [
+          "We protect your information using technical and organisational security measures. Our staff are aware of confidentiality requirements and are obliged to follow them."
+        ]
+      },
+      {
+        "heading": "Changes to this policy",
+        "paragraphs": [
+          "If changes are made, the updated version will be published on this page. In exceptional cases, we may notify you directly."
+        ]
+      }
+    ],
+    "updated": "Last updated: June 2026. © Sila Slova"
+  },
+  "ro": {
+    "title": "Politica de confidențialitate",
+    "intro": "Respectăm confidențialitatea ta și ne preocupăm de securitatea datelor tale personale. Informațiile pe care le lași pe site sunt folosite pentru a te contacta în legătură cu cursurile, a forma grupele de studiu, a îmbunătăți site-ul și serviciile și — cu acordul tău — a trimite mesaje de marketing și a măsura eficiența reclamelor. Nu vindem datele tale și le transmitem doar în limitele descrise mai jos.",
+    "sections": [
+      {
+        "heading": "Ce date lași pe site",
+        "paragraphs": [
+          "Completând formularul de înscriere la curs, oferi în mod voluntar: numele unui părinte, numărul de telefon, orașul și, opțional, un scurt comentariu. Formularul nu solicită vârsta sau alte date despre copil."
+        ]
+      },
+      {
+        "heading": "Cui transmitem datele",
+        "paragraphs": [
+          "Datele din formularul de înscriere sunt trimise către sistemul nostru CRM și folosite pentru a te contacta și pentru formarea grupelor de studiu.",
+          "Dacă ți-ai dat acordul pentru categoria de cookie «Marketing», datele de contact pseudonimizate (hash SHA-256) pot fi transmise platformelor de publicitate — Meta, TikTok și Google — pentru a măsura eficiența reclamelor. Înainte de acordul tău, aceste transferuri nu au loc.",
+          "Nu vindem datele tale personale și nu le transmitem altor terți, cu excepția cazurilor prevăzute de legislația în vigoare."
+        ]
+      },
+      {
+        "heading": "Scopul colectării datelor",
+        "paragraphs": [
+          "Colectăm datele de contact pentru a stabili un moment convenabil pentru o lecție de probă și pentru a răspunde întrebărilor tale. Cu acordul tău, îți putem trimite mesaje despre noi oportunități ale cursului și materiale utile. În orice moment poți renunța la abonare sau îți poți șterge datele, scriindu-ne prin formularul de contact."
+        ]
+      },
+      {
+        "heading": "Analiză și fișiere cookie",
+        "paragraphs": [
+          "Folosim instrumente de analiză (PostHog, Google Analytics) pentru a colecta informații agregate și pseudonimizate despre acțiunile vizitatorilor — acest lucru ne ajută să îmbunătățim utilizarea site-ului și calitatea conținutului.",
+          "Instrumentele de analiză și publicitate (PostHog, Google Analytics, Meta Pixel, TikTok Pixel) se încarcă doar după acordul tău explicit prin bannerul de cookie. Mai multe detalii — în Politica privind fișierele cookie."
+        ]
+      },
+      {
+        "heading": "Interacțiunea cu rețelele sociale",
+        "paragraphs": [
+          "Site-ul poate conține linkuri către paginile Sila Slova din rețelele sociale. Accesându-le, accepți condițiile platformei respective; datele lăsate pe astfel de pagini sunt prelucrate conform propriilor politici de confidențialitate."
+        ]
+      },
+      {
+        "heading": "Protecția datelor",
+        "paragraphs": [
+          "Îți protejăm informațiile prin măsuri tehnice și organizatorice de securitate. Angajații noștri sunt familiarizați cu cerințele de confidențialitate și sunt obligați să le respecte."
+        ]
+      },
+      {
+        "heading": "Modificări ale acestei politici",
+        "paragraphs": [
+          "În cazul unor modificări, versiunea actualizată va fi publicată pe această pagină. În cazuri excepționale, te putem anunța direct."
+        ]
+      }
+    ],
+    "updated": "Ultima actualizare: iunie 2026. © Sila Slova"
+  }
+}

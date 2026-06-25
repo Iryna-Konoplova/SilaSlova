@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { useTranslations } from "next-intl";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion, AnimatePresence, useReducedMotion } from "framer-motion";
 
 export type Testimonial = {
   quote: string;
@@ -63,40 +63,52 @@ function Card({
   );
 }
 
+// Направленный слайд: новая карточка въезжает со стороны навигации, старая уезжает
+// в противоположную (видно горизонтальное движение, а не просто fade).
 const slideVariants = {
-  enter: (dir: number) => ({ x: dir > 0 ? 48 : -48, opacity: 0 }),
+  enter: (dir: number) => ({ x: dir > 0 ? 64 : -64, opacity: 0 }),
   center: { x: 0, opacity: 1 },
-  exit: (dir: number) => ({ x: dir > 0 ? -48 : 48, opacity: 0 }),
+  exit: (dir: number) => ({ x: dir > 0 ? -64 : 64, opacity: 0 }),
 };
 
 export function TestimonialsSlider({ items }: Props) {
   const t = useTranslations("a11y");
+  const reduce = useReducedMotion();
   const [active, setActive] = useState(0);
   const [dir, setDir] = useState(1);
   const count = items.length;
 
-  const go = (to: number) => {
-    setDir(to > active ? 1 : -1);
-    setActive(to);
+  // Направление задаётся ДЕЙСТВИЕМ, а не индексом → «вперёд» всегда едет вперёд
+  // (даже с последней на первую), «назад» — всегда назад. Бесконечный круг.
+  const go = (to: number, d: number) => {
+    setDir(d);
+    setActive((to + count) % count);
   };
 
-  const prev = () => go((active - 1 + count) % count);
-  const next = () => go((active + 1) % count);
+  const prev = () => go(active - 1, -1);
+  const next = () => go(active + 1, 1);
 
   const prevIdx = (active - 1 + count) % count;
   const nextIdx = (active + 1) % count;
 
+  // prefers-reduced-motion → мгновенная смена без слайда (§19)
+  const transition = reduce
+    ? { duration: 0 }
+    : { duration: 0.3, ease: "easeInOut" as const };
+
   return (
     <div>
-      {/* Desktop: 3 cards */}
-      <div className="hidden lg:block">
-        <AnimatePresence mode="wait">
+      {/* Desktop: 3 cards — направленный слайд всего ряда */}
+      <div className="hidden overflow-hidden lg:block">
+        <AnimatePresence mode="wait" custom={dir}>
           <motion.div
             key={active}
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            transition={{ duration: 0.25 }}
+            custom={dir}
+            variants={slideVariants}
+            initial="enter"
+            animate="center"
+            exit="exit"
+            transition={transition}
             className="grid grid-cols-3 items-stretch gap-5"
           >
             <Card item={items[prevIdx]} isSide />
@@ -106,7 +118,7 @@ export function TestimonialsSlider({ items }: Props) {
         </AnimatePresence>
       </div>
 
-      {/* Mobile / tablet: 1 card */}
+      {/* Mobile / tablet: 1 card — свайп пальцем влево/вправо */}
       <div className="overflow-hidden lg:hidden">
         <AnimatePresence mode="wait" custom={dir}>
           <motion.div
@@ -116,7 +128,16 @@ export function TestimonialsSlider({ items }: Props) {
             initial="enter"
             animate="center"
             exit="exit"
-            transition={{ duration: 0.25, ease: "easeInOut" }}
+            transition={transition}
+            drag="x"
+            dragConstraints={{ left: 0, right: 0 }}
+            dragElastic={0.2}
+            onDragEnd={(_, info) => {
+              const threshold = 50;
+              if (info.offset.x < -threshold) next();
+              else if (info.offset.x > threshold) prev();
+            }}
+            className="cursor-grab active:cursor-grabbing"
           >
             <Card item={items[active]} />
           </motion.div>
@@ -140,7 +161,7 @@ export function TestimonialsSlider({ items }: Props) {
               role="tab"
               aria-selected={i === active}
               aria-label={t("review_n", { n: i + 1 })}
-              onClick={() => go(i)}
+              onClick={() => go(i, i > active ? 1 : -1)}
               className={[
                 "h-2 rounded-full transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring",
                 i === active

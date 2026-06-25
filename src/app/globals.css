@@ -18,9 +18,20 @@
 .animate-slide-up-in {
   animation: slide-up-in 0.35s cubic-bezier(0.22, 1, 0.36, 1) both;
 }
+/* Появление hero-блока лендинга — чистый CSS вместо JS-гейта FadeIn.
+   Элемент виден по умолчанию (opacity:1), анимация лишь «вводит» его на загрузке:
+   LCP не ждёт JS, текст виден без JS, reduced-motion отключает анимацию (§17/§19). */
+@keyframes hero-in {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.animate-hero-in {
+  animation: hero-in 0.55s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
 @media (prefers-reduced-motion: reduce) {
   .animate-fade-slide-down,
-  .animate-slide-up-in { animation: none; }
+  .animate-slide-up-in,
+  .animate-hero-in { animation: none; }
 }
 
 /* ═══════════════════════════════════════════════════════════════
@@ -215,6 +226,7 @@ body {
   /* ── Play-кнопка с пульсирующей тенью ── */
   .play-btn {
     @apply flex cursor-pointer items-center justify-center rounded-full bg-brand-600 text-white
+           transition duration-200 hover:scale-110 hover:bg-brand-700 active:scale-95
            focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2;
     animation: play-pulse 2.4s ease-in-out infinite;
   }

@@ -1,9 +1,32 @@
+import type { Metadata } from "next";
 import { setRequestLocale } from "next-intl/server";
+import privacyContent from "@/content/legal/privacy.json";
 
-export const metadata = {
-  title: "Політика конфіденційності — Сила Слова",
-  robots: { index: false },
+type PrivacyDoc = {
+  title: string;
+  intro: string;
+  sections: { heading: string; paragraphs: string[] }[];
+  updated: string;
 };
+
+const content = privacyContent as Record<string, PrivacyDoc>;
+
+function getDoc(locale: string): PrivacyDoc {
+  return content[locale] ?? content.uk;
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const brand = locale === "en" || locale === "ro" ? "Sila Slova" : "Сила Слова";
+  return {
+    title: `${getDoc(locale).title} — ${brand}`,
+    robots: { index: false },
+  };
+}
 
 export default async function PrivacyPage({
   params,
@@ -12,108 +35,29 @@ export default async function PrivacyPage({
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
+  const doc = getDoc(locale);
 
   return (
     <main className="mx-auto max-w-2xl px-4 pb-16 pt-28 sm:px-6 sm:pb-24 sm:pt-32">
-      <h1 className="mb-8 text-3xl font-bold text-content">
-        Політика конфіденційності
-      </h1>
+      <h1 className="mb-8 text-3xl font-bold text-content">{doc.title}</h1>
 
       <div className="space-y-6 text-sm leading-relaxed text-content-muted">
-        <p>
-          Ми поважаємо Вашу конфіденційність і хочемо, щоб час, який Ви
-          проводите в інтернеті, був максимально комфортним і безпечним для
-          Вашої особистої інформації. Інформація, яку ми збираємо на сайті,
-          використовується виключно для вдосконалення послуг під Ваші потреби.
-          Ця інформація ніколи не буде передана чи продана третім особам, за
-          виключенням вимог чинного законодавства України.
-        </p>
+        <p>{doc.intro}</p>
 
-        <section>
-          <h2 className="mb-2 text-base font-semibold text-content">
-            Які дані Ви залишаєте на сайті
-          </h2>
-          <p>
-            Заповнюючи форму запису на курс, Ви добровільно залишаєте: ім&apos;я
-            батька або матері, номер телефону, місто та, за бажанням, короткий
-            коментар. Ці дані передаються до нашої CRM-системи й
-            використовуються виключно для зв&apos;язку з Вами та формування
-            навчальних груп. Форма не запитує вік чи інші дані дитини.
-          </p>
-        </section>
+        {doc.sections.map((section) => (
+          <section key={section.heading}>
+            <h2 className="mb-2 text-base font-semibold text-content">
+              {section.heading}
+            </h2>
+            {section.paragraphs.map((paragraph, i) => (
+              <p key={i} className={i > 0 ? "mt-2" : undefined}>
+                {paragraph}
+              </p>
+            ))}
+          </section>
+        ))}
 
-        <section>
-          <h2 className="mb-2 text-base font-semibold text-content">
-            Взаємодія з соціальними мережами
-          </h2>
-          <p>
-            На нашому сайті можуть бути присутні кнопки та посилання на
-            сторінки «Сила Слова» у соціальних мережах. Переходячи за цими
-            посиланнями, Ви приймаєте умови та правила відповідної платформи.
-            Будь-які персональні дані, залишені Вами на сторінках у соціальних
-            мережах, обробляються відповідно до їхньої власної політики
-            конфіденційності.
-          </p>
-        </section>
-
-        <section>
-          <h2 className="mb-2 text-base font-semibold text-content">
-            Мета збору даних
-          </h2>
-          <p>
-            Ми збираємо контактні дані, щоб призначити зручний час для
-            пробного уроку та відповісти на Ваші запитання. З Вашої згоди ми
-            можемо надсилати Вам повідомлення про нові можливості курсу та
-            корисні матеріали. У будь-який момент Ви можете відмовитися від
-            розсилки або видалити свої дані, написавши нам через форму
-            зворотного зв&apos;язку.
-          </p>
-        </section>
-
-        <section>
-          <h2 className="mb-2 text-base font-semibold text-content">
-            Аналітика та файли cookie
-          </h2>
-          <p>
-            Ми використовуємо аналітичні інструменти (PostHog) для збору
-            знеособленої інформації про дії відвідувачів на сайті. Це допомагає
-            нам покращувати зручність сайту та якість контенту. Під час першого
-            відвідування сайту Ви можете дозволити або заборонити використання
-            файлів cookie через банер згоди.
-          </p>
-          <p className="mt-2">
-            Аналітичні інструменти та рекламні пікселі (Meta Pixel, TikTok
-            Pixel, Google Analytics) завантажуються лише після Вашої явної
-            згоди на використання cookie.
-          </p>
-        </section>
-
-        <section>
-          <h2 className="mb-2 text-base font-semibold text-content">
-            Захист даних
-          </h2>
-          <p>
-            Ми захищаємо Вашу особисту інформацію за допомогою технічних та
-            організаційних заходів безпеки відповідно до міжнародних стандартів.
-            Наші співробітники ознайомлені з вимогами конфіденційності та
-            зобов&apos;язані їх дотримуватись.
-          </p>
-        </section>
-
-        <section>
-          <h2 className="mb-2 text-base font-semibold text-content">
-            Зміни до цієї політики
-          </h2>
-          <p>
-            У разі внесення змін до політики конфіденційності оновлена версія
-            буде опублікована на цій сторінці. У виняткових випадках ми можемо
-            надіслати Вам повідомлення безпосередньо.
-          </p>
-        </section>
-
-        <p className="pt-4 text-xs text-content-subtle">
-          Остання редакція: травень 2026 р. © Сила Слова
-        </p>
+        <p className="pt-4 text-xs text-content-subtle">{doc.updated}</p>
       </div>
     </main>
   );

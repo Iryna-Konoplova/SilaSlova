@@ -36,7 +36,7 @@ export function LanguageSwitcher({ currentLocale }: Props) {
     // Полная перезагрузка при смене языка: страница (и тема/<html lang>) рендерятся
     // заново на сервере для новой локали. Так избегаем клиентского пересоздания
     // корневого [locale]/layout, на котором React 19 ругается из-за <script>
-    // от next-themes. URL не меняется. См. docs/PERF_PLAN.md (хвост Этапа 1).
+    // от next-themes. URL не меняется.
     const target = getPathname({ href: pathname, locale });
     window.location.href = `${target}${window.location.search}${window.location.hash}`;
   }

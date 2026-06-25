@@ -17,8 +17,15 @@ type Props = {
 export function FadeIn({ children, delay = 0, className, direction = "up", as = "div" }: Props) {
   const ref = useRef<HTMLElement>(null);
   const [visible, setVisible] = useState(false);
+  const [reduced, setReduced] = useState(false);
 
   useEffect(() => {
+    // prefers-reduced-motion → показываем сразу, без анимации (§19)
+    if (window.matchMedia?.("(prefers-reduced-motion: reduce)").matches) {
+      setReduced(true);
+      setVisible(true);
+      return;
+    }
     const el = ref.current;
     if (!el) return;
     if (typeof IntersectionObserver === "undefined") {
@@ -56,8 +63,9 @@ export function FadeIn({ children, delay = 0, className, direction = "up", as = 
       style: {
         opacity: visible ? 1 : 0,
         transform: visible ? "none" : hiddenTransform,
-        transition:
-          "opacity 0.55s cubic-bezier(0.22,1,0.36,1), transform 0.55s cubic-bezier(0.22,1,0.36,1)",
+        transition: reduced
+          ? "none"
+          : "opacity 0.55s cubic-bezier(0.22,1,0.36,1), transform 0.55s cubic-bezier(0.22,1,0.36,1)",
         transitionDelay: `${delay}s`,
         willChange: "opacity, transform",
       },

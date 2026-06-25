@@ -1,6 +1,6 @@
-﻿"use client";
+"use client";
 
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useTranslations } from "next-intl";
 import { useEnrollStore } from "@/lib/enroll-store";
@@ -10,6 +10,8 @@ export function EnrollModal() {
   const { isOpen, source, close } = useEnrollStore();
   const t = useTranslations("enroll_form");
   const ta = useTranslations("a11y");
+  const cardRef = useRef<HTMLDivElement>(null);
+  const openerRef = useRef<HTMLElement | null>(null);
 
   // Lock body scroll
   useEffect(() => {
@@ -24,6 +26,57 @@ export function EnrollModal() {
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
   }, [isOpen, close]);
+
+  // Управление фокусом (a11y, M4): завести фокус в окно при открытии, зациклить
+  // Tab внутри карточки, вернуть фокус на элемент-opener при закрытии. SR-границу
+  // обеспечивает aria-modal="true". Логику формы это не меняет.
+  useEffect(() => {
+    if (!isOpen) return;
+    // Кто открыл окно — туда вернём фокус при закрытии
+    openerRef.current = document.activeElement as HTMLElement | null;
+    const card = cardRef.current;
+
+    const getFocusable = () =>
+      card
+        ? Array.from(
+            card.querySelectorAll<HTMLElement>(
+              'a[href], button:not([disabled]), input:not([disabled]), textarea:not([disabled]), select:not([disabled]), [tabindex]:not([tabindex="-1"])'
+            )
+          ).filter((el) => el.offsetParent !== null)
+        : [];
+
+    // Начальный фокус — после кадра, чтобы дождаться появления (framer-motion)
+    const raf = requestAnimationFrame(() => {
+      const f = getFocusable();
+      (f[0] ?? card)?.focus();
+    });
+
+    // Зацикливаем Tab внутри окна
+    const onKeyDown = (e: KeyboardEvent) => {
+      if (e.key !== "Tab") return;
+      const f = getFocusable();
+      if (f.length === 0) return;
+      const first = f[0];
+      const last = f[f.length - 1];
+      const active = document.activeElement;
+      if (e.shiftKey) {
+        if (active === first || !card?.contains(active)) {
+          e.preventDefault();
+          last.focus();
+        }
+      } else if (active === last || !card?.contains(active)) {
+        e.preventDefault();
+        first.focus();
+      }
+    };
+    document.addEventListener("keydown", onKeyDown);
+
+    return () => {
+      cancelAnimationFrame(raf);
+      document.removeEventListener("keydown", onKeyDown);
+      openerRef.current?.focus?.();
+    };
+  }, [isOpen]);
 
   return (
     <AnimatePresence>
@@ -47,11 +100,13 @@ export function EnrollModal() {
 
           {/* Card */}
           <motion.div
+            ref={cardRef}
+            tabIndex={-1}
             initial={{ scale: 0.95, opacity: 0, y: 12 }}
             animate={{ scale: 1, opacity: 1, y: 0 }}
             exit={{ scale: 0.95, opacity: 0, y: 12 }}
             transition={{ duration: 0.25, ease: [0.22, 1, 0.36, 1] }}
-            className="relative z-10 w-full max-w-md overflow-hidden rounded-2xl bg-surface-raised shadow-2xl"
+            className="relative z-10 w-full max-w-md overflow-hidden rounded-2xl bg-surface-raised shadow-2xl outline-none"
           >
             {/* Orange top accent bar */}
             <div className="h-1 w-full bg-gradient-to-r from-brand-600 to-accent-500" />

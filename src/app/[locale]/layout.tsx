@@ -20,7 +20,7 @@ import "../globals.css";
 // (StickyBar→sticky_bar, маленький). `a11y` — общие screen-reader-метки
 // (MobileMenu, LanguageSwitcher, ThemeSwitcher, TestimonialsSlider и пр.), ~18
 // коротких строк. Всё остальное — серверный рендер.
-// Тяжёлый `parents` подаётся локально на /faq (ParentsFAQ). См. docs/PERF_PLAN.md (Этап 2).
+// Тяжёлый `parents` подаётся локально на /faq (ParentsFAQ).
 const CLIENT_NAMESPACES = ["enroll_form", "cookieBanner", "sticky_bar", "a11y"] as const;
 
 // Подмножества под всю аудиторию: latin (en), latin-ext (ro-диакритика),

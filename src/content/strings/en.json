@@ -208,7 +208,7 @@
     "comment_label": "Comment (optional)",
     "comment_placeholder": "Any questions or notes",
     "submit": "Sign up",
-    "privacy": "By clicking 'Sign up' you agree to the processing of personal data. We do not share it with third parties.",
+    "privacy": "By clicking 'Sign up' you agree to the processing of your personal data to be contacted about the training in accordance with our <policy>Privacy Policy</policy>.",
     "error_required": "This field is required",
     "error_title": "Couldn't send",
     "error_body": "Something went wrong. Please try again or contact us directly.",

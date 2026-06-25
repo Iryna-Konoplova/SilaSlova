@@ -1,0 +1,122 @@
+{
+  "uk": {
+    "title": "Політика використання файлів cookie",
+    "intro": "Файли cookie — це невеликі текстові файли, які сайт зберігає у Вашому браузері. Ми використовуємо лише мінімум необхідних cookie для роботи сайту, а аналітичні та маркетингові інструменти підключаємо тільки після Вашої явної згоди.",
+    "cookiesHeading": "Які файли cookie ми використовуємо",
+    "necessary": {
+      "label": "Необхідні (працюють завжди)",
+      "desc": "Потрібні для коректної роботи сайту та форми запису. Вони не містять Вашого імені, телефону чи email, але можуть містити технічні ідентифікатори:",
+      "items": [
+        { "code": "sila_consent", "desc": "зберігає Ваш вибір щодо cookie (до 12 місяців)" },
+        { "code": "ss_anon_id", "desc": "псевдонімізований технічний ідентифікатор відвідувача" },
+        { "code": "ss_utm", "desc": "джерело переходу на сайт (UTM-мітки), зберігається до 30 днів" }
+      ]
+    },
+    "analytics": {
+      "label": "Аналітичні (вмикаються кнопкою «Прийняти все»)",
+      "desc": "PostHog та Google Analytics 4 — агрегована та псевдонімізована статистика відвідувань і поведінки на сайті, щоб покращувати його зручність і контент."
+    },
+    "marketing": {
+      "label": "Маркетингові (вмикаються кнопкою «Прийняти все»)",
+      "desc": "Meta Pixel і TikTok Pixel — вимірювання ефективності рекламних кампаній. Email і телефон перед передачею до рекламних платформ хешуються (SHA-256)."
+    },
+    "manageHeading": "Згода та керування cookie",
+    "manage": [
+      "Під час першого відвідування сайту з'являється банер, де Ви можете обрати «Прийняти все» (вмикає аналітичні та маркетингові cookie) або «Відхилити все» (залишає лише необхідні). До моменту Вашої згоди аналітичні та маркетингові скрипти не завантажуються взагалі.",
+      "Відкликати або змінити згоду можна будь-коли, очистивши файли cookie в налаштуваннях браузера, — після цього банер з'явиться знову. Ви також можете заблокувати cookie засобами самого браузера."
+    ],
+    "changesHeading": "Зміни до цієї політики",
+    "changes": "У разі внесення змін оновлена версія буде опублікована на цій сторінці.",
+    "updated": "Остання редакція: червень 2026 р. © Сила Слова"
+  },
+  "ru": {
+    "title": "Политика использования файлов cookie",
+    "intro": "Файлы cookie — это небольшие текстовые файлы, которые сайт сохраняет в вашем браузере. Мы используем лишь минимум необходимых cookie для работы сайта, а аналитические и маркетинговые инструменты подключаем только после вашего явного согласия.",
+    "cookiesHeading": "Какие файлы cookie мы используем",
+    "necessary": {
+      "label": "Необходимые (работают всегда)",
+      "desc": "Нужны для корректной работы сайта и формы записи. Они не содержат вашего имени, телефона или email, но могут содержать технические идентификаторы:",
+      "items": [
+        { "code": "sila_consent", "desc": "хранит ваш выбор относительно cookie (до 12 месяцев)" },
+        { "code": "ss_anon_id", "desc": "псевдонимизированный технический идентификатор посетителя" },
+        { "code": "ss_utm", "desc": "источник перехода на сайт (UTM-метки), хранится до 30 дней" }
+      ]
+    },
+    "analytics": {
+      "label": "Аналитические (включаются кнопкой «Принять все»)",
+      "desc": "PostHog и Google Analytics 4 — агрегированная и псевдонимизированная статистика посещений и поведения на сайте, чтобы улучшать его удобство и контент."
+    },
+    "marketing": {
+      "label": "Маркетинговые (включаются кнопкой «Принять все»)",
+      "desc": "Meta Pixel и TikTok Pixel — измерение эффективности рекламных кампаний. Email и телефон перед передачей рекламным платформам хешируются (SHA-256)."
+    },
+    "manageHeading": "Согласие и управление cookie",
+    "manage": [
+      "При первом посещении сайта появляется баннер, где вы можете выбрать «Принять все» (включает аналитические и маркетинговые cookie) или «Отклонить все» (оставляет только необходимые). До момента вашего согласия аналитические и маркетинговые скрипты не загружаются вообще.",
+      "Отозвать или изменить согласие можно в любой момент, очистив файлы cookie в настройках браузера, — после этого баннер появится снова. Вы также можете заблокировать cookie средствами самого браузера."
+    ],
+    "changesHeading": "Изменения в этой политике",
+    "changes": "В случае внесения изменений обновлённая версия будет опубликована на этой странице.",
+    "updated": "Последняя редакция: июнь 2026 г. © Сила Слова"
+  },
+  "en": {
+    "title": "Cookie Policy",
+    "intro": "Cookies are small text files that the site stores in your browser. We use only the minimum of necessary cookies for the site to work, and we enable analytics and marketing tools only after your explicit consent.",
+    "cookiesHeading": "Which cookies we use",
+    "necessary": {
+      "label": "Necessary (always active)",
+      "desc": "Needed for the site and the enrolment form to work correctly. They do not contain your name, phone number or email, but may contain technical identifiers:",
+      "items": [
+        { "code": "sila_consent", "desc": "stores your cookie choice (up to 12 months)" },
+        { "code": "ss_anon_id", "desc": "pseudonymised technical visitor identifier" },
+        { "code": "ss_utm", "desc": "the source of your visit (UTM tags), stored for up to 30 days" }
+      ]
+    },
+    "analytics": {
+      "label": "Analytics (enabled by the «Accept all» button)",
+      "desc": "PostHog and Google Analytics 4 — aggregated and pseudonymised statistics of visits and behaviour on the site, to improve its usability and content."
+    },
+    "marketing": {
+      "label": "Marketing (enabled by the «Accept all» button)",
+      "desc": "Meta Pixel and TikTok Pixel — measuring the effectiveness of advertising campaigns. Email and phone are hashed (SHA-256) before being sent to advertising platforms."
+    },
+    "manageHeading": "Consent and managing cookies",
+    "manage": [
+      "On your first visit, a banner appears where you can choose «Accept all» (enables analytics and marketing cookies) or «Decline all» (keeps only the necessary ones). Until you give consent, analytics and marketing scripts are not loaded at all.",
+      "You can withdraw or change your consent at any time by clearing cookies in your browser settings — after that the banner will appear again. You can also block cookies using the browser itself."
+    ],
+    "changesHeading": "Changes to this policy",
+    "changes": "If changes are made, the updated version will be published on this page.",
+    "updated": "Last updated: June 2026. © Sila Slova"
+  },
+  "ro": {
+    "title": "Politica privind fișierele cookie",
+    "intro": "Fișierele cookie sunt mici fișiere text pe care site-ul le păstrează în browserul tău. Folosim doar minimul de cookie necesare pentru funcționarea site-ului, iar instrumentele de analiză și marketing le activăm doar după acordul tău explicit.",
+    "cookiesHeading": "Ce fișiere cookie folosim",
+    "necessary": {
+      "label": "Necesare (funcționează întotdeauna)",
+      "desc": "Sunt necesare pentru funcționarea corectă a site-ului și a formularului de înscriere. Nu conțin numele, telefonul sau emailul tău, dar pot conține identificatori tehnici:",
+      "items": [
+        { "code": "sila_consent", "desc": "păstrează alegerea ta privind cookie (până la 12 luni)" },
+        { "code": "ss_anon_id", "desc": "identificator tehnic pseudonimizat al vizitatorului" },
+        { "code": "ss_utm", "desc": "sursa accesării site-ului (etichete UTM), păstrată până la 30 de zile" }
+      ]
+    },
+    "analytics": {
+      "label": "De analiză (se activează prin butonul «Acceptă toate»)",
+      "desc": "PostHog și Google Analytics 4 — statistici agregate și pseudonimizate despre vizite și comportamentul pe site, pentru a-i îmbunătăți utilizarea și conținutul."
+    },
+    "marketing": {
+      "label": "De marketing (se activează prin butonul «Acceptă toate»)",
+      "desc": "Meta Pixel și TikTok Pixel — măsurarea eficienței campaniilor publicitare. Emailul și telefonul sunt hash-uite (SHA-256) înainte de a fi transmise platformelor de publicitate."
+    },
+    "manageHeading": "Consimțământ și gestionarea cookie",
+    "manage": [
+      "La prima vizită apare un banner unde poți alege «Acceptă toate» (activează cookie de analiză și marketing) sau «Respinge toate» (păstrează doar cele necesare). Până la acordul tău, scripturile de analiză și marketing nu se încarcă deloc.",
+      "Poți retrage sau modifica acordul oricând, ștergând fișierele cookie din setările browserului — după aceea bannerul va apărea din nou. De asemenea, poți bloca cookie din browserul însuși."
+    ],
+    "changesHeading": "Modificări ale acestei politici",
+    "changes": "În cazul unor modificări, versiunea actualizată va fi publicată pe această pagină.",
+    "updated": "Ultima actualizare: iunie 2026. © Sila Slova"
+  }
+}

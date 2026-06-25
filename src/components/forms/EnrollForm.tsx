@@ -3,8 +3,9 @@
 import { Controller, useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { useState } from "react";
+import Link from "next/link";
 import { InputMask } from "@react-input/mask";
 import { getStoredUtm } from "@/lib/utm";
 import { getAnonymousId } from "@/lib/anonymous-id";
@@ -35,6 +36,7 @@ type ErrorKind = "generic" | "rate_limited";
 
 export function EnrollForm({ onSuccess, className, source = "sila-slova" }: Props) {
   const t = useTranslations("enroll_form");
+  const locale = useLocale();
   const [submitted, setSubmitted] = useState(false);
   const [abroad, setAbroad] = useState(false);
   const [error, setError] = useState<ErrorKind | null>(null);
@@ -112,8 +114,11 @@ export function EnrollForm({ onSuccess, className, source = "sila-slova" }: Prop
       <div className="space-y-3">
         {/* Parent name */}
         <div>
-          <label className="sr-only">{t("parent_name_label")}</label>
+          <label className="sr-only" htmlFor="enroll-parent-name">
+            {t("parent_name_label")}
+          </label>
           <input
+            id="enroll-parent-name"
             type="text"
             placeholder={t("parent_name_placeholder")}
             {...register("parentName")}
@@ -153,8 +158,11 @@ export function EnrollForm({ onSuccess, className, source = "sila-slova" }: Prop
 
         {/* City */}
         <div>
-          <label className="sr-only">{t("city_label")}</label>
+          <label className="sr-only" htmlFor="enroll-city">
+            {t("city_label")}
+          </label>
           <input
+            id="enroll-city"
             type="text"
             placeholder={t("city_placeholder")}
             {...register("city")}
@@ -165,8 +173,11 @@ export function EnrollForm({ onSuccess, className, source = "sila-slova" }: Prop
 
         {/* Comment */}
         <div>
-          <label className="sr-only">{t("comment_label")}</label>
+          <label className="sr-only" htmlFor="enroll-comment">
+            {t("comment_label")}
+          </label>
           <textarea
+            id="enroll-comment"
             rows={2}
             placeholder={t("comment_placeholder")}
             {...register("comment")}
@@ -222,7 +233,18 @@ export function EnrollForm({ onSuccess, className, source = "sila-slova" }: Prop
         </button>
 
         <p className="text-center text-xs leading-relaxed text-content-subtle">
-          {t("privacy")}
+          {t.rich("privacy", {
+            policy: (chunks) => (
+              <Link
+                href={`/${locale}/privacy`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline transition-colors hover:text-content"
+              >
+                {chunks}
+              </Link>
+            ),
+          })}
         </p>
       </div>
     </form>

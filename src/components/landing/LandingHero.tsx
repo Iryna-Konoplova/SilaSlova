@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { FadeIn } from "@/components/ui/FadeIn";
 import { EnrollButton } from "@/components/forms/EnrollButton";
 import { DemoButton } from "@/components/ui/DemoButton";
 import type { Landing } from "@/lib/schemas/landing";
@@ -59,7 +58,7 @@ export function LandingHero({ hero, locale, slug }: Props) {
         {/* subtle gradient blob behind text */}
         <div aria-hidden="true" className="pointer-events-none absolute -left-24 -top-24 h-96 w-96 rounded-full bg-brand-700/30 blur-3xl" />
 
-        <FadeIn>
+        <div className="animate-hero-in">
           <h1
             id="landing-hero-heading"
             className="relative mb-6 mt-8 text-4xl font-extrabold leading-tight tracking-tight text-white text-center sm:text-5xl lg:text-6xl"
@@ -69,9 +68,9 @@ export function LandingHero({ hero, locale, slug }: Props) {
           <p className="relative mb-10 max-w-lg text-lg leading-relaxed text-white/75 sm:text-xl">
             {hero.subheadline}
           </p>
-        </FadeIn>
+        </div>
 
-        <FadeIn delay={0.12}>
+        <div className="animate-hero-in" style={{ animationDelay: "0.12s" }}>
           <div className="relative flex flex-col items-center gap-4 sm:flex-row sm:justify-center sm:gap-6">
             <EnrollButton
               label={hero.cta_primary.text}
@@ -82,7 +81,7 @@ export function LandingHero({ hero, locale, slug }: Props) {
               <DemoButton locale={locale} label={hero.cta_secondary.text} size="lg" />
             )}
           </div>
-        </FadeIn>
+        </div>
       </div>
 
       {/* RIGHT — media */}

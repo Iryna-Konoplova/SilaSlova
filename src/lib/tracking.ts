@@ -27,8 +27,8 @@ export async function hashPii(value: string): Promise<string | undefined> {
 
 export function trackLead(email?: string, phone?: string) {
   if (typeof window === "undefined") return;
-  // PostHog — raw values ok (no ad network)
-  window.posthog?.capture("signup_completed");
+  // PostHog `signup_completed` шлёт ТОЛЬКО trackEvent (с {source}) — здесь не дублируем,
+  // иначе событие считается дважды (M1). trackLead отвечает лишь за рекламные пиксели + GA lead.
 
   Promise.all([
     email ? hashPii(email) : Promise.resolve(undefined),

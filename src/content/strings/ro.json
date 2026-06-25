@@ -208,7 +208,7 @@
     "comment_label": "Comentariu (opțional)",
     "comment_placeholder": "Întrebări sau preferințe",
     "submit": "Înscrie-te",
-    "privacy": "Apăsând «Înscrie-te», ești de acord cu prelucrarea datelor personale. Nu le transmitem terților.",
+    "privacy": "Apăsând «Înscrie-te», ești de acord cu prelucrarea datelor personale pentru a fi contactat despre cursuri în conformitate cu <policy>Politica de confidențialitate</policy>.",
     "error_required": "Acest câmp este obligatoriu",
     "error_title": "Nu s-a putut trimite",
     "error_body": "A apărut o eroare. Încearcă din nou sau contactează-ne direct.",
