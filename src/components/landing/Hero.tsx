@@ -50,7 +50,7 @@ export async function Hero({ locale }: Props) {
           </span>
           <span className="h-1 w-1 rounded-full bg-line" aria-hidden="true" />
           <span className="flex items-center gap-1.5">
-            <span className="font-bold text-brand-600 dark:text-brand-400">40</span> {t("stat_episodes")}
+            <span className="font-bold text-brand-600 dark:text-brand-400">50</span> {t("stat_episodes")}
           </span>
           <span className="h-1 w-1 rounded-full bg-line" aria-hidden="true" />
           <span className="flex items-center gap-1.5">
@@ -72,7 +72,7 @@ export async function Hero({ locale }: Props) {
           />
           <figcaption className="absolute inset-0 flex items-end justify-center pb-8 sm:pb-12 md:pb-16">
             <p className="text-center text-2xl font-bold uppercase tracking-[0.25em] text-white drop-shadow-[0_2px_12px_rgba(0,0,0,0.7)] sm:text-3xl md:text-4xl">
-              City of Broken Words
+              {t("game_title")}
             </p>
           </figcaption>
         </figure>

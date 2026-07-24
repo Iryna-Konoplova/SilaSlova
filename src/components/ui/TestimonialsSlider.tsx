@@ -4,22 +4,30 @@ import { useState } from "react";
 import { useTranslations } from "next-intl";
 import { motion, AnimatePresence, useReducedMotion } from "framer-motion";
 
+export type Rating = 1 | 2 | 3 | 4 | 5;
+
 export type Testimonial = {
   quote: string;
   author: string;
-  role: string;
+  rating: Rating;
 };
 
 type Props = {
   items: Testimonial[];
 };
 
-function Stars() {
+function Stars({ rating }: { rating: Rating }) {
   const t = useTranslations("a11y");
   return (
-    <div role="img" aria-label={t("rating")} className="mb-4 flex gap-0.5">
+    <div role="img" aria-label={t("rating", { n: rating })} className="mb-4 flex gap-0.5">
       {Array.from({ length: 5 }).map((_, i) => (
-        <span key={i} aria-hidden="true" className="text-xl text-accent-400">★</span>
+        <span
+          key={i}
+          aria-hidden="true"
+          className={`text-xl ${i < rating ? "text-accent-400" : "text-content-subtle"}`}
+        >
+          {i < rating ? "★" : "☆"}
+        </span>
       ))}
     </div>
   );
@@ -41,7 +49,7 @@ function Card({
           : "bg-surface-raised ring-brand-600/20 shadow-md dark:ring-brand-400/15",
       ].join(" ")}
     >
-      <Stars />
+      <Stars rating={item.rating} />
       <blockquote className="flex-1">
         <p className="mb-6 text-base leading-relaxed text-content-muted">
           &ldquo;{item.quote}&rdquo;
@@ -56,7 +64,6 @@ function Card({
         </div>
         <div>
           <p className="text-sm font-semibold text-content">{item.author}</p>
-          <p className="text-xs text-content-subtle">{item.role}</p>
         </div>
       </figcaption>
     </figure>

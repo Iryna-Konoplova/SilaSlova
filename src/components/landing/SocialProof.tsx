@@ -1,11 +1,13 @@
 import { getTranslations } from "next-intl/server";
 import { FadeIn } from "@/components/ui/FadeIn";
 import { EnrollButton } from "@/components/forms/EnrollButton";
-import { TestimonialsSlider } from "@/components/ui/TestimonialsSlider";
+import { TestimonialsSlider, type Rating } from "@/components/ui/TestimonialsSlider";
 
 type Props = { locale: string };
 
-const reviewKeys = [1, 2, 3, 4, 5] as const;
+type ReviewId = 1 | 2 | 3 | 4 | 5;
+const reviewKeys = [1, 2, 3, 4, 5] as const satisfies readonly ReviewId[];
+const REVIEW_RATINGS = { 1: 5, 2: 4, 3: 5, 4: 5, 5: 4 } satisfies Record<ReviewId, Rating>;
 
 export async function SocialProof({ locale }: Props) {
   const t = await getTranslations({ locale, namespace: "social_proof" });
@@ -14,7 +16,7 @@ export async function SocialProof({ locale }: Props) {
   const items = reviewKeys.map((n) => ({
     quote: t(`review_${n}_quote`),
     author: t(`review_${n}_author`),
-    role: t(`review_${n}_role`),
+    rating: REVIEW_RATINGS[n],
   }));
 
   return (

@@ -6,7 +6,7 @@ import { DemoButton } from "@/components/ui/DemoButton";
 
 type Props = { locale: string };
 
-const benefits = ["benefit_1", "benefit_2", "benefit_3"] as const;
+const benefits = ["benefit_1", "benefit_2"] as const;
 const screenshots = ["screenshot_1_alt", "screenshot_2_alt", "screenshot_3_alt"] as const;
 
 export async function AppPromo({ locale }: Props) {

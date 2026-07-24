@@ -110,7 +110,6 @@ export default async function AboutPage({
 
                 {/* Quote */}
                 <blockquote className="relative mt-2 rounded-2xl border border-brand-200 bg-brand-50 p-6 dark:border-brand-500/30 dark:bg-brand-600/5">
-                  <div aria-hidden="true" className="mb-3 text-3xl text-brand-400/60">"</div>
                   <p className="text-lg font-semibold italic leading-relaxed text-content">
                     {t("hero_quote")}
                   </p>

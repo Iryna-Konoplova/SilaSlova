@@ -9,8 +9,9 @@ type Props = { params: Promise<{ locale: string }> };
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "demoPage" });
-  // Demo-движок ещё не реализован (placeholder «coming soon»). Пока закрыта от
-  // индексации и убрана из sitemap — вернуть index при появлении рабочего demo.
+  // /demo — тонкий «шлюз» к внешней демо-игре (Play ведёт на другой домен), а не
+  // самостоятельный контент. Органической SEO-ценности почти нет, поэтому держим
+  // вне индекса и sitemap намеренно (решение 2026-07, не легаси «coming soon»).
   return { title: t("page_title"), robots: { index: false } };
 }
 
