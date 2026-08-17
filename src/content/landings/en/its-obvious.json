@@ -4,7 +4,7 @@
   "locale": "en",
   "meta": {
     "title": "\"It's obvious\" — how an assertion replaces an argument | Sila Slova",
-    "description": "Help your child stop accepting \"it's obvious\" as proof, and bring the conversation back to actual reasons. Course for kids 8–12.",
+    "description": "Help your child stop accepting \"it's obvious\" as proof, and bring the conversation back to actual reasons. Course for kids 10–16.",
     "og_image": "/og/og-default.jpg"
   },
   "hero": {
@@ -34,7 +34,7 @@
     "stats": [
       { "label": "Kids completed the course", "value": "2,400+" },
       { "label": "Parents satisfied", "value": "94%" },
-      { "label": "Optimal age", "value": "8–12 y.o." }
+      { "label": "Optimal age", "value": "10–16 y.o." }
     ]
   },
   "faq_label": "FREQUENTLY ASKED",
@@ -46,7 +46,7 @@
     },
     {
       "q": "What age does it work for?",
-      "a": "Best for 8–12 years old. At this age, kids are most receptive to new thinking patterns and haven't formed rigid biases yet."
+      "a": "Best for 10–16 year olds. At this age, kids are receptive to new thinking patterns and are still forming their views."
     },
     {
       "q": "How much time per day?",

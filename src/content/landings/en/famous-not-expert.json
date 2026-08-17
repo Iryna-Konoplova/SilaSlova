@@ -4,7 +4,7 @@
   "locale": "en",
   "meta": {
     "title": "\"A blogger recommends it\": why being famous doesn't mean someone actually knows | Sila Slova",
-    "description": "Teach your child to separate popularity from competence and ask: \"do they actually know this?\". Game-based critical thinking course for children aged 8–12.",
+    "description": "Teach your child to separate popularity from competence and ask: \"do they actually know this?\". Game-based critical thinking course for children aged 10–16.",
     "og_image": "/og/og-default.jpg"
   },
   "hero": {
@@ -52,7 +52,7 @@
       },
       {
         "label": "Optimal age",
-        "value": "8–12 yrs"
+        "value": "10–16 yrs"
       }
     ]
   },
@@ -65,7 +65,7 @@
     },
     {
       "q": "What age is it suitable for?",
-      "a": "Ideal for 8–12 year olds. At this age, children are most receptive to new thinking patterns and haven't yet formed rigid biases."
+      "a": "Ideal for 10–16 year olds. At this age, children are receptive to new thinking patterns and are still forming their views."
     },
     {
       "q": "How much time is needed each day?",

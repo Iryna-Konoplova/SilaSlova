@@ -35,7 +35,7 @@ const geistSans = Geist({
 export const metadata: Metadata = {
   title: "Сила Слова / Syla Slova",
   description:
-    "Interactive educational thriller for children 10–12. 13 lessons on critical thinking, media literacy and manipulation recognition.",
+    "Interactive educational thriller for children 10–16. 13 lessons on critical thinking, media literacy and manipulation recognition.",
   metadataBase: new URL(siteUrl),
 };
 

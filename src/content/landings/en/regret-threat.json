@@ -4,7 +4,7 @@
   "locale": "en",
   "meta": {
     "title": "\"You'll regret it if you don't\" — why your child decides under fear | Sila Slova",
-    "description": "Teach your child to tell real warnings from scare tactics and stop making decisions under fear. Game-based course for children aged 8–12.",
+    "description": "Teach your child to tell real warnings from scare tactics and stop making decisions under fear. Game-based course for children aged 10–16.",
     "og_image": "/og/og-default.jpg"
   },
   "hero": {
@@ -34,7 +34,7 @@
     "stats": [
       { "label": "Children completed the course", "value": "2,400+" },
       { "label": "Satisfied parents", "value": "94%" },
-      { "label": "Optimal age", "value": "8–12 yrs" }
+      { "label": "Optimal age", "value": "10–16 yrs" }
     ]
   },
   "faq_label": "FAQ",
@@ -46,7 +46,7 @@
     },
     {
       "q": "What age is it suitable for?",
-      "a": "Ideal for 8–12 year olds. At this age, children are most receptive to new thinking patterns and haven't yet formed rigid biases."
+      "a": "Ideal for 10–16 year olds. At this age, children are receptive to new thinking patterns and are still forming their views."
     },
     {
       "q": "How much time is needed each day?",

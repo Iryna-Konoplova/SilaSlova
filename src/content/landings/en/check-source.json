@@ -4,7 +4,7 @@
   "locale": "en",
   "meta": {
     "title": "\"How do you know that?\" — teaching your child to check sources | Sila Slova",
-    "description": "\"They said so\", \"I saw it\", \"the internet says\" — teach your child to tell apart an expert, a fact, and someone's opinion. Game-based course for ages 8–12.",
+    "description": "\"They said so\", \"I saw it\", \"the internet says\" — teach your child to tell apart an expert, a fact, and someone's opinion. Game-based course for ages 10–16.",
     "og_image": "/og/og-default.jpg"
   },
   "hero": {
@@ -34,7 +34,7 @@
     "stats": [
       { "label": "Children completed the course", "value": "2,400+" },
       { "label": "Satisfied parents", "value": "94%" },
-      { "label": "Optimal age", "value": "8–12 yrs" }
+      { "label": "Optimal age", "value": "10–16 yrs" }
     ]
   },
   "faq_label": "FAQ",
@@ -46,7 +46,7 @@
     },
     {
       "q": "What age is it suitable for?",
-      "a": "Ideal for 8–12 year olds. At this age, children are most receptive to new thinking patterns and haven't yet formed rigid biases."
+      "a": "Ideal for 10–16 year olds. At this age, children are receptive to new thinking patterns and are still forming their views."
     },
     {
       "q": "How much time is needed each day?",

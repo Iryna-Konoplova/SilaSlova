@@ -4,7 +4,7 @@
   "locale": "ro",
   "meta": {
     "title": "«E evident» — cum o afirmație înlocuiește argumentul | Sila Slova",
-    "description": "Ajută-ți copilul să nu mai accepte «e evident» ca dovadă și să readucă discuția la motivele reale. Curs pentru copii 8–12 ani.",
+    "description": "Ajută-ți copilul să nu mai accepte «e evident» ca dovadă și să readucă discuția la motivele reale. Curs pentru copii 10–16 ani.",
     "og_image": "/og/og-default.jpg"
   },
   "hero": {
@@ -34,7 +34,7 @@
     "stats": [
       { "label": "Copii au terminat cursul", "value": "2 400+" },
       { "label": "Părinți mulțumiți", "value": "94%" },
-      { "label": "Vârsta optimă", "value": "8–12 ani" }
+      { "label": "Vârsta optimă", "value": "10–16 ani" }
     ]
   },
   "faq_label": "ÎNTREBĂRI FRECVENTE",
@@ -46,7 +46,7 @@
     },
     {
       "q": "De la ce vârstă se poate începe?",
-      "a": "Optim — 8–12 ani. La această vârstă, copiii sunt cei mai receptivi la modele noi de gândire și nu au format încă prejudecăți rigide."
+      "a": "Optim — 10–16 ani. La această vârstă, copiii sunt receptivi la modele noi de gândire și încă își formează propriile opinii."
     },
     {
       "q": "Cât timp pe zi e nevoie?",

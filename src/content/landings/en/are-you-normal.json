@@ -4,7 +4,7 @@
   "locale": "en",
   "meta": {
     "title": "\"You're normal, right?\" — why your child feels they have to prove it | Sila Slova",
-    "description": "Teach your child to recognise pressure through belonging and stay true to themselves. Game-based critical thinking for kids 8–12.",
+    "description": "Teach your child to recognise pressure through belonging and stay true to themselves. Game-based critical thinking for kids 10–16.",
     "og_image": "/og/og-default.jpg"
   },
   "hero": {
@@ -34,7 +34,7 @@
     "stats": [
       { "label": "Children completed the course", "value": "2,400+" },
       { "label": "Satisfied parents", "value": "94%" },
-      { "label": "Optimal age", "value": "8–12 yrs" }
+      { "label": "Optimal age", "value": "10–16 yrs" }
     ]
   },
   "faq_label": "FAQ",
@@ -46,7 +46,7 @@
     },
     {
       "q": "What age is it suitable for?",
-      "a": "Ideal for 8–12 year olds. At this age, children are most receptive to new thinking patterns and haven't yet formed rigid biases."
+      "a": "Ideal for 10–16 year olds. At this age, children are receptive to new thinking patterns and are still forming their views."
     },
     {
       "q": "How much time is needed each day?",

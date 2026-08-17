@@ -4,7 +4,7 @@
   "locale": "ro",
   "meta": {
     "title": "«Uite, toți râd» — când râsul e prezentat ca «dovadă» | Sila Slova",
-    "description": "Ajută-ți copilul să deosebească reacția grupului de realitate și să nu se mai schimbe ca să scape de ironie. Curs pentru copii 8–12 ani.",
+    "description": "Ajută-ți copilul să deosebească reacția grupului de realitate și să nu se mai schimbe ca să scape de ironie. Curs pentru copii 10–16 ani.",
     "og_image": "/og/og-default.jpg"
   },
   "hero": {
@@ -52,7 +52,7 @@
       },
       {
         "label": "Vârsta optimă",
-        "value": "8–12 ani"
+        "value": "10–16 ani"
       }
     ]
   },
@@ -65,7 +65,7 @@
     },
     {
       "q": "De la ce vârstă se poate începe?",
-      "a": "Optim — 8–12 ani. La această vârstă, copiii sunt cei mai receptivi la modele noi de gândire și nu au format încă prejudecăți rigide."
+      "a": "Optim — 10–16 ani. La această vârstă, copiii sunt receptivi la modele noi de gândire și încă își formează propriile opinii."
     },
     {
       "q": "Cât timp pe zi e nevoie?",

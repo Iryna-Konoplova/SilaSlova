@@ -4,7 +4,7 @@
   "locale": "ro",
   "meta": {
     "title": "«O notă proastă și s-a terminat totul»: când o greșeală mică e transformată în sfârșitul lumii | Forța Cuvântului",
-    "description": "Învățați copilul să reducă scara și să separe evenimentul de consecințe: ce se va întâmpla de fapt. Curs de gândire critică în format de joc pentru copii de 8–12 ani.",
+    "description": "Învățați copilul să reducă scara și să separe evenimentul de consecințe: ce se va întâmpla de fapt. Curs de gândire critică în format de joc pentru copii de 10–16 ani.",
     "og_image": "/og/og-default.jpg"
   },
   "hero": {
@@ -52,7 +52,7 @@
       },
       {
         "label": "Vârsta optimă",
-        "value": "8–12 ani"
+        "value": "10–16 ani"
       }
     ]
   },
@@ -65,7 +65,7 @@
     },
     {
       "q": "De la ce vârstă se poate începe?",
-      "a": "Optim — 8–12 ani. La această vârstă, copiii sunt cei mai receptivi la noi tipare de gândire și nu și-au format încă prejudecăți stabile."
+      "a": "Optim — 10–16 ani. La această vârstă, copiii sunt receptivi la noi tipare de gândire și încă își formează propriile opinii."
     },
     {
       "q": "Cât timp este necesar zilnic?",

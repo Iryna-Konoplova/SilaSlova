@@ -38,18 +38,20 @@ function CourseJsonLd({ locale }: { locale: string }) {
     "@type": "Course",
     name: "Syla Slova / Сила Слова",
     description:
-      "Interactive educational thriller for children 10-12. 13 lessons on critical thinking, media literacy and manipulation recognition.",
+      "Interactive educational thriller for children 10-16. 13 lessons on critical thinking, media literacy and manipulation recognition.",
     url: `${siteUrl}/${locale}`,
     provider: {
       "@type": "Organization",
       name: "Syla Slova",
       url: siteUrl,
     },
-    educationalLevel: "Primary Education",
+    // 10–16 охватывает и начальную, и среднюю школу — "Primary Education"
+    // противоречило бы audienceType ниже (см. правку возраста 2026-08-17).
+    educationalLevel: "Primary and Secondary Education",
     audience: {
       "@type": "EducationalAudience",
       educationalRole: "student",
-      audienceType: "children 10-12 years old",
+      audienceType: "children 10-16 years old",
     },
     teaches: [
       "Critical thinking",

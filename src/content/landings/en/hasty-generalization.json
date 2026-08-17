@@ -4,7 +4,7 @@
   "locale": "en",
   "meta": {
     "title": "\"It didn't work once, so it will never work\" — why your child limits themselves | Sila Slova",
-    "description": "Teach your child to stop drawing conclusions about themselves from a single attempt and give themselves another chance. Game-based course for children aged 8–12.",
+    "description": "Teach your child to stop drawing conclusions about themselves from a single attempt and give themselves another chance. Game-based course for children aged 10–16.",
     "og_image": "/og/og-default.jpg"
   },
   "hero": {
@@ -30,11 +30,11 @@
   },
   "social_proof": {
     "quote": "My daughter lost a tournament and said \"I'll never win\". A month after the course she said: \"That was just one time. I'll try again.\" I couldn't believe what I was hearing.",
-    "author": "Liudmyla, mum of 9-year-old Nastia",
+    "author": "Liudmyla, mum of 11-year-old Nastia",
     "stats": [
       { "label": "Children completed the course", "value": "2,400+" },
       { "label": "Satisfied parents", "value": "94%" },
-      { "label": "Optimal age", "value": "8–12 yrs" }
+      { "label": "Optimal age", "value": "10–16 yrs" }
     ]
   },
   "faq_label": "FAQ",
@@ -46,7 +46,7 @@
     },
     {
       "q": "What age is it suitable for?",
-      "a": "Ideal for 8–12 year olds. At this age, children are most receptive to new thinking patterns and haven't yet formed rigid biases."
+      "a": "Ideal for 10–16 year olds. At this age, children are receptive to new thinking patterns and are still forming their views."
     },
     {
       "q": "How much time is needed each day?",
